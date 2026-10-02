@@ -1,0 +1,11 @@
+id,obra,tipo,concepto,importe_eur,solicitante,rol_solicitante,urgencia,estado
+1,Nave Logística Polígono Sur,material,Acero estructural adicional,8500,Carlos Ruiz,Jefe de obra,alta,pendiente_gerente
+2,Residencial Mirador,subcontrata,Electricista refuerzo 2 semanas,2800,Laura Vega,Dir. producción,media,pendiente_dir_produccion
+3,Parking Subterráneo Plaza Mayor,material,Hormigón H-30 extra,650,Miguel Torres,Jefe de obra,baja,aprobado_jefe_obra
+4,Nave Logística Polígono Sur,imprevisto,Reparación grúa torre,12300,Carlos Ruiz,Jefe de obra,alta,pendiente_gerente
+5,Reforma Hotel Central,material,Pintura ignífuga,480,Ana López,Jefe de obra,baja,aprobado_jefe_obra
+6,Residencial Mirador,subcontrata,Topógrafo replanteo parcela B,1200,Laura Vega,Dir. producción,media,pendiente_dir_produccion
+7,Nave Logística Polígono Sur,equipo,Alquiler retroexcavadora 1 mes,3900,Carlos Ruiz,Jefe de obra,alta,pendiente_dir_produccion
+8,Parking Subterráneo Plaza Mayor,material,Encofrado recuperable,7200,Miguel Torres,Jefe de obra,media,pendiente_gerente
+9,Residencial Mirador,imprevisto,Desvío tubería agua municipal,15600,Laura Vega,Dir. producción,alta,pendiente_gerente
+10,Reforma Hotel Central,material,Aislamiento acústico,890,Ana López,Jefe de obra,baja,aprobado_jefe_obra

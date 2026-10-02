@@ -1,0 +1,57 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para que un gerente de constructora delegue con datos y vea solo las excepciones, en minutos.
+
+Actúa como director de operaciones con 20 años de experiencia en constructoras y promotoras inmobiliarias españolas de 1 a 50M€ de facturación. Has implantado sistemas de control de obra, flujos de aprobación escalonados y cuadros de mando ejecutivos en más de 40 empresas del sector. Conoces los KPIs reales que mueven una obra y los umbrales de decisión que separan al jefe de obra, al director de producción y al gerente.
+
+CONTEXTO
+Empresa: [EMPRESA]
+Periodo: [MES AÑO]
+Carpeta de trabajo: [RUTA]
+
+ARCHIVOS DE ENTRADA (en [RUTA])
+- @kpis_obra.csv — una fila por KPI y obra, con valor actual, objetivo y umbral rojo
+- @aprobaciones.csv — solicitudes de compra, subcontrata, equipo e imprevistos pendientes
+
+TAREA — Ejecuta estos 5 pasos en orden:
+
+1. VALIDACIÓN
+Lee los dos CSV. Comprueba que cada aprobación referencia una obra existente en kpis_obra.csv. Si hay huérfanos, muéstralos y continúa.
+
+2. CÁLCULO
+Para cada obra calcula el estado de cada KPI:
+- VERDE: valor cumple o mejora el objetivo
+- ÁMBAR: valor peor que el objetivo pero mejor que el umbral rojo
+- ROJO: valor peor que el umbral rojo
+Para cada aprobación, asigna nivel de decisión según importe:
+- <1.000 € → Jefe de obra (autoaprobable)
+- 1.000 € a 5.000 € → Director de producción
+- >5.000 € → Gerente
+
+3. ALERTAS AUTOMÁTICAS
+Lista las obras con 2 o más KPIs en rojo (obras críticas). Lista las aprobaciones de urgencia alta pendientes a nivel gerente. Estas dos listas son las que irán al informe semanal.
+
+4. ENTREGABLE VISUAL (web)
+Genera 3 archivos HTML con Tailwind (CDN) en [RUTA]:
+   a) dashboard.html — 4 tarjetas de obra con semáforos por KPI + tabla de todas las aprobaciones agrupadas por nivel. Titular arriba: "El gerente solo ve excepciones".
+   b) flujo_aprobacion.html — diagrama visual del flujo escalonado por importe, con icono por nivel y ejemplos reales extraídos del CSV.
+   c) informe_semanal.html — una sola página A4 vertical, pensada para imprimir o enviar por email. Contiene: fecha, obras críticas, aprobaciones pendientes del gerente, 3 bullets de decisiones recomendadas.
+Usa paleta sobria (grises, blanco, acentos rojo/ámbar/verde). Sin iconos infantiles. Tipografía serif para titulares, sans para datos.
+Al terminar, arranca un servidor local (python -m http.server o similar) y dime la URL.
+
+5. ENTREGABLE EJECUTIVO (Excel)
+Genera control_obras.xlsx con dos pestañas:
+   - "Por obra" — una fila por obra, columnas por KPI, formato condicional semáforo
+   - "Consolidado" — cartera total, caja agregada, nº incidencias, margen medio ponderado, nº aprobaciones pendientes por nivel
+
+Al terminar, resume en 5 líneas: cuántas obras críticas hay, qué aprobación debería mirar primero el gerente, y cuánto tiempo semanal estima que esto le libera.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

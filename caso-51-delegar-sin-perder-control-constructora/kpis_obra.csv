@@ -1,0 +1,25 @@
+obra,kpi,valor,objetivo,umbral_rojo
+Residencial Mirador,avance_obra_%,62,65,55
+Residencial Mirador,desviacion_coste_%,4.2,0,8
+Residencial Mirador,caja_disponible_eur,185000,150000,80000
+Residencial Mirador,incidencias_abiertas,3,0,6
+Residencial Mirador,dias_retraso,5,0,15
+Residencial Mirador,margen_previsto_%,14.5,15,10
+Nave Logística Polígono Sur,avance_obra_%,41,45,35
+Nave Logística Polígono Sur,desviacion_coste_%,9.1,0,8
+Nave Logística Polígono Sur,caja_disponible_eur,62000,100000,50000
+Nave Logística Polígono Sur,incidencias_abiertas,7,0,6
+Nave Logística Polígono Sur,dias_retraso,18,0,15
+Nave Logística Polígono Sur,margen_previsto_%,8.3,12,10
+Reforma Hotel Central,avance_obra_%,88,85,75
+Reforma Hotel Central,desviacion_coste_%,1.8,0,8
+Reforma Hotel Central,caja_disponible_eur,310000,200000,100000
+Reforma Hotel Central,incidencias_abiertas,1,0,6
+Reforma Hotel Central,dias_retraso,0,0,15
+Reforma Hotel Central,margen_previsto_%,17.2,15,10
+Parking Subterráneo Plaza Mayor,avance_obra_%,23,25,18
+Parking Subterráneo Plaza Mayor,desviacion_coste_%,2.5,0,8
+Parking Subterráneo Plaza Mayor,caja_disponible_eur,420000,400000,200000
+Parking Subterráneo Plaza Mayor,incidencias_abiertas,2,0,6
+Parking Subterráneo Plaza Mayor,dias_retraso,3,0,15
+Parking Subterráneo Plaza Mayor,margen_previsto_%,13.1,14,10
