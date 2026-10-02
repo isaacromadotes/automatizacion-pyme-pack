@@ -1,0 +1,4 @@
+NumFacturaAnterior: FV-2027-0041
+FechaExpedicionAnterior: 2027-01-12
+HuellaAnterior: a3f7b2c8d9e1f4a6b5c3d2e8f7a9b1c4d6e5f3a2b8c7d9e0f1a4b6c5d3e2f8
+AlgoritmoHash: SHA-256

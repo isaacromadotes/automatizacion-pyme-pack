@@ -1,0 +1,56 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para cumplir el Reglamento VERIFACTU sin cambiar de ERP, generando una factura verificable (XML + hash encadenado + QR AEAT + web entregable) en minutos.
+
+---
+
+Actúa como un experto fiscal y tecnológico con 20 años de experiencia implantando sistemas de facturación electrónica en PYMEs españolas (industria, comercio mayorista y construcción). Conoces al detalle el Reglamento VERIFACTU (RD 1007/2023), la Orden HAC/1177/2024 y los esquemas XSD oficiales de la AEAT. Tu objetivo: generar una factura 100 % conforme a VERIFACTU a partir de los datos de un ERP no adaptado, sin tocar el ERP.
+
+Trabaja sobre:
+- Factura actual: @C:\Users\isaac\Downloads\Ejemplo Claude Code\Vídeo 25\factura_venta.csv
+- Hash factura anterior (para encadenar): @C:\Users\isaac\Downloads\Ejemplo Claude Code\Vídeo 25\hash_anterior.txt
+- Empresa emisora: [EMPRESA]
+- Período de referencia: [MES AÑO]
+
+Pasos a ejecutar en orden:
+
+1. VALIDACIÓN DE DATOS
+   - Lee el CSV y comprueba que están todos los campos obligatorios (NIF emisor, NIF receptor, fecha, concepto, base, tipo IVA, cuota, total).
+   - Verifica que la suma de bases + cuotas = total. Si no cuadra, para y avísame.
+   - Valida formato de NIFs españoles (algoritmo módulo 23 para DNI, letra de control para CIF).
+
+2. CÁLCULO Y ENCADENAMIENTO
+   - Lee el hash anterior desde `hash_anterior.txt`.
+   - Construye el registro de facturación conforme al esquema oficial VERIFACTU: IDFactura (NIF emisor + número + fecha), TipoFactura (F1 estándar), ClaveRegimen (01 régimen general; adapta si corresponde), DescripcionOperacion, Desglose (base imponible + tipo + cuota por línea), ImporteTotal.
+   - Calcula el hash SHA-256 del registro actual concatenado con el hash anterior, siguiendo el algoritmo oficial de encadenamiento de la AEAT.
+
+3. ALERTAS AUTOMÁTICAS
+   - Si el total supera 10.000 € con cliente particular (sin CIF), avisa de la obligación del modelo 347.
+   - Si el tipo de IVA no es 21 / 10 / 4 / 0, pídeme confirmación antes de continuar.
+   - Si la fecha de expedición es posterior a hoy, para y avísame.
+
+4. ENTREGABLE VISUAL (WEB)
+   - Genera `factura_verifactu.html`: página web autocontenida (HTML + CSS inline, sin dependencias externas), diseño profesional y espectacular — tipografía serif cuidada (Instrument Serif o similar vía Google Fonts), layout limpio, paleta sobria (negro, blanco crudo, un acento en terracota #C67A50), cabecera con datos de emisor, tabla de líneas, bloque de totales destacado, QR de verificación AEAT visible en esquina inferior derecha, hash SHA-256 mostrado sutilmente en el pie. Debe parecer una factura de empresa seria, no un documento plano. Responsive. Lista para imprimir.
+
+5. ENTREGABLES COMPLEMENTARIOS
+   - `factura_verifactu.xml`: XML firmado conforme a esquema oficial VERIFACTU.
+   - `hash_actual.txt`: nuevo hash para encadenar la próxima factura.
+   - `qr_aeat.png`: QR de verificación AEAT (URL del cotejo + parámetros oficiales).
+   - `log_envio_aeat.json`: log simulado del envío con respuesta de aceptación (CSV, timestamp, estado "Aceptada").
+
+6. PDF
+   - Convierte la web a PDF (`factura_verifactu.pdf`) manteniendo el diseño.
+
+Guarda todo en: @C:\Users\isaac\Downloads\Ejemplo Claude Code\Vídeo 25\verifactu_output\
+
+Al terminar, muéstrame un resumen: ruta de cada archivo, hash generado, estado del envío simulado y cualquier alerta detectada.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---
