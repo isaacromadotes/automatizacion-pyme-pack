@@ -1,0 +1,16 @@
+empleado,puesto,curso,fecha,horas,resultado,caducidad,certificado
+María López,Op. Recepción,Manipulación alimentos,2026-01-15,8,Apto,2028-01-15,Sí
+Pedro García,Op. Almacén,Manipulación alimentos,2026-01-15,8,Apto,2028-01-15,Sí
+Ana Ruiz,Op. Envasado,Manipulación alimentos,2026-01-15,8,Apto,2028-01-15,Sí
+Carlos Fernández,Op. Expediciones,Manipulación alimentos,2024-01-10,8,Apto,2026-01-10,Caducado
+Laura Martín,Resp. Calidad,APPCC Nivel II,2026-03-10,16,Apto,2028-03-10,Sí
+Javier Sánchez,Téc. Laboratorio,APPCC Nivel II,2026-03-10,16,Apto,2028-03-10,Sí
+María López,Op. Recepción,Alérgenos,2026-05-20,4,Apto,2028-05-20,Sí
+Pedro García,Op. Almacén,Alérgenos,2026-05-20,4,Pendiente,,No
+Ana Ruiz,Op. Envasado,Limpieza y desinfección,2026-06-12,6,Apto,2028-06-12,Sí
+Carlos Fernández,Op. Expediciones,Limpieza y desinfección,2026-06-12,6,Apto,2028-06-12,Sí
+Laura Martín,Resp. Calidad,Auditorías internas IFS,2026-07-01,12,Apto,2029-07-01,Sí
+Javier Sánchez,Téc. Laboratorio,Calibración equipos,2026-04-18,8,Apto,2028-04-18,Sí
+Pedro García,Op. Almacén,Trazabilidad,2026-08-05,4,Pendiente,,No
+María López,Op. Recepción,Food Defense,2026-02-20,4,Apto,2028-02-20,Sí
+Laura Martín,Resp. Calidad,Food Defense,2026-02-20,4,Apto,2028-02-20,Sí

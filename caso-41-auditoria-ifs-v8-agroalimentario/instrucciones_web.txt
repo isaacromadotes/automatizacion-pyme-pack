@@ -1,0 +1,14 @@
+BLOQUE PARA PUBLICAR EN LA WEB / BLOG
+======================================
+
+Cómo usar este pack en Claude Code
+
+1. Descomprime el ZIP en una carpeta de tu equipo.
+2. Abre Claude Code desde la terminal, apuntando a esa carpeta.
+3. Arrastra PRIMERO el archivo LEEME.md y el prompt.txt a la ventana de Claude Code. Esto es importante: la IA necesita el contexto completo (qué problema estamos resolviendo, qué archivos vas a usar y qué espera obtener) ANTES de ejecutar el prompt.
+4. Luego arrastra los 4 CSV (registros_appcc.csv, limpiezas.csv, formacion.csv, no_conformidades.csv).
+5. Abre el prompt.txt, cambia las variables entre corchetes ([EMPRESA], [MES AÑO], @ruta/) por tus datos reales.
+6. Pega el prompt completo en Claude Code y pulsa Enter.
+7. En menos de 5 minutos tendrás un dossier HTML navegable por capítulos IFS v8 + un check-list Excel de 47 puntos listo para la auditoría.
+
+Nota: si en vez de los CSV de ejemplo conectas tus propios datos (exportados desde Isotools, QGEST, A3 Nom, Factorial, Sage o tu software de calidad), el dossier reflejará la realidad de tu empresa, no un ejemplo. Ahí es donde este flujo pasa de ser una demo a ahorrarte 2 semanas de trabajo cada 6 meses.

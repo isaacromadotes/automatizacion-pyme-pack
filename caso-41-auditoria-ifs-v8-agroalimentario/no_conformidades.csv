@@ -1,0 +1,8 @@
+codigo_NC,descripcion,fecha_deteccion,gravedad,accion_correctiva,responsable,fecha_cierre,estado,evidencia
+NC-2026-012,Tª recepción atún fuera de límite (5.3°C),2026-09-10,Menor,Rechazo lote L-240910 + recalibración termómetro,Laura Martín,2026-09-12,Cerrada,Foto termómetro calibrado + albarán rechazo
+NC-2026-013,Limpieza zona envasado no realizada,2026-09-08,Menor,Reprogramación turno + limpieza extra sábado,Ana Ruiz,,Abierta,
+NC-2026-014,Enfriamiento lento (4.8°C en 2h),2026-09-10,Mayor,Revisión equipo frío + mantenimiento preventivo + bloqueo lote,Javier Sánchez,,Abierta,
+NC-2026-015,Cierre hermético defectuoso 1/1000,2026-09-14,Menor,Ajuste cerradora + control visual reforzado al 100%,Carlos Fernández,2026-09-15,Cerrada,Informe ajuste técnico cerradora
+NC-2026-016,Etiquetado lote L-240908 incompleto,2026-09-08,Mayor,Reproceso lote + formación operario + revisión protocolo,María López,,Abierta,
+NC-2026-017,Pasteurización fallida (78.2°C),2026-09-12,KO,Destrucción lote + revisión intercambiador + revalidación proceso,Javier Sánchez,,Abierta,
+NC-2026-018,Limpieza muelle carga no conforme,2026-09-01,Menor,Repetición limpieza + formación limpieza zonas sucias,Carlos Fernández,2026-09-02,Cerrada,Checklist limpieza firmado

@@ -1,0 +1,22 @@
+zona,responsable,fecha_programada,fecha_realizada,conforme,observaciones
+Sala producción,María López,2026-09-01,2026-09-01,Sí,
+Sala producción,María López,2026-09-08,2026-09-08,Sí,
+Sala producción,María López,2026-09-15,,Pendiente,No realizada - avería maquinaria
+Almacén refrigerado,Pedro García,2026-09-01,2026-09-01,Sí,
+Almacén refrigerado,Pedro García,2026-09-08,2026-09-08,Sí,
+Almacén refrigerado,Pedro García,2026-09-15,2026-09-15,Sí,
+Zona envasado,Ana Ruiz,2026-09-01,2026-09-01,Sí,
+Zona envasado,Ana Ruiz,2026-09-08,,Pendiente,Turno corto por baja
+Zona envasado,Ana Ruiz,2026-09-15,2026-09-15,Sí,
+Muelle carga,Carlos Fernández,2026-09-01,2026-09-01,No,Restos orgánicos en esquina sur
+Muelle carga,Carlos Fernández,2026-09-08,2026-09-08,Sí,
+Muelle carga,Carlos Fernández,2026-09-15,2026-09-15,Sí,
+Vestuarios,Laura Martín,2026-09-01,2026-09-01,Sí,
+Vestuarios,Laura Martín,2026-09-08,2026-09-08,Sí,
+Vestuarios,Laura Martín,2026-09-15,2026-09-15,Sí,
+Laboratorio,Javier Sánchez,2026-09-01,2026-09-01,Sí,
+Laboratorio,Javier Sánchez,2026-09-08,2026-09-08,Sí,
+Laboratorio,Javier Sánchez,2026-09-15,2026-09-15,Sí,
+Línea esterilización,Javier Sánchez,2026-09-01,2026-09-01,Sí,
+Línea esterilización,Javier Sánchez,2026-09-08,2026-09-08,Sí,
+Línea esterilización,Javier Sánchez,2026-09-15,2026-09-15,Sí,

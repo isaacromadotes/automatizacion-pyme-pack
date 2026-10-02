@@ -1,0 +1,30 @@
+punto_control,fecha,valor,limite_critico,responsable,cumple
+Recepción atún fresco - Tª,2026-09-01,4.2,≤5°C,María López,Sí
+Recepción atún fresco - Tª,2026-09-05,3.8,≤5°C,María López,Sí
+Recepción atún fresco - Tª,2026-09-10,5.3,≤5°C,María López,No
+Recepción tomate - Tª,2026-09-02,8.1,≤10°C,Pedro García,Sí
+Recepción tomate - Tª,2026-09-08,9.4,≤10°C,Pedro García,Sí
+Pasteurización salsa - Tª,2026-09-01,85.0,≥80°C 15min,Ana Ruiz,Sí
+Pasteurización salsa - Tª,2026-09-05,82.5,≥80°C 15min,Ana Ruiz,Sí
+Pasteurización salsa - Tª,2026-09-12,78.2,≥80°C 15min,Ana Ruiz,No
+Esterilización lata - F0,2026-09-01,6.5,≥5.0,Javier Sánchez,Sí
+Esterilización lata - F0,2026-09-07,7.1,≥5.0,Javier Sánchez,Sí
+Esterilización lata - F0,2026-09-14,6.8,≥5.0,Javier Sánchez,Sí
+Enfriamiento rápido - Tª,2026-09-01,3.1,≤4°C en 2h,Ana Ruiz,Sí
+Enfriamiento rápido - Tª,2026-09-05,3.5,≤4°C en 2h,Ana Ruiz,Sí
+Enfriamiento rápido - Tª,2026-09-10,4.8,≤4°C en 2h,Ana Ruiz,No
+Almacén refrigerado - Tª,2026-09-01,2.0,0-4°C,Pedro García,Sí
+Almacén refrigerado - Tª,2026-09-08,2.3,0-4°C,Pedro García,Sí
+Almacén refrigerado - Tª,2026-09-15,1.9,0-4°C,Pedro García,Sí
+Cierre hermético lata - Visual,2026-09-01,OK,Sin defectos,Carlos Fernández,Sí
+Cierre hermético lata - Visual,2026-09-07,OK,Sin defectos,Carlos Fernández,Sí
+Cierre hermético lata - Visual,2026-09-14,1 defecto/1000,Sin defectos,Carlos Fernández,No
+Detector metales - Sensibilidad,2026-09-01,Fe 1.5mm,≤2mm Fe,Javier Sánchez,Sí
+Detector metales - Sensibilidad,2026-09-07,Fe 1.5mm,≤2mm Fe,Javier Sánchez,Sí
+Detector metales - Sensibilidad,2026-09-14,Fe 1.5mm,≤2mm Fe,Javier Sánchez,Sí
+pH producto final,2026-09-01,4.2,≤4.6,Laura Martín,Sí
+pH producto final,2026-09-08,4.3,≤4.6,Laura Martín,Sí
+pH producto final,2026-09-15,4.1,≤4.6,Laura Martín,Sí
+Etiquetado - Lote/Caducidad,2026-09-01,OK,Completo,María López,Sí
+Etiquetado - Lote/Caducidad,2026-09-08,Falta lote L-240908,Completo,María López,No
+Etiquetado - Lote/Caducidad,2026-09-15,OK,Completo,María López,Sí
