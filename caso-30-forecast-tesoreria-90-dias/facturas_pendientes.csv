@@ -1,0 +1,10 @@
+cliente,num_factura,importe,fecha_emision,vencimiento,dso_real_dias
+Grupo Alaris S.L.,F-2026-041,12300.00,2026-06-15,2026-08-10,56
+Teknoplan S.A.,F-2026-048,7800.00,2026-07-01,2026-08-15,45
+Dynamics Iberia S.L.,F-2026-052,4500.00,2026-07-10,2026-08-25,35
+Redline Consulting,F-2026-055,9200.00,2026-07-15,2026-09-01,30
+Nucleo Digital S.L.,F-2026-058,3400.00,2026-07-20,2026-09-10,25
+Veritas Asesores,F-2026-060,6100.00,2026-07-22,2026-09-15,22
+Prodata Systems,F-2026-063,5500.00,2026-07-25,2026-09-20,18
+Mercurio Partners,F-2026-065,8900.00,2026-07-26,2026-10-05,22
+Innova Legal S.L.,F-2026-067,4200.00,2026-07-27,2026-10-10,20
