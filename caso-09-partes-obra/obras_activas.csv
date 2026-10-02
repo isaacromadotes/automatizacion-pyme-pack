@@ -1,0 +1,4 @@
+codigo_obra,nombre_obra,cliente,direccion,jefe_obra,fecha_inicio,fecha_fin_prevista,estado,pct_avance,presupuesto_total,facturado_acumulado
+OBR-2026-001,Obra Mirador Turia,Inmobiliaria Levante S.L.,C/ Mirador 15 Valencia,Isaac Romà,2026-01-15,2026-11-30,En curso,45,2850000,1282500
+OBR-2026-003,Residencial Parque Norte,Grupo Parque Residencial S.A.,Av. del Parque 8 Valencia,Manuel Ortega,2026-03-01,2026-12-15,En curso,35,1200000,420000
+OBR-2026-005,Nave Industrial Sagunto,Logística Mediterráneo S.A.,Pol. Ind. Norte Parcela 12 Sagunto,Isaac Romà,2026-06-10,2026-10-30,En curso,60,680000,408000

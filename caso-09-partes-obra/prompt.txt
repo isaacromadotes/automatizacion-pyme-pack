@@ -1,0 +1,88 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para digitalizar los partes de trabajo de una empresa constructora y detectar sobrecostes en tiempo real, en minutos.
+
+---
+
+Actúa como Jefe de Producción senior con 20 años de experiencia en empresas constructoras españolas (edificación y obra civil, 5-50M€ de facturación). Has controlado desviaciones de mano de obra en cientos de obras y sabes que la clave está en detectar la desviación en la semana en que ocurre, no en el certificado del mes siguiente.
+
+CONTEXTO
+- Empresa: [EMPRESA]
+- Semana analizada: [SEMANA AÑO]
+- Datos de entrada:
+  · @ruta/partes_semana.csv (partes de trabajo diarios por operario)
+  · @ruta/presupuesto_mod.csv (presupuesto de mano de obra por obra y semana)
+  · @ruta/obras_activas.csv (maestro de obras en curso)
+
+OBJETIVO
+Digitalizar el sistema de partes de trabajo, consolidar horas reales por obra y trabajador, calcular coste de mano de obra ejecutado, compararlo con presupuesto y disparar alertas automáticas de sobrecoste. Entregar una web navegable y un PDF ejecutivo.
+
+PASOS
+
+1. VALIDACIÓN DE DATOS
+   - Verifica que todas las obras de partes_semana.csv existen en obras_activas.csv
+   - Detecta partes duplicados (mismo trabajador, misma fecha, misma obra)
+   - Marca partes con horas anómalas (>12h o <4h en un día)
+   - Reporta incidencias detectadas antes de calcular
+
+2. CONSOLIDACIÓN
+   - Agrupa horas por obra y por trabajador
+   - Distingue horas ordinarias vs horas extra (>8h/día laborable, o sábado/domingo)
+   - Calcula coste de mano de obra ejecutado usando el coste/hora medio de presupuesto_mod.csv
+   - Añade recargo del 75% a horas extra sobre coste ordinario
+
+3. COMPARATIVA vs PRESUPUESTO
+   - Por cada obra: horas reales vs horas presupuestadas, coste real vs presupuestado, % desviación
+   - Calcula acumulado mensual y proyección a fin de mes según ritmo actual
+   - Semáforo: verde (<95%), amarillo (95-110%), rojo (>110%)
+
+4. ALERTAS AUTOMÁTICAS
+   - Genera alerta específica para cada obra en rojo, con formato:
+     "⚠️ [Nombre obra]: [X]h vs [Y]h presupuestadas, sobrecoste de [Z]€. Proyección fin de mes: [W]€ sobre presupuesto."
+   - Identifica trabajadores con más horas extra (posible sobrecarga o mala planificación)
+   - Detecta obras con muchas horas de peón vs oficial (posible baja productividad)
+
+5. ENTREGABLE VISUAL — WEB
+   Crea una web local con dos vistas:
+
+   a) VISTA MÓVIL — Formulario del operario
+      - Selector de obra (dropdown con las obras activas)
+      - Fecha (auto: hoy)
+      - Trabajador (autocompletar)
+      - Hora entrada / hora salida / pausa
+      - Tarea realizada
+      - Material usado
+      - Observaciones
+      - Botón grande "ENVIAR PARTE"
+      - Diseño limpio, botones grandes, pensado para dedo con guante de obra
+
+   b) VISTA DESKTOP — Panel del jefe de obra
+      - KPIs arriba: total horas semana, coste MOD ejecutado, nº obras en alerta
+      - Tabla por obra: horas reales, presupuestadas, %, desviación €, semáforo
+      - Alertas rojas destacadas arriba
+      - Detalle por trabajador (expandible por obra)
+      - Botón "Descargar PDF resumen"
+
+   Usa HTML + Tailwind + JS vanilla (sin backend). Los datos de los CSV los precargas en el JS. Arranca un servidor local (python -m http.server o similar) cuando termines.
+
+6. ENTREGABLE EJECUTIVO — PDF
+   Genera un PDF de 2 páginas para dirección:
+   - Página 1: Resumen ejecutivo (KPIs, alertas, obras críticas)
+   - Página 2: Tabla detallada por obra con desviaciones y proyección
+   - Cabecera con logo/nombre de [EMPRESA] y "Semana [SEMANA AÑO]"
+
+AL FINALIZAR
+Muestra:
+- Ruta de la web generada y comando para abrirla
+- Ruta del PDF generado
+- Resumen en 3 líneas: obras en alerta, sobrecoste total detectado, acción recomendada
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog

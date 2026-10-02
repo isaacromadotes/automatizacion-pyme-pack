@@ -1,0 +1,37 @@
+fecha,obra,trabajador,categoria,hora_entrada,hora_salida,pausa_min,horas,tarea,material_usado,observaciones
+2026-09-21,Obra Mirador Turia,Juan Pérez Molina,Oficial 1ª,07:00,15:30,30,8.0,Encofrado forjado planta 3,Madera encofrar 20m² + puntales,
+2026-09-21,Obra Mirador Turia,Luis García Sánchez,Peón,07:00,15:30,30,8.0,Apoyo encofrado,Clavos y alambre,
+2026-09-21,Obra Mirador Turia,Pedro Ruiz Alcázar,Oficial 1ª,07:00,16:00,30,8.5,Ferralla pilares P3,Acero B500S 800kg,Retraso entrega acero 2h
+2026-09-21,Residencial Parque Norte,Ana Torres Belmonte,Oficial 2ª,07:30,15:30,30,7.5,Tabiquería planta 1,Ladrillo hueco doble 400ud,
+2026-09-21,Residencial Parque Norte,Carlos Díaz Fernández,Peón,07:30,15:30,30,7.5,Limpieza y acopio,Sacos escombro,
+2026-09-22,Obra Mirador Turia,Juan Pérez Molina,Oficial 1ª,07:00,16:00,30,8.5,Encofrado forjado planta 3,Madera encofrar 15m²,Lluvia paró 1h
+2026-09-22,Obra Mirador Turia,Luis García Sánchez,Peón,07:00,15:30,30,8.0,Vertido hormigón,Hormigón HA-25 12m³,
+2026-09-22,Obra Mirador Turia,Pedro Ruiz Alcázar,Oficial 1ª,07:00,15:30,30,8.0,Ferralla pilares P3,Acero B500S 600kg,
+2026-09-22,Obra Mirador Turia,Miguel Sanz Herrero,Gruista,07:00,14:00,30,6.5,Izado materiales,Grúa torre Liebherr,Avería grúa 14:00
+2026-09-22,Residencial Parque Norte,Ana Torres Belmonte,Oficial 2ª,07:30,16:00,30,8.0,Tabiquería planta 1,Ladrillo hueco doble 350ud,
+2026-09-22,Residencial Parque Norte,Carlos Díaz Fernández,Peón,07:30,15:30,30,7.5,Acopio material P2,Palets ladrillo,
+2026-09-22,Nave Industrial Sagunto,Roberto Vega Marín,Oficial 1ª,07:00,15:30,30,8.0,Solera hormigonada,Hormigón HA-30 8m³ + malla,
+2026-09-23,Obra Mirador Turia,Juan Pérez Molina,Oficial 1ª,07:00,15:30,30,8.0,Desencofrado forjado P2,Herramienta manual,
+2026-09-23,Obra Mirador Turia,Luis García Sánchez,Peón,07:00,15:30,30,8.0,Retirada encofrado,Herramienta manual,
+2026-09-23,Obra Mirador Turia,Pedro Ruiz Alcázar,Oficial 1ª,07:00,16:30,30,9.0,Ferralla muros sótano,Acero B500S 500kg,Horas extra autorizadas
+2026-09-23,Obra Mirador Turia,Miguel Sanz Herrero,Gruista,08:00,15:30,30,7.0,Izado materiales,Grúa torre,Reparada avería 8h
+2026-09-23,Residencial Parque Norte,Ana Torres Belmonte,Oficial 2ª,07:30,15:30,30,7.5,Instalación premarcos,Premarcos madera,
+2026-09-23,Residencial Parque Norte,Carlos Díaz Fernández,Peón,07:30,15:30,30,7.5,Apoyo tabiquería,Mortero y ladrillo,
+2026-09-23,Nave Industrial Sagunto,Roberto Vega Marín,Oficial 1ª,07:00,16:00,30,8.5,Montaje estructura metálica,Perfiles IPE-300,
+2026-09-23,Nave Industrial Sagunto,Fco. López Ibáñez,Soldador,07:00,16:00,30,8.5,Soldadura estructura,Electrodos básicos 5kg,
+2026-09-24,Obra Mirador Turia,Juan Pérez Molina,Oficial 1ª,07:00,16:00,30,8.5,Replanteo planta 4,Nivel láser Bosch,
+2026-09-24,Obra Mirador Turia,Luis García Sánchez,Peón,07:00,15:30,30,8.0,Limpieza planta 3,Herramienta manual,
+2026-09-24,Obra Mirador Turia,Pedro Ruiz Alcázar,Oficial 1ª,07:00,15:30,30,8.0,Armado losa escalera,Acero B500S 200kg,
+2026-09-24,Obra Mirador Turia,Miguel Sanz Herrero,Gruista,07:00,15:30,30,8.0,Izado encofrado P4,Grúa torre,
+2026-09-24,Residencial Parque Norte,Ana Torres Belmonte,Oficial 2ª,07:30,15:30,30,7.5,Recibido instalaciones,Yeso y cemento,
+2026-09-24,Residencial Parque Norte,Carlos Díaz Fernández,Peón,07:30,16:00,30,8.0,Rozas instalaciones,Radial y martillo,Mucho polvo - EPI OK
+2026-09-24,Nave Industrial Sagunto,Roberto Vega Marín,Oficial 1ª,07:00,15:30,30,8.0,Montaje correas cubierta,Correas Z-200 12ud,
+2026-09-24,Nave Industrial Sagunto,Fco. López Ibáñez,Soldador,07:00,15:30,30,8.0,Soldadura correas,Electrodos básicos 4kg,
+2026-09-25,Obra Mirador Turia,Juan Pérez Molina,Oficial 1ª,07:00,17:00,30,9.5,Encofrado forjado P4,Madera encofrar 25m²,Horas extra autorizadas
+2026-09-25,Obra Mirador Turia,Luis García Sánchez,Peón,07:00,17:00,30,9.5,Apoyo encofrado P4,Puntales y sopandas,Horas extra autorizadas
+2026-09-25,Obra Mirador Turia,Pedro Ruiz Alcázar,Oficial 1ª,07:00,15:30,30,8.0,Ferralla forjado P4,Acero B500S 700kg,
+2026-09-25,Obra Mirador Turia,Miguel Sanz Herrero,Gruista,07:00,16:00,30,8.5,Izado materiales P4,Grúa torre,
+2026-09-25,Residencial Parque Norte,Ana Torres Belmonte,Oficial 2ª,07:30,14:00,30,6.0,Remates tabiquería,Yeso y cemento,Salió antes - médico
+2026-09-25,Residencial Parque Norte,Carlos Díaz Fernández,Peón,07:30,15:30,30,7.5,Bajada escombro,Contenedor escombro,
+2026-09-25,Nave Industrial Sagunto,Roberto Vega Marín,Oficial 1ª,07:00,15:30,30,8.0,Colocación panel sandwich,Panel 80mm PIR 40m²,
+2026-09-25,Nave Industrial Sagunto,Fco. López Ibáñez,Soldador,07:00,14:00,30,6.5,Soldadura remates,Electrodos inox,Terminó antes - fin tajo
