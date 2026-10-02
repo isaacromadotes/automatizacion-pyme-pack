@@ -1,0 +1,29 @@
+Cuenta;Descripcion;Tipo;Grupo
+4000001;Suministros Levante S.L.;Proveedor;400
+4000002;Tecnología Avanzada S.L.;Proveedor;400
+4000003;Papelería Nacional S.A.;Proveedor;400
+4000004;Servicios Cloud Ibérica S.L.;Proveedor;400
+4000005;Grupo Logístico del Sur S.L.;Proveedor;400
+4000006;Asesoría Pérez S.L.P.;Proveedor;400
+4000007;Imprenta Gráfica Express S.L.;Proveedor;400
+6210000;Arrendamientos y cánones;Gasto;621
+6230000;Servicios profesionales independientes;Gasto;623
+6250000;Primas de seguros;Gasto;625
+6260000;Servicios bancarios y similares;Gasto;626
+6280000;Suministros;Gasto;628
+6290000;Otros servicios;Gasto;629
+6310000;Otros tributos;Gasto;631
+6400000;Sueldos y salarios;Gasto;640
+6420000;Seguridad Social a cargo de la empresa;Gasto;642
+6290001;Material de oficina;Gasto;629
+6290002;Mensajería y correos;Gasto;629
+6230001;Consultoría fiscal;Gasto;623
+6230002;Consultoría laboral;Gasto;623
+6230003;Auditoría y revisión contable;Gasto;623
+4720000;H.P. IVA soportado;IVA;472
+4700000;H.P. deudora por IVA;IVA;470
+4750000;H.P. acreedora por IVA;IVA;475
+4751000;H.P. acreedora retenciones IRPF;Retención;475
+5720001;Banco CaixaBank c/c;Tesorería;572
+5720002;Banco Santander c/c;Tesorería;572
+5700000;Caja;Tesorería;570

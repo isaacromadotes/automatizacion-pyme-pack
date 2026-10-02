@@ -1,0 +1,8 @@
+CIF;Razon_Social;Cuenta_Contable;Forma_Pago;Dias_Vencimiento;Email;Facturas_Pendientes;Importe_Pendiente
+B12345678;Suministros Levante S.L.;4000001;Transferencia;30;admin@suministroslevante.es;2;3.420,00
+B87654321;Tecnología Avanzada S.L.;4000002;Domiciliación;60;facturacion@tecavanzada.es;0;0,00
+A11223344;Papelería Nacional S.A.;4000003;Transferencia;30;contabilidad@papnacional.es;1;245,00
+B99887766;Servicios Cloud Ibérica S.L.;4000004;Tarjeta;0;billing@cloudiberica.es;0;0,00
+B55443322;Grupo Logístico del Sur S.L.;4000005;Transferencia;45;pagos@glsur.es;3;8.750,00
+B66778899;Asesoría Pérez S.L.P.;4000006;Transferencia;30;contabilidad@asesoriaperez.es;0;0,00
+B44332211;Imprenta Gráfica Express S.L.;4000007;Confirming;90;admin@graficaexpress.es;1;1.200,00
