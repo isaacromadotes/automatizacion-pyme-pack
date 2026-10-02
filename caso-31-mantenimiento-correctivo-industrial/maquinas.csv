@@ -1,0 +1,11 @@
+máquina,línea,coste_hora_paro,año_instalación
+Prensa 3,Línea 1,2400,2012
+Prensa 1,Línea 1,1800,2015
+Prensa 2,Línea 1,2000,2014
+Torno CNC 1,Línea 2,1500,2018
+Torno CNC 2,Línea 2,1500,2019
+Fresadora 1,Línea 2,1200,2016
+Fresadora 2,Línea 2,1200,2020
+Plegadora 1,Línea 3,900,2017
+Cortadora láser,Línea 3,2800,2021
+Robot soldadura,Línea 3,2200,2019

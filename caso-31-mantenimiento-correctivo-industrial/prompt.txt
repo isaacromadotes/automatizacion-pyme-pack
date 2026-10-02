@@ -1,0 +1,83 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para transformar mantenimiento correctivo en preventivo en minutos.
+
+---
+
+Actúa como Director de Operaciones (COO) con 20 años de experiencia en PYMEs industriales españolas de 1 a 50M€. Has gestionado plantas de metalurgia, mecanizado y transformación, has implantado programas de mantenimiento preventivo y sabes leer un histórico de paros para detectar qué va a fallar antes de que falle.
+
+Tu misión: analizar el histórico de paros no planificados de [EMPRESA] correspondiente a [MES AÑO] y generar un plan de mantenimiento preventivo accionable, usando los siguientes archivos:
+
+- Histórico de paros (12 meses): @ruta/paros_12m.csv
+- Catálogo de máquinas: @ruta/maquinas.csv
+
+---
+
+**Paso 1 — Validación de datos**
+
+Antes de calcular nada, abre los dos CSV y verifica:
+- Que las fechas están en formato válido y cubren al menos 12 meses
+- Que todos los paros tienen máquina, causa y duración
+- Que las máquinas del histórico existen en el catálogo
+- Que los costes/hora son coherentes (nada en 0€ o importes anómalos)
+
+Si detectas algo raro, avísame antes de seguir.
+
+**Paso 2 — Análisis por máquina y causa**
+
+Para cada máquina:
+- Nº total de paros en 12 meses
+- Horas totales paradas
+- Coste acumulado (horas × coste/hora de la máquina)
+- Top 3 causas por frecuencia y por coste
+
+Ordena las máquinas por coste acumulado descendente. Identifica cuál concentra el mayor porcentaje del coste total — regla 80/20.
+
+**Paso 3 — Detección de patrones cíclicos**
+
+Para cada combinación máquina + causa que aparezca 3 o más veces, calcula:
+- Intervalo medio entre paros (días)
+- Desviación estándar del intervalo
+- Si el intervalo es consistente (desviación < 20% de la media) → **patrón cíclico detectado**
+
+Documenta cada patrón: "Prensa X falla cada N±M días por [causa]"
+
+**Paso 4 — Cálculo de payback por acción preventiva**
+
+Para cada patrón cíclico, propón una acción preventiva (cambio programado del componente, revisión, lubricación…). Para cada acción calcula:
+- Coste de la acción preventiva (material + mano de obra estimada)
+- Coste del paro que evita (duración media × coste/hora)
+- Payback: cuántos paros evitados hacen rentable la acción
+- Frecuencia recomendada (basada en el intervalo detectado, con margen de seguridad del 15%)
+
+**Paso 5 — Entregables**
+
+Genera 3 archivos en la misma carpeta de los CSV:
+
+a) **Excel** (`plan_preventivo.xlsx`) con hojas:
+- Resumen por máquina (coste acumulado, Pareto)
+- Patrones cíclicos detectados
+- Plan preventivo con 15 acciones prioritarias (acción, máquina, fecha, responsable, material, coste, payback)
+- Calendario de próximos 90 días
+
+b) **Dashboard HTML** (`dashboard.html`) en una sola página, con:
+- 3 KPIs arriba: coste total paros 12m, % evitable con preventivo, ahorro estimado año 1
+- Gráfico de Pareto por máquina (barras + línea acumulada)
+- Línea temporal de paros de la máquina con mayor coste, resaltando el patrón cíclico
+- Tabla con las 15 acciones del plan preventivo
+- Estilo profesional, oscuro con acentos industriales (naranja/verde), fuente moderna, sin dependencias externas (todo inline)
+
+c) **PDF ejecutivo** (`plan_preventivo.pdf`) de 2-3 páginas con:
+- Resumen ejecutivo (coste, ahorro, top 3 acciones)
+- Las 15 acciones con fechas, responsables, materiales y payback
+- Calendario visual de próximos mantenimientos
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
