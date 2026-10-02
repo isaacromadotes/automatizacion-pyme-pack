@@ -1,0 +1,401 @@
+id_cliente,empresa,nif,email,iban,cuota_mensual,extras_descripcion,extras_importe,forma_pago
+CLI-0001,Guerrero & Pérez SL,B46913810,guerrero001@empresa.es,ES27 2679 9935 21 7831113321,250,,0,Domiciliación
+CLI-0002,Alonso & Navarro SL,B90801586,alonso002@empresa.es,ES67 5557 1106 30 8293453178,150,Auditoría interna; Gestión subvenciones,195,Domiciliación
+CLI-0003,Alonso & León SL,B23718431,alonso003@gmail.com,ES54 5333 1711 68 3303082117,180,Modelo 303 trimestral,100,Transferencia
+CLI-0004,Fernández & Garrido SL,B94374605,fernandez004@gmail.com,ES18 1750 4733 47 5231494220,120,Planificación fiscal,75,Domiciliación
+CLI-0005,"Suárez Vázquez, Javier",31831063M,suarez005@gmail.com,ES95 5374 2169 87 3727210979,350,,0,Domiciliación
+CLI-0006,Muñoz & Rubio SLU,B46231783,muñoz006@empresa.es,ES17 4752 1525 50 7017956955,380,Gestión subvenciones; Auditoría interna,180,Domiciliación
+CLI-0007,"Cruz Serrano, Miguel",63100814W,cruz007@gmail.com,ES43 3287 5040 81 7609857128,450,,0,Transferencia
+CLI-0008,Herrero & Ortega SL,B39436733,herrero008@empresa.es,ES24 3504 3621 97 5567816720,200,Asesoría mercantil; Modelo 303 trimestral,110,Transferencia
+CLI-0009,Nuñez & Domínguez SL,B11540956,nuñez009@gmail.com,ES92 6573 2827 47 2867302554,175,Modelo 303 trimestral; Gestión subvenciones,160,Domiciliación
+CLI-0010,Iglesias & León CB,B78139880,iglesias010@empresa.es,ES90 5889 9317 87 1854316681,380,,0,Domiciliación
+CLI-0011,Medina & Herrera SL,B10076758,medina011@gmail.com,ES24 6947 6038 40 1248786714,120,Asesoría mercantil,50,Domiciliación
+CLI-0012,"Fernández Gallego, Carlos",81498611E,fernandez012@gmail.com,ES77 7932 4470 79 3962958940,200,Asesoría mercantil; Gestión subvenciones,175,Transferencia
+CLI-0013,Prieto & Cano SL,B68800797,prieto013@gmail.com,ES18 6539 1344 85 3379074819,380,Asesoría mercantil; Modelo 303 trimestral,150,Domiciliación
+CLI-0014,Rodríguez & Cruz SL,B40728046,rodriguez014@gmail.com,ES52 2160 9423 40 3084839399,180,,0,Domiciliación
+CLI-0015,"Cortés Marín, Miguel",64634663G,cortes015@gmail.com,ES94 8062 6804 64 7060638140,180,,0,Domiciliación
+CLI-0016,Méndez & Cano SLU,B18135295,mendez016@empresa.es,ES34 9786 8350 27 2811967841,400,Laboral especial; Modelo 303 trimestral,150,Domiciliación
+CLI-0017,Rodríguez & Ortiz SL,B23141087,rodriguez017@gmail.com,ES40 3724 7658 72 3067418686,150,Gestión subvenciones; Nóminas,110,Domiciliación
+CLI-0018,Muñoz & Suárez SL,B62401521,muñoz018@gmail.com,ES99 8973 3536 34 2274350418,300,Consultoría fiscal,120,Domiciliación
+CLI-0019,Vidal & Medina SL,B52091325,vidal019@gmail.com,ES84 8811 9238 77 1676168421,150,,0,Domiciliación
+CLI-0020,Álvarez & Rodríguez CB,B19121552,alvarez020@gmail.com,ES61 2964 5033 84 3553440342,175,,0,Transferencia
+CLI-0021,Prieto & Herrero CB,B80166708,prieto021@gmail.com,ES50 4910 5351 60 8067372072,350,Auditoría interna,80,Domiciliación
+CLI-0022,García & Rubio CB,B85563727,garcia022@empresa.es,ES78 4492 9288 43 6344160868,180,,0,Transferencia
+CLI-0023,Medina & Cruz SL,B92097999,medina023@gmail.com,ES80 5905 2697 27 2135872495,275,Gestión subvenciones; Nóminas,140,Domiciliación
+CLI-0024,Díaz & Vázquez SL,B91178885,diaz024@empresa.es,ES43 9280 9004 42 4633987776,250,Laboral especial; Auditoría interna,160,Transferencia
+CLI-0025,Vázquez & Martínez SL,B54769200,vazquez025@empresa.es,ES91 5291 3647 66 1041531046,275,,0,Domiciliación
+CLI-0026,Medina & Martínez SL,B88183110,medina026@gmail.com,ES65 3088 1685 49 2536778950,500,,0,Domiciliación
+CLI-0027,Molina & Herrera SL,B64543049,molina027@gmail.com,ES32 7755 1406 32 9292791081,120,Modelo 347; Auditoría interna,135,Domiciliación
+CLI-0028,Vázquez & Muñoz SLU,B61343880,vazquez028@gmail.com,ES70 4644 4269 68 6796738787,325,,0,Domiciliación
+CLI-0029,"Navarro López, Elena",54058573J,navarro029@gmail.com,ES45 6753 9346 61 1118543408,325,,0,Domiciliación
+CLI-0030,Álvarez & Herrero SL,B15134794,alvarez030@empresa.es,ES50 8149 9379 24 3476426797,180,Modelo 720; Laboral especial,140,Transferencia
+CLI-0031,García & Nuñez SL,B36445607,garcia031@gmail.com,ES52 6143 3041 48 7473041886,350,Modelo 303 trimestral,80,Domiciliación
+CLI-0032,Ortega & Calvo SL,B84411983,ortega032@gmail.com,ES63 7211 3851 88 7739255769,200,,0,Domiciliación
+CLI-0033,"Gil Ramos, Elena",87844239V,gil033@gmail.com,ES66 4501 9375 70 4160930353,175,Asesoría mercantil,120,Domiciliación
+CLI-0034,Iglesias & Prieto CB,B54988206,iglesias034@empresa.es,ES96 6085 4680 35 1632880459,180,,0,Transferencia
+CLI-0035,Lozano & Herrera SLU,B71124923,lozano035@gmail.com,ES59 9099 7547 41 3953315788,400,Planificación fiscal; Auditoría interna,160,Domiciliación
+CLI-0036,"Herrera Castro, María",79519112Q,herrera036@gmail.com,ES69 9702 6198 66 7462972995,150,Auditoría interna; Modelo 303 trimestral,195,Domiciliación
+CLI-0037,"Ortiz Muñoz, Miguel",44788100H,ortiz037@empresa.es,ES40 5499 8206 19 8359619163,325,Consultoría fiscal; Gestión subvenciones,200,Domiciliación
+CLI-0038,Serrano & Medina SLU,B28572252,serrano038@empresa.es,ES59 3503 4505 18 7076811348,200,,0,Transferencia
+CLI-0039,"Delgado Sánchez, Elena",62274692U,delgado039@empresa.es,ES83 7232 8814 10 9344011888,225,,0,Transferencia
+CLI-0040,Delgado & Medina SL,B90967191,delgado040@empresa.es,ES72 4595 5471 65 3085816511,380,,0,Transferencia
+CLI-0041,"Gallego Muñoz, María",93517915T,gallego041@gmail.com,ES94 1444 2375 92 2840877826,150,Planificación fiscal,150,Domiciliación
+CLI-0042,Sánchez & Domínguez SLU,B53936531,sanchez042@gmail.com,ES58 5558 7906 42 4585915088,250,Laboral especial,100,Domiciliación
+CLI-0043,"Sánchez Molina, Carlos",97477029B,sanchez043@empresa.es,ES41 4266 1333 89 1654477195,275,,0,Domiciliación
+CLI-0044,"Cortés Alonso, Laura",59512272F,cortes044@empresa.es,ES84 1420 6111 83 9410288290,120,Modelo 303 trimestral; Modelo 347,150,Domiciliación
+CLI-0045,"Rodríguez Herrero, Carlos",50477742X,rodriguez045@gmail.com,ES82 1672 6688 78 2591589823,120,,0,Domiciliación
+CLI-0046,"García Delgado, Carlos",68186525M,garcia046@gmail.com,ES32 9548 5425 88 7371573279,175,Modelo 347,120,Domiciliación
+CLI-0047,"Vázquez Serrano, Carlos",47437115Q,vazquez047@gmail.com,ES95 7209 6511 13 2395925222,250,Planificación fiscal,150,Domiciliación
+CLI-0048,Domínguez & Blanco SL,B90014570,dominguez048@gmail.com,ES76 4130 2402 40 8387664437,225,Gestión subvenciones,50,Domiciliación
+CLI-0049,"Calvo Marín, Miguel",12314351C,calvo049@gmail.com,ES61 4986 6016 94 7792729530,300,,0,Domiciliación
+CLI-0050,Molina & Castro SL,B54398056,molina050@empresa.es,ES39 2976 4155 50 1795212538,350,Asesoría mercantil; Consultoría fiscal,200,Transferencia
+CLI-0051,Vázquez & Gallego CB,B80415568,vazquez051@empresa.es,ES34 5853 4727 56 6065662867,120,Modelo 303 trimestral,60,Domiciliación
+CLI-0052,Gómez & Vázquez SL,B17318358,gomez052@gmail.com,ES72 2680 1200 83 6516195409,500,Modelo 347,80,Domiciliación
+CLI-0053,Álvarez & Sánchez SL,B74119726,alvarez053@empresa.es,ES61 9056 2213 83 1230249217,180,,0,Domiciliación
+CLI-0054,"Gil Fernández, Carlos",84903294P,gil054@empresa.es,ES58 8381 8253 48 9547119184,120,Planificación fiscal; Auditoría interna,210,Domiciliación
+CLI-0055,Sánchez & Lozano SLU,B37888820,sanchez055@empresa.es,ES43 2330 3573 40 1322401182,175,,0,Transferencia
+CLI-0056,"Calvo Santos, Laura",14380847H,calvo056@empresa.es,ES39 5334 4241 64 1610900200,300,Consultoría fiscal; Asesoría mercantil,130,Domiciliación
+CLI-0057,Santos & Vidal CB,B48736657,santos057@empresa.es,ES69 5982 7594 44 7415801613,450,,0,Domiciliación
+CLI-0058,Castro & Vidal SL,B91029073,castro058@gmail.com,ES21 4750 1339 96 8822944679,300,,0,Domiciliación
+CLI-0059,"Marín Nuñez, Laura",34359060U,marin059@gmail.com,ES62 6460 6260 95 5985704790,400,Asesoría mercantil; Modelo 303 trimestral,220,Transferencia
+CLI-0060,Ramos & Prieto SLU,B83832717,ramos060@gmail.com,ES42 6296 2899 61 9594878379,150,Modelo 303 trimestral,100,Transferencia
+CLI-0061,"Delgado Sánchez, Sara",58557203V,delgado061@gmail.com,ES16 4335 5375 80 6532043071,275,Asesoría mercantil,60,Transferencia
+CLI-0062,Pérez & López CB,B42117961,perez062@gmail.com,ES49 1224 7684 21 5782279101,225,,0,Domiciliación
+CLI-0063,Sanz & Cruz SL,B78299645,sanz063@empresa.es,ES71 8736 4993 68 3367665472,225,Modelo 720,60,Domiciliación
+CLI-0064,Iglesias & Vidal CB,B19369750,iglesias064@gmail.com,ES74 5377 1042 46 8413332538,300,Laboral especial,60,Domiciliación
+CLI-0065,Prieto & Sanz CB,B69934576,prieto065@gmail.com,ES80 9903 7180 68 9301537234,500,Laboral especial,100,Domiciliación
+CLI-0066,"Cortés Suárez, Elena",15858241L,cortes066@empresa.es,ES94 3492 9115 14 8924383984,225,Modelo 720,120,Transferencia
+CLI-0067,García & Gallego CB,B65026398,garcia067@gmail.com,ES43 6546 7512 93 7586857685,325,Modelo 347; Modelo 303 trimestral,180,Transferencia
+CLI-0068,Medina & Martínez CB,B19183277,medina068@empresa.es,ES65 2612 2646 66 1124327519,250,Consultoría fiscal; Auditoría interna,130,Domiciliación
+CLI-0069,Ramos & Molina SL,B67805802,ramos069@gmail.com,ES77 7751 3950 31 1751917162,200,,0,Transferencia
+CLI-0070,"Lozano Méndez, Miguel",88270025E,lozano070@gmail.com,ES42 1153 8622 46 1678500147,250,Consultoría fiscal,120,Domiciliación
+CLI-0071,Herrero & Gil SLU,B43567615,herrero071@gmail.com,ES71 2747 4886 58 7751356568,450,Auditoría interna,120,Domiciliación
+CLI-0072,López & Prieto SLU,B46840133,lopez072@gmail.com,ES39 6772 4588 91 5464285982,150,Nóminas; Asesoría mercantil,160,Domiciliación
+CLI-0073,Herrero & Moreno CB,B22097496,herrero073@gmail.com,ES63 3877 4289 26 6001680218,380,Laboral especial,80,Transferencia
+CLI-0074,Ramos & Vidal SL,B25457816,ramos074@gmail.com,ES28 4696 7511 81 2570991899,450,,0,Domiciliación
+CLI-0075,Domínguez & Medina SLU,B71040347,dominguez075@gmail.com,ES57 2775 4830 70 9697414638,350,Consultoría fiscal; Modelo 720,140,Domiciliación
+CLI-0076,"Serrano Lozano, Carlos",95282470Q,serrano076@empresa.es,ES15 1609 5986 73 1498733671,380,Consultoría fiscal; Modelo 720,125,Domiciliación
+CLI-0077,"Gómez Suárez, Javier",99991136Z,gomez077@empresa.es,ES22 9017 7686 45 9730449971,225,Modelo 720; Modelo 347,200,Transferencia
+CLI-0078,Ortiz & Torres SL,B23335151,ortiz078@gmail.com,ES55 1992 7523 45 2952996248,175,Gestión subvenciones,80,Domiciliación
+CLI-0079,López & Sánchez SL,B42691263,lopez079@gmail.com,ES80 4394 4538 39 5307145891,200,Auditoría interna; Modelo 303 trimestral,120,Domiciliación
+CLI-0080,Gómez & Medina SL,B33420607,gomez080@empresa.es,ES40 6304 1258 32 2139744790,180,Nóminas; Modelo 347,150,Transferencia
+CLI-0081,Nuñez & Pérez SLU,B73920651,nuñez081@gmail.com,ES23 8405 9254 38 9776185998,450,Gestión subvenciones,150,Domiciliación
+CLI-0082,Gil & Rubio SL,B18163847,gil082@empresa.es,ES23 9032 8267 19 4862321353,450,Modelo 720,80,Domiciliación
+CLI-0083,Rodríguez & Gómez SL,B93794475,rodriguez083@empresa.es,ES77 5831 8433 74 7895255573,175,Gestión subvenciones; Laboral especial,270,Domiciliación
+CLI-0084,Cano & Cano SL,B38859907,cano084@empresa.es,ES53 8430 7532 63 4133661881,400,Auditoría interna,120,Domiciliación
+CLI-0085,Prieto & Domínguez SL,B30486849,prieto085@gmail.com,ES20 2527 8075 22 9847550931,175,Modelo 303 trimestral,50,Domiciliación
+CLI-0086,Blanco & Prieto SLU,B65137801,blanco086@empresa.es,ES49 6761 2697 83 3179320310,350,Modelo 720; Nóminas,250,Transferencia
+CLI-0087,Navarro & González SL,B84660688,navarro087@gmail.com,ES45 4705 8030 81 9702693937,350,,0,Domiciliación
+CLI-0088,López & Álvarez SL,B51471222,lopez088@gmail.com,ES33 3347 7566 18 1131671246,380,Laboral especial,50,Domiciliación
+CLI-0089,"Suárez Delgado, Javier",31127115M,suarez089@gmail.com,ES30 1815 2336 44 7116096874,300,Laboral especial; Modelo 303 trimestral,125,Transferencia
+CLI-0090,Vázquez & Alonso SL,B25276327,vazquez090@empresa.es,ES96 8972 9633 95 2324651201,350,Modelo 303 trimestral,100,Domiciliación
+CLI-0091,"Sánchez García, Laura",38351344E,sanchez091@empresa.es,ES25 1126 9149 65 1754603440,275,Consultoría fiscal,100,Domiciliación
+CLI-0092,Iglesias & Garrido SL,B19673809,iglesias092@empresa.es,ES19 6129 8033 83 8044354825,400,Nóminas; Modelo 720,170,Transferencia
+CLI-0093,López & Serrano CB,B92963368,lopez093@gmail.com,ES23 4986 8138 85 5632753983,450,Laboral especial; Modelo 303 trimestral,180,Domiciliación
+CLI-0094,Navarro & Blanco CB,B20251466,navarro094@empresa.es,ES54 6752 3419 40 1441542090,500,Modelo 303 trimestral; Gestión subvenciones,225,Domiciliación
+CLI-0095,Santos & Díaz SLU,B33776150,santos095@gmail.com,ES84 8354 6295 90 2357806226,275,Asesoría mercantil; Planificación fiscal,210,Transferencia
+CLI-0096,Ortiz & Guerrero SL,B46866075,ortiz096@empresa.es,ES55 9312 2215 49 7278136169,120,,0,Domiciliación
+CLI-0097,Ramos & Rodríguez SLU,B92545028,ramos097@gmail.com,ES15 8368 4084 51 7893447569,120,Modelo 720; Asesoría mercantil,300,Domiciliación
+CLI-0098,Ortiz & González SL,B21318464,ortiz098@empresa.es,ES66 8199 9586 76 3619094295,500,Modelo 347; Nóminas,155,Domiciliación
+CLI-0099,Suárez & Delgado SL,B90246882,suarez099@empresa.es,ES81 7333 5655 42 4750707607,150,Laboral especial; Modelo 303 trimestral,150,Domiciliación
+CLI-0100,Prieto & Díaz SL,B51638598,prieto100@gmail.com,ES20 6072 7171 92 8695129534,175,Modelo 720; Modelo 347,230,Domiciliación
+CLI-0101,Fernández & Cano SLU,B78248169,fernandez101@empresa.es,ES56 6060 3953 37 8585583166,350,,0,Domiciliación
+CLI-0102,Díaz & Rodríguez SL,B23574883,diaz102@gmail.com,ES89 3147 7172 29 1696846464,500,Gestión subvenciones; Nóminas,180,Domiciliación
+CLI-0103,"Muñoz Gallego, Ana",65144509M,muñoz103@empresa.es,ES67 4833 9749 40 4586784711,175,Auditoría interna; Asesoría mercantil,250,Domiciliación
+CLI-0104,Ortiz & Rubio SL,B61254050,ortiz104@gmail.com,ES87 3267 5096 16 8048810275,500,Modelo 720; Modelo 347,135,Domiciliación
+CLI-0105,González & Cruz SL,B26733967,gonzalez105@gmail.com,ES30 5469 8361 75 2878930355,300,,0,Domiciliación
+CLI-0106,Ortiz & Molina SL,B65686520,ortiz106@empresa.es,ES40 7326 2337 57 1964386641,150,Gestión subvenciones,100,Domiciliación
+CLI-0107,Cruz & Cano SL,B29602406,cruz107@empresa.es,ES46 8740 3273 70 1340272119,200,,0,Domiciliación
+CLI-0108,Garrido & Gallego CB,B80836292,garrido108@gmail.com,ES46 4893 5934 25 1205082311,400,,0,Domiciliación
+CLI-0109,Rubio & Rodríguez SLU,B77085942,rubio109@empresa.es,ES28 5772 8032 10 7935554354,120,Nóminas; Gestión subvenciones,225,Transferencia
+CLI-0110,Álvarez & Prieto SLU,B80260907,alvarez110@empresa.es,ES77 9914 9312 74 3380064537,350,,0,Transferencia
+CLI-0111,Martínez & Guerrero SLU,B60103798,martinez111@empresa.es,ES54 4950 2698 84 2428156550,300,Nóminas; Laboral especial,110,Domiciliación
+CLI-0112,Blanco & Cano CB,B72360629,blanco112@empresa.es,ES27 2033 8498 14 2260326267,225,Modelo 347,60,Domiciliación
+CLI-0113,Martínez & Serrano SL,B79173614,martinez113@empresa.es,ES92 4131 5687 55 8111312076,400,Asesoría mercantil; Consultoría fiscal,110,Domiciliación
+CLI-0114,"Castro Ortega, Elena",55504725F,castro114@empresa.es,ES44 2353 7955 20 6556684476,450,Asesoría mercantil; Laboral especial,210,Domiciliación
+CLI-0115,Prieto & Ramos SL,B69849800,prieto115@gmail.com,ES54 8325 1693 55 7163022531,120,Modelo 720; Modelo 347,200,Domiciliación
+CLI-0116,Rodríguez & Prieto SLU,B58762794,rodriguez116@gmail.com,ES87 8179 1570 26 1288765093,500,Modelo 347; Nóminas,135,Domiciliación
+CLI-0117,Moreno & Suárez CB,B14346684,moreno117@empresa.es,ES96 8371 7077 57 9920154998,120,,0,Domiciliación
+CLI-0118,Ortega & Serrano SL,B43502308,ortega118@gmail.com,ES33 9176 9482 59 5800746936,180,,0,Transferencia
+CLI-0119,Alonso & Lozano SL,B75927774,alonso119@gmail.com,ES27 2213 8406 32 9868845806,250,,0,Domiciliación
+CLI-0120,Muñoz & Cruz CB,B58518659,muñoz120@empresa.es,ES25 4292 3275 40 8689593739,500,,0,Domiciliación
+CLI-0121,"Cortés Moreno, Sara",27417599V,cortes121@gmail.com,ES18 6067 7523 71 7552812957,380,,0,Domiciliación
+CLI-0122,Rodríguez & Gómez SL,B96213226,rodriguez122@gmail.com,ES76 6644 3102 80 5150074940,180,Asesoría mercantil,80,Domiciliación
+CLI-0123,Pérez & Nuñez CB,B50818905,perez123@gmail.com,ES51 4694 6669 76 9138644862,200,,0,Domiciliación
+CLI-0124,Romero & Guerrero SL,B46836194,romero124@gmail.com,ES92 3762 3526 31 7894019119,200,Consultoría fiscal; Gestión subvenciones,200,Domiciliación
+CLI-0125,Martínez & López SLU,B16101779,martinez125@gmail.com,ES63 1496 9159 90 7638204740,175,Consultoría fiscal; Auditoría interna,210,Domiciliación
+CLI-0126,Marín & Torres SLU,B49920898,marin126@gmail.com,ES98 1981 3589 66 7080049102,450,,0,Domiciliación
+CLI-0127,Santos & Díaz SL,B52857920,santos127@empresa.es,ES57 9437 2739 50 6333223513,225,Modelo 720,75,Transferencia
+CLI-0128,Torres & Díaz SLU,B16792127,torres128@empresa.es,ES41 3616 6364 83 8392190335,300,Planificación fiscal,120,Domiciliación
+CLI-0129,"Sanz Iglesias, Miguel",51411602R,sanz129@empresa.es,ES60 9281 8491 40 2515672889,150,,0,Transferencia
+CLI-0130,"Santos Cano, Laura",82033413A,santos130@empresa.es,ES65 3194 5333 56 8575707116,325,,0,Transferencia
+CLI-0131,Sánchez & Cortés SL,B36126192,sanchez131@empresa.es,ES67 5582 2946 26 5187948804,350,Consultoría fiscal; Modelo 303 trimestral,270,Domiciliación
+CLI-0132,Garrido & Moreno CB,B36717096,garrido132@empresa.es,ES14 3245 6456 70 7525484303,120,Modelo 720; Gestión subvenciones,100,Domiciliación
+CLI-0133,Gómez & Serrano CB,B52752377,gomez133@gmail.com,ES48 6511 9311 75 7581349462,200,Planificación fiscal,80,Domiciliación
+CLI-0134,Marín & López SL,B54458225,marin134@gmail.com,ES63 6040 1436 86 7333316743,175,,0,Domiciliación
+CLI-0135,Cortés & Navarro SL,B88319168,cortes135@gmail.com,ES77 7229 3421 97 2040226318,450,,0,Domiciliación
+CLI-0136,"Romero López, Javier",66207740E,romero136@gmail.com,ES88 8726 2020 27 3227727430,400,Auditoría interna; Modelo 720,210,Transferencia
+CLI-0137,Nuñez & Suárez SL,B33244151,nuñez137@empresa.es,ES97 5331 8932 34 5111732824,450,Laboral especial; Gestión subvenciones,180,Domiciliación
+CLI-0138,Navarro & Gil SL,B37820354,navarro138@gmail.com,ES81 5480 5715 25 7627954353,225,Asesoría mercantil; Laboral especial,220,Transferencia
+CLI-0139,Molina & Herrera CB,B48983895,molina139@gmail.com,ES66 5201 8849 37 7608141858,150,Modelo 303 trimestral,100,Domiciliación
+CLI-0140,Gómez & González CB,B88763056,gomez140@empresa.es,ES16 9700 4697 91 2000025413,250,,0,Domiciliación
+CLI-0141,Cruz & Marín SLU,B28450513,cruz141@gmail.com,ES71 4267 5706 51 4301648719,150,Modelo 347; Modelo 720,200,Domiciliación
+CLI-0142,Medina & Vidal SL,B33496796,medina142@gmail.com,ES14 7504 9116 33 9272277508,400,,0,Domiciliación
+CLI-0143,Gil & Cortés CB,B24401654,gil143@empresa.es,ES92 9901 9590 73 7460544248,380,Consultoría fiscal,120,Domiciliación
+CLI-0144,"Blanco Muñoz, Laura",34991216A,blanco144@gmail.com,ES96 4164 3875 88 9147736635,225,Consultoría fiscal,150,Domiciliación
+CLI-0145,Serrano & Fernández SLU,B99826000,serrano145@empresa.es,ES27 8822 6301 41 5324302451,180,,0,Transferencia
+CLI-0146,León & Vázquez SL,B50526484,leon146@empresa.es,ES56 4871 2017 95 5802739154,120,Planificación fiscal; Nóminas,180,Transferencia
+CLI-0147,Méndez & Iglesias SL,B25759274,mendez147@gmail.com,ES38 4590 3188 71 5952894290,175,Laboral especial,150,Domiciliación
+CLI-0148,Moreno & Delgado SL,B73193474,moreno148@gmail.com,ES86 2341 9609 67 2553854176,275,Auditoría interna; Planificación fiscal,140,Domiciliación
+CLI-0149,Sánchez & Garrido SL,B37133023,sanchez149@empresa.es,ES76 8239 2904 97 7799567490,120,Modelo 347; Planificación fiscal,160,Domiciliación
+CLI-0150,"Ortiz Sánchez, María",78886959P,ortiz150@gmail.com,ES49 1356 7487 42 4506639908,450,Nóminas; Gestión subvenciones,200,Domiciliación
+CLI-0151,Rodríguez & Martínez SLU,B56241881,rodriguez151@gmail.com,ES79 1987 2130 70 5431267548,225,,0,Domiciliación
+CLI-0152,Herrera & Cano SLU,B60259293,herrera152@empresa.es,ES58 7154 2314 97 8989870040,380,Asesoría mercantil,60,Domiciliación
+CLI-0153,Ortega & Nuñez CB,B39888974,ortega153@gmail.com,ES12 5888 8585 96 1986399651,325,,0,Domiciliación
+CLI-0154,Vázquez & Romero SLU,B14324134,vazquez154@gmail.com,ES18 2653 1550 67 1209063208,275,Modelo 720; Nóminas,150,Transferencia
+CLI-0155,Ortiz & Navarro SL,B39161379,ortiz155@empresa.es,ES27 9255 5739 39 2377246195,275,,0,Domiciliación
+CLI-0156,"Prieto Nuñez, Elena",50332555J,prieto156@gmail.com,ES64 9120 1768 54 8178361487,150,Planificación fiscal; Modelo 347,160,Domiciliación
+CLI-0157,Calvo & Delgado SLU,B30027648,calvo157@gmail.com,ES78 8758 4948 38 4039019230,300,Modelo 347,60,Domiciliación
+CLI-0158,Garrido & Delgado SLU,B84797762,garrido158@gmail.com,ES59 4978 5177 36 2593765711,500,,0,Domiciliación
+CLI-0159,Sánchez & Vázquez SLU,B91197624,sanchez159@empresa.es,ES19 4082 4555 71 9190643621,120,,0,Domiciliación
+CLI-0160,Alonso & Romero SLU,B74279671,alonso160@gmail.com,ES99 4350 7498 40 7666129822,380,,0,Transferencia
+CLI-0161,Rubio & Medina SL,B51395738,rubio161@empresa.es,ES69 2615 8692 50 4927019611,300,Gestión subvenciones,120,Transferencia
+CLI-0162,"Martínez Cortés, María",12176998J,martinez162@gmail.com,ES35 6404 4768 58 6350369667,500,Planificación fiscal; Modelo 720,175,Domiciliación
+CLI-0163,"Domínguez León, Miguel",71851421F,dominguez163@gmail.com,ES79 9000 4015 79 5111301175,225,Modelo 347,75,Domiciliación
+CLI-0164,Prieto & Sánchez SL,B65350347,prieto164@gmail.com,ES11 4583 9285 68 2602884797,200,Auditoría interna; Modelo 303 trimestral,155,Domiciliación
+CLI-0165,"Marín Prieto, Ana",10887495T,marin165@gmail.com,ES77 5501 9777 46 9663561486,500,Nóminas,50,Transferencia
+CLI-0166,Álvarez & González SLU,B80381817,alvarez166@empresa.es,ES34 9625 5135 55 2704657157,200,,0,Transferencia
+CLI-0167,"Rubio Cortés, Pedro",50261914X,rubio167@gmail.com,ES93 1519 2531 61 6923893872,325,,0,Domiciliación
+CLI-0168,Guerrero & García CB,B21097943,guerrero168@empresa.es,ES22 9653 1697 39 7337225482,450,Laboral especial,150,Domiciliación
+CLI-0169,Méndez & Vázquez SL,B85633013,mendez169@gmail.com,ES32 6152 1256 36 3521300895,175,,0,Transferencia
+CLI-0170,Rodríguez & Gil CB,B85693188,rodriguez170@gmail.com,ES27 2284 9204 54 1230624431,250,Modelo 720; Gestión subvenciones,220,Domiciliación
+CLI-0171,Blanco & Santos CB,B89941241,blanco171@gmail.com,ES44 8381 9038 39 9337145038,400,Nóminas,80,Domiciliación
+CLI-0172,Prieto & Suárez SLU,B93029219,prieto172@empresa.es,ES19 2344 5390 29 6968380957,300,,0,Domiciliación
+CLI-0173,"García Gil, Javier",46207439D,garcia173@empresa.es,ES33 8061 8353 81 2752536389,200,,0,Domiciliación
+CLI-0174,Garrido & Fernández CB,B90268079,garrido174@gmail.com,ES47 7779 7353 20 3238126936,275,Modelo 720,50,Domiciliación
+CLI-0175,Gómez & Vázquez SL,B46024950,gomez175@gmail.com,ES18 3739 8121 45 7103588071,450,,0,Domiciliación
+CLI-0176,"Moreno Domínguez, Miguel",89699345V,moreno176@gmail.com,ES48 1110 7483 52 8998080862,250,Modelo 303 trimestral,75,Transferencia
+CLI-0177,Cano & Santos CB,B50323741,cano177@gmail.com,ES60 6228 5775 98 8013262671,350,Auditoría interna; Asesoría mercantil,175,Domiciliación
+CLI-0178,Serrano & Suárez SL,B62738860,serrano178@gmail.com,ES82 4273 9939 33 3362657890,350,,0,Transferencia
+CLI-0179,"Cruz Alonso, Laura",19282319P,cruz179@gmail.com,ES48 4965 5139 94 2619163247,175,Modelo 347,80,Domiciliación
+CLI-0180,Marín & Herrero SLU,B81721578,marin180@gmail.com,ES56 9796 2392 23 4302632494,500,Modelo 720; Gestión subvenciones,110,Domiciliación
+CLI-0181,Muñoz & Cano CB,B15945401,muñoz181@empresa.es,ES23 1172 2615 43 6244291385,120,Modelo 720; Laboral especial,180,Transferencia
+CLI-0182,Herrera & Méndez CB,B77171380,herrera182@empresa.es,ES23 5840 7815 20 5903457537,200,Nóminas,120,Transferencia
+CLI-0183,"Alonso Nuñez, Javier",73909453D,alonso183@gmail.com,ES15 2885 1370 53 3783009621,450,Asesoría mercantil; Laboral especial,150,Domiciliación
+CLI-0184,Vidal & Torres SL,B33414716,vidal184@gmail.com,ES52 7985 8570 39 8721302309,500,,0,Domiciliación
+CLI-0185,Guerrero & Prieto SLU,B63094168,guerrero185@gmail.com,ES64 7370 1072 37 6178804925,150,Planificación fiscal; Auditoría interna,270,Domiciliación
+CLI-0186,Cortés & González SL,B35093324,cortes186@empresa.es,ES24 5298 9019 77 5785590330,350,Auditoría interna,120,Transferencia
+CLI-0187,Lozano & Álvarez SL,B92474715,lozano187@empresa.es,ES96 3194 6131 25 6319629373,120,,0,Domiciliación
+CLI-0188,Calvo & Díaz SL,B62138657,calvo188@empresa.es,ES72 9804 3838 81 6011649263,400,Modelo 347; Modelo 720,195,Domiciliación
+CLI-0189,Serrano & Ortiz CB,B17195581,serrano189@gmail.com,ES27 4196 7290 81 7420846622,325,Nóminas,120,Transferencia
+CLI-0190,"Cruz Ortiz, María",21095863U,cruz190@empresa.es,ES47 1535 5503 38 7603978731,150,,0,Transferencia
+CLI-0191,"Cortés Vidal, Sara",78559218D,cortes191@gmail.com,ES44 9898 7010 79 8382963909,120,,0,Transferencia
+CLI-0192,"González Vidal, Laura",14325890Q,gonzalez192@gmail.com,ES25 4882 4438 85 8254773516,300,Modelo 303 trimestral,120,Domiciliación
+CLI-0193,Guerrero & Castro CB,B92698414,guerrero193@empresa.es,ES36 1972 6747 78 3313993297,200,,0,Domiciliación
+CLI-0194,Ramos & Cortés SL,B79043610,ramos194@empresa.es,ES62 1971 5543 93 4719780110,380,Modelo 303 trimestral; Modelo 347,120,Domiciliación
+CLI-0195,Torres & León SLU,B75694038,torres195@gmail.com,ES19 2525 7600 75 8515344013,200,Consultoría fiscal; Modelo 720,240,Domiciliación
+CLI-0196,Rubio & Sanz SL,B88108751,rubio196@gmail.com,ES99 6869 2037 78 2708176663,150,Modelo 303 trimestral; Asesoría mercantil,160,Domiciliación
+CLI-0197,Sanz & Vázquez SL,B48063218,sanz197@empresa.es,ES72 6631 1793 15 2973888646,350,Planificación fiscal; Modelo 347,210,Domiciliación
+CLI-0198,Ortiz & Rubio SL,B67418250,ortiz198@gmail.com,ES45 2529 6905 42 5648960780,250,Modelo 347; Consultoría fiscal,135,Domiciliación
+CLI-0199,Sánchez & Ortega SL,B41426254,sanchez199@empresa.es,ES71 2276 3174 85 8215470878,400,Modelo 303 trimestral; Planificación fiscal,125,Domiciliación
+CLI-0200,Pérez & Castro CB,B74115841,perez200@gmail.com,ES59 2463 2678 23 6640801643,180,,0,Domiciliación
+CLI-0201,Suárez & Herrera CB,B96110892,suarez201@gmail.com,ES18 9691 1138 88 3791815554,175,,0,Domiciliación
+CLI-0202,Guerrero & Vidal CB,B65258766,guerrero202@empresa.es,ES27 3017 7291 54 9432088993,120,Asesoría mercantil; Auditoría interna,100,Domiciliación
+CLI-0203,Torres & Vázquez SLU,B43308414,torres203@gmail.com,ES13 5942 4366 76 6977525103,500,Planificación fiscal; Consultoría fiscal,140,Domiciliación
+CLI-0204,Sanz & Suárez SLU,B42357445,sanz204@empresa.es,ES56 6185 3162 59 7736142481,450,Planificación fiscal; Modelo 303 trimestral,200,Domiciliación
+CLI-0205,León & Marín SLU,B12240013,leon205@gmail.com,ES11 5295 4534 15 4962447893,120,,0,Transferencia
+CLI-0206,Iglesias & Ramos SL,B65758338,iglesias206@gmail.com,ES78 3501 5546 20 2331039957,400,Modelo 720; Modelo 303 trimestral,230,Domiciliación
+CLI-0207,Díaz & Medina SL,B62443094,diaz207@empresa.es,ES40 1948 5005 21 9266213260,120,Modelo 303 trimestral; Consultoría fiscal,200,Domiciliación
+CLI-0208,Santos & Sánchez SL,B99399687,santos208@gmail.com,ES27 1185 3684 73 9388140708,225,Modelo 347; Modelo 303 trimestral,130,Domiciliación
+CLI-0209,Muñoz & Moreno CB,B46072958,muñoz209@empresa.es,ES13 6488 8034 44 3249936731,225,,0,Domiciliación
+CLI-0210,"Guerrero Rodríguez, Miguel",78555983M,guerrero210@gmail.com,ES57 3577 5179 23 1495354059,150,Planificación fiscal,75,Domiciliación
+CLI-0211,"Martínez García, Ana",73319171M,martinez211@gmail.com,ES32 1579 7870 38 2382129132,400,,0,Domiciliación
+CLI-0212,Vázquez & Rodríguez CB,B60037465,vazquez212@gmail.com,ES76 1752 7568 18 9061615990,180,Nóminas; Modelo 347,135,Domiciliación
+CLI-0213,Serrano & Fernández SL,B71303434,serrano213@gmail.com,ES82 5979 4974 69 9469064524,150,Auditoría interna,100,Domiciliación
+CLI-0214,"Gallego Medina, María",10856024P,gallego214@gmail.com,ES79 6675 1157 52 8118065825,150,,0,Domiciliación
+CLI-0215,González & Alonso SL,B41966313,gonzalez215@gmail.com,ES45 2524 1719 39 7527316141,400,Nóminas,75,Domiciliación
+CLI-0216,Rubio & Vidal SLU,B87949714,rubio216@empresa.es,ES82 2020 8126 94 5141285960,180,Modelo 347; Modelo 720,200,Domiciliación
+CLI-0217,Serrano & Ortega SL,B52688984,serrano217@gmail.com,ES35 3230 2785 29 1453796587,450,Auditoría interna,50,Domiciliación
+CLI-0218,Delgado & Pérez SL,B58088526,delgado218@empresa.es,ES67 6051 8591 43 4661383114,275,,0,Domiciliación
+CLI-0219,Cruz & Calvo CB,B15412975,cruz219@empresa.es,ES41 6828 7492 75 9800175892,250,Modelo 347,50,Domiciliación
+CLI-0220,"López Ortega, Sara",83835976H,lopez220@empresa.es,ES27 2989 1195 17 5220094152,180,Modelo 303 trimestral,60,Transferencia
+CLI-0221,Moreno & Méndez SLU,B88158177,moreno221@empresa.es,ES18 4239 8265 26 8769111397,120,Modelo 303 trimestral,50,Transferencia
+CLI-0222,Sánchez & Muñoz CB,B68137264,sanchez222@empresa.es,ES97 7990 3831 55 6098775210,325,Modelo 720; Asesoría mercantil,170,Domiciliación
+CLI-0223,Martínez & Lozano CB,B92809273,martinez223@gmail.com,ES71 1999 2437 45 2645038111,250,Consultoría fiscal; Asesoría mercantil,270,Domiciliación
+CLI-0224,Torres & Guerrero SL,B12621269,torres224@empresa.es,ES72 6636 9231 51 6963052185,400,Laboral especial; Asesoría mercantil,210,Domiciliación
+CLI-0225,Santos & Navarro SL,B47706144,santos225@gmail.com,ES84 4813 3615 22 6330710675,150,Gestión subvenciones,100,Domiciliación
+CLI-0226,León & Navarro CB,B62133188,leon226@gmail.com,ES32 4875 6210 99 3540741595,350,,0,Domiciliación
+CLI-0227,Cortés & Cortés CB,B85579195,cortes227@gmail.com,ES32 9035 1621 21 1241239647,250,Gestión subvenciones,100,Domiciliación
+CLI-0228,Nuñez & Marín SL,B54524582,nuñez228@gmail.com,ES32 6301 1975 12 5606488160,380,Auditoría interna; Modelo 347,180,Transferencia
+CLI-0229,Herrero & González SL,B50502233,herrero229@gmail.com,ES30 8157 8982 93 2362721798,350,,0,Domiciliación
+CLI-0230,Calvo & Lozano SL,B39962391,calvo230@gmail.com,ES98 5825 3086 32 4130305126,175,Modelo 347; Modelo 720,180,Domiciliación
+CLI-0231,Ortega & Herrera CB,B14346338,ortega231@empresa.es,ES23 9129 3304 52 4201225242,200,Laboral especial; Auditoría interna,230,Domiciliación
+CLI-0232,Muñoz & Guerrero SLU,B99929175,muñoz232@empresa.es,ES36 5088 2110 54 1005502537,175,Laboral especial; Asesoría mercantil,150,Transferencia
+CLI-0233,"Muñoz Delgado, Elena",57141449T,muñoz233@empresa.es,ES71 4695 3664 67 4632522232,400,,0,Domiciliación
+CLI-0234,Domínguez & González SLU,B55876720,dominguez234@gmail.com,ES19 9962 2525 53 5428082088,200,Modelo 347,80,Domiciliación
+CLI-0235,Santos & Castro CB,B17188130,santos235@empresa.es,ES62 9849 5346 94 6504099682,180,Auditoría interna,75,Domiciliación
+CLI-0236,Ortega & Cortés SL,B75893962,ortega236@empresa.es,ES56 1062 8005 21 7872873371,200,,0,Domiciliación
+CLI-0237,Alonso & Muñoz SL,B20997276,alonso237@gmail.com,ES49 7512 8715 72 2138185235,450,,0,Transferencia
+CLI-0238,Álvarez & Moreno SLU,B59580252,alvarez238@gmail.com,ES66 8619 5315 38 8890193183,200,Nóminas,100,Domiciliación
+CLI-0239,León & Calvo SLU,B21503440,leon239@gmail.com,ES85 4727 1999 59 4786674545,175,Gestión subvenciones,120,Domiciliación
+CLI-0240,Ortega & Cruz SL,B77390918,ortega240@empresa.es,ES67 3832 3738 37 4472312361,120,Planificación fiscal; Modelo 347,110,Transferencia
+CLI-0241,Fernández & Méndez SLU,B37101146,fernandez241@gmail.com,ES18 2425 7358 81 4751509023,325,Modelo 347; Consultoría fiscal,180,Domiciliación
+CLI-0242,Herrero & Nuñez SLU,B25102023,herrero242@gmail.com,ES28 2641 2730 82 4348118981,400,,0,Domiciliación
+CLI-0243,Molina & Delgado SL,B61411224,molina243@gmail.com,ES70 1613 3821 45 2730759996,175,Planificación fiscal,150,Transferencia
+CLI-0244,Martínez & Ortega SL,B41887353,martinez244@gmail.com,ES53 5965 6094 45 8914965741,150,Asesoría mercantil; Consultoría fiscal,150,Domiciliación
+CLI-0245,Navarro & Gómez SL,B69473299,navarro245@gmail.com,ES63 2462 4079 66 8833889083,275,Consultoría fiscal,80,Domiciliación
+CLI-0246,Moreno & Sánchez SL,B31336920,moreno246@gmail.com,ES27 9589 1474 32 4577406847,180,Gestión subvenciones,120,Domiciliación
+CLI-0247,Martínez & Rubio SL,B58368724,martinez247@gmail.com,ES45 7035 8605 74 4964570811,225,,0,Domiciliación
+CLI-0248,Moreno & Sanz CB,B69874989,moreno248@empresa.es,ES54 6640 3679 43 3958590550,200,Planificación fiscal,150,Transferencia
+CLI-0249,Sánchez & Muñoz CB,B38765353,sanchez249@gmail.com,ES92 4688 4387 44 8093513594,325,,0,Domiciliación
+CLI-0250,Marín & Gómez CB,B90683906,marin250@gmail.com,ES38 5135 6004 92 6477709195,275,,0,Domiciliación
+CLI-0251,"Rubio Domínguez, Miguel",50553227X,rubio251@gmail.com,ES94 7131 5631 48 3939532043,500,Modelo 720; Modelo 303 trimestral,200,Domiciliación
+CLI-0252,Vázquez & Guerrero SL,B47162866,vazquez252@gmail.com,ES40 1930 7620 94 9699264134,300,Consultoría fiscal; Auditoría interna,225,Domiciliación
+CLI-0253,Domínguez & Delgado SLU,B62113377,dominguez253@empresa.es,ES84 4111 6622 38 3397657114,225,,0,Transferencia
+CLI-0254,Gómez & Vidal SL,B85031958,gomez254@gmail.com,ES97 6499 2463 38 2525930586,275,,0,Domiciliación
+CLI-0255,Delgado & Blanco SL,B44971668,delgado255@gmail.com,ES25 8709 1879 91 5600836559,120,Asesoría mercantil,60,Domiciliación
+CLI-0256,Pérez & Méndez SLU,B81113720,perez256@empresa.es,ES29 3250 4281 53 2965254350,300,Nóminas,60,Domiciliación
+CLI-0257,"Herrera Fernández, Javier",94695784F,herrera257@empresa.es,ES36 3762 3595 72 4349011298,350,Nóminas; Planificación fiscal,220,Transferencia
+CLI-0258,Guerrero & Castro SLU,B67582820,guerrero258@gmail.com,ES78 4267 7112 11 9126105576,450,Nóminas,50,Domiciliación
+CLI-0259,Romero & López SL,B94112495,romero259@gmail.com,ES38 6641 6113 26 5736095750,225,,0,Domiciliación
+CLI-0260,Muñoz & Rodríguez SL,B50024028,muñoz260@empresa.es,ES77 6535 8105 97 5275521470,300,Gestión subvenciones,150,Transferencia
+CLI-0261,"Molina León, María",64142310A,molina261@empresa.es,ES26 4460 1359 85 3167384632,250,,0,Domiciliación
+CLI-0262,Suárez & Guerrero SL,B81770706,suarez262@empresa.es,ES86 1785 2771 93 4591108099,120,,0,Domiciliación
+CLI-0263,Delgado & Ortiz SLU,B26588648,delgado263@gmail.com,ES29 4366 1152 48 7529678452,500,Asesoría mercantil,80,Domiciliación
+CLI-0264,Delgado & González SL,B92906016,delgado264@gmail.com,ES23 9154 4254 87 6161147047,180,Modelo 303 trimestral,60,Domiciliación
+CLI-0265,Muñoz & Martínez SL,B76619601,muñoz265@gmail.com,ES98 8875 6416 40 1011759631,380,,0,Domiciliación
+CLI-0266,"Cortés Prieto, María",22090691S,cortes266@gmail.com,ES68 5850 5327 69 1215092803,180,Modelo 303 trimestral; Consultoría fiscal,155,Domiciliación
+CLI-0267,Ramos & Moreno SL,B67176108,ramos267@empresa.es,ES22 1751 1158 27 6027311960,225,,0,Transferencia
+CLI-0268,Lozano & Vázquez SLU,B60012498,lozano268@gmail.com,ES61 7557 8479 44 8884307306,325,Modelo 347,50,Transferencia
+CLI-0269,Delgado & Cano CB,B25174194,delgado269@gmail.com,ES85 8908 8178 33 7920580262,200,Nóminas; Modelo 347,170,Domiciliación
+CLI-0270,López & Méndez CB,B74837853,lopez270@empresa.es,ES66 1753 2037 43 8108057356,380,Modelo 303 trimestral,120,Domiciliación
+CLI-0271,Herrera & Vidal CB,B85834657,herrera271@gmail.com,ES99 2560 8091 94 4120946447,250,Laboral especial; Gestión subvenciones,230,Transferencia
+CLI-0272,Díaz & Garrido CB,B17323740,diaz272@empresa.es,ES73 3709 2226 72 2377111768,150,Modelo 347; Gestión subvenciones,180,Domiciliación
+CLI-0273,"Sánchez Iglesias, Sara",96344588N,sanchez273@gmail.com,ES20 8521 8277 83 2924568778,400,,0,Transferencia
+CLI-0274,"Serrano Pérez, Ana",23776553N,serrano274@gmail.com,ES81 9996 1002 21 8033172680,400,,0,Domiciliación
+CLI-0275,"Alonso Cano, Javier",58767001B,alonso275@empresa.es,ES68 6439 8751 94 2943612110,325,,0,Domiciliación
+CLI-0276,García & Blanco SL,B95048563,garcia276@gmail.com,ES57 2741 1750 31 3114937010,275,Gestión subvenciones,150,Transferencia
+CLI-0277,González & Domínguez CB,B36296134,gonzalez277@empresa.es,ES60 4532 8488 34 8373547961,250,,0,Transferencia
+CLI-0278,Martínez & Guerrero CB,B26538199,martinez278@gmail.com,ES85 9260 3205 73 9608564548,275,Asesoría mercantil,80,Domiciliación
+CLI-0279,"Castro Herrero, Sara",33783708Y,castro279@gmail.com,ES26 2696 7347 94 9086117171,120,,0,Transferencia
+CLI-0280,"Delgado Santos, Laura",63401206L,delgado280@empresa.es,ES62 9393 5897 99 1933479178,300,Modelo 347,75,Domiciliación
+CLI-0281,Méndez & Molina CB,B97253117,mendez281@gmail.com,ES55 8870 7839 96 8934097788,200,Gestión subvenciones; Laboral especial,130,Domiciliación
+CLI-0282,González & López SLU,B29505421,gonzalez282@gmail.com,ES30 5695 5105 28 4605117440,150,Nóminas; Auditoría interna,160,Domiciliación
+CLI-0283,Alonso & León SL,B14336089,alonso283@gmail.com,ES96 4675 7371 40 8284816444,350,Modelo 303 trimestral,150,Domiciliación
+CLI-0284,Suárez & Suárez SLU,B51963706,suarez284@gmail.com,ES11 5117 4327 89 6126033644,500,,0,Domiciliación
+CLI-0285,Álvarez & Álvarez SL,B26019397,alvarez285@empresa.es,ES64 5572 5329 26 8928570600,400,,0,Transferencia
+CLI-0286,Cruz & Díaz SL,B30629718,cruz286@empresa.es,ES90 5934 9037 83 7657887271,380,Planificación fiscal,50,Domiciliación
+CLI-0287,Nuñez & Navarro CB,B79874593,nuñez287@gmail.com,ES61 2506 6724 38 4794160110,180,Modelo 347; Modelo 720,300,Domiciliación
+CLI-0288,"Moreno Ramos, David",81202356R,moreno288@gmail.com,ES67 4937 4994 15 6673381261,500,Nóminas; Modelo 303 trimestral,180,Domiciliación
+CLI-0289,Suárez & Domínguez SL,B47960665,suarez289@gmail.com,ES67 8975 1718 47 6121801720,150,Laboral especial; Gestión subvenciones,210,Domiciliación
+CLI-0290,Muñoz & Herrera SL,B81565674,muñoz290@gmail.com,ES37 7950 2702 36 8624454880,150,Modelo 303 trimestral; Auditoría interna,160,Domiciliación
+CLI-0291,Vidal & Méndez CB,B13188066,vidal291@gmail.com,ES16 3916 5127 81 9892481056,450,Laboral especial; Nóminas,100,Domiciliación
+CLI-0292,"Delgado Suárez, Elena",68119636L,delgado292@empresa.es,ES10 2036 1745 99 4643211329,150,Modelo 303 trimestral,150,Domiciliación
+CLI-0293,González & Ramos SL,B91411889,gonzalez293@empresa.es,ES60 1504 8765 30 3291226621,180,Asesoría mercantil,120,Transferencia
+CLI-0294,Medina & Ramos CB,B50004466,medina294@gmail.com,ES81 3316 3019 15 9611537583,175,Laboral especial; Nóminas,210,Domiciliación
+CLI-0295,Garrido & Fernández SL,B38192821,garrido295@empresa.es,ES75 3333 3637 33 8880184233,225,Laboral especial; Auditoría interna,200,Domiciliación
+CLI-0296,Prieto & Cortés SL,B83665549,prieto296@empresa.es,ES18 5107 2608 35 6715961218,450,Gestión subvenciones; Modelo 303 trimestral,180,Domiciliación
+CLI-0297,González & Ramos CB,B19369589,gonzalez297@gmail.com,ES50 8960 8383 52 3508990774,380,,0,Domiciliación
+CLI-0298,Serrano & Castro CB,B10648524,serrano298@gmail.com,ES38 8145 5533 56 8443061472,350,,0,Transferencia
+CLI-0299,Ortiz & Molina SL,B75360192,ortiz299@gmail.com,ES32 2343 5597 27 6138636031,500,,0,Domiciliación
+CLI-0300,Gallego & Rodríguez SL,B78072320,gallego300@gmail.com,ES84 7637 4485 14 7664045502,175,,0,Domiciliación
+CLI-0301,Marín & Cano CB,B59099345,marin301@empresa.es,ES85 5767 3193 69 5683893864,400,,0,Domiciliación
+CLI-0302,Prieto & Torres CB,B32259144,prieto302@gmail.com,ES82 3395 8921 55 1173601852,275,Modelo 347; Asesoría mercantil,150,Domiciliación
+CLI-0303,Rodríguez & Domínguez SL,B41409454,rodriguez303@empresa.es,ES59 8695 8448 15 8080359881,150,Auditoría interna; Gestión subvenciones,160,Domiciliación
+CLI-0304,Guerrero & Vázquez SL,B87662596,guerrero304@gmail.com,ES56 2275 9465 42 4896576569,500,Modelo 347; Modelo 720,200,Domiciliación
+CLI-0305,"Molina Sanz, David",10885526S,molina305@empresa.es,ES66 3713 4768 19 2206067650,380,,0,Domiciliación
+CLI-0306,Moreno & Santos SLU,B98732634,moreno306@empresa.es,ES24 8889 8844 71 8874242713,250,Laboral especial,80,Domiciliación
+CLI-0307,Gómez & Cortés CB,B31626387,gomez307@gmail.com,ES17 3725 5231 33 3738568701,200,Gestión subvenciones; Nóminas,225,Domiciliación
+CLI-0308,"Fernández Alonso, David",73272042R,fernandez308@gmail.com,ES62 3338 3979 89 2136107759,200,,0,Domiciliación
+CLI-0309,Rubio & Santos CB,B19239937,rubio309@gmail.com,ES23 1271 4315 76 1413599241,250,Modelo 720,75,Domiciliación
+CLI-0310,Santos & Martínez SL,B77555702,santos310@gmail.com,ES21 8901 3135 87 7101791420,275,,0,Domiciliación
+CLI-0311,"Castro Navarro, Elena",57045704U,castro311@empresa.es,ES42 8817 4809 20 7050091525,275,Planificación fiscal; Modelo 303 trimestral,195,Domiciliación
+CLI-0312,Cortés & Nuñez SLU,B79761254,cortes312@gmail.com,ES50 7698 6935 23 5959736235,150,Auditoría interna,80,Domiciliación
+CLI-0313,Domínguez & Medina SLU,B85788756,dominguez313@gmail.com,ES62 8904 3928 57 7372701375,350,Consultoría fiscal; Modelo 720,135,Domiciliación
+CLI-0314,Molina & Herrera SLU,B28531242,molina314@gmail.com,ES99 3650 2642 37 7478286207,325,Modelo 303 trimestral; Auditoría interna,180,Domiciliación
+CLI-0315,Lozano & Calvo SL,B31573890,lozano315@empresa.es,ES70 8133 2444 18 2129971523,400,Nóminas; Modelo 303 trimestral,135,Domiciliación
+CLI-0316,Martínez & Gallego SLU,B63773642,martinez316@gmail.com,ES17 3871 9099 66 1046000830,120,Gestión subvenciones; Consultoría fiscal,230,Domiciliación
+CLI-0317,Ramos & Romero SL,B90465529,ramos317@gmail.com,ES56 4919 1004 30 7010521940,500,Auditoría interna; Modelo 347,130,Transferencia
+CLI-0318,Herrero & Romero SL,B12062459,herrero318@gmail.com,ES81 6703 6693 45 5136298935,225,Modelo 303 trimestral; Planificación fiscal,250,Transferencia
+CLI-0319,Cortés & García SL,B33492771,cortes319@gmail.com,ES47 6570 2917 75 9404002665,400,Modelo 303 trimestral; Gestión subvenciones,200,Domiciliación
+CLI-0320,"Domínguez Calvo, Elena",85587210R,dominguez320@gmail.com,ES53 8517 8548 85 4702361794,275,,0,Domiciliación
+CLI-0321,"Rodríguez Suárez, Pedro",52376656P,rodriguez321@gmail.com,ES43 5067 5706 21 2468848245,350,Gestión subvenciones; Nóminas,140,Domiciliación
+CLI-0322,Marín & Serrano SL,B39335449,marin322@gmail.com,ES34 9175 4271 40 4158643786,380,Consultoría fiscal; Modelo 347,160,Domiciliación
+CLI-0323,"Navarro Romero, David",57785185E,navarro323@gmail.com,ES25 2285 9071 88 5114549022,275,,0,Domiciliación
+CLI-0324,"Lozano Serrano, David",46874043R,lozano324@gmail.com,ES83 3101 1887 77 8727805468,200,Consultoría fiscal; Modelo 720,135,Domiciliación
+CLI-0325,Martínez & Iglesias SL,B62843790,martinez325@gmail.com,ES76 8537 6171 98 1036157653,325,Modelo 347; Asesoría mercantil,130,Transferencia
+CLI-0326,Herrero & González SL,B58533442,herrero326@empresa.es,ES43 4885 5413 70 6768555384,120,Modelo 347,150,Transferencia
+CLI-0327,Alonso & Delgado SL,B58999937,alonso327@gmail.com,ES33 3148 4744 22 8390846127,325,Consultoría fiscal,120,Domiciliación
+CLI-0328,"Castro Suárez, María",30072000R,castro328@gmail.com,ES32 7906 9185 27 8389750357,275,,0,Domiciliación
+CLI-0329,Domínguez & Garrido CB,B16403434,dominguez329@gmail.com,ES98 3676 1983 37 8790289305,400,,0,Domiciliación
+CLI-0330,Ortiz & Vidal SL,B44865621,ortiz330@gmail.com,ES42 6638 1324 62 5815678365,350,Gestión subvenciones,150,Domiciliación
+CLI-0331,Romero & Cortés CB,B97223468,romero331@empresa.es,ES96 9363 8987 67 4820942294,175,Modelo 347; Consultoría fiscal,200,Domiciliación
+CLI-0332,Rubio & Guerrero CB,B32491607,rubio332@empresa.es,ES88 7631 2168 20 5990749811,175,Modelo 720,80,Domiciliación
+CLI-0333,Cano & Ramos SL,B91253395,cano333@gmail.com,ES56 9535 8377 62 1718625803,175,Consultoría fiscal,120,Domiciliación
+CLI-0334,Gallego & Torres SL,B20746107,gallego334@gmail.com,ES60 2687 2565 18 1231178500,250,,0,Domiciliación
+CLI-0335,León & Fernández SLU,B45225746,leon335@gmail.com,ES20 7387 6068 39 6515490818,120,,0,Domiciliación
+CLI-0336,Nuñez & Muñoz SL,B14718421,nuñez336@empresa.es,ES70 8654 9856 44 7650951310,175,Laboral especial,60,Domiciliación
+CLI-0337,Álvarez & Herrero CB,B71276220,alvarez337@empresa.es,ES91 9745 6073 54 5679598896,175,Planificación fiscal; Modelo 720,230,Transferencia
+CLI-0338,Domínguez & Díaz SL,B11416778,dominguez338@gmail.com,ES78 1136 9059 71 2286817379,150,Modelo 347; Laboral especial,220,Domiciliación
+CLI-0339,Santos & Navarro SL,B83579795,santos339@empresa.es,ES62 8161 7467 41 2625035499,350,,0,Transferencia
+CLI-0340,Guerrero & Torres SL,B92304487,guerrero340@empresa.es,ES78 5404 7765 34 4665677395,275,Consultoría fiscal; Planificación fiscal,160,Domiciliación
+CLI-0341,"Pérez Guerrero, David",70769389J,perez341@empresa.es,ES29 1813 9764 12 5734228580,225,Asesoría mercantil; Auditoría interna,150,Transferencia
+CLI-0342,"Gallego García, Carlos",30224423A,gallego342@gmail.com,ES53 7885 6104 73 9581187661,450,,0,Domiciliación
+CLI-0343,Blanco & Fernández CB,B17521339,blanco343@gmail.com,ES70 3975 4148 42 8805032417,300,Modelo 303 trimestral,150,Domiciliación
+CLI-0344,"Herrera Cruz, Elena",69453211H,herrera344@empresa.es,ES35 8550 2539 76 6190240924,225,,0,Domiciliación
+CLI-0345,Serrano & Muñoz SL,B83763371,serrano345@gmail.com,ES42 8884 5895 35 3863432302,500,,0,Domiciliación
+CLI-0346,Guerrero & Castro SL,B12022353,guerrero346@gmail.com,ES60 4982 1146 15 8261722027,200,Planificación fiscal,50,Domiciliación
+CLI-0347,Moreno & Herrera SLU,B43382936,moreno347@gmail.com,ES89 6544 1983 17 1461243650,200,Modelo 303 trimestral,80,Domiciliación
+CLI-0348,Garrido & Cano SL,B68883853,garrido348@gmail.com,ES12 7189 6868 27 5464569299,225,,0,Domiciliación
+CLI-0349,"Ramos Medina, Pedro",86061419F,ramos349@gmail.com,ES69 5510 3627 18 3281217890,500,Laboral especial,80,Domiciliación
+CLI-0350,"Medina Moreno, Ana",95634408S,medina350@gmail.com,ES56 4912 6254 18 2664260498,400,Modelo 347; Nóminas,210,Transferencia
+CLI-0351,Herrera & Garrido CB,B92280734,herrera351@empresa.es,ES51 2809 2577 76 3829915449,300,Modelo 720,80,Domiciliación
+CLI-0352,"Álvarez Martínez, Carlos",75145297G,alvarez352@empresa.es,ES83 7366 9026 77 7830290429,180,,0,Domiciliación
+CLI-0353,Santos & Cruz SLU,B11756387,santos353@gmail.com,ES93 9051 2310 69 5555672620,380,,0,Transferencia
+CLI-0354,Moreno & Cruz SL,B92803389,moreno354@empresa.es,ES19 4537 9511 22 2654984428,300,Nóminas; Modelo 303 trimestral,160,Domiciliación
+CLI-0355,Cortés & Guerrero CB,B84950330,cortes355@gmail.com,ES83 6864 8515 99 8152161448,225,Modelo 720; Modelo 303 trimestral,140,Domiciliación
+CLI-0356,Álvarez & Garrido SLU,B77738718,alvarez356@gmail.com,ES55 6163 6319 57 8014715913,350,Modelo 347; Gestión subvenciones,270,Domiciliación
+CLI-0357,Santos & Torres CB,B83232714,santos357@empresa.es,ES42 6898 8412 67 9417381849,250,Gestión subvenciones,80,Domiciliación
+CLI-0358,Ramos & Santos SL,B79472352,ramos358@gmail.com,ES38 4519 6159 12 8826879784,200,Nóminas,100,Domiciliación
+CLI-0359,Garrido & Cortés CB,B30765467,garrido359@gmail.com,ES68 6827 3557 27 6433082861,180,,0,Domiciliación
+CLI-0360,Navarro & Domínguez SL,B22335296,navarro360@gmail.com,ES19 6319 8905 32 9999520085,120,Planificación fiscal,75,Domiciliación
+CLI-0361,Gallego & Cortés SLU,B20533057,gallego361@gmail.com,ES52 6700 8115 63 4308800114,275,,0,Domiciliación
+CLI-0362,García & Guerrero SLU,B17264930,garcia362@empresa.es,ES29 6354 9231 99 1948316671,300,Nóminas; Laboral especial,300,Transferencia
+CLI-0363,Ortiz & León CB,B87209399,ortiz363@empresa.es,ES38 8076 5747 60 1635708419,500,,0,Transferencia
+CLI-0364,Cortés & Vidal SL,B83571770,cortes364@empresa.es,ES74 8118 3136 27 6145836928,400,Modelo 303 trimestral,120,Domiciliación
+CLI-0365,Romero & Garrido CB,B80363346,romero365@empresa.es,ES19 5362 8046 51 3473979489,250,,0,Transferencia
+CLI-0366,Castro & Moreno SL,B35567100,castro366@empresa.es,ES13 5994 3773 54 5921252890,350,Planificación fiscal,80,Domiciliación
+CLI-0367,Romero & Méndez SL,B30936786,romero367@empresa.es,ES41 3419 5713 11 4454359624,275,Modelo 303 trimestral; Planificación fiscal,130,Transferencia
+CLI-0368,"López Blanco, Sara",38437423G,lopez368@empresa.es,ES28 1301 7170 84 3262584884,500,Consultoría fiscal; Gestión subvenciones,270,Domiciliación
+CLI-0369,Ramos & Romero CB,B46410780,ramos369@gmail.com,ES59 5445 6901 23 5376908082,150,Nóminas,50,Transferencia
+CLI-0370,Navarro & Suárez SL,B23368583,navarro370@gmail.com,ES86 9709 2442 33 9447304615,380,Asesoría mercantil,60,Domiciliación
+CLI-0371,Martínez & Torres SL,B50926679,martinez371@gmail.com,ES30 1301 6681 97 6806422489,350,Modelo 720,80,Domiciliación
+CLI-0372,Iglesias & Vázquez SL,B93992429,iglesias372@gmail.com,ES45 4695 3485 53 9148305949,300,Nóminas,150,Domiciliación
+CLI-0373,Gallego & Suárez SL,B92201431,gallego373@gmail.com,ES29 7987 6118 87 6709234482,325,Auditoría interna; Modelo 720,225,Domiciliación
+CLI-0374,Cano & Gómez CB,B82659280,cano374@gmail.com,ES27 6062 9582 27 4307339566,175,,0,Domiciliación
+CLI-0375,Muñoz & Serrano SLU,B84804948,muñoz375@empresa.es,ES28 1483 6221 62 9423273485,500,Modelo 303 trimestral; Modelo 347,160,Domiciliación
+CLI-0376,"Díaz Herrera, Carlos",27655789F,diaz376@empresa.es,ES88 4783 4804 39 3952265565,150,Planificación fiscal; Consultoría fiscal,300,Transferencia
+CLI-0377,Gómez & Iglesias CB,B72916371,gomez377@empresa.es,ES72 8763 3253 30 1830044665,225,Laboral especial; Modelo 347,180,Domiciliación
+CLI-0378,"Vázquez Delgado, Pedro",37455861C,vazquez378@gmail.com,ES98 6323 8496 41 7131304971,200,Planificación fiscal,120,Domiciliación
+CLI-0379,Vidal & Suárez SL,B62902012,vidal379@gmail.com,ES14 9530 2791 67 4769980437,120,Planificación fiscal; Gestión subvenciones,230,Domiciliación
+CLI-0380,Nuñez & Medina SLU,B15268263,nuñez380@gmail.com,ES90 1807 4110 47 7182836805,500,Gestión subvenciones,60,Domiciliación
+CLI-0381,Rubio & Muñoz SLU,B49516346,rubio381@gmail.com,ES98 9470 3330 69 2940028539,120,,0,Domiciliación
+CLI-0382,Álvarez & Herrera CB,B83337520,alvarez382@empresa.es,ES67 1408 3930 68 2952849519,200,Modelo 720,100,Domiciliación
+CLI-0383,Cruz & Gallego SLU,B22239481,cruz383@empresa.es,ES59 9383 3619 58 7658684887,180,Asesoría mercantil; Laboral especial,200,Domiciliación
+CLI-0384,Blanco & Cortés CB,B31759927,blanco384@gmail.com,ES32 1840 7874 49 7211631821,325,,0,Domiciliación
+CLI-0385,Gómez & Romero SL,B93558632,gomez385@empresa.es,ES73 9169 9904 10 3119423746,275,Nóminas,120,Transferencia
+CLI-0386,"Rubio Delgado, Carlos",90693921V,rubio386@empresa.es,ES80 5556 4401 16 1793881710,150,,0,Domiciliación
+CLI-0387,Martínez & Díaz SL,B99522760,martinez387@gmail.com,ES23 7831 3920 30 8181574001,120,Consultoría fiscal; Laboral especial,100,Domiciliación
+CLI-0388,Cortés & Garrido CB,B71114408,cortes388@gmail.com,ES48 6289 7038 58 4523010269,225,Laboral especial; Nóminas,110,Domiciliación
+CLI-0389,"Rodríguez Ramos, María",26377680Y,rodriguez389@gmail.com,ES62 9595 4438 99 1249900899,325,Laboral especial,150,Domiciliación
+CLI-0390,Fernández & Marín CB,B48545627,fernandez390@gmail.com,ES89 6797 3125 88 7711463369,400,Laboral especial; Consultoría fiscal,300,Transferencia
+CLI-0391,Sanz & Álvarez CB,B41235369,sanz391@gmail.com,ES25 1392 8616 90 4421940259,225,Auditoría interna,50,Domiciliación
+CLI-0392,Lozano & Delgado SLU,B16105858,lozano392@gmail.com,ES91 4478 1185 91 6504544772,350,Gestión subvenciones,60,Domiciliación
+CLI-0393,Gil & Iglesias SL,B53476321,gil393@empresa.es,ES24 6460 6592 60 1754321211,275,,0,Domiciliación
+CLI-0394,"Méndez Marín, Ana",96657974E,mendez394@gmail.com,ES90 8546 9797 52 8791786307,450,,0,Domiciliación
+CLI-0395,Nuñez & Gil CB,B52346074,nuñez395@gmail.com,ES52 6793 2084 29 5428855031,500,Nóminas; Auditoría interna,230,Domiciliación
+CLI-0396,Muñoz & Cortés CB,B62286700,muñoz396@gmail.com,ES50 1518 5448 62 5667760951,200,Modelo 303 trimestral; Consultoría fiscal,140,Domiciliación
+CLI-0397,"Ortiz Gil, Sara",50576475F,ortiz397@empresa.es,ES35 2517 8270 74 3147716902,180,Nóminas,60,Transferencia
+CLI-0398,Gallego & Nuñez SL,B53934556,gallego398@gmail.com,ES76 3174 4361 14 7267939594,200,,0,Domiciliación
+CLI-0399,Pérez & García SL,B15909601,perez399@empresa.es,ES23 9529 6119 12 4831693156,175,Modelo 303 trimestral; Laboral especial,170,Domiciliación
+CLI-0400,Ramos & Vázquez SL,B52835559,ramos400@empresa.es,ES29 3580 5483 24 3207873733,-21340,Modelo 303 trimestral,100,Domiciliación

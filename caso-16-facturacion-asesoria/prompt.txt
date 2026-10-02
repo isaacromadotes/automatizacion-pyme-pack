@@ -1,0 +1,68 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para generar la facturación mensual completa de una gestoría o asesoría en minutos.
+
+Actúa como director financiero y experto en facturación con 20 años de experiencia en asesorías y despachos profesionales españoles. Dominas la Ley 37/1992 del IVA, la norma SEPA 19.14 (Adeudos Directos B2B/CORE), el Reglamento de Facturación (RD 1619/2012) y la operativa de cuotas mensuales + servicios extras propios de una gestoría.
+
+CONTEXTO
+- Empresa emisora: [EMPRESA] (por defecto: Asesoría Martínez y Asociados, NIF B12345678, IBAN ES91 2100 0418 4502 0005 1332)
+- Periodo: [MES AÑO] (por defecto: junio 2026)
+- Datos de entrada: @clientes.csv con 400 clientes → id, empresa, NIF, email, IBAN, cuota mensual, extras y forma de pago
+- Ruta de trabajo: @C:\Users\isaac\Downloads\Ejemplo Claude Code\Vídeo 16\facturacion_junio\
+
+PASOS A EJECUTAR
+
+1. VALIDACIÓN DE DATOS
+   Revisa el CSV: NIFs con formato correcto, IBANs con 24 caracteres, emails válidos, importes numéricos. Marca cualquier registro con incidencia.
+
+2. CÁLCULO DE FACTURACIÓN
+   Por cada cliente: base imponible = cuota_mensual + extras_importe → IVA 21% → total factura. Numeración correlativa MART-2026-0001 en adelante. Total agregado esperado: 127.840€ (base imponible).
+
+3. ALERTAS AUTOMÁTICAS
+   - Clientes sin IBAN válido y con forma de pago "Domiciliación" → excluidos de la remesa SEPA
+   - Clientes con extras > 500€ → marcar para revisión manual del socio
+   - Emails con dominio no válido → lista aparte
+
+4. ENTREGABLE VISUAL (HTML 9:16, 1080x1920)
+   Genera 3 facturas de ejemplo en HTML optimizadas para pantalla vertical 1080x1920:
+   - Cabecera con logo/nombre emisor + número factura correlativo
+   - Datos del cliente (empresa, NIF, dirección)
+   - Tabla de conceptos: cuota mensual + extras desglosados
+   - Base imponible, IVA 21%, total
+   - Pie con forma de pago e IBAN
+   - Diseño limpio, tipografía serif, fondo #f5f4f0, acentos en terracota #C67A50
+   - CSS con @media print y viewport 1080x1920 fijo
+
+5. REMESA SEPA (XML norma 19.14)
+   Genera adeudos_junio.xml con:
+   - Esquema pain.008.001.02
+   - Solo clientes con forma_pago = "Domiciliación"
+   - MessageId único, CreDtTm actual, fecha cobro D+2
+   - PmtInf con SchmeNm = CORE, LclInstrm = CORE
+   - Un DrctDbtTxInf por cliente con MndtId, DtOfSgntr, Cdtr, DbtrAcct
+
+6. EMAILS PERSONALIZADOS (HTML 9:16)
+   Genera 3 emails HTML de ejemplo (1080x1920) con:
+   - Saludo personalizado con nombre de empresa
+   - Referencia a la factura del mes [MES AÑO]
+   - Importe total y forma de cobro
+   - Enlace/mención a la factura adjunta
+   - Firma de la gestoría
+   - Mismo lenguaje visual que las facturas
+
+7. RESUMEN EJECUTIVO (Excel)
+   resumen_facturacion_junio.xlsx con:
+   - Pestaña 1: totales agregados (nº facturas, base imponible, IVA, total, importe remesa SEPA, importe transferencias)
+   - Pestaña 2: detalle por cliente (todas las columnas + estado)
+   - Pestaña 3: incidencias detectadas
+
+Guarda TODO en @C:\Users\isaac\Downloads\Ejemplo Claude Code\Vídeo 16\facturacion_junio\ organizado en subcarpetas: /facturas_html/, /emails_html/, /remesa_sepa/, /resumen/.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
