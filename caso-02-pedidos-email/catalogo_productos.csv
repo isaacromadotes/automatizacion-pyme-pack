@@ -1,0 +1,21 @@
+referencia,descripcion,precio_unitario,unidad,familia,iva_pct
+SUM-001,Tornillo hex M8x40 DIN 933,0.12,ud,Tornillería,21
+SUM-002,Tuerca hex M8 DIN 934,0.05,ud,Tornillería,21
+SUM-003,Arandela plana M8 DIN 125,0.03,ud,Tornillería,21
+SUM-010,Brida nylon 200x3.6 negra,0.02,ud,Fijación,21
+SUM-011,Brida nylon 300x4.8 negra,0.04,ud,Fijación,21
+SUM-020,Cinta aislante 19mm negra,1.85,rollo,Electricidad,21
+SUM-021,Cable H07V-K 1.5mm² azul,0.42,metro,Electricidad,21
+SUM-022,Cable H07V-K 2.5mm² marrón,0.68,metro,Electricidad,21
+SUM-030,Silicona neutra blanca 300ml,3.45,ud,Sellado,21
+SUM-031,Espuma poliuretano 750ml,5.90,ud,Sellado,21
+SUM-040,Disco corte 125x1mm inox,1.20,ud,Abrasivos,21
+SUM-041,Disco desbaste 125x6mm,2.10,ud,Abrasivos,21
+SUM-050,Guante nitrilo azul T-L,0.18,par,EPI,21
+SUM-051,Gafa protección transparente,2.95,ud,EPI,21
+SUM-060,Tubo corrugado 20mm gris,0.35,metro,Electricidad,21
+SUM-061,Caja estanca 100x100 IP65,3.20,ud,Electricidad,21
+SUM-070,Manómetro glicerina 0-10bar,12.50,ud,Neumática,21
+SUM-071,Racor rápido 1/4" tubo 8mm,1.80,ud,Neumática,21
+SUM-080,Aceite hidráulico ISO 46 1L,6.70,litro,Lubricantes,21
+SUM-081,Grasa litio EP2 400g cartucho,4.30,ud,Lubricantes,21

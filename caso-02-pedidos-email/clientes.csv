@@ -1,0 +1,6 @@
+codigo_cliente,razon_social,cif,email_compras,telefono,direccion,poblacion,cp,dto_general_pct,forma_pago,dias_pago
+CLI-001,Metalmecánica García S.L.,B-12345678,compras@metalmecanica-garcia.es,961 234 567,Pol. Ind. Fuente del Jarro c/5 nave 12,Paterna,46988,5,Transferencia,30
+CLI-002,Instalaciones Martínez Hermanos S.L.,B-98765432,pedidos@martinezhnos.es,962 345 678,Av. del Puerto 234,Valencia,46023,3,Confirming,60
+CLI-003,Electro Levante S.A.,A-45678901,aprovisionamiento@electrolevante.com,963 456 789,C/ Industria 45,Alzira,46600,8,Transferencia,30
+CLI-004,Construcciones Vega Norte S.L.,B-34567890,compras@veganorte.es,964 567 890,Pol. Ind. El Mijares parcela 8,Castellón,12006,4,Pagaré,90
+CLI-005,Taller Mecánico Soler e Hijos,B-56789012,taller@solerhijos.es,965 678 901,C/ San Vicente 12,Alcoy,03801,2,Transferencia,30
