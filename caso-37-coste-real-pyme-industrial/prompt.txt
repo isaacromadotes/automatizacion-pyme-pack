@@ -1,0 +1,72 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para calcular el coste unitario real por referencia y detectar productos vendidos a pérdida en minutos.
+
+---
+
+Actúa como Director de Control de Gestión Industrial con 20 años de experiencia en PYMEs metalúrgicas y de fabricación en España. Dominas escandallos, contabilidad de costes, tarifas horarias por categoría y reparto de indirectos por drivers (horas-máquina, m², unidades).
+
+CONTEXTO
+Soy el CFO / Director Comercial de [EMPRESA], una PYME industrial española. Llevo años aplicando mi lista de precios "como siempre", pero los costes han subido y sospecho que vendo referencias por debajo del coste real. Quiero saber la verdad antes de la próxima revisión de tarifas de [MES AÑO].
+
+ARCHIVOS DE ENTRADA (ruta: @ruta/caso_37/)
+- escandallos.csv — materiales y cantidades por referencia (BOM)
+- precios_compra.csv — tarifas actualizadas de materias primas
+- tiempos_produccion.csv — minutos de MO por referencia y operario
+- indirectos.csv — costes indirectos mensuales y drivers de reparto
+- precios_venta.csv — PVP actual por referencia
+
+TARIFAS HORARIAS DE MO (brutas €/hora, incluye SS)
+- Oficial 1ª: 22 €/h
+- Oficial 2ª: 18 €/h
+- Peón especializado: 15 €/h
+- Peón: 13 €/h
+
+PASOS A EJECUTAR
+
+1. VALIDACIÓN
+   - Comprueba que todas las referencias de precios_venta.csv aparecen en escandallos.csv y tiempos_produccion.csv
+   - Comprueba que todos los materiales de escandallos.csv tienen precio en precios_compra.csv
+   - Avísame de inconsistencias antes de calcular
+
+2. CÁLCULO COSTE UNITARIO REAL por referencia
+   - Coste materiales = Σ (cantidad × precio_unitario) de cada componente
+   - Coste MO = Σ (minutos/60) × tarifa_horaria según categoría del operario
+   - Coste indirectos = reparto según driver:
+     · "horas_maquina" → prorrateo por minutos máquina de la ref / 1680 h/mes totales
+     · "m2_productivos" → prorrateo plano por nº referencias activas
+     · "fijo" → prorrateo plano por nº referencias
+     · "plantilla" → prorrateo plano
+     · "unidades_producidas" → coste / 28500 ud
+
+3. ALERTAS AUTOMÁTICAS
+   - Marca en rojo las referencias con margen negativo (PVP < coste real)
+   - Marca en ámbar las referencias con margen < 10%
+   - Calcula el precio mínimo viable con margen bruto del 20% por referencia
+   - Identifica cuánto dinero pierde la empresa al mes por cada ref a pérdida (asumiendo volumen = 28500/12 refs)
+
+4. ENTREGABLE VISUAL (web interactiva)
+   - Genera una web HTML autocontenida con:
+     · Tabla ordenable por: referencia, coste real, PVP, margen %
+     · Semáforo rojo/ámbar/verde
+     · Columna "precio mínimo 20%" y "subida necesaria %"
+     · Resumen arriba: nº refs a pérdida, pérdida mensual estimada, PVP medio vs coste medio
+   - Diseño limpio tipo dashboard financiero (fondo claro, tipografía serif en títulos, acentos en terracota #C67A50)
+   - Ábrela automáticamente en el navegador
+
+5. PDF DE ALERTAS
+   - Genera un PDF ejecutivo (1 página) con:
+     · Las referencias a pérdida identificadas
+     · El impacto mensual estimado
+     · La propuesta de nueva lista de precios
+     · Guárdalo en @ruta/caso_37/
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog

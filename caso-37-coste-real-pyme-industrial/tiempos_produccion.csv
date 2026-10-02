@@ -1,0 +1,37 @@
+referencia,operacion,minutos,tipo_maquina,operario
+TOR-M8x40,Forjado en frío,0.8,Prensa progresiva,Oficial 1ª
+TOR-M8x40,Roscado,0.3,Roscadora automática,Oficial 1ª
+TOR-M8x40,Zincado,0.2,Línea galvánica,Peón especializado
+TOR-M8x40,Embalaje,0.1,Manual,Peón
+BRI-50mm,Corte,1.2,Punzonadora CNC,Oficial 1ª
+BRI-50mm,Plegado,0.8,Plegadora CNC,Oficial 1ª
+BRI-50mm,Taladrado,0.5,Taladro columna,Oficial 2ª
+BRI-50mm,Pintado,0.4,Cabina pintura,Peón especializado
+CAS-R20,Torneado,2.5,Torno CNC,Oficial 1ª
+CAS-R20,Roscado interior,1.0,Torno CNC,Oficial 1ª
+PLA-200,Corte,0.6,Cizalla,Oficial 2ª
+PLA-200,Taladrado,1.5,Punzonadora CNC,Oficial 1ª
+PLA-200,Galvanizado,0.3,Línea galvánica,Peón especializado
+ANG-L50,Corte,0.4,Sierra cinta,Oficial 2ª
+ANG-L50,Granallado,0.3,Granalladora,Peón especializado
+ANG-L50,Imprimación,0.5,Cabina pintura,Peón especializado
+SOL-INX,Corte láser,1.8,Láser fibra,Oficial 1ª
+SOL-INX,Plegado,1.2,Plegadora CNC,Oficial 1ª
+SOL-INX,Soldadura TIG,4.5,Equipo TIG,Oficial 1ª soldador
+SOL-INX,Pasivado,0.5,Baño químico,Peón especializado
+TUB-25,Corte,0.3,Sierra cinta,Oficial 2ª
+TUB-25,Corte láser,1.0,Láser fibra,Oficial 1ª
+TUB-25,Pintado,0.4,Cabina pintura,Peón especializado
+EJE-D12,Torneado,3.0,Torno CNC,Oficial 1ª
+EJE-D12,Rectificado,1.5,Rectificadora,Oficial 1ª
+VAR-8mm,Trefilado,0.5,Trefiladora,Oficial 1ª
+VAR-8mm,Roscado,1.2,Laminadora de rosca,Oficial 1ª
+VAR-8mm,Zincado,0.3,Línea galvánica,Peón especializado
+ABR-M10,Troquelado,0.1,Prensa excéntrica,Oficial 2ª
+ABR-M10,Zincado,0.05,Línea galvánica,Peón especializado
+TUE-M12,Forjado en caliente,0.6,Prensa,Oficial 1ª
+TUE-M12,Roscado,0.4,Roscadora,Oficial 1ª
+TUE-M12,Zincado,0.15,Línea galvánica,Peón especializado
+PAS-D8,Corte,0.2,Prensa,Oficial 2ª
+PAS-D8,Conformado,0.4,Prensa,Oficial 1ª
+PAS-D8,Fosfatado,0.2,Baño químico,Peón especializado

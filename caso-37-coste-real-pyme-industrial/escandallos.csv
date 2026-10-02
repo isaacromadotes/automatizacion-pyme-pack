@@ -1,0 +1,30 @@
+referencia,descripcion,componente,cantidad_por_unidad,unidad
+TOR-M8x40,Tornillo M8x40 zincado,Varilla acero SAE 1010,0.032,kg
+TOR-M8x40,Tornillo M8x40 zincado,Zinc electrolítico,0.005,kg
+TOR-M8x40,Tornillo M8x40 zincado,Embalaje cartón,1,ud
+BRI-50mm,Brida acero 50mm,Chapa acero S235,0.18,kg
+BRI-50mm,Brida acero 50mm,Tornillería montaje,2,ud
+BRI-50mm,Brida acero 50mm,Pintura epoxi,0.01,L
+CAS-R20,Casquillo roscado M20,Barra acero F-114,0.095,kg
+CAS-R20,Casquillo roscado M20,Aceite de corte,0.003,L
+PLA-200,Pletina perforada 200mm,Chapa acero S275,0.42,kg
+PLA-200,Pletina perforada 200mm,Galvanizado en caliente,0.42,kg
+ANG-L50,Ángulo L50x5,Perfil angular laminado,0.31,kg
+ANG-L50,Ángulo L50x5,Granallado,0.31,kg
+ANG-L50,Ángulo L50x5,Imprimación,0.008,L
+SOL-INX,Soporte inoxidable AISI304,Chapa AISI 304,0.55,kg
+SOL-INX,Soporte inoxidable AISI304,Soldadura TIG,0.12,m
+SOL-INX,Soporte inoxidable AISI304,Pasivado,1,ud
+TUB-25,Tubo cuadrado 25x25,Perfil hueco 25x25x2,0.48,kg
+TUB-25,Tubo cuadrado 25x25,Corte láser,2,ud
+TUB-25,Tubo cuadrado 25x25,Pintura poliéster,0.015,L
+EJE-D12,Eje torneado D12,Barra calibrada F-125,0.11,kg
+EJE-D12,Eje torneado D12,Aceite de corte,0.004,L
+VAR-8mm,Varilla roscada M8x1m,Varilla acero SAE 1010,0.39,kg
+VAR-8mm,Varilla roscada M8x1m,Zinc electrolítico,0.02,kg
+ABR-M10,Arandela M10,Chapa acero DC01,0.008,kg
+ABR-M10,Arandela M10,Zinc electrolítico,0.001,kg
+TUE-M12,Tuerca M12 DIN934,Barra hexagonal acero,0.022,kg
+TUE-M12,Tuerca M12 DIN934,Zinc electrolítico,0.003,kg
+PAS-D8,Pasador elástico D8x50,Fleje acero templado,0.015,kg
+PAS-D8,Pasador elástico D8x50,Fosfatado,1,ud

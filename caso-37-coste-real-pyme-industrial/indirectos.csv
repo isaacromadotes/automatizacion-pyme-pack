@@ -1,0 +1,18 @@
+concepto,coste_mensual_eur,tipo_reparto
+Alquiler nave,4200,m2_productivos
+Electricidad,3800,horas_maquina
+Gas natural,1200,horas_maquina
+Seguro industrial,650,fijo
+Mantenimiento maquinaria,1800,horas_maquina
+Amortización maquinaria,5200,horas_maquina
+EPI y seguridad,280,plantilla
+Limpieza industrial,420,fijo
+Software gestión (ERP),380,fijo
+Residuos y medioambiente,350,fijo
+Agua industrial,180,horas_maquina
+Calidad y metrología,520,unidades_producidas
+Transporte interno,310,fijo
+Total horas máquina mes,1680,referencia
+Total m2 productivos,850,referencia
+Total plantilla producción,12,referencia
+Total unidades producidas mes,28500,referencia
