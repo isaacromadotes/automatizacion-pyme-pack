@@ -1,0 +1,12 @@
+partida,descripcion,coste_real_eur,avance_pct,fecha_ultimo_registro
+CIM,Cimentación,148200,100,2026-06-15
+EST,Estructura,267400,75,2026-09-10
+ALB,Albañilería,72100,35,2026-09-12
+INS_E,Instalaciones eléctricas,38900,38,2026-09-10
+INS_F,Instalaciones fontanería,29500,35,2026-09-08
+CUB,Cubiertas,0,0,
+REV,Revestimientos y acabados,12800,10,2026-09-05
+CAR,Carpintería,15600,15,2026-09-01
+URB,Urbanización exterior,0,0,
+SEG,Seguridad y salud,18200,52,2026-09-12
+GG,Gastos generales,24100,60,2026-09-12

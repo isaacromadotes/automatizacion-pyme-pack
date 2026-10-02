@@ -1,0 +1,76 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para generar un cuadro de control de costes de obra con semáforo por partida, proyección de coste final y gráfico presupuesto vs real en minutos.
+
+Eres un director de ejecución de obra con 20 años de experiencia en control económico de promociones residenciales y obra civil en España. Dominas la gestión de costes por partidas, certificaciones mensuales, análisis de desviaciones y proyección de coste final a terminación (EAC). Conoces los flujos habituales de constructoras y promotoras españolas de 1 a 50M€.
+
+CONTEXTO:
+- Empresa: [EMPRESA] (ej: Promociones García S.L.)
+- Obra: [NOMBRE OBRA] (ej: Residencial Mirador)
+- Presupuesto total: indicado en presupuesto_obra.csv
+- Mes de corte: [MES AÑO] (ej: Septiembre 2026)
+
+ARCHIVOS DE ENTRADA (arrastra los 3 CSVs junto con este prompt):
+1. @ruta/presupuesto_obra.csv → Presupuesto por partida (código, descripción, importe, peso %)
+2. @ruta/costes_reales.csv → Costes reales ejecutados por partida (importe real, % avance, fecha)
+3. @ruta/certificaciones.csv → Certificaciones mensuales (importes certificados, cobrados, fechas)
+
+INSTRUCCIONES — ejecuta en este orden:
+
+Paso 1 · Validación de datos
+- Lee los 3 archivos CSV
+- Verifica que las partidas de presupuesto coinciden con las de costes reales (mismo código)
+- Comprueba coherencia: el coste real no debe superar el presupuesto si el avance es bajo
+- Lista cualquier inconsistencia encontrada antes de continuar
+
+Paso 2 · Cálculo de desviaciones por partida
+Para cada partida calcula:
+- Coste proporcional al avance: (presupuesto × avance%) = lo que debería haber costado
+- Desviación absoluta (€): coste real − coste proporcional
+- Desviación relativa (%): desviación / coste proporcional × 100
+- Proyección de coste final (EAC): coste real / avance% × 100 (si avance > 0)
+- Desviación proyectada vs presupuesto: EAC − presupuesto
+
+Paso 3 · Semáforo automático por partida
+Asigna semáforo según desviación relativa:
+- 🟢 Verde: desviación ≤ +3% (dentro de margen)
+- 🟡 Amarillo: desviación entre +3% y +8% (vigilar)
+- 🔴 Rojo: desviación > +8% (acción correctora necesaria)
+- ⚪ Gris: partida sin avance (0%) — no evaluable aún
+
+Paso 4 · Análisis de certificaciones
+- Total certificado acumulado vs total ejecutado real
+- Certificaciones pendientes de cobro
+- Ratio certificación/ejecución (si < 90%, alerta de infrafacturación)
+- Cash flow de obra: cobrado − ejecutado
+
+Paso 5 · Dashboard web interactivo
+Genera una página HTML con diseño profesional que incluya:
+a) Cabecera: nombre obra, empresa, fecha corte, presupuesto total
+b) KPIs principales: presupuesto, ejecutado, % avance global, desviación global €, cash flow
+c) Tabla de partidas con semáforo: código, descripción, presupuesto, coste real, avance%, desviación%, EAC, semáforo
+d) Gráfico de barras: presupuesto vs coste real por partida (resaltando en rojo las que superan)
+e) Gráfico de línea: certificación acumulada vs ejecución acumulada por mes
+f) Sección de alertas: partidas en rojo con recomendación de acción
+
+Arranca un servidor local para visualizarlo en el navegador.
+
+Paso 6 · PDF profesional para dirección
+Genera un PDF con:
+- Logo/cabecera: [EMPRESA] — Control de costes [NOMBRE OBRA]
+- Fecha del informe y periodo analizado
+- Resumen ejecutivo (3-4 líneas con lo más relevante)
+- Tabla completa con semáforo por partida
+- Gráfico presupuesto vs real
+- Sección de alertas y recomendaciones
+- Pie: "Informe generado con la metodología de automatización ejecutiva de Isaac Romà · isaacroma.com"
+- Guárdalo en @ruta/
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog

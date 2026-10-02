@@ -1,0 +1,12 @@
+partida,descripcion,presupuesto_eur,peso_pct
+EST,Estructura,320000,26.7
+CIM,Cimentación,145000,12.1
+ALB,Albañilería,185000,15.4
+INS_E,Instalaciones eléctricas,95000,7.9
+INS_F,Instalaciones fontanería,78000,6.5
+CUB,Cubiertas,62000,5.2
+REV,Revestimientos y acabados,110000,9.2
+CAR,Carpintería,88000,7.3
+URB,Urbanización exterior,42000,3.5
+SEG,Seguridad y salud,35000,2.9
+GG,Gastos generales,40000,3.3
