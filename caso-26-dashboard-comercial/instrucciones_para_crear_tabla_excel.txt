@@ -1,0 +1,200 @@
+INSTRUCCIONES PARA CREAR TABLA EXCEL — ESTILO PLANILLASEXCEL.ES
+
+═══════════════════════════════════════════════════════════════
+1. PALETA DE COLORES CORPORATIVA
+═══════════════════════════════════════════════════════════════
+
+Barra título principal ........... #1A3C34 (verde bosque oscuro) — texto blanco
+KPI positivo / principal ......... #2D6A4F (teal oscuro) — texto blanco
+KPI secundario ................... #40916C (verde medio) — texto blanco
+KPI informativo / neutro ......... #1D3557 (azul navy) — texto blanco
+KPI alerta / urgente ............. #E63946 (rojo coral) — texto blanco
+KPI advertencia .................. #F4A261 (naranja ámbar) — texto blanco
+KPI éxito / completado ........... #2A9D8F (turquesa) — texto blanco
+Cabeceras de sección ............. #1A3C34 (mismo que título) — texto blanco
+Cabecera tabla datos ............. #2D6A4F o #1A3C34 — texto blanco
+Pestañas inferiores .............. Verde #2D6A4F, Azul #264653, Naranja #E67E22, Rojo #C0392B
+Semáforo verde ................... #27AE60
+Semáforo ámbar ................... #F39C12
+Semáforo rojo .................... #E74C3C
+Negativos / pérdidas ............. Texto rojo #E63946
+Fondo filas tabla ................ Blanco #FFFFFF
+Bordes tabla ..................... Gris claro #D5D8DC
+Texto principal .................. Negro #1C1C1C
+Texto secundario / etiquetas ..... Gris #5D6D7E
+
+═══════════════════════════════════════════════════════════════
+2. ESTRUCTURA DE LAYOUT
+═══════════════════════════════════════════════════════════════
+
+— Columna A siempre vacía (margen izquierdo).
+— Fila 1: barra título principal a ancho completo (columnas B hasta L/M mínimo).
+— Fila 2: vacía (separador).
+— Filas 3-8: tarjetas KPI (dos filas de tarjetas en dashboards premium).
+— 1-2 filas vacías de separación entre cada bloque.
+— Barra cabecera de sección antes de cada tabla o bloque visual.
+— Área principal de contenido: columnas B a L/M aproximadamente.
+— Subtítulo opcional debajo del título: "Dashboard Ejecutivo · Generado el DD/MM/YYYY a las HH:MM" en gris itálica centrado.
+
+═══════════════════════════════════════════════════════════════
+3. BARRA DE TÍTULO PRINCIPAL
+═══════════════════════════════════════════════════════════════
+
+— Fondo: #1A3C34 (verde bosque oscuro).
+— Texto: blanco, negrita, tamaño 14-16pt, centrado.
+— Emoji icono al inicio del texto (⚙️, 📊, 💰, 🏗️, etc.).
+— Celdas combinadas de B1 hasta la última columna del dashboard.
+— Formato: "⚙️ NOMBRE DEL PANEL EN MAYÚSCULAS".
+— Altura de fila: ~30-35px.
+
+═══════════════════════════════════════════════════════════════
+4. TARJETAS KPI
+═══════════════════════════════════════════════════════════════
+
+Disposición:
+— 3 tarjetas por fila (a veces 4-6 si el dashboard es ancho).
+— Cada tarjeta ocupa 2-3 columnas de ancho y 2-3 filas de alto (celdas combinadas).
+— Separación entre tarjetas: 1 columna vacía fina o borde de la celda.
+— Dos filas de tarjetas KPI en dashboards premium.
+
+Contenido de cada tarjeta:
+— Fila superior: etiqueta descriptiva en texto pequeño (9-10pt), mayúsculas, blanco, centrado. A veces con emoji prefijo (📊, 💰, ⚡, 🔔).
+— Fila inferior: número grande (28-36pt), negrita, blanco, centrado.
+— Debajo del número: texto auxiliar pequeño (8pt), blanco, regular (ej: "unidades", "comprometido", "requiere atención").
+
+Colores por tipo de KPI:
+— Métrica principal / total → #2D6A4F (teal)
+— Métrica secundaria → #40916C (verde) o #1D3557 (azul navy)
+— Métrica de alerta / negativa → #E63946 (rojo coral)
+— Métrica de advertencia → #F4A261 (naranja)
+— Métrica de éxito → #2A9D8F (turquesa)
+
+═══════════════════════════════════════════════════════════════
+5. CABECERAS DE SECCIÓN
+═══════════════════════════════════════════════════════════════
+
+— Fondo: #1A3C34 (mismo verde oscuro que el título).
+— Texto: blanco, negrita, 11-12pt, alineado a la izquierda.
+— Emoji icono al inicio: 📊, 📈, 💰, ⚡, 🔔, 📋, etc.
+— Formato: "📊 NOMBRE DE LA SECCIÓN EN MAYÚSCULAS".
+— Celdas combinadas a lo ancho de la tabla que encabeza.
+— Altura de fila: ~22-25px.
+— Sirven para separar visualmente cada bloque: tabla, gráfico, resumen.
+
+═══════════════════════════════════════════════════════════════
+6. TABLAS DE DATOS
+═══════════════════════════════════════════════════════════════
+
+Cabecera de tabla:
+— Fondo: #2D6A4F (teal) o #1A3C34 (verde oscuro).
+— Texto: blanco, negrita, 10-11pt, centrado.
+— Bordes: fino gris claro.
+
+Filas de datos:
+— Fondo: blanco #FFFFFF (sin alternancia de color visible o muy sutil).
+— Texto: negro #1C1C1C, tamaño 10pt, Calibri.
+— Bordes: finos, gris claro #D5D8DC (todos los lados).
+— Números: alineados a la derecha.
+— Texto: alineado a la izquierda.
+— Fila de TOTAL: negrita, a veces con fondo gris muy claro.
+
+Formatos numéricos:
+— Moneda: 1.234,56 € (formato europeo, símbolo € después).
+— Porcentaje: 15,3% (un decimal).
+— Negativos: texto rojo #E63946, opcionalmente entre paréntesis.
+— Años: formato texto ("2024", nunca 2.024).
+— Enteros grandes: separador de miles con punto (1.234).
+
+═══════════════════════════════════════════════════════════════
+7. BARRAS VISUALES DE PROGRESO (INLINE)
+═══════════════════════════════════════════════════════════════
+
+— Barras horizontales dentro de celdas usando fórmula REPETIR (REPT) con carácter █ o ▌.
+— O bien formato condicional de barras de datos de Excel.
+— Color según contexto: verde (#27AE60) = bueno, rojo (#E74C3C) = malo, azul (#3498DB) = neutro.
+— Se usan en columnas como "% del Total", "Ejecución %", "Carga Visual", "Barra Visual".
+— Ancho proporcional al valor.
+
+═══════════════════════════════════════════════════════════════
+8. SEMÁFORO / INDICADORES DE ESTADO
+═══════════════════════════════════════════════════════════════
+
+— Cuadrados o rectángulos coloreados en celda (relleno de celda).
+— Verde (#27AE60): OK / Bajo / Normal.
+— Ámbar/amarillo (#F39C12): Moderado / Atención.
+— Rojo (#E74C3C): Elevado / Alto / Crítico / Urgente.
+— Opcionalmente con texto dentro: "Bajo", "Moderado", "Elevado", "Alto", "Crítico".
+— En paneles de vencimientos: incluir acción sugerida al lado ("Seguimiento normal", "Primera reclamación", "Gestión judicial").
+
+═══════════════════════════════════════════════════════════════
+9. BOTONES DE NAVEGACIÓN IN-SHEET
+═══════════════════════════════════════════════════════════════
+
+— Rectángulos redondeados en la parte superior de la hoja (filas 2-3).
+— Texto: "Instrucciones", "Datos", "Registro", "Análisis", "Dashboard".
+— Relleno: verde #2D6A4F, azul #264653, o teal #1A3C34.
+— Texto: blanco, negrita, centrado.
+— Funcionan como navegación entre hojas (hipervínculo a cada pestaña).
+— Separación entre botones: 1 columna.
+
+═══════════════════════════════════════════════════════════════
+10. PESTAÑAS INFERIORES (HOJAS)
+═══════════════════════════════════════════════════════════════
+
+— Cada pestaña con color fuerte de fondo:
+  · Verde: #2D6A4F (datos, registro).
+  · Azul: #264653 (análisis).
+  · Naranja: #E67E22 (evolución, alertas).
+  · Rojo: #C0392B (panel de alertas, morosidad).
+  · Gris oscuro: para la pestaña "Dashboard Ejecutivo".
+— Última pestaña siempre: "Servicios Isaac Romà" en color neutro/gris.
+— Nombres de pestaña cortos y descriptivos.
+
+═══════════════════════════════════════════════════════════════
+11. GRÁFICOS
+═══════════════════════════════════════════════════════════════
+
+— Barras horizontales: color principal teal/azul (#2D6A4F o #3498DB).
+— Donut/anillo: multicolor para distribuciones (usar la paleta KPI).
+— Columnas: azul + naranja para comparativas (presupuesto vs real).
+— Estilo limpio: sin exceso de cuadrícula, fondo blanco.
+— Título del gráfico: negrita, 11pt, alineado a la izquierda.
+— Sin bordes de gráfico ni sombras.
+— Leyenda debajo o a la derecha, texto pequeño.
+
+═══════════════════════════════════════════════════════════════
+12. TIPOGRAFÍA
+═══════════════════════════════════════════════════════════════
+
+— Fuente principal: Calibri (Excel por defecto).
+— Alternativa: Segoe UI o Arial.
+— Nunca fuentes decorativas.
+— Tamaños:
+  · Título principal: 14-16pt, negrita.
+  · Números KPI: 28-36pt, negrita.
+  · Etiquetas KPI: 9-10pt, mayúsculas.
+  · Cabeceras sección: 11-12pt, negrita.
+  · Cabecera tabla: 10-11pt, negrita.
+  · Datos tabla: 10pt, regular.
+  · Subtítulos/auxiliar: 8-9pt, itálica o regular, gris.
+
+═══════════════════════════════════════════════════════════════
+13. BRANDING
+═══════════════════════════════════════════════════════════════
+
+— Pestaña "Servicios Isaac Romà" presente en todos los libros.
+— Color corporativo principal: #1A3C34 (teal oscuro).
+— Subtítulo con fecha de generación cuando aplique.
+— Emojis como identidad visual en cabeceras.
+
+═══════════════════════════════════════════════════════════════
+14. REGLAS GENERALES
+═══════════════════════════════════════════════════════════════
+
+— Aspecto profesional y corporativo, nunca infantil ni recargado.
+— Jerarquía visual clara: título → KPIs → secciones → tablas → gráficos.
+— Espaciado consistente entre bloques (1-2 filas vacías).
+— Todo el contenido alineado y ordenado.
+— Usar fórmulas, nunca valores hardcoded (el Excel debe recalcular si cambian los datos).
+— Formato condicional para semáforos y barras siempre que sea posible.
+— Proteger celdas de fórmulas; marcar celdas editables con fondo amarillo claro si aplica.

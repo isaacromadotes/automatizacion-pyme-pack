@@ -1,0 +1,97 @@
+fecha,vendedor,zona,familia,cliente,importe,coste,unidades
+2026-01-03,Laura Pérez,Levante,Ferretería,Ferretería Ortiz,4200,3150,120
+2026-01-05,Laura Pérez,Levante,Electricidad,Instalaciones Gómez,3800,2850,85
+2026-01-07,Laura Pérez,Centro,Fontanería,AquaServ Madrid,2900,2320,60
+2026-01-10,Laura Pérez,Levante,Herramienta manual,Talleres Navarro,1500,1050,45
+2026-01-14,Laura Pérez,Levante,Fijación,Construcciones Reig,2200,1760,200
+2026-01-18,Laura Pérez,Centro,Pintura,Decoraciones Ruiz,3100,2480,70
+2026-01-22,Laura Pérez,Levante,EPI,Seguridad Laboral SL,1800,1260,90
+2026-01-25,Laura Pérez,Levante,Climatización,Clima Confort,5200,4160,30
+2026-01-04,Miguel Torres,Centro,Ferretería,Suministros Capital,5100,4080,150
+2026-01-06,Miguel Torres,Centro,Electricidad,ElectroMadrid,4500,3600,100
+2026-01-09,Miguel Torres,Centro,Fontanería,Fontanería Central,3200,2560,75
+2026-01-12,Miguel Torres,Norte,Herramienta manual,Industrias Vasco,2800,2100,80
+2026-01-16,Miguel Torres,Centro,Fijación,Obras Centro SL,1900,1520,180
+2026-01-20,Miguel Torres,Centro,Pintura,PintaHogar,2600,2080,55
+2026-01-23,Miguel Torres,Norte,EPI,Protección Norte,1400,980,65
+2026-01-27,Miguel Torres,Centro,Climatización,AireTotal,4800,3840,25
+2026-01-03,Carlos Ruiz,Norte,Ferretería,Ferretería Bilbao,3600,2520,100
+2026-01-06,Carlos Ruiz,Norte,Electricidad,Electro Cantábrico,2900,1740,70
+2026-01-10,Carlos Ruiz,Norte,Fontanería,Fontanería Astur,2100,1470,50
+2026-01-13,Carlos Ruiz,Norte,Herramienta manual,Herramientas Durango,1800,1080,55
+2026-01-17,Carlos Ruiz,Norte,Fijación,Construcciones Eibar,1200,840,140
+2026-01-21,Carlos Ruiz,Levante,Pintura,Color Mediterráneo,2400,1440,50
+2026-01-24,Carlos Ruiz,Norte,EPI,Seguridad Euskadi,900,540,40
+2026-01-28,Carlos Ruiz,Norte,Climatización,Calor Norte SL,3100,1860,18
+2026-02-02,Laura Pérez,Levante,Ferretería,Ferretería Ortiz,4800,3600,135
+2026-02-05,Laura Pérez,Levante,Electricidad,Instalaciones Gómez,4100,3075,90
+2026-02-08,Laura Pérez,Centro,Fontanería,AquaServ Madrid,3200,2560,65
+2026-02-12,Laura Pérez,Levante,Herramienta manual,Talleres Navarro,1700,1190,50
+2026-02-15,Laura Pérez,Levante,Fijación,Construcciones Reig,2500,2000,220
+2026-02-19,Laura Pérez,Levante,Pintura,PintaLevante,3400,2720,75
+2026-02-22,Laura Pérez,Levante,EPI,Seguridad Laboral SL,2000,1400,100
+2026-02-26,Laura Pérez,Centro,Climatización,Clima Confort,5600,4480,33
+2026-02-03,Miguel Torres,Centro,Ferretería,Suministros Capital,5500,4400,160
+2026-02-06,Miguel Torres,Centro,Electricidad,ElectroMadrid,4900,3920,110
+2026-02-10,Miguel Torres,Norte,Fontanería,Fontanería Central,3500,2800,80
+2026-02-13,Miguel Torres,Centro,Herramienta manual,Industrias Centro,3000,2250,85
+2026-02-17,Miguel Torres,Centro,Fijación,Obras Centro SL,2100,1680,195
+2026-02-20,Miguel Torres,Centro,Pintura,PintaHogar,2800,2240,60
+2026-02-24,Miguel Torres,Norte,EPI,Protección Norte,1600,1120,70
+2026-02-27,Miguel Torres,Centro,Climatización,AireTotal,5100,4080,28
+2026-02-02,Carlos Ruiz,Norte,Ferretería,Ferretería Bilbao,3900,2730,110
+2026-02-06,Carlos Ruiz,Norte,Electricidad,Electro Cantábrico,3100,1860,75
+2026-02-09,Carlos Ruiz,Norte,Fontanería,Fontanería Astur,2300,1610,55
+2026-02-14,Carlos Ruiz,Norte,Herramienta manual,Herramientas Durango,2000,1200,60
+2026-02-18,Carlos Ruiz,Levante,Fijación,Fijaciones Alicante,1400,980,155
+2026-02-21,Carlos Ruiz,Norte,Pintura,Color Mediterráneo,2600,1560,55
+2026-02-25,Carlos Ruiz,Norte,EPI,Seguridad Euskadi,1100,660,48
+2026-02-28,Carlos Ruiz,Norte,Climatización,Calor Norte SL,3400,2040,20
+2026-01-04,Ana Martínez,Sur,Ferretería,Ferretería Sevilla,6200,4960,180
+2026-01-08,Ana Martínez,Sur,Electricidad,ElectroAndalucía,5400,4320,120
+2026-01-11,Ana Martínez,Sur,Fontanería,Fontanería del Sur,4100,3280,90
+2026-01-15,Ana Martínez,Sur,Herramienta manual,Herramientas Málaga,3500,2800,100
+2026-01-19,Ana Martínez,Levante,Fijación,Fijaciones Murcia,2800,2240,250
+2026-01-22,Ana Martínez,Sur,Pintura,Colores del Sur,4200,3360,90
+2026-01-26,Ana Martínez,Sur,EPI,Protección Andaluza,2200,1760,105
+2026-01-29,Ana Martínez,Sur,Climatización,FríoCalor Sevilla,6800,5440,38
+2026-02-03,Ana Martínez,Sur,Ferretería,Ferretería Sevilla,6600,5280,190
+2026-02-07,Ana Martínez,Sur,Electricidad,ElectroAndalucía,5800,4640,130
+2026-02-11,Ana Martínez,Sur,Fontanería,Fontanería del Sur,4400,3520,95
+2026-02-14,Ana Martínez,Sur,Herramienta manual,Herramientas Málaga,3800,3040,105
+2026-02-18,Ana Martínez,Levante,Fijación,Fijaciones Murcia,3000,2400,260
+2026-02-22,Ana Martínez,Sur,Pintura,Colores del Sur,4500,3600,95
+2026-02-25,Ana Martínez,Sur,EPI,Protección Andaluza,2400,1920,110
+2026-02-28,Ana Martínez,Sur,Climatización,FríoCalor Sevilla,7200,5760,40
+2026-01-05,Pedro Sánchez,Levante,Ferretería,Ferretería Castellón,2100,1680,60
+2026-01-09,Pedro Sánchez,Levante,Electricidad,ElectroPlana,1800,1440,40
+2026-01-12,Pedro Sánchez,Levante,Fontanería,Fontanería Costa,1500,1125,35
+2026-01-16,Pedro Sánchez,Centro,Herramienta manual,Herramientas Express,1200,900,35
+2026-01-20,Pedro Sánchez,Levante,Fijación,Fijaciones Vila-real,900,675,100
+2026-01-23,Pedro Sánchez,Levante,Pintura,PintaPlana,1600,1200,35
+2026-01-27,Pedro Sánchez,Levante,EPI,EPI Castellón,700,490,32
+2026-01-30,Pedro Sánchez,Levante,Climatización,Clima Plana,2800,2100,15
+2026-02-04,Pedro Sánchez,Levante,Ferretería,Ferretería Castellón,2300,1840,65
+2026-02-08,Pedro Sánchez,Levante,Electricidad,ElectroPlana,2000,1600,45
+2026-02-11,Pedro Sánchez,Levante,Fontanería,Fontanería Costa,1700,1275,38
+2026-02-15,Pedro Sánchez,Centro,Herramienta manual,Herramientas Express,1300,975,38
+2026-02-19,Pedro Sánchez,Levante,Fijación,Fijaciones Vila-real,1000,750,110
+2026-02-23,Pedro Sánchez,Levante,Pintura,PintaPlana,1800,1350,38
+2026-02-26,Pedro Sánchez,Levante,EPI,EPI Castellón,800,560,35
+2026-02-28,Pedro Sánchez,Levante,Climatización,Clima Plana,3000,2250,17
+2026-01-06,Sofía López,Sur,Ferretería,Ferretería Córdoba,3400,2380,95
+2026-01-10,Sofía López,Sur,Electricidad,ElectroCórdoba,2800,1680,65
+2026-01-13,Sofía López,Levante,Fontanería,Fontanería Almería,2200,1320,50
+2026-01-17,Sofía López,Sur,Herramienta manual,Herramientas Jaén,1900,1140,55
+2026-01-21,Sofía López,Sur,Fijación,Fijaciones Granada,1400,840,160
+2026-01-24,Sofía López,Sur,Pintura,PintaSur,2600,1560,55
+2026-01-28,Sofía López,Sur,EPI,EPI Andalucía,1100,660,50
+2026-01-31,Sofía López,Sur,Climatización,Clima Sur SL,3800,2280,22
+2026-02-04,Sofía López,Sur,Ferretería,Ferretería Córdoba,3700,2590,100
+2026-02-08,Sofía López,Sur,Electricidad,ElectroCórdoba,3000,1800,70
+2026-02-12,Sofía López,Levante,Fontanería,Fontanería Almería,2400,1440,55
+2026-02-16,Sofía López,Sur,Herramienta manual,Herramientas Jaén,2100,1260,60
+2026-02-20,Sofía López,Sur,Fijación,Fijaciones Granada,1600,960,170
+2026-02-24,Sofía López,Sur,Pintura,PintaSur,2800,1680,60
+2026-02-27,Sofía López,Sur,EPI,EPI Andalucía,1200,720,55
+2026-02-28,Sofía López,Sur,Climatización,Clima Sur SL,4100,2460,24
