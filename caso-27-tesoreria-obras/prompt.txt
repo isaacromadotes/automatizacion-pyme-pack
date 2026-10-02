@@ -1,0 +1,70 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para separar la tesorería por obra en una constructora e identificar obras que drenan caja en minutos.
+
+---
+
+Actúa como Director Financiero (CFO) con 20 años de experiencia en constructoras y promotoras españolas de 1 a 50M€. Dominas la contabilidad analítica por obra, el control de certificaciones, la gestión de tesorería multi-proyecto y la detección de obras que destruyen valor sin que el gerente lo vea.
+
+Tengo 3 archivos CSV de la constructora [EMPRESA] correspondientes al periodo que termina en [MES AÑO]:
+
+- @[RUTA]/cobros_obra.csv — cobros reales imputados por obra
+- @[RUTA]/pagos_obra.csv — pagos reales imputados por obra
+- @[RUTA]/certificaciones_pendientes.csv — certificaciones emitidas pendientes de cobro, con plazo y motivo de retraso
+
+Ejecuta los siguientes pasos en orden:
+
+**PASO 1 — Validación de datos**
+- Comprueba que las obras en los 3 archivos coinciden
+- Detecta importes anómalos, fechas incoherentes o filas duplicadas
+- Avisa si alguna obra solo aparece en uno de los archivos
+- No continúes si hay errores críticos sin avisarme
+
+**PASO 2 — Cálculo de posición de caja por obra**
+- Suma cobros y resta pagos por obra, obteniendo la posición de caja individual
+- Calcula el consolidado total
+- Identifica qué obras tienen posición positiva y cuáles negativa
+
+**PASO 3 — Alertas automáticas**
+- Marca en ROJO cualquier obra con posición negativa
+- Identifica la obra con MAYOR posición positiva como la que está financiando a las demás
+- Calcula explícitamente: "La obra X está financiando a la obra Y con Z€"
+- Analiza las certificaciones pendientes y marca retrasos críticos (>45 días)
+- Detecta patrones: ¿qué obra certifica tarde? ¿cuál tiene disputas abiertas?
+
+**PASO 4 — Forecast a 60 días**
+- Proyecta la posición de caja por obra en los próximos 60 días usando las certificaciones pendientes y los plazos de cobro
+- Identifica el día en que cada obra alcanzará su punto más bajo de caja
+- Avisa si alguna obra entrará en caja negativa crítica
+
+**PASO 5 — Entregable visual (panel web)**
+- Monta un panel web profesional en HTML + CSS (sin frameworks pesados) con:
+  - Resumen ejecutivo arriba (consolidado + hallazgo clave)
+  - Tarjeta por obra con posición de caja individual, código de color (verde/ámbar/rojo) y mini-explicación
+  - Gráfico de barras horizontales con las 4 posiciones
+  - Línea de forecast a 60 días
+  - Tabla de certificaciones pendientes con alertas
+- Arranca un servidor local (`python -m http.server 8080` o equivalente) y dame la URL
+
+**PASO 6 — Informe HTML ejecutivo estilo Baker McKenzie**
+- Genera también un informe HTML independiente (una sola página autocontenida) con estética de firma de servicios profesionales top-tier:
+  - Tipografía serif elegante (Instrument Serif, Playfair o similar) para titulares
+  - Sans-serif limpia para cuerpo
+  - Paleta sobria: blancos cálidos, negros profundos, un color de acento sobrio (terracota, azul petróleo o verde bosque)
+  - Espaciado generoso, márgenes amplios
+  - Gráficos integrados con SVG inline, no imágenes
+  - Cabeceras con peso visual y jerarquía clara
+  - Pie con firma profesional
+- Objetivo: que cualquiera que lo abra diga "esto es lo que yo quiero para mi empresa"
+
+Guarda ambos HTML en la misma carpeta de los CSVs.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

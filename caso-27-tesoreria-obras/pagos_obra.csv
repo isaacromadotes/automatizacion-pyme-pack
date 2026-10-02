@@ -1,0 +1,41 @@
+fecha,obra,concepto,importe,proveedor
+2026-05-10,Obra A - Residencial Mirador,Hormigón mayo,22000,Hormigones del Este S.L.
+2026-05-28,Obra A - Residencial Mirador,Mano de obra mayo,18000,Subcontrata Martínez
+2026-06-10,Obra A - Residencial Mirador,Estructura metálica,15000,Aceros Industriales S.A.
+2026-06-28,Obra A - Residencial Mirador,Mano de obra junio,19000,Subcontrata Martínez
+2026-07-12,Obra A - Residencial Mirador,Instalaciones eléctricas,12000,Electro Baix S.L.
+2026-07-28,Obra A - Residencial Mirador,Mano de obra julio,17000,Subcontrata Martínez
+2026-08-10,Obra A - Residencial Mirador,Carpintería,8000,Fusteria Bages S.L.
+2026-08-28,Obra A - Residencial Mirador,Mano de obra agosto,15000,Subcontrata Martínez
+2026-09-10,Obra A - Residencial Mirador,Acabados,10000,Pinturas Mediterráneo
+2026-09-28,Obra A - Residencial Mirador,Mano de obra septiembre,13000,Subcontrata Martínez
+2026-05-12,Obra B - Nave Industrial Polígono Sur,Cimentación,25000,Excavaciones Roca S.L.
+2026-05-30,Obra B - Nave Industrial Polígono Sur,Mano de obra mayo,14000,Construcciones Valls
+2026-06-15,Obra B - Nave Industrial Polígono Sur,Estructura prefabricada,18000,Prefabricats Vic S.A.
+2026-06-28,Obra B - Nave Industrial Polígono Sur,Mano de obra junio,13000,Construcciones Valls
+2026-07-14,Obra B - Nave Industrial Polígono Sur,Cerramientos,16000,Paneles Industriales S.L.
+2026-07-30,Obra B - Nave Industrial Polígono Sur,Mano de obra julio,12000,Construcciones Valls
+2026-08-15,Obra B - Nave Industrial Polígono Sur,Solera industrial,14000,Pavimentos Técnicos S.A.
+2026-08-29,Obra B - Nave Industrial Polígono Sur,Mano de obra agosto,11000,Construcciones Valls
+2026-09-12,Obra B - Nave Industrial Polígono Sur,Instalaciones,10000,Montajes Eléctricos Sur
+2026-09-29,Obra B - Nave Industrial Polígono Sur,Mano de obra septiembre,13000,Construcciones Valls
+2026-05-08,Obra C - Reforma Hotel Costa,Demolición interior,12000,Derribos Express S.L.
+2026-05-25,Obra C - Reforma Hotel Costa,Mano de obra mayo,15000,Reformas Costa Brava
+2026-06-08,Obra C - Reforma Hotel Costa,Fontanería completa,18000,Instal·lacions Girona S.L.
+2026-06-26,Obra C - Reforma Hotel Costa,Mano de obra junio,14000,Reformas Costa Brava
+2026-07-10,Obra C - Reforma Hotel Costa,Climatización,16000,Clima Industrial S.A.
+2026-07-28,Obra C - Reforma Hotel Costa,Mano de obra julio,13000,Reformas Costa Brava
+2026-08-12,Obra C - Reforma Hotel Costa,Acabados y pintura,9000,Pinturas Mediterráneo
+2026-08-28,Obra C - Reforma Hotel Costa,Mano de obra agosto,12000,Reformas Costa Brava
+2026-09-10,Obra C - Reforma Hotel Costa,Mobiliario,8000,Mobles Disseny S.L.
+2026-09-28,Obra C - Reforma Hotel Costa,Mano de obra septiembre,10000,Reformas Costa Brava
+2026-05-15,Obra D - Parking Subterráneo Centro,Excavación,12000,Excavaciones Roca S.L.
+2026-05-30,Obra D - Parking Subterráneo Centro,Mano de obra mayo,8000,Subcontrata Martínez
+2026-06-12,Obra D - Parking Subterráneo Centro,Hormigón armado,10000,Hormigones del Este S.L.
+2026-06-28,Obra D - Parking Subterráneo Centro,Mano de obra junio,9000,Subcontrata Martínez
+2026-07-15,Obra D - Parking Subterráneo Centro,Impermeabilización,7000,Impermeabilizaciones BCN
+2026-07-30,Obra D - Parking Subterráneo Centro,Mano de obra julio,6000,Subcontrata Martínez
+2026-08-14,Obra D - Parking Subterráneo Centro,Instalación eléctrica,5000,Electro Baix S.L.
+2026-08-29,Obra D - Parking Subterráneo Centro,Mano de obra agosto,6000,Subcontrata Martínez
+2026-09-12,Obra D - Parking Subterráneo Centro,Señalización,3000,Señales Viales S.A.
+2026-09-29,Obra D - Parking Subterráneo Centro,Mano de obra septiembre,4000,Subcontrata Martínez

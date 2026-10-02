@@ -1,0 +1,7 @@
+obra,certificacion,importe,fecha_emision,plazo_cobro_dias,fecha_prevista_cobro,estado,motivo_retraso
+Obra A - Residencial Mirador,Certificación octubre,50000,2026-10-01,30,2026-10-31,Emitida,
+Obra B - Nave Industrial Polígono Sur,Certificación octubre,31000,2026-10-05,30,2026-11-04,Emitida,
+Obra C - Reforma Hotel Costa,Certificación septiembre,25000,2026-09-02,60,2026-11-01,Pendiente cobro,Promotor paga a 60 días
+Obra C - Reforma Hotel Costa,Certificación octubre,23000,2026-10-03,60,2026-12-02,Emitida,Promotor paga a 60 días
+Obra C - Reforma Hotel Costa,Certificación agosto (parcial),8000,2026-08-10,60,2026-10-09,Retenida,Disputa por sobrecostes estructura
+Obra D - Parking Subterráneo Centro,Certificación octubre,14000,2026-10-10,45,2026-11-24,Emitida,Administración pública - plazo habitual
