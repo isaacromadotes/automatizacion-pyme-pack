@@ -1,0 +1,25 @@
+cliente,factura,fecha_emision,fecha_vencimiento,importe,estado
+Industrias López,F-2025-089,2025-10-01,2025-10-30,280,Pagada
+Industrias López,F-2025-101,2025-11-01,2025-11-30,280,Pagada
+Industrias López,F-2025-115,2025-12-01,2025-12-30,280,Pagada
+Industrias López,F-2026-012,2026-01-02,2026-01-31,280,Pagada
+Industrias López,F-2026-028,2026-02-01,2026-02-28,280,Pagada
+Industrias López,F-2026-041,2026-03-01,2026-03-31,280,Pagada con retraso
+Industrias López,F-2026-055,2026-04-01,2026-04-30,280,Pagada con retraso
+Industrias López,F-2026-068,2026-05-01,2026-05-31,280,Impagada
+Industrias López,F-2026-082,2026-06-01,2026-06-30,280,Pendiente
+Talleres Ruiz,F-2025-090,2025-10-01,2025-10-30,450,Pagada
+Talleres Ruiz,F-2026-069,2026-05-01,2026-05-31,450,Pagada
+Talleres Ruiz,F-2026-083,2026-06-01,2026-06-30,450,Pendiente
+Grupo Navarro,F-2025-091,2025-10-01,2025-10-30,320,Pagada
+Grupo Navarro,F-2026-070,2026-05-01,2026-05-31,320,Pagada
+Distribuciones Herrera,F-2025-092,2025-10-01,2025-10-30,380,Pagada
+Distribuciones Herrera,F-2026-056,2026-04-01,2026-04-30,380,Impagada
+Distribuciones Herrera,F-2026-071,2026-05-01,2026-05-31,380,Impagada
+Distribuciones Herrera,F-2026-084,2026-06-01,2026-06-30,380,Pendiente
+Importaciones Vega,F-2025-093,2025-10-01,2025-10-30,350,Pagada
+Importaciones Vega,F-2026-057,2026-04-01,2026-04-30,350,Pagada con retraso
+Importaciones Vega,F-2026-072,2026-05-01,2026-05-31,350,Impagada
+Martín Abogados,F-2026-073,2026-05-01,2026-05-31,200,Pagada
+Clínica Dental Soler,F-2026-074,2026-05-01,2026-05-31,290,Pagada
+Logística del Sur,F-2026-075,2026-05-01,2026-05-31,310,Pagada

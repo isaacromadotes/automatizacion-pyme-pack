@@ -1,0 +1,73 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para detectar riesgo de fuga de clientes en una cartera de servicios recurrentes en minutos.
+
+---
+
+Actúa como director de retención y customer success con 20 años de experiencia en despachos profesionales, asesorías y empresas de servicios B2B recurrentes en España. Has gestionado carteras de más de 2.000 clientes y conoces de memoria las señales previas a una baja: caída silenciosa de consultas, impagos no reclamados, quejas que se pudren y antigüedad sin renovación de servicios.
+
+CONTEXTO
+Soy [EMPRESA], una asesoría/despacho con cartera de clientes de servicios recurrentes. Quiero detectar antes de [MES AÑO] qué clientes tienen alto riesgo de darse de baja, para activar acciones de retención ANTES de que presenten la carta.
+
+DATOS DE ENTRADA (están en @ruta/)
+- interacciones_cliente.csv → consultas, emails y llamadas por cliente y mes (últimos 9 meses).
+- pagos_cliente.csv → facturas emitidas con estado (Pagada / Pendiente / Impagada) y vencimiento.
+- incidencias.csv → quejas y reclamaciones con fecha, tipo, estado (Resuelta / Sin resolver) y gestor responsable.
+- contratos.csv → fecha de alta, cuota mensual y servicios contratados.
+
+PASOS
+
+1. VALIDACIÓN DE DATOS
+   - Lee los 4 CSV y comprueba que los nombres de cliente son consistentes entre archivos.
+   - Reporta cualquier cliente que aparezca en un archivo pero no en otros.
+   - Comprueba fechas, importes y estados; marca anomalías (importes negativos, fechas futuras, estados fuera de catálogo).
+
+2. CÁLCULO DEL SCORING DE FUGA (0-100)
+   Calcula para cada cliente un scoring compuesto con estos pesos:
+   - 35 % → caída de interacciones: compara media de consultas+llamadas de los últimos 3 meses vs. media de los 6 meses anteriores. Caída > 50 % puntúa máximo.
+   - 30 % → salud de pago: facturas impagadas o pendientes con más de 30 días de vencimiento vencido. Peso proporcional al importe impagado sobre la cuota mensual.
+   - 20 % → incidencias sin resolver: quejas abiertas con más de 15 días. Doble peso si llevan más de 60 días.
+   - 15 % → antigüedad sin crecimiento: clientes con más de 4 años sin ampliación de servicios contratados.
+
+3. SEMÁFORO Y CLASIFICACIÓN
+   - 0-39 → VERDE (riesgo bajo, seguimiento normal).
+   - 40-69 → ÁMBAR (riesgo medio, llamar en 15 días).
+   - 70-100 → ROJO (riesgo alto, reunión presencial o videollamada esta semana).
+
+4. ALERTAS AUTOMÁTICAS
+   Identifica los 3 clientes con mayor scoring (zona roja). Para cada uno genera:
+   - Nombre y scoring.
+   - Las 3 señales concretas que han disparado la alerta (con datos: "consultas pasaron de 8/mes a 1/mes", "factura F2026-0423 impagada desde el 15/05", "queja de 12/04 sin resolver 180 días").
+   - Pérdida anual estimada si se va (cuota × 12).
+   - Acción recomendada específica (no genérica): a quién llamar, qué ofrecer, qué resolver primero.
+
+5. ENTREGABLE VISUAL — DASHBOARD HTML
+   Monta un dashboard HTML autocontenido (CSS inline, sin dependencias externas), con:
+   - Barra superior con KPIs: nº clientes totales, en rojo, en ámbar, en verde, pérdida anual potencial €.
+   - Tabla principal de todos los clientes con columnas: cliente, scoring, semáforo visual, señales detectadas, cuota, pérdida anual si fuga, acción.
+   - Ordenada de mayor a menor scoring.
+   - Fila clicable que despliega el detalle de las señales de ese cliente.
+   - Paleta sobria y profesional, no infantil. Tipografía system-ui o Inter.
+   - Guarda el HTML como `dashboard_fuga_clientes.html` en @ruta/ y ábrelo en el navegador por defecto cuando termines.
+
+6. ENTREGABLE EJECUTIVO — PDF
+   Genera además un PDF ejecutivo de 2 páginas máximo:
+   - Página 1: resumen con los 5 KPIs principales y las 3 alertas rojas detalladas con acción recomendada.
+   - Página 2: tabla resumen de toda la cartera clasificada por semáforo.
+   - Nómbralo `informe_fuga_[MES AÑO].pdf` y guárdalo en @ruta/.
+
+CRITERIOS DE CALIDAD
+- Nada de valores inventados: si un dato no está, dilo. No rellenes huecos.
+- Usa fórmulas, no hardcodes. El dashboard debe seguir funcionando si cambio los CSV.
+- Español de España. Formato de números europeo (1.234,56 €).
+- Antes de ejecutar los pasos 5 y 6, enséñame la tabla de scoring en consola y espera mi OK.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

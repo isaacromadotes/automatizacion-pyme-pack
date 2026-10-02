@@ -1,0 +1,73 @@
+cliente,mes,consultas,emails,llamadas
+Industrias López,2025-10,8,5,3
+Industrias López,2025-11,6,4,2
+Industrias López,2025-12,5,3,2
+Industrias López,2026-01,4,2,1
+Industrias López,2026-02,3,1,1
+Industrias López,2026-03,2,1,0
+Industrias López,2026-04,2,0,0
+Industrias López,2026-05,1,0,0
+Industrias López,2026-06,1,0,0
+Talleres Ruiz,2025-10,10,6,4
+Talleres Ruiz,2025-11,9,7,3
+Talleres Ruiz,2025-12,11,5,4
+Talleres Ruiz,2026-01,10,6,3
+Talleres Ruiz,2026-02,12,7,5
+Talleres Ruiz,2026-03,9,6,4
+Talleres Ruiz,2026-04,11,5,3
+Talleres Ruiz,2026-05,10,7,4
+Talleres Ruiz,2026-06,9,6,3
+Grupo Navarro,2025-10,6,4,2
+Grupo Navarro,2025-11,7,5,3
+Grupo Navarro,2025-12,5,3,2
+Grupo Navarro,2026-01,6,4,2
+Grupo Navarro,2026-02,4,3,1
+Grupo Navarro,2026-03,5,4,2
+Grupo Navarro,2026-04,6,3,2
+Grupo Navarro,2026-05,5,4,2
+Grupo Navarro,2026-06,6,5,3
+Distribuciones Herrera,2025-10,12,8,5
+Distribuciones Herrera,2025-11,11,7,4
+Distribuciones Herrera,2025-12,13,9,6
+Distribuciones Herrera,2026-01,10,6,4
+Distribuciones Herrera,2026-02,7,4,2
+Distribuciones Herrera,2026-03,5,3,1
+Distribuciones Herrera,2026-04,4,2,1
+Distribuciones Herrera,2026-05,3,1,0
+Distribuciones Herrera,2026-06,2,1,0
+Martín Abogados,2025-10,4,3,2
+Martín Abogados,2025-11,5,4,2
+Martín Abogados,2025-12,4,3,1
+Martín Abogados,2026-01,5,4,2
+Martín Abogados,2026-02,4,3,2
+Martín Abogados,2026-03,5,4,2
+Martín Abogados,2026-04,4,3,1
+Martín Abogados,2026-05,5,4,2
+Martín Abogados,2026-06,4,3,2
+Clínica Dental Soler,2025-10,7,5,3
+Clínica Dental Soler,2025-11,8,6,4
+Clínica Dental Soler,2025-12,7,5,3
+Clínica Dental Soler,2026-01,8,6,4
+Clínica Dental Soler,2026-02,7,5,3
+Clínica Dental Soler,2026-03,6,4,2
+Clínica Dental Soler,2026-04,7,5,3
+Clínica Dental Soler,2026-05,8,6,4
+Clínica Dental Soler,2026-06,7,5,3
+Importaciones Vega,2025-10,9,6,4
+Importaciones Vega,2025-11,8,5,3
+Importaciones Vega,2025-12,7,4,2
+Importaciones Vega,2026-01,5,3,1
+Importaciones Vega,2026-02,4,2,1
+Importaciones Vega,2026-03,3,2,0
+Importaciones Vega,2026-04,2,1,0
+Importaciones Vega,2026-05,2,1,0
+Importaciones Vega,2026-06,1,0,0
+Logística del Sur,2025-10,5,3,2
+Logística del Sur,2025-11,6,4,3
+Logística del Sur,2025-12,5,3,2
+Logística del Sur,2026-01,6,4,3
+Logística del Sur,2026-02,5,3,2
+Logística del Sur,2026-03,6,4,3
+Logística del Sur,2026-04,5,3,2
+Logística del Sur,2026-05,6,4,3
+Logística del Sur,2026-06,5,3,2
