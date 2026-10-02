@@ -1,0 +1,38 @@
+GUÍA DE DISEÑO VISUAL — Panel de Cobros
+
+Paleta:
+- Fondo principal: #f5f4f0 (crema suave)
+- Fondo tarjetas: #ffffff
+- Texto principal: #1a1a1a
+- Texto secundario: #666666
+- Acento (marca): #C67A50 (terracota)
+- Semáforo verde: #4a7c59
+- Semáforo amarillo: #d4a85a
+- Semáforo rojo: #b84a4a
+- Bordes/divisores: #e5e3dc
+
+Tipografía:
+- Títulos (H1, H2): fuente serif elegante (Instrument Serif, Playfair Display o fallback Georgia). Peso regular, no negrita.
+- Cuerpo y tablas: sans-serif del sistema (-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto).
+- Números/KPIs: tabular-nums para alineación perfecta.
+
+Layout:
+- Max-width 1280px, centrado.
+- Padding generoso (48px vertical, 32px horizontal).
+- Grid de 3 columnas para KPIs superiores.
+- Tarjetas con border-radius 8px, sombra sutil (0 1px 3px rgba(0,0,0,0.04)).
+- Espaciado vertical entre secciones: 48px.
+
+Componentes:
+- KPIs: número grande en serif (56px), etiqueta en sans (14px, mayúsculas, letter-spacing 0.08em).
+- Semáforos: círculo de 12px al inicio de fila, no cuadrados ni emojis.
+- Tablas: filas alternas con fondo #faf9f6, hover suave.
+- Gráfico de barras: barras del color terracota (#C67A50), eje X y etiquetas en gris.
+
+Tono visual:
+- Elegante, editorial, calmado. Nada de gradientes, neones ni "dashboards de SaaS startup".
+- Más revista financiera impresa que app moderna.
+- Dark mode: NO necesario, solo tema claro.
+
+Encabezado del panel:
+"Control de cobros · [EMPRESA]" en serif grande, con fecha de generación debajo en sans.
