@@ -1,0 +1,72 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para generar el informe trimestral completo para socios y banco de una constructora o promotora en minutos.
+
+---
+
+Actúa como Director Financiero (CFO) con 20 años de experiencia en PYMEs constructoras y promotoras españolas de 1 a 50M€ de facturación. Has preparado cientos de informes trimestrales para consejos de accionistas, fondos inversores y comités de riesgo bancario. Dominas el formato que esperan ver los analistas de riesgo del Santander, BBVA, CaixaBank y Sabadell cuando revisan una PYME del sector construcción.
+
+Tu tarea: generar el informe trimestral de [EMPRESA] correspondiente a [MES AÑO] como un dashboard HTML autocontenido, listo para presentar a socios y entidades financieras.
+
+Trabaja con los datos de los siguientes archivos:
+- @obras_activas.csv — cartera de obras activas con estado, avance y desviaciones
+- @contabilidad.csv — balance, cuenta de resultados y cash flow por trimestre
+- @facturacion_trimestral.csv — facturación y margen por obra y trimestre
+
+Sigue estos pasos en orden:
+
+**PASO 1 · Validación de datos**
+Lee los tres CSV. Verifica que las cifras cuadran: la facturación total del trimestre en `facturacion_trimestral.csv` debe aproximarse a los ingresos del mismo trimestre en `contabilidad.csv`. Si detectas incoherencias materiales (>5%), repórtalas en una sección "Avisos" al principio del informe.
+
+**PASO 2 · Cálculo de ratios financieros**
+Calcula los siguientes ratios con los datos del último trimestre disponible:
+- **Endeudamiento** = Deuda total / Fondos propios
+- **Liquidez general** = Activo corriente / Pasivo corriente
+- **Cobertura de deuda** = EBITDA anualizado / (Gastos financieros + Amortización deuda)
+- **Fondo de maniobra** = Activo corriente − Pasivo corriente
+- **Margen EBITDA** = EBITDA / Ingresos
+- **DSO** (días de cobro) = (Clientes / Facturación trimestral) × 90
+- **Desviación media de coste** sobre cartera
+
+**PASO 3 · Alertas automáticas**
+Para cada ratio, aplica semáforo bancario estándar:
+- 🟢 Verde: ratio dentro de rango saludable para el sector construcción
+- 🟡 Ámbar: ratio en zona de vigilancia
+- 🔴 Rojo: ratio fuera del covenant bancario habitual
+
+Referencia sector construcción PYME:
+- Endeudamiento < 1,5 verde, 1,5–2,5 ámbar, >2,5 rojo
+- Liquidez > 1,2 verde, 1–1,2 ámbar, <1 rojo
+- Cobertura deuda > 3 verde, 1,5–3 ámbar, <1,5 rojo
+
+**PASO 4 · Entregable visual (HTML dashboard)**
+Genera un único archivo HTML autocontenido llamado `informe_trimestral_[EMPRESA]_[MES_AÑO].html` con el siguiente diseño:
+
+Formato bancario sobrio y profesional. Paleta: fondo blanco o crema muy claro, tipografía serif para titulares (estilo Instrument Serif o similar) y sans-serif para datos. Acento en color terracota (#C67A50) o azul marino corporativo. Nada de emojis en el documento final, solo iconos minimalistas en SVG o círculos de color para los semáforos.
+
+Estructura en 6 secciones (una por página al imprimir en A4):
+
+1. **Portada** — Nombre de la empresa, trimestre, fecha de emisión, logo placeholder.
+2. **Resumen ejecutivo** — 4 KPIs destacados en tarjetas grandes: Facturación trimestre, EBITDA, Cash flow neto, Backlog contratado.
+3. **Cartera de obras activas** — Tabla con las obras: nombre, cliente, % avance, presupuesto, coste ejecutado, desviación %, estado (barra de progreso visual).
+4. **Posición financiera consolidada** — Mini-balance (activo / pasivo / PN), P&L resumido y cash flow operativo del trimestre.
+5. **Ratios financieros con semáforo bancario** — Tabla con los 7 ratios, su valor, el rango de referencia y el semáforo.
+6. **Gráficos de evolución** — 2 gráficos: evolución de facturación por trimestre (barras) y evolución de margen % por trimestre (línea). Usa Chart.js embebido vía CDN.
+
+El HTML debe ser **imprimible con `@media print`** correctamente paginado (una sección por página A4) para que el usuario pueda guardarlo como PDF desde el navegador con Ctrl+P → "Guardar como PDF".
+
+**PASO 5 · Entrega**
+Guarda el archivo HTML en la misma carpeta donde están los CSV. Al terminar, muéstrame:
+- Confirmación de la ruta del archivo generado
+- Los 3 titulares financieros más relevantes del trimestre
+- 1–2 alertas que deberían comentarse en la próxima reunión con el banco
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

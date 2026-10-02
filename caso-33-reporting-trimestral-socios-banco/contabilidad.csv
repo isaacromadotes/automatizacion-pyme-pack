@@ -1,0 +1,23 @@
+Concepto,Tipo,Q1_2025,Q2_2025,Q3_2025,Q4_2025
+Inmovilizado neto,Activo No Corriente,980000,955000,932000,910000
+Existencias (obra en curso),Activo Corriente,620000,745000,890000,710000
+Clientes y certificaciones pdtes,Activo Corriente,485000,530000,610000,492000
+Tesorería,Activo Corriente,312000,285000,198000,345000
+Fondos propios,Patrimonio Neto,1450000,1480000,1510000,1555000
+Deuda bancaria LP,Pasivo No Corriente,520000,490000,460000,430000
+Proveedores obra,Pasivo Corriente,310000,385000,420000,345000
+Hacienda y SS,Pasivo Corriente,117000,160000,240000,127000
+Ingresos por obra ejecutada,Ingresos,1250000,1480000,1620000,1710000
+Coste directo de obra,Gastos,-975000,-1140000,-1230000,-1283000
+Margen bruto,Subtotal,275000,340000,390000,427000
+Gastos estructura,Gastos,-145000,-148000,-150000,-152000
+EBITDA,Subtotal,130000,192000,240000,275000
+Amortización,Gastos,-25000,-25000,-25000,-25000
+Gastos financieros,Gastos,-18000,-17000,-16000,-15000
+BAI,Subtotal,87000,150000,199000,235000
+Cobros de clientes,Cash Flow,1180000,1390000,1510000,1650000
+Pagos a proveedores,Cash Flow,-860000,-1050000,-1180000,-1200000
+Pagos estructura + impuestos,Cash Flow,-185000,-198000,-215000,-210000
+Cash flow operativo,Cash Flow,135000,142000,115000,240000
+Amortización deuda,Cash Flow,-30000,-30000,-30000,-30000
+Cash flow neto,Cash Flow,105000,112000,85000,210000

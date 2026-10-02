@@ -1,0 +1,5 @@
+ID_Obra,Nombre,Cliente,Presupuesto_EUR,Coste_Ejecutado_EUR,Pct_Avance,Estado,Fecha_Inicio,Fecha_Fin_Prevista,Desviacion_Coste_Pct,Certificaciones_Emitidas_EUR,Certificaciones_Cobradas_EUR,Backlog_EUR
+OBR-001,Residencial Mirador del Parque,Fondo InverHogar,4200000,2940000,68,En curso,2025-03-01,2026-06-30,2.1,2856000,2570400,1344000
+OBR-002,Nave logística Pol. Norte,Distribuciones Levante S.L.,1850000,1110000,58,En curso,2025-06-15,2026-04-30,-1.3,1073000,966700,777000
+OBR-003,Reforma oficinas Torre Centro,Grupo Acme Iberia,620000,558800,91,Cierre técnico,2025-01-10,2025-12-15,4.8,564200,507780,55800
+OBR-004,Urbanización Las Encinas - Fase 2,Ayto. Villaroble,1480000,518000,32,En curso,2025-09-01,2027-01-31,0.0,444000,399600,1036000
