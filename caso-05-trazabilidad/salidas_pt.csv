@@ -1,0 +1,16 @@
+id_salida,fecha_salida,cliente,destino,lote_pt,producto,cantidad_uds,albaran,transporte,temperatura_salida,estado
+S-2024-0201,2024-03-08,Mercadona S.A.,Plataforma Valencia,L2024-0845,Salsa Casera Mediterránea 350ml,2400,ALB-2024-0201,Transportes Frio Levante,4.0,ENTREGADO
+S-2024-0202,2024-03-08,Consum S.Coop.,Almacén Silla,L2024-0845,Salsa Casera Mediterránea 350ml,1800,ALB-2024-0202,Transportes Frio Levante,4.1,ENTREGADO
+S-2024-0203,2024-03-09,Mercadona S.A.,Plataforma Valencia,L2024-0846,Tomate Frito Casero 350ml,2000,ALB-2024-0203,Logística Mediterránea,4.2,ENTREGADO
+S-2024-0204,2024-03-09,Consum S.Coop.,Almacén Silla,L2024-0846,Tomate Frito Casero 350ml,1800,ALB-2024-0204,Logística Mediterránea,4.0,ENTREGADO
+S-2024-0210,2024-03-10,Mercadona S.A.,Plataforma Barcelona,L2024-0847,Salsa Casera Mediterránea 350ml,2000,ALB-2024-0210,Transportes Frio Levante,3.9,ENTREGADO
+S-2024-0211,2024-03-10,Consum S.Coop.,Almacén Silla,L2024-0847,Salsa Casera Mediterránea 350ml,1500,ALB-2024-0211,Transportes Frio Levante,4.1,ENTREGADO
+S-2024-0212,2024-03-11,Venta Directa,Tienda Fábrica Conservas Med.,L2024-0847,Salsa Casera Mediterránea 350ml,1300,ALB-2024-0212,Reparto propio,4.0,ENTREGADO
+S-2024-0215,2024-03-12,Mercadona S.A.,Plataforma Valencia,L2024-0848,Sofrito Tradicional 350ml,1800,ALB-2024-0215,Logística Mediterránea,4.3,ENTREGADO
+S-2024-0216,2024-03-12,Consum S.Coop.,Almacén Silla,L2024-0848,Sofrito Tradicional 350ml,1400,ALB-2024-0216,Logística Mediterránea,4.1,ENTREGADO
+S-2024-0220,2024-03-14,Mercadona S.A.,Plataforma Valencia,L2024-0849,Tomate Frito Casero 350ml,2200,ALB-2024-0220,Transportes Frio Levante,4.0,ENTREGADO
+S-2024-0221,2024-03-14,Consum S.Coop.,Almacén Silla,L2024-0849,Tomate Frito Casero 350ml,1800,ALB-2024-0221,Transportes Frio Levante,4.2,ENTREGADO
+S-2024-0225,2024-03-16,Mercadona S.A.,Plataforma Valencia,L2024-0850,Salsa Casera Mediterránea 350ml,2600,ALB-2024-0225,Logística Mediterránea,3.8,ENTREGADO
+S-2024-0226,2024-03-16,Consum S.Coop.,Almacén Silla,L2024-0850,Salsa Casera Mediterránea 350ml,2000,ALB-2024-0226,Logística Mediterránea,4.0,ENTREGADO
+S-2024-0230,2024-03-18,Mercadona S.A.,Plataforma Barcelona,L2024-0851,Sofrito Tradicional 350ml,2000,ALB-2024-0230,Transportes Frio Levante,4.1,ENTREGADO
+S-2024-0231,2024-03-18,Venta Directa,Tienda Fábrica Conservas Med.,L2024-0851,Sofrito Tradicional 350ml,1400,ALB-2024-0231,Reparto propio,4.0,ENTREGADO

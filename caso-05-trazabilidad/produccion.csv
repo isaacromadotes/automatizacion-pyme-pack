@@ -1,0 +1,9 @@
+id_produccion,fecha_produccion,linea,producto_terminado,lote_pt,lotes_mp_usados,cantidad_uds,peso_ud_g,temperatura_proceso,tiempo_esterilizacion_min,operario_responsable,estado_control
+P-2024-0088,2024-03-04,Línea 1,Salsa Casera Mediterránea 350ml,L2024-0845,"TL-2024-088,AS-2024-041,SM-2024-112,EI-2024-067",4200,350,95.2,25,García López A.,CONFORME
+P-2024-0089,2024-03-04,Línea 2,Tomate Frito Casero 350ml,L2024-0846,"TL-2024-088,AS-2024-041,SM-2024-112,CM-2024-034",3800,350,96.1,25,Martínez Ruiz P.,CONFORME
+P-2024-0090,2024-03-06,Línea 1,Salsa Casera Mediterránea 350ml,L2024-0847,"TL-2024-091,AS-2024-041,SM-2024-112,EI-2024-067,EI-2024-068",4800,350,95.8,25,García López A.,CONFORME
+P-2024-0091,2024-03-06,Línea 2,Sofrito Tradicional 350ml,L2024-0848,"TL-2024-091,AS-2024-041,CM-2024-034,AC-2024-055",3200,350,96.0,25,Martínez Ruiz P.,CONFORME
+P-2024-0092,2024-03-08,Línea 1,Tomate Frito Casero 350ml,L2024-0849,"TL-2024-091,AS-2024-041,SM-2024-112",4000,350,95.5,25,García López A.,CONFORME
+P-2024-0093,2024-03-13,Línea 1,Salsa Casera Mediterránea 350ml,L2024-0850,"TL-2024-095,AS-2024-044,SM-2024-112,EI-2024-067",4600,350,95.9,25,García López A.,CONFORME
+P-2024-0094,2024-03-13,Línea 2,Sofrito Tradicional 350ml,L2024-0851,"TL-2024-095,AS-2024-044,CM-2024-034,AC-2024-055",3400,350,96.2,25,Martínez Ruiz P.,CONFORME
+P-2024-0095,2024-03-15,Línea 1,Tomate Frito Casero 350ml,L2024-0852,"TL-2024-095,AS-2024-044,SM-2024-112",4100,350,95.6,25,García López A.,CONFORME

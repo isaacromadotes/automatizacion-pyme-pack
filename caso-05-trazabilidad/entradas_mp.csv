@@ -1,0 +1,13 @@
+id_entrada,fecha_entrada,proveedor,materia_prima,lote_mp,cantidad_kg,certificado_calidad,temperatura_recepcion,estado_inspeccion
+E-2024-0301,2024-03-01,Tomates Levante S.L.,Tomate triturado,TL-2024-088,2500,CC-TL-088,4.2,APROBADO
+E-2024-0301b,2024-03-01,Aceites del Sur S.A.,Aceite de oliva virgen,AS-2024-041,800,CC-AS-041,18.5,APROBADO
+E-2024-0302,2024-03-02,Sal Marina Mediterránea,Sal marina fina,SM-2024-112,300,CC-SM-112,21.0,APROBADO
+E-2024-0303,2024-03-03,Especias Ibéricas S.L.,Orégano deshidratado,EI-2024-067,50,CC-EI-067,20.1,APROBADO
+E-2024-0303b,2024-03-03,Especias Ibéricas S.L.,Albahaca deshidratada,EI-2024-068,40,CC-EI-068,20.3,APROBADO
+E-2024-0305,2024-03-05,Tomates Levante S.L.,Tomate triturado,TL-2024-091,3000,CC-TL-091,4.5,APROBADO
+E-2024-0306,2024-03-06,Vidrios Mediterráneo S.A.,Tarro cristal 350ml,VM-2024-220,12000,CC-VM-220,22.0,APROBADO
+E-2024-0306b,2024-03-06,Vidrios Mediterráneo S.A.,Tapa metálica twist-off,VM-2024-221,12000,CC-VM-221,22.0,APROBADO
+E-2024-0308,2024-03-08,Cebolla Manchega S.L.,Cebolla deshidratada,CM-2024-034,200,CC-CM-034,19.8,APROBADO
+E-2024-0310,2024-03-10,Ajos de Córdoba S.A.,Ajo granulado,AC-2024-055,100,CC-AC-055,20.0,APROBADO
+E-2024-0312,2024-03-12,Tomates Levante S.L.,Tomate triturado,TL-2024-095,2800,CC-TL-095,4.1,APROBADO
+E-2024-0315,2024-03-15,Aceites del Sur S.A.,Aceite de oliva virgen,AS-2024-044,600,CC-AS-044,18.2,APROBADO
