@@ -1,0 +1,128 @@
+nro_factura,cliente,fecha_emision,fecha_vencimiento,importe_eur,estado
+SL-2026-0001,Conservas Atlántico S.L.,2026-08-13,2026-10-12,2805.43,Pendiente
+SL-2026-0002,Carnes Selectas Ibérica S.A.,2026-07-10,2026-08-09,10773.07,Vencida
+SL-2026-0003,Conservas Atlántico S.L.,2026-04-24,2026-06-23,5294.94,Vencida
+SL-2026-0004,Distribuciones Almar S.L.,2026-08-18,2026-09-17,10589.25,Pendiente
+SL-2026-0005,Importaciones Delfín S.A.,2026-09-04,2026-10-19,24362.05,Pendiente
+SL-2026-0006,Café & Té Distribución S.L.,2026-04-24,2026-05-24,18664.7,Vencida
+SL-2026-0007,Carnes Selectas Ibérica S.A.,2026-09-09,2026-10-09,32304.06,Pendiente
+SL-2026-0008,Alimentación Costasol S.L.,2026-05-25,2026-06-24,15478.07,Cobrada
+SL-2026-0009,Frutas Navarro e Hijos S.L.,2026-06-16,2026-07-31,5908.85,Vencida
+SL-2026-0010,Bebidas La Huerta S.L.,2026-06-14,2026-07-29,26069.79,Vencida
+SL-2026-0011,Café & Té Distribución S.L.,2026-05-16,2026-06-15,23356.37,Vencida
+SL-2026-0012,Congelados Mediterráneo S.L.,2026-08-21,2026-09-20,23992.03,Pendiente
+SL-2026-0013,Mariscos Costa Blanca S.A.,2026-06-10,2026-07-10,25009.56,Vencida
+SL-2026-0014,Distribuciones Almar S.L.,2026-07-14,2026-08-13,32877.35,Vencida
+SL-2026-0015,Mariscos Costa Blanca S.A.,2026-07-13,2026-08-12,36632.64,Vencida
+SL-2026-0016,Suministros Horeca Plus S.L.,2026-06-09,2026-08-08,8338.69,Vencida
+SL-2026-0017,Conservas Atlántico S.L.,2026-07-04,2026-09-02,30013.18,Vencida
+SL-2026-0018,Frescos del Levante S.A.,2026-07-29,2026-09-12,23272.42,Cobrada
+SL-2026-0019,Suministros Horeca Plus S.L.,2026-06-05,2026-08-04,12651.9,Vencida
+SL-2026-0020,Café & Té Distribución S.L.,2026-04-21,2026-05-21,10628.53,Vencida
+SL-2026-0021,Frutas Navarro e Hijos S.L.,2026-08-27,2026-10-11,11007.73,Pendiente
+SL-2026-0022,Distribuciones Almar S.L.,2026-06-22,2026-07-22,17926.82,Cobrada
+SL-2026-0023,Aceites Sierra Morena S.L.,2026-04-18,2026-06-17,37029.98,Vencida
+SL-2026-0024,Conservas Atlántico S.L.,2026-05-06,2026-07-05,17704.4,Vencida
+SL-2026-0025,Suministros Horeca Plus S.L.,2026-08-05,2026-10-04,12448.18,Pendiente
+SL-2026-0026,Grupo Hortimed S.L.,2026-04-20,2026-06-19,23466.89,Vencida
+SL-2026-0027,Congelados Mediterráneo S.L.,2026-05-31,2026-06-30,16352.26,Vencida
+SL-2026-0028,Alimentación Costasol S.L.,2026-05-03,2026-06-02,21639.34,Vencida
+SL-2026-0029,Mariscos Costa Blanca S.A.,2026-08-13,2026-09-12,7944.22,Cobrada
+SL-2026-0030,Conservas Atlántico S.L.,2026-05-25,2026-07-24,25775.64,Vencida
+SL-2026-0031,Lácteos del Sur S.L.,2026-05-14,2026-06-13,23070.4,Vencida
+SL-2026-0032,Mariscos Costa Blanca S.A.,2026-09-08,2026-10-08,29147.39,Pendiente
+SL-2026-0033,Frescos del Levante S.A.,2026-04-26,2026-06-10,31985.29,Vencida
+SL-2026-0034,Bebidas La Huerta S.L.,2026-08-13,2026-09-27,13598.71,Pendiente
+SL-2026-0035,Alimentación Costasol S.L.,2026-05-17,2026-06-16,1930.46,Vencida
+SL-2026-0036,Café & Té Distribución S.L.,2026-07-05,2026-08-04,40869.9,Vencida
+SL-2026-0037,Importaciones Delfín S.A.,2026-08-14,2026-09-28,36794.85,Pendiente
+SL-2026-0038,Carnes Selectas Ibérica S.A.,2026-05-04,2026-06-03,26280.6,Cobrada
+SL-2026-0039,Frutas Navarro e Hijos S.L.,2026-07-31,2026-09-14,23483.04,Vencida
+SL-2026-0040,Importaciones Delfín S.A.,2026-09-10,2026-10-25,25877.57,Pendiente
+SL-2026-0041,Suministros Horeca Plus S.L.,2026-09-06,2026-11-05,6297.08,Pendiente
+SL-2026-0042,Bebidas La Huerta S.L.,2026-06-24,2026-08-08,11425.98,Cobrada
+SL-2026-0043,Lácteos del Sur S.L.,2026-08-21,2026-09-20,5243.27,Pendiente
+SL-2026-0044,Suministros Horeca Plus S.L.,2026-08-24,2026-10-23,41114.98,Pendiente
+SL-2026-0045,Importaciones Delfín S.A.,2026-08-09,2026-09-23,6961.34,Pendiente
+SL-2026-0046,Suministros Horeca Plus S.L.,2026-04-23,2026-06-22,8438.1,Vencida
+SL-2026-0047,Lácteos del Sur S.L.,2026-05-25,2026-06-24,40567.39,Vencida
+SL-2026-0048,Frutas Navarro e Hijos S.L.,2026-07-21,2026-09-04,30460.55,Vencida
+SL-2026-0049,Conservas Atlántico S.L.,2026-06-07,2026-08-06,19411.62,Vencida
+SL-2026-0050,Frescos del Levante S.A.,2026-07-09,2026-08-23,10832.83,Vencida
+SL-2026-0051,Lácteos del Sur S.L.,2026-04-22,2026-05-22,11050.61,Cobrada
+SL-2026-0052,Frescos del Levante S.A.,2026-08-26,2026-10-10,11003.46,Pendiente
+SL-2026-0053,Aceites Sierra Morena S.L.,2026-09-02,2026-11-01,36357.34,Pendiente
+SL-2026-0054,Frescos del Levante S.A.,2026-05-02,2026-06-16,11367.79,Vencida
+SL-2026-0055,Grupo Hortimed S.L.,2026-04-25,2026-06-24,7118.94,Vencida
+SL-2026-0056,Lácteos del Sur S.L.,2026-05-12,2026-06-11,11568.49,Vencida
+SL-2026-0057,Congelados Mediterráneo S.L.,2026-07-24,2026-08-23,5591.9,Vencida
+SL-2026-0058,Bebidas La Huerta S.L.,2026-05-25,2026-07-09,18326.31,Vencida
+SL-2026-0059,Distribuciones Almar S.L.,2026-08-16,2026-09-15,4236.63,Vencida
+SL-2026-0060,Frutas Navarro e Hijos S.L.,2026-08-14,2026-09-28,11795.98,Pendiente
+SL-2026-0061,Grupo Hortimed S.L.,2026-04-26,2026-06-25,19834.26,Vencida
+SL-2026-0062,Carnes Selectas Ibérica S.A.,2026-05-15,2026-06-14,11842.22,Vencida
+SL-2026-0063,Suministros Horeca Plus S.L.,2026-04-23,2026-06-22,5735.93,Vencida
+SL-2026-0064,Importaciones Delfín S.A.,2026-09-07,2026-10-22,40753.65,Pendiente
+SL-2026-0065,Aceites Sierra Morena S.L.,2026-07-12,2026-09-10,8485.71,Vencida
+SL-2026-0066,Grupo Hortimed S.L.,2026-05-31,2026-07-30,38078.2,Cobrada
+SL-2026-0067,Distribuciones Almar S.L.,2026-06-03,2026-07-03,12461.16,Vencida
+SL-2026-0068,Suministros Horeca Plus S.L.,2026-06-29,2026-08-28,18804.9,Vencida
+SL-2026-0069,Frutas Navarro e Hijos S.L.,2026-04-21,2026-06-05,28407.23,Vencida
+SL-2026-0070,Grupo Hortimed S.L.,2026-06-27,2026-08-26,10551.58,Cobrada
+SL-2026-0071,Café & Té Distribución S.L.,2026-04-25,2026-05-25,4250.49,Vencida
+SL-2026-0072,Distribuciones Almar S.L.,2026-05-11,2026-06-10,22014.59,Vencida
+SL-2026-0073,Alimentación Costasol S.L.,2026-08-27,2026-09-26,40423.31,Pendiente
+SL-2026-0074,Frescos del Levante S.A.,2026-07-25,2026-09-08,4554.56,Cobrada
+SL-2026-0075,Mariscos Costa Blanca S.A.,2026-07-12,2026-08-11,18031.78,Vencida
+SL-2026-0076,Lácteos del Sur S.L.,2026-07-09,2026-08-08,25072.55,Cobrada
+SL-2026-0077,Frescos del Levante S.A.,2026-05-26,2026-07-10,28226.4,Vencida
+SL-2026-0078,Bebidas La Huerta S.L.,2026-07-06,2026-08-20,10011.22,Vencida
+SL-2026-0079,Grupo Hortimed S.L.,2026-07-05,2026-09-03,17710.59,Vencida
+SL-2026-0080,Carnes Selectas Ibérica S.A.,2026-05-16,2026-06-15,14510.32,Vencida
+SL-2026-0081,Frescos del Levante S.A.,2026-09-08,2026-10-23,20223.08,Pendiente
+SL-2026-0082,Lácteos del Sur S.L.,2026-08-16,2026-09-15,4745.08,Cobrada
+SL-2026-0083,Carnes Selectas Ibérica S.A.,2026-08-08,2026-09-07,39317.03,Vencida
+SL-2026-0084,Aceites Sierra Morena S.L.,2026-07-10,2026-09-08,16654.99,Cobrada
+SL-2026-0085,Mariscos Costa Blanca S.A.,2026-04-24,2026-05-24,30082.3,Vencida
+SL-2026-0086,Frutas Navarro e Hijos S.L.,2026-04-28,2026-06-12,2114.49,Vencida
+SL-2026-0087,Carnes Selectas Ibérica S.A.,2026-08-15,2026-09-14,39544.99,Cobrada
+SL-2026-0088,Frescos del Levante S.A.,2026-08-14,2026-09-28,31645.15,Pendiente
+SL-2026-0089,Alimentación Costasol S.L.,2026-07-03,2026-08-02,13126.6,Cobrada
+SL-2026-0090,Bebidas La Huerta S.L.,2026-07-20,2026-09-03,29437.38,Vencida
+SL-2026-0091,Importaciones Delfín S.A.,2026-05-08,2026-06-22,11895.07,Vencida
+SL-2026-0092,Distribuciones Almar S.L.,2026-08-18,2026-09-17,27298.23,Pendiente
+SL-2026-0093,Mariscos Costa Blanca S.A.,2026-07-02,2026-08-01,3572.29,Vencida
+SL-2026-0094,Alimentación Costasol S.L.,2026-07-05,2026-08-04,8295.6,Vencida
+SL-2026-0095,Café & Té Distribución S.L.,2026-05-24,2026-06-23,24348.46,Cobrada
+SL-2026-0096,Aceites Sierra Morena S.L.,2026-08-03,2026-10-02,23732.73,Pendiente
+SL-2026-0097,Mariscos Costa Blanca S.A.,2026-06-08,2026-07-08,25216.88,Cobrada
+SL-2026-0098,Alimentación Costasol S.L.,2026-08-31,2026-09-30,14191.99,Pendiente
+SL-2026-0099,Aceites Sierra Morena S.L.,2026-08-31,2026-10-30,37936.77,Pendiente
+SL-2026-0100,Grupo Hortimed S.L.,2026-07-09,2026-09-07,28610.72,Vencida
+SL-2026-0101,Importaciones Delfín S.A.,2026-05-29,2026-07-13,40948.25,Vencida
+SL-2026-0102,Aceites Sierra Morena S.L.,2026-07-12,2026-09-10,36557.15,Vencida
+SL-2026-0103,Frutas Navarro e Hijos S.L.,2026-07-27,2026-09-10,37232.93,Cobrada
+SL-2026-0104,Café & Té Distribución S.L.,2026-06-17,2026-07-17,33251.94,Vencida
+SL-2026-0105,Conservas Atlántico S.L.,2026-07-09,2026-09-07,12525.59,Vencida
+SL-2026-0106,Frescos del Levante S.A.,2026-06-05,2026-07-20,36861.1,Vencida
+SL-2026-0107,Grupo Hortimed S.L.,2026-07-21,2026-09-19,34626.78,Pendiente
+SL-2026-0108,Suministros Horeca Plus S.L.,2026-06-13,2026-08-12,14068.67,Vencida
+SL-2026-0109,Grupo Hortimed S.L.,2026-07-15,2026-09-13,2751.31,Cobrada
+SL-2026-0110,Bebidas La Huerta S.L.,2026-07-01,2026-08-15,36546.99,Vencida
+SL-2026-0111,Carnes Selectas Ibérica S.A.,2026-06-13,2026-07-13,27587.57,Vencida
+SL-2026-0112,Mariscos Costa Blanca S.A.,2026-04-26,2026-05-26,15112.22,Cobrada
+SL-2026-0113,Aceites Sierra Morena S.L.,2026-07-06,2026-09-04,8978.43,Vencida
+SL-2026-0114,Carnes Selectas Ibérica S.A.,2026-09-01,2026-10-01,6157.78,Pendiente
+SL-2026-0115,Congelados Mediterráneo S.L.,2026-06-14,2026-07-14,31087.51,Vencida
+SL-2026-0116,Lácteos del Sur S.L.,2026-05-03,2026-06-02,6448.96,Vencida
+SL-2026-0117,Grupo Hortimed S.L.,2026-07-07,2026-09-05,3584.34,Vencida
+SL-2026-0118,Importaciones Delfín S.A.,2026-04-26,2026-06-10,29411.66,Vencida
+SL-2026-0119,Café & Té Distribución S.L.,2026-07-22,2026-08-21,16441.7,Cobrada
+SL-2026-0120,Conservas Atlántico S.L.,2026-06-18,2026-08-17,26850.85,Vencida
+SL-2026-0121,Frescos del Levante S.A.,2026-06-26,2026-08-10,22186.32,Vencida
+SL-2026-0122,Bebidas La Huerta S.L.,2026-05-30,2026-07-14,29827.78,Vencida
+SL-2026-0123,Grupo Hortimed S.L.,2026-05-26,2026-07-25,28530.16,Vencida
+SL-2026-0124,Café & Té Distribución S.L.,2026-07-28,2026-08-27,26543.7,Vencida
+SL-2026-0125,Importaciones Delfín S.A.,2026-09-10,2026-10-25,14015.77,Pendiente
+SL-2026-0126,Grupo Hortimed S.L.,2026-05-23,2026-07-22,33387.5,Vencida
+SL-2026-0127,Bebidas La Huerta S.L.,2026-05-14,2026-06-28,19559.8,Vencida
