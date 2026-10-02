@@ -1,0 +1,17 @@
+fecha,tipo_servicio,descripcion,horas,estado
+2026-01-15,Declaración fiscal,IVA 4T 2025 (Modelo 303),1.5,Presentada
+2026-01-20,Declaración fiscal,Retenciones 4T 2025 (Modelo 111),1.0,Presentada
+2026-01-22,Declaración fiscal,Retenciones alquileres (Modelo 115),0.75,Presentada
+2026-01-28,Consulta fiscal,Deducción vehículo mixto autónomo-empresa,0.5,Resuelta
+2026-02-05,Gestión laboral,Alta nuevo empleado almacén (Jorge Peña),1.5,Completada
+2026-02-10,Declaración fiscal,Modelo 347 anual - operaciones con terceros,2.0,Presentada
+2026-02-15,Declaración fiscal,Resumen anual IVA 2025 (Modelo 390),1.5,Presentada
+2026-02-18,Declaración fiscal,Resumen anual retenciones (Modelo 190),1.0,Presentada
+2026-02-25,Consulta fiscal,Amortización acelerada nave industrial,0.75,Resuelta
+2026-03-05,Gestión laboral,Modificación contrato temporal a indefinido,1.0,Completada
+2026-03-12,Asesoramiento especial,Análisis fiscal operación compraventa maquinaria,3.0,Completado
+2026-03-20,Declaración fiscal,Retenciones 1T 2026 (Modelo 111),1.0,Presentada
+2026-03-22,Declaración fiscal,Retenciones alquileres 1T (Modelo 115),0.75,Presentada
+2026-03-25,Consulta fiscal,Régimen fiscal subvención Kit Digital,0.5,Resuelta
+2026-03-28,Consulta fiscal,Facturación intracomunitaria cliente portugués,0.75,Resuelta
+2026-03-30,Declaración fiscal,IVA 1T 2026 (Modelo 303),1.5,Presentada
