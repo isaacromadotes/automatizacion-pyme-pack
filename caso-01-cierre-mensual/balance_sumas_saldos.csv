@@ -1,0 +1,18 @@
+Cuenta,Descripcion,Debe,Haber,Saldo
+700000,Ventas de productos terminados,0,485320.50,485320.50
+700001,Ventas subproductos,0,12450.00,12450.00
+600000,Compras materias primas,198720.30,0,198720.30
+601000,Compras componentes,34510.00,0,34510.00
+620000,Gastos personal producción,87640.00,0,87640.00
+621000,Gastos personal administración,42300.00,0,42300.00
+622000,Reparaciones y conservación,6890.00,0,6890.00
+628000,"Suministros (luz, gas, agua)",18430.00,0,18430.00
+625000,Seguros,4250.00,0,4250.00
+629000,Otros servicios,3120.00,0,3120.00
+640000,Sueldos y salarios,95400.00,0,95400.00
+642000,Seguridad Social empresa,28620.00,0,28620.00
+681000,Amortización inmovilizado,12800.00,0,12800.00
+662000,Intereses deudas largo plazo,3450.00,0,3450.00
+572000,Bancos,214580.20,186320.00,28260.20
+430000,Clientes,312400.00,298760.00,13640.00
+400000,Proveedores,187320.00,201540.00,14220.00

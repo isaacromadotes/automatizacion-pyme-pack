@@ -1,0 +1,18 @@
+Centro_Coste,Tipo,Concepto,Importe_EUR,Horas,Unidades_Producidas
+CC01-Corte,Directo,Materia prima - chapa acero,78320.00,,42000
+CC01-Corte,Directo,Mano de obra directa,24500.00,1680,42000
+CC01-Corte,Indirecto,Mantenimiento CNC,3200.00,,
+CC01-Corte,Indirecto,Energía eléctrica,8940.00,,
+CC02-Soldadura,Directo,Consumibles soldadura,12480.00,,38500
+CC02-Soldadura,Directo,Mano de obra directa,31200.00,2100,38500
+CC02-Soldadura,Indirecto,Gas argón,2890.00,,
+CC02-Soldadura,Indirecto,EPIs y seguridad,1450.00,,
+CC03-Pintura,Directo,Pintura y tratamiento,9870.00,,38500
+CC03-Pintura,Directo,Mano de obra directa,18600.00,1240,38500
+CC03-Pintura,Indirecto,Cabina extracción,1680.00,,
+CC04-Montaje,Directo,Componentes montaje,34510.00,,35200
+CC04-Montaje,Directo,Mano de obra directa,22400.00,1520,35200
+CC04-Montaje,Indirecto,Utillaje,890.00,,
+CC00-General,Indirecto,Amortización nave,8400.00,,
+CC00-General,Indirecto,Seguro industrial,4250.00,,
+CC00-General,Indirecto,Limpieza y residuos,2180.00,,

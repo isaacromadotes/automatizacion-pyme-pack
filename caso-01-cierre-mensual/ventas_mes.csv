@@ -1,0 +1,16 @@
+Fecha,Cliente,Referencia,Descripcion,Unidades,Precio_Unitario,Total_EUR,Estado
+2026-08-02,Construcciones López S.L.,PED-2608-001,Estructura metálica nave,1,42500.00,42500.00,Facturado
+2026-08-03,AutoParts Ibérica S.A.,PED-2608-002,Soportes motor lote 500,500,18.50,9250.00,Facturado
+2026-08-05,Inox Levante S.L.,PED-2608-003,Barandillas inox a medida,24,385.00,9240.00,Facturado
+2026-08-07,Grupo Ferrovial,PED-2608-004,Perfiles HEB cortados,340,62.00,21080.00,Facturado
+2026-08-10,Talleres Hernández,PED-2608-005,Piezas mecanizadas CNC,1200,14.30,17160.00,Facturado
+2026-08-12,Ascensores Martín S.A.,PED-2608-006,Cabinas ascensor estándar,3,28400.00,85200.00,Facturado
+2026-08-14,Construcciones López S.L.,PED-2608-007,Escalera metálica exterior,2,6800.00,13600.00,Facturado
+2026-08-17,MobilSteel Europe,PED-2608-008,Estanterías industriales,45,890.00,40050.00,Facturado
+2026-08-19,AutoParts Ibérica S.A.,PED-2608-009,Soportes motor lote 800,800,17.80,14240.00,Facturado
+2026-08-21,Ayuntamiento Villanueva,PED-2608-010,Marquesinas paradas bus,6,12500.00,75000.00,Facturado
+2026-08-23,Energías del Sur S.L.,PED-2608-011,Soportes panel solar,200,78.50,15700.00,Facturado
+2026-08-25,Inox Levante S.L.,PED-2608-012,Mobiliario inox hostelería,8,4850.00,38800.00,Facturado
+2026-08-27,Grupo Ferrovial,PED-2608-013,Chapas plegadas especial,180,52.00,9360.00,Facturado
+2026-08-28,Talleres Hernández,PED-2608-014,Reparación utillaje,1,3200.00,3200.00,Facturado
+2026-08-29,Construcciones López S.L.,PED-2608-015,Cerramientos metálicos,1,95940.50,95940.50,Pendiente cobro
