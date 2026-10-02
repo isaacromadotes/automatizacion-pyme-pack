@@ -1,0 +1,71 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para detectar en minutos qué clientes de tu asesoría generan margen negativo y aplicar un plan de acción cliente a cliente.
+
+---
+
+Actúas como Director Financiero con 20 años de experiencia controlando la rentabilidad de despachos profesionales y asesorías en España. Dominas control de gestión, pricing recurrente, análisis de rentabilidad por cliente (profit per client) y reestructuración de carteras de servicios.
+
+Vas a analizar la rentabilidad real por cliente de [EMPRESA] correspondiente a [MES AÑO] cruzando tres fuentes de datos.
+
+FUENTES DE DATOS
+
+- Horas reales por cliente y gestor: @horas_cliente.csv
+- Honorarios mensuales facturados por cliente: @honorarios.csv
+- Coste por hora de cada gestor: @costes_gestor.csv
+
+PASO 1 — VALIDACIÓN
+
+- Lee los tres CSV y confirma que las columnas y los nombres de clientes y gestores son consistentes entre ellos.
+- Si algún cliente aparece en horas pero no en honorarios (o viceversa), señálalo como incidencia antes de calcular.
+- Confirma el número total de clientes analizados.
+
+PASO 2 — CÁLCULO DE RENTABILIDAD
+
+Para cada cliente calcula:
+
+- Coste real mensual = horas dedicadas × coste/hora del gestor que las imputa (si hay varios gestores, suma ponderada).
+- Margen absoluto mensual = honorario mensual − coste real.
+- Margen % = margen absoluto / honorario mensual.
+- Coste real por hora facturada (benchmark interno).
+
+PASO 3 — ALERTAS AUTOMÁTICAS
+
+Clasifica cada cliente en uno de estos semáforos:
+
+- 🔴 ROJO — margen negativo (pierdes dinero cada mes).
+- 🟡 ÁMBAR — margen entre 0% y 20% (riesgo, cualquier incidencia lo pone en rojo).
+- 🟢 VERDE — margen superior al 20%.
+
+Calcula el % de cartera en cada color y el impacto económico anual de los clientes en rojo.
+
+PASO 4 — ENTREGABLE VISUAL (DASHBOARD HTML)
+
+Genera un archivo HTML autocontenido llamado dashboard_rentabilidad.html con:
+
+- Cabecera con el nombre de [EMPRESA] y el periodo [MES AÑO].
+- 4 KPIs grandes arriba: total clientes, % rentables, % en pérdidas, margen medio anual estimado.
+- Gráfico de barras horizontal con el margen de cada cliente, ordenado de peor a mejor, barras rojas para negativos y verdes para positivos.
+- Tabla ranking completa con: cliente, gestor principal, horas, honorario, coste real, margen €, margen %, semáforo.
+- Ficha por cada cliente en rojo con 3 propuestas concretas de acción (subir precio hasta margen 25%, limitar scope de servicio, o reestructurar/dejar ir), incluyendo el importe exacto a corregir.
+- Diseño oscuro, tipografía sobria, estética de producto SaaS premium. Debe impresionar a un socio de despacho a primera vista.
+- Abre el dashboard en el navegador al terminar.
+
+PASO 5 — INFORME PDF EJECUTIVO
+
+Genera también un PDF de 2 páginas con el resumen ejecutivo del análisis, listo para presentar al socio: titulares, 3 clientes más problemáticos, 3 más rentables, y plan de acción recomendado para los próximos 30 días.
+
+VARIABLES A SUSTITUIR
+
+- [EMPRESA] = (pon aquí el nombre de tu asesoría)
+- [MES AÑO] = (pon aquí el periodo, ejemplo: Septiembre 2026)
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---
