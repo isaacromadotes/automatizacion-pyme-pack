@@ -1,0 +1,79 @@
+cliente,factura,importe,vencimiento,fecha_pago
+Logística Mares S.L.,F-2026-001,4500,2026-01-30,2026-02-05
+Logística Mares S.L.,F-2026-042,4500,2026-02-28,2026-03-15
+Logística Mares S.L.,F-2026-089,4500,2026-03-31,2026-04-22
+Logística Mares S.L.,F-2026-130,4500,2026-04-30,2026-05-28
+Logística Mares S.L.,F-2026-171,4500,2026-05-31,2026-06-30
+Logística Mares S.L.,F-2026-210,4500,2026-06-30,
+Textiles Nervión S.A.,F-2026-002,6200,2026-01-30,2026-02-02
+Textiles Nervión S.A.,F-2026-043,6200,2026-02-28,2026-03-10
+Textiles Nervión S.A.,F-2026-090,6200,2026-03-31,2026-04-18
+Textiles Nervión S.A.,F-2026-131,6200,2026-04-30,2026-05-25
+Textiles Nervión S.A.,F-2026-172,6200,2026-05-31,
+Textiles Nervión S.A.,F-2026-211,6200,2026-06-30,
+Grupo Albatros Consulting,F-2026-003,8500,2026-01-30,2026-01-31
+Grupo Albatros Consulting,F-2026-044,8500,2026-02-28,2026-03-01
+Grupo Albatros Consulting,F-2026-091,8500,2026-03-31,2026-04-02
+Grupo Albatros Consulting,F-2026-132,8500,2026-04-30,2026-05-01
+Grupo Albatros Consulting,F-2026-173,8500,2026-05-31,2026-06-01
+Grupo Albatros Consulting,F-2026-212,8500,2026-06-30,2026-07-01
+Distribuciones Quer S.L.,F-2026-004,5800,2026-01-30,2026-02-03
+Distribuciones Quer S.L.,F-2026-045,5800,2026-02-28,2026-03-12
+Distribuciones Quer S.L.,F-2026-092,5800,2026-03-31,2026-04-20
+Distribuciones Quer S.L.,F-2026-133,5800,2026-04-30,2026-05-22
+Distribuciones Quer S.L.,F-2026-174,5800,2026-05-31,2026-06-25
+Distribuciones Quer S.L.,F-2026-213,5800,2026-06-30,
+Construcciones Vega S.A.,F-2026-005,7200,2026-01-30,2026-02-01
+Construcciones Vega S.A.,F-2026-046,7200,2026-02-28,2026-03-02
+Construcciones Vega S.A.,F-2026-093,7200,2026-03-31,2026-04-01
+Construcciones Vega S.A.,F-2026-134,7200,2026-04-30,2026-05-02
+Construcciones Vega S.A.,F-2026-175,7200,2026-05-31,2026-06-02
+Construcciones Vega S.A.,F-2026-214,7200,2026-06-30,2026-07-01
+Alimentación Bética S.L.,F-2026-015,3200,2026-01-30,2026-02-04
+Alimentación Bética S.L.,F-2026-056,3200,2026-02-28,2026-03-14
+Alimentación Bética S.L.,F-2026-103,3200,2026-03-31,2026-04-25
+Alimentación Bética S.L.,F-2026-144,3200,2026-04-30,2026-05-30
+Alimentación Bética S.L.,F-2026-185,3200,2026-05-31,
+Alimentación Bética S.L.,F-2026-224,3200,2026-06-30,
+Autoescuela Veloz,F-2026-018,2100,2026-01-30,2026-02-06
+Autoescuela Veloz,F-2026-059,2100,2026-02-28,2026-03-18
+Autoescuela Veloz,F-2026-106,2100,2026-03-31,2026-04-28
+Autoescuela Veloz,F-2026-147,2100,2026-04-30,2026-06-01
+Autoescuela Veloz,F-2026-188,2100,2026-05-31,
+Autoescuela Veloz,F-2026-227,2100,2026-06-30,
+Carpintería Artesana Ruiz,F-2026-020,2800,2026-01-30,2026-02-03
+Carpintería Artesana Ruiz,F-2026-061,2800,2026-02-28,2026-03-12
+Carpintería Artesana Ruiz,F-2026-108,2800,2026-03-31,2026-04-20
+Carpintería Artesana Ruiz,F-2026-149,2800,2026-04-30,2026-05-26
+Carpintería Artesana Ruiz,F-2026-190,2800,2026-05-31,
+Carpintería Artesana Ruiz,F-2026-229,2800,2026-06-30,
+Peluquería Style Madrid,F-2026-027,1800,2026-01-30,2026-02-10
+Peluquería Style Madrid,F-2026-068,1800,2026-02-28,2026-03-20
+Peluquería Style Madrid,F-2026-115,1800,2026-03-31,2026-05-02
+Peluquería Style Madrid,F-2026-156,1800,2026-04-30,2026-06-05
+Peluquería Style Madrid,F-2026-197,1800,2026-05-31,
+Peluquería Style Madrid,F-2026-236,1800,2026-06-30,
+Restaurante Mar Abierto,F-2026-014,2500,2026-01-30,2026-02-05
+Restaurante Mar Abierto,F-2026-055,2500,2026-02-28,2026-03-12
+Restaurante Mar Abierto,F-2026-102,2500,2026-03-31,2026-04-18
+Restaurante Mar Abierto,F-2026-143,2500,2026-04-30,2026-05-20
+Restaurante Mar Abierto,F-2026-184,2500,2026-05-31,
+Restaurante Mar Abierto,F-2026-223,2500,2026-06-30,
+Gimnasio Power Fit,F-2026-024,1900,2026-01-30,2026-02-05
+Gimnasio Power Fit,F-2026-065,1900,2026-02-28,2026-03-10
+Gimnasio Power Fit,F-2026-112,1900,2026-03-31,2026-04-15
+Gimnasio Power Fit,F-2026-153,1900,2026-04-30,2026-05-18
+Gimnasio Power Fit,F-2026-194,1900,2026-05-31,2026-06-22
+Gimnasio Power Fit,F-2026-233,1900,2026-06-30,
+Ferretería Industrial Norte,F-2026-026,3400,2026-01-30,2026-02-02
+Ferretería Industrial Norte,F-2026-067,3400,2026-02-28,2026-03-08
+Ferretería Industrial Norte,F-2026-114,3400,2026-03-31,2026-04-15
+Ferretería Industrial Norte,F-2026-155,3400,2026-04-30,2026-05-18
+Ferretería Industrial Norte,F-2026-196,3400,2026-05-31,2026-06-18
+Ferretería Industrial Norte,F-2026-235,3400,2026-06-30,
+Clínica Dental Puerta Sol,F-2026-008,3800,2026-01-30,2026-02-03
+Clínica Dental Puerta Sol,F-2026-049,3800,2026-02-28,2026-03-05
+Clínica Dental Puerta Sol,F-2026-096,3800,2026-03-31,2026-04-08
+Clínica Dental Puerta Sol,F-2026-137,3800,2026-04-30,2026-05-12
+Clínica Dental Puerta Sol,F-2026-178,3800,2026-05-31,2026-06-15
+Clínica Dental Puerta Sol,F-2026-217,3800,2026-06-30,

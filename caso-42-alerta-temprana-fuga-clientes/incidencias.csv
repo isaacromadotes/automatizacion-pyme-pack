@@ -1,0 +1,40 @@
+cliente,fecha,tipo,estado
+Logística Mares S.L.,2026-02-10,retraso entrega,resuelta
+Logística Mares S.L.,2026-03-22,error facturación,resuelta
+Logística Mares S.L.,2026-04-15,calidad servicio,pendiente
+Logística Mares S.L.,2026-05-08,falta seguimiento,pendiente
+Textiles Nervión S.A.,2026-03-05,retraso entrega,resuelta
+Textiles Nervión S.A.,2026-04-12,calidad servicio,pendiente
+Textiles Nervión S.A.,2026-05-20,falta seguimiento,pendiente
+Grupo Albatros Consulting,2026-04-10,consulta técnica,resuelta
+Distribuciones Quer S.L.,2026-03-18,retraso entrega,resuelta
+Distribuciones Quer S.L.,2026-04-25,error facturación,resuelta
+Distribuciones Quer S.L.,2026-05-15,calidad servicio,pendiente
+Alimentación Bética S.L.,2026-02-20,retraso entrega,resuelta
+Alimentación Bética S.L.,2026-04-08,calidad servicio,pendiente
+Alimentación Bética S.L.,2026-05-12,falta seguimiento,pendiente
+Autoescuela Veloz,2026-02-15,error facturación,resuelta
+Autoescuela Veloz,2026-03-28,calidad servicio,pendiente
+Autoescuela Veloz,2026-04-20,falta seguimiento,pendiente
+Autoescuela Veloz,2026-05-25,calidad servicio,pendiente
+Carpintería Artesana Ruiz,2026-03-10,retraso entrega,resuelta
+Carpintería Artesana Ruiz,2026-04-18,falta seguimiento,pendiente
+Carpintería Artesana Ruiz,2026-05-22,calidad servicio,pendiente
+Peluquería Style Madrid,2026-01-28,error facturación,resuelta
+Peluquería Style Madrid,2026-02-22,calidad servicio,pendiente
+Peluquería Style Madrid,2026-03-15,falta seguimiento,pendiente
+Peluquería Style Madrid,2026-04-10,calidad servicio,pendiente
+Peluquería Style Madrid,2026-05-05,retraso entrega,pendiente
+Restaurante Mar Abierto,2026-03-08,calidad servicio,resuelta
+Restaurante Mar Abierto,2026-04-12,falta seguimiento,pendiente
+Restaurante Mar Abierto,2026-05-18,calidad servicio,pendiente
+Gimnasio Power Fit,2026-03-20,retraso entrega,resuelta
+Gimnasio Power Fit,2026-04-28,falta seguimiento,pendiente
+Gimnasio Power Fit,2026-05-15,calidad servicio,pendiente
+Ferretería Industrial Norte,2026-04-05,consulta técnica,resuelta
+Ferretería Industrial Norte,2026-05-10,retraso entrega,pendiente
+Clínica Dental Puerta Sol,2026-05-02,consulta técnica,resuelta
+Construcciones Vega S.A.,2026-03-15,consulta técnica,resuelta
+Consultoría Stratego S.L.,2026-05-28,consulta técnica,resuelta
+Diseño Gráfico Lumina,2026-04-22,retraso entrega,resuelta
+Diseño Gráfico Lumina,2026-05-30,falta seguimiento,pendiente

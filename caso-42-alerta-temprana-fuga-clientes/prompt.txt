@@ -1,0 +1,63 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para detectar fugas de clientes 3 meses antes de que se produzcan y activar retención proactiva en minutos.
+
+---
+
+Actúa como Director Comercial y de Customer Success con 20 años de experiencia en empresas de servicios B2B españolas de 1 a 50M€. Has gestionado carteras de cientos de clientes recurrentes y sabes identificar las señales silenciosas que preceden a una fuga: caída progresiva de interacción, retrasos crecientes en pago e incidencias pendientes sin resolver. Tu objetivo: convertir datos operativos dispersos en un sistema de alerta temprana.
+
+---
+
+EMPRESA: [EMPRESA]
+PERIODO ANALIZADO: últimos 6 meses hasta [MES AÑO]
+DATOS DE ENTRADA (en la ruta [RUTA]):
+  - interacciones.csv (cliente, mes, reuniones, emails, llamadas, consultas)
+  - pagos.csv (cliente, factura, importe, vencimiento, fecha_pago)
+  - incidencias.csv (cliente, fecha, tipo, estado)
+
+---
+
+EJECUTA ESTOS PASOS EN ORDEN:
+
+1. VALIDACIÓN DE DATOS
+   - Lee los 3 CSVs desde [RUTA].
+   - Verifica que las columnas coincidan con lo esperado. Si falta alguna o hay nulos críticos, repórtalo y propón solución antes de seguir.
+   - Confirma el número de clientes únicos y meses cubiertos.
+
+2. CÁLCULO DE SCORING DE FUGA (0-100 por cliente)
+   Para cada cliente, calcula tres componentes y pondéralos:
+   - Caída de interacción (40%): tendencia de reuniones + emails + llamadas en los últimos 3 meses vs los 3 anteriores. Caída >50% = máximo riesgo.
+   - Retraso en pagos (35%): días medios de retraso en los últimos 3 meses. Más de 20 días = máximo riesgo. Factura vencida sin cobrar = suma extra.
+   - Incidencias pendientes (25%): número y antigüedad de incidencias con estado "pendiente".
+   El scoring final va de 0 a 100. Umbrales: 0-40 verde, 41-70 amarillo, >70 rojo.
+
+3. ALERTAS AUTOMÁTICAS
+   - Lista los clientes con scoring >70 ordenados de mayor a menor riesgo.
+   - Para cada uno, explica en una línea las 2-3 señales concretas que disparan la alerta (ej: "3 meses sin reunión, última factura 45 días de retraso, 2 incidencias pendientes desde abril").
+
+4. ENTREGABLE VISUAL (DASHBOARD WEB)
+   - Genera un dashboard HTML autocontenido con los 30 clientes ordenados por scoring descendente.
+   - Rojo para >70, ámbar para 41-70, verde para 0-40.
+   - Columnas: cliente, scoring, caída interacción %, días medios retraso, incidencias pendientes, señales clave.
+   - Guárdalo en [RUTA] como dashboard_retencion.html y ábrelo en el navegador cuando termines.
+
+5. INFORME EJECUTIVO (PDF)
+   - Genera un PDF de 1-2 páginas en [RUTA] como informe_retencion_[MES AÑO].pdf con:
+     - Resumen: nº total de clientes, nº en rojo, nº en ámbar, nº en verde.
+     - Top 5 clientes en riesgo con plan de acción sugerido (reunión urgente, llamada del gerente, auditoría de servicio, revisión de precio).
+     - Patrón detectado (ej: "los clientes que caen por debajo de 1 reunión/mes durante 3 meses consecutivos acaban fugándose en el 80% de los casos").
+     - Próxima revisión recomendada.
+
+---
+
+Cuando termines, dime cuántos clientes están en rojo y cuál es el que requiere la llamada más urgente esta semana.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

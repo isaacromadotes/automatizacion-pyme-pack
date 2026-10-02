@@ -1,0 +1,175 @@
+cliente,mes,reuniones,emails,llamadas,consultas
+Logística Mares S.L.,2026-01,3,12,5,2
+Logística Mares S.L.,2026-02,2,10,4,1
+Logística Mares S.L.,2026-03,1,6,2,0
+Logística Mares S.L.,2026-04,1,3,1,0
+Logística Mares S.L.,2026-05,0,2,0,0
+Logística Mares S.L.,2026-06,0,1,0,0
+Textiles Nervión S.A.,2026-01,2,8,3,1
+Textiles Nervión S.A.,2026-02,2,7,3,1
+Textiles Nervión S.A.,2026-03,1,5,2,0
+Textiles Nervión S.A.,2026-04,1,3,1,0
+Textiles Nervión S.A.,2026-05,0,2,1,0
+Textiles Nervión S.A.,2026-06,0,1,0,0
+Grupo Albatros Consulting,2026-01,4,15,6,3
+Grupo Albatros Consulting,2026-02,3,14,5,2
+Grupo Albatros Consulting,2026-03,3,12,5,2
+Grupo Albatros Consulting,2026-04,2,11,4,2
+Grupo Albatros Consulting,2026-05,2,10,4,1
+Grupo Albatros Consulting,2026-06,2,9,3,1
+Distribuciones Quer S.L.,2026-01,3,10,4,2
+Distribuciones Quer S.L.,2026-02,2,9,3,1
+Distribuciones Quer S.L.,2026-03,2,8,3,1
+Distribuciones Quer S.L.,2026-04,1,5,2,1
+Distribuciones Quer S.L.,2026-05,1,3,1,0
+Distribuciones Quer S.L.,2026-06,0,2,0,0
+Construcciones Vega S.A.,2026-01,2,8,3,1
+Construcciones Vega S.A.,2026-02,2,8,3,1
+Construcciones Vega S.A.,2026-03,2,7,3,1
+Construcciones Vega S.A.,2026-04,2,7,2,1
+Construcciones Vega S.A.,2026-05,2,7,3,1
+Construcciones Vega S.A.,2026-06,2,6,2,1
+Ingeniería Dámaso S.L.,2026-01,3,11,4,2
+Ingeniería Dámaso S.L.,2026-02,3,10,4,2
+Ingeniería Dámaso S.L.,2026-03,2,9,3,1
+Ingeniería Dámaso S.L.,2026-04,2,8,3,1
+Ingeniería Dámaso S.L.,2026-05,2,8,3,1
+Ingeniería Dámaso S.L.,2026-06,1,7,2,1
+Farmacia Central Gijón,2026-01,2,7,3,1
+Farmacia Central Gijón,2026-02,2,7,2,1
+Farmacia Central Gijón,2026-03,1,6,2,1
+Farmacia Central Gijón,2026-04,1,5,2,1
+Farmacia Central Gijón,2026-05,1,5,2,0
+Farmacia Central Gijón,2026-06,1,4,1,0
+Clínica Dental Puerta Sol,2026-01,1,6,2,1
+Clínica Dental Puerta Sol,2026-02,1,6,2,1
+Clínica Dental Puerta Sol,2026-03,1,5,2,1
+Clínica Dental Puerta Sol,2026-04,1,5,2,0
+Clínica Dental Puerta Sol,2026-05,1,4,1,0
+Clínica Dental Puerta Sol,2026-06,0,3,1,0
+Asesoría Fiscal López,2026-01,2,9,3,1
+Asesoría Fiscal López,2026-02,2,8,3,1
+Asesoría Fiscal López,2026-03,2,8,3,1
+Asesoría Fiscal López,2026-04,2,7,2,1
+Asesoría Fiscal López,2026-05,1,7,2,1
+Asesoría Fiscal López,2026-06,1,6,2,1
+Transportes Rápidos del Sur,2026-01,3,10,4,2
+Transportes Rápidos del Sur,2026-02,3,9,4,1
+Transportes Rápidos del Sur,2026-03,2,8,3,1
+Transportes Rápidos del Sur,2026-04,2,7,3,1
+Transportes Rápidos del Sur,2026-05,2,7,2,1
+Transportes Rápidos del Sur,2026-06,1,6,2,1
+Metalúrgica Ebro S.A.,2026-01,2,8,3,1
+Metalúrgica Ebro S.A.,2026-02,2,7,3,1
+Metalúrgica Ebro S.A.,2026-03,2,7,2,1
+Metalúrgica Ebro S.A.,2026-04,1,6,2,1
+Metalúrgica Ebro S.A.,2026-05,1,5,2,0
+Metalúrgica Ebro S.A.,2026-06,1,4,1,0
+Electrodomésticos Prisma,2026-01,2,9,3,2
+Electrodomésticos Prisma,2026-02,2,8,3,1
+Electrodomésticos Prisma,2026-03,2,8,3,1
+Electrodomésticos Prisma,2026-04,2,7,2,1
+Electrodomésticos Prisma,2026-05,1,6,2,1
+Electrodomésticos Prisma,2026-06,1,6,2,1
+Restaurante Mar Abierto,2026-01,1,5,2,1
+Restaurante Mar Abierto,2026-02,1,5,2,1
+Restaurante Mar Abierto,2026-03,1,4,2,0
+Restaurante Mar Abierto,2026-04,1,4,1,0
+Restaurante Mar Abierto,2026-05,0,3,1,0
+Restaurante Mar Abierto,2026-06,0,2,0,0
+Software Innova Tech,2026-01,3,12,5,2
+Software Innova Tech,2026-02,3,11,4,2
+Software Innova Tech,2026-03,3,10,4,2
+Software Innova Tech,2026-04,2,9,3,1
+Software Innova Tech,2026-05,2,9,3,1
+Software Innova Tech,2026-06,2,8,3,1
+Alimentación Bética S.L.,2026-01,2,7,3,1
+Alimentación Bética S.L.,2026-02,2,7,3,1
+Alimentación Bética S.L.,2026-03,1,5,2,0
+Alimentación Bética S.L.,2026-04,1,4,1,0
+Alimentación Bética S.L.,2026-05,0,3,1,0
+Alimentación Bética S.L.,2026-06,0,2,0,0
+Papelería Gran Vía,2026-01,1,6,2,1
+Papelería Gran Vía,2026-02,1,5,2,1
+Papelería Gran Vía,2026-03,1,5,2,1
+Papelería Gran Vía,2026-04,1,5,2,0
+Papelería Gran Vía,2026-05,1,4,1,0
+Papelería Gran Vía,2026-06,1,4,1,0
+Inmobiliaria Puerta Real,2026-01,2,8,3,1
+Inmobiliaria Puerta Real,2026-02,2,8,3,1
+Inmobiliaria Puerta Real,2026-03,2,7,3,1
+Inmobiliaria Puerta Real,2026-04,1,6,2,1
+Inmobiliaria Puerta Real,2026-05,1,5,2,0
+Inmobiliaria Puerta Real,2026-06,1,4,1,0
+Autoescuela Veloz,2026-01,1,5,2,1
+Autoescuela Veloz,2026-02,1,5,2,1
+Autoescuela Veloz,2026-03,1,4,1,0
+Autoescuela Veloz,2026-04,0,3,1,0
+Autoescuela Veloz,2026-05,0,2,0,0
+Autoescuela Veloz,2026-06,0,1,0,0
+Eventos Mediterráneo S.L.,2026-01,3,10,4,2
+Eventos Mediterráneo S.L.,2026-02,3,10,4,2
+Eventos Mediterráneo S.L.,2026-03,3,9,3,1
+Eventos Mediterráneo S.L.,2026-04,2,8,3,1
+Eventos Mediterráneo S.L.,2026-05,2,8,3,1
+Eventos Mediterráneo S.L.,2026-06,2,7,2,1
+Carpintería Artesana Ruiz,2026-01,2,7,3,1
+Carpintería Artesana Ruiz,2026-02,2,6,2,1
+Carpintería Artesana Ruiz,2026-03,1,5,2,0
+Carpintería Artesana Ruiz,2026-04,1,4,1,0
+Carpintería Artesana Ruiz,2026-05,0,3,1,0
+Carpintería Artesana Ruiz,2026-06,0,2,0,0
+Fontanería Express 24h,2026-01,1,6,2,1
+Fontanería Express 24h,2026-02,1,5,2,1
+Fontanería Express 24h,2026-03,1,5,2,1
+Fontanería Express 24h,2026-04,1,5,1,0
+Fontanería Express 24h,2026-05,1,4,1,0
+Fontanería Express 24h,2026-06,0,3,1,0
+Diseño Gráfico Lumina,2026-01,2,8,3,1
+Diseño Gráfico Lumina,2026-02,2,7,3,1
+Diseño Gráfico Lumina,2026-03,2,7,2,1
+Diseño Gráfico Lumina,2026-04,1,6,2,1
+Diseño Gráfico Lumina,2026-05,1,5,2,0
+Diseño Gráfico Lumina,2026-06,1,4,1,0
+Academia Idiomas Babel,2026-01,2,9,3,2
+Academia Idiomas Babel,2026-02,2,8,3,1
+Academia Idiomas Babel,2026-03,2,8,3,1
+Academia Idiomas Babel,2026-04,1,7,2,1
+Academia Idiomas Babel,2026-05,1,6,2,1
+Academia Idiomas Babel,2026-06,1,5,2,0
+Gimnasio Power Fit,2026-01,1,5,2,1
+Gimnasio Power Fit,2026-02,1,5,2,1
+Gimnasio Power Fit,2026-03,1,4,1,0
+Gimnasio Power Fit,2026-04,1,4,1,0
+Gimnasio Power Fit,2026-05,0,3,1,0
+Gimnasio Power Fit,2026-06,0,2,0,0
+Seguros Meridian S.L.,2026-01,3,11,4,2
+Seguros Meridian S.L.,2026-02,3,10,4,2
+Seguros Meridian S.L.,2026-03,2,9,3,1
+Seguros Meridian S.L.,2026-04,2,9,3,1
+Seguros Meridian S.L.,2026-05,2,8,3,1
+Seguros Meridian S.L.,2026-06,2,7,2,1
+Ferretería Industrial Norte,2026-01,2,7,3,1
+Ferretería Industrial Norte,2026-02,2,7,2,1
+Ferretería Industrial Norte,2026-03,1,6,2,1
+Ferretería Industrial Norte,2026-04,1,5,2,0
+Ferretería Industrial Norte,2026-05,1,4,1,0
+Ferretería Industrial Norte,2026-06,0,3,1,0
+Consultoría Stratego S.L.,2026-01,3,10,4,2
+Consultoría Stratego S.L.,2026-02,3,10,4,2
+Consultoría Stratego S.L.,2026-03,2,9,3,1
+Consultoría Stratego S.L.,2026-04,2,8,3,1
+Consultoría Stratego S.L.,2026-05,2,7,3,1
+Consultoría Stratego S.L.,2026-06,1,6,2,0
+Peluquería Style Madrid,2026-01,1,4,2,1
+Peluquería Style Madrid,2026-02,1,4,1,0
+Peluquería Style Madrid,2026-03,0,3,1,0
+Peluquería Style Madrid,2026-04,0,2,1,0
+Peluquería Style Madrid,2026-05,0,1,0,0
+Peluquería Style Madrid,2026-06,0,1,0,0
+Viveros El Jardín S.L.,2026-01,2,8,3,1
+Viveros El Jardín S.L.,2026-02,2,7,3,1
+Viveros El Jardín S.L.,2026-03,2,7,2,1
+Viveros El Jardín S.L.,2026-04,1,6,2,1
+Viveros El Jardín S.L.,2026-05,1,5,2,0
+Viveros El Jardín S.L.,2026-06,1,5,1,0
