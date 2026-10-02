@@ -1,0 +1,193 @@
+gestor,cliente,servicio,mes,horas
+Ana López,Transportes Vega,contabilidad,2024-01,8.3
+Marta Sanz,Transportes Vega,fiscal,2024-01,5.5
+Carlos Ruiz,Transportes Vega,laboral,2024-01,23.8
+Ana López,Transportes Vega,asesoramiento,2024-01,4.4
+Ana López,Clínica Dental Sol,contabilidad,2024-01,8.3
+Carlos Ruiz,Clínica Dental Sol,fiscal,2024-01,5.4
+Ana López,Clínica Dental Sol,laboral,2024-01,21.0
+Pedro Gil,Clínica Dental Sol,asesoramiento,2024-01,2.9
+Marta Sanz,Restaurante La Plaza,contabilidad,2024-01,16.1
+Ana López,Restaurante La Plaza,fiscal,2024-01,8.6
+Carlos Ruiz,Restaurante La Plaza,laboral,2024-01,23.2
+Marta Sanz,Restaurante La Plaza,asesoramiento,2024-01,3.1
+Carlos Ruiz,Inmobiliaria Norte,contabilidad,2024-01,17.6
+Marta Sanz,Inmobiliaria Norte,fiscal,2024-01,4.6
+Pedro Gil,Inmobiliaria Norte,laboral,2024-01,13.5
+Marta Sanz,Inmobiliaria Norte,asesoramiento,2024-01,4.4
+Ana López,Talleres García,contabilidad,2024-01,15.3
+Ana López,Talleres García,fiscal,2024-01,9.8
+Pedro Gil,Talleres García,laboral,2024-01,13.3
+Marta Sanz,Talleres García,asesoramiento,2024-01,5.3
+Marta Sanz,Farmacia Central,contabilidad,2024-01,13.8
+Ana López,Farmacia Central,fiscal,2024-01,4.3
+Carlos Ruiz,Farmacia Central,laboral,2024-01,24.4
+Ana López,Farmacia Central,asesoramiento,2024-01,5.4
+Ana López,Bodega Ribera,contabilidad,2024-01,11.8
+Pedro Gil,Bodega Ribera,fiscal,2024-01,7.8
+Marta Sanz,Bodega Ribera,laboral,2024-01,14.6
+Marta Sanz,Bodega Ribera,asesoramiento,2024-01,2.8
+Marta Sanz,Estudio Arq. Luna,contabilidad,2024-01,15.0
+Ana López,Estudio Arq. Luna,fiscal,2024-01,7.7
+Carlos Ruiz,Estudio Arq. Luna,laboral,2024-01,20.5
+Carlos Ruiz,Estudio Arq. Luna,asesoramiento,2024-01,2.7
+Pedro Gil,Transportes Vega,contabilidad,2024-02,10.7
+Carlos Ruiz,Transportes Vega,fiscal,2024-02,8.1
+Ana López,Transportes Vega,laboral,2024-02,15.7
+Ana López,Transportes Vega,asesoramiento,2024-02,5.2
+Pedro Gil,Clínica Dental Sol,contabilidad,2024-02,10.7
+Carlos Ruiz,Clínica Dental Sol,fiscal,2024-02,9.5
+Marta Sanz,Clínica Dental Sol,laboral,2024-02,15.4
+Pedro Gil,Clínica Dental Sol,asesoramiento,2024-02,3.6
+Pedro Gil,Restaurante La Plaza,contabilidad,2024-02,9.4
+Carlos Ruiz,Restaurante La Plaza,fiscal,2024-02,5.5
+Marta Sanz,Restaurante La Plaza,laboral,2024-02,24.0
+Pedro Gil,Restaurante La Plaza,asesoramiento,2024-02,5.6
+Pedro Gil,Inmobiliaria Norte,contabilidad,2024-02,11.6
+Carlos Ruiz,Inmobiliaria Norte,fiscal,2024-02,7.1
+Ana López,Inmobiliaria Norte,laboral,2024-02,24.1
+Ana López,Inmobiliaria Norte,asesoramiento,2024-02,2.6
+Carlos Ruiz,Talleres García,contabilidad,2024-02,15.9
+Pedro Gil,Talleres García,fiscal,2024-02,7.6
+Pedro Gil,Talleres García,laboral,2024-02,18.1
+Pedro Gil,Talleres García,asesoramiento,2024-02,4.1
+Ana López,Farmacia Central,contabilidad,2024-02,14.8
+Ana López,Farmacia Central,fiscal,2024-02,8.1
+Marta Sanz,Farmacia Central,laboral,2024-02,24.3
+Marta Sanz,Farmacia Central,asesoramiento,2024-02,2.4
+Pedro Gil,Bodega Ribera,contabilidad,2024-02,9.6
+Ana López,Bodega Ribera,fiscal,2024-02,9.7
+Marta Sanz,Bodega Ribera,laboral,2024-02,27.6
+Carlos Ruiz,Bodega Ribera,asesoramiento,2024-02,4.0
+Ana López,Estudio Arq. Luna,contabilidad,2024-02,16.7
+Marta Sanz,Estudio Arq. Luna,fiscal,2024-02,9.1
+Carlos Ruiz,Estudio Arq. Luna,laboral,2024-02,14.4
+Carlos Ruiz,Estudio Arq. Luna,asesoramiento,2024-02,4.2
+Ana López,Transportes Vega,contabilidad,2024-03,14.0
+Pedro Gil,Transportes Vega,fiscal,2024-03,4.1
+Marta Sanz,Transportes Vega,laboral,2024-03,26.1
+Marta Sanz,Transportes Vega,asesoramiento,2024-03,3.0
+Carlos Ruiz,Clínica Dental Sol,contabilidad,2024-03,16.8
+Ana López,Clínica Dental Sol,fiscal,2024-03,4.5
+Pedro Gil,Clínica Dental Sol,laboral,2024-03,25.1
+Carlos Ruiz,Clínica Dental Sol,asesoramiento,2024-03,2.5
+Pedro Gil,Restaurante La Plaza,contabilidad,2024-03,17.5
+Carlos Ruiz,Restaurante La Plaza,fiscal,2024-03,5.6
+Pedro Gil,Restaurante La Plaza,laboral,2024-03,27.4
+Carlos Ruiz,Restaurante La Plaza,asesoramiento,2024-03,4.9
+Pedro Gil,Inmobiliaria Norte,contabilidad,2024-03,18.0
+Marta Sanz,Inmobiliaria Norte,fiscal,2024-03,6.6
+Pedro Gil,Inmobiliaria Norte,laboral,2024-03,13.9
+Carlos Ruiz,Inmobiliaria Norte,asesoramiento,2024-03,2.3
+Ana López,Talleres García,contabilidad,2024-03,13.9
+Carlos Ruiz,Talleres García,fiscal,2024-03,7.5
+Ana López,Talleres García,laboral,2024-03,13.1
+Ana López,Talleres García,asesoramiento,2024-03,2.9
+Ana López,Farmacia Central,contabilidad,2024-03,16.6
+Ana López,Farmacia Central,fiscal,2024-03,7.1
+Marta Sanz,Farmacia Central,laboral,2024-03,22.7
+Carlos Ruiz,Farmacia Central,asesoramiento,2024-03,4.2
+Pedro Gil,Bodega Ribera,contabilidad,2024-03,10.4
+Pedro Gil,Bodega Ribera,fiscal,2024-03,8.8
+Carlos Ruiz,Bodega Ribera,laboral,2024-03,13.5
+Pedro Gil,Bodega Ribera,asesoramiento,2024-03,3.4
+Pedro Gil,Estudio Arq. Luna,contabilidad,2024-03,12.7
+Ana López,Estudio Arq. Luna,fiscal,2024-03,8.0
+Ana López,Estudio Arq. Luna,laboral,2024-03,13.0
+Marta Sanz,Estudio Arq. Luna,asesoramiento,2024-03,5.2
+Ana López,Transportes Vega,contabilidad,2024-04,10.5
+Carlos Ruiz,Transportes Vega,fiscal,2024-04,7.2
+Carlos Ruiz,Transportes Vega,laboral,2024-04,18.8
+Marta Sanz,Transportes Vega,asesoramiento,2024-04,3.9
+Ana López,Clínica Dental Sol,contabilidad,2024-04,12.4
+Ana López,Clínica Dental Sol,fiscal,2024-04,4.3
+Ana López,Clínica Dental Sol,laboral,2024-04,27.5
+Carlos Ruiz,Clínica Dental Sol,asesoramiento,2024-04,2.7
+Pedro Gil,Restaurante La Plaza,contabilidad,2024-04,12.8
+Pedro Gil,Restaurante La Plaza,fiscal,2024-04,9.4
+Carlos Ruiz,Restaurante La Plaza,laboral,2024-04,18.1
+Pedro Gil,Restaurante La Plaza,asesoramiento,2024-04,3.1
+Pedro Gil,Inmobiliaria Norte,contabilidad,2024-04,10.9
+Pedro Gil,Inmobiliaria Norte,fiscal,2024-04,4.9
+Marta Sanz,Inmobiliaria Norte,laboral,2024-04,15.5
+Ana López,Inmobiliaria Norte,asesoramiento,2024-04,4.3
+Ana López,Talleres García,contabilidad,2024-04,15.5
+Ana López,Talleres García,fiscal,2024-04,4.3
+Pedro Gil,Talleres García,laboral,2024-04,20.0
+Carlos Ruiz,Talleres García,asesoramiento,2024-04,2.2
+Ana López,Farmacia Central,contabilidad,2024-04,16.5
+Ana López,Farmacia Central,fiscal,2024-04,7.6
+Carlos Ruiz,Farmacia Central,laboral,2024-04,18.5
+Carlos Ruiz,Farmacia Central,asesoramiento,2024-04,4.3
+Ana López,Bodega Ribera,contabilidad,2024-04,14.2
+Pedro Gil,Bodega Ribera,fiscal,2024-04,7.9
+Marta Sanz,Bodega Ribera,laboral,2024-04,27.0
+Carlos Ruiz,Bodega Ribera,asesoramiento,2024-04,4.7
+Marta Sanz,Estudio Arq. Luna,contabilidad,2024-04,10.4
+Pedro Gil,Estudio Arq. Luna,fiscal,2024-04,4.8
+Marta Sanz,Estudio Arq. Luna,laboral,2024-04,19.3
+Ana López,Estudio Arq. Luna,asesoramiento,2024-04,2.0
+Ana López,Transportes Vega,contabilidad,2024-05,8.7
+Carlos Ruiz,Transportes Vega,fiscal,2024-05,7.0
+Carlos Ruiz,Transportes Vega,laboral,2024-05,26.9
+Ana López,Transportes Vega,asesoramiento,2024-05,5.5
+Marta Sanz,Clínica Dental Sol,contabilidad,2024-05,10.8
+Pedro Gil,Clínica Dental Sol,fiscal,2024-05,9.0
+Marta Sanz,Clínica Dental Sol,laboral,2024-05,21.8
+Ana López,Clínica Dental Sol,asesoramiento,2024-05,4.7
+Marta Sanz,Restaurante La Plaza,contabilidad,2024-05,17.3
+Ana López,Restaurante La Plaza,fiscal,2024-05,9.6
+Carlos Ruiz,Restaurante La Plaza,laboral,2024-05,16.2
+Ana López,Restaurante La Plaza,asesoramiento,2024-05,5.0
+Carlos Ruiz,Inmobiliaria Norte,contabilidad,2024-05,10.7
+Carlos Ruiz,Inmobiliaria Norte,fiscal,2024-05,8.3
+Carlos Ruiz,Inmobiliaria Norte,laboral,2024-05,23.0
+Marta Sanz,Inmobiliaria Norte,asesoramiento,2024-05,4.0
+Marta Sanz,Talleres García,contabilidad,2024-05,17.1
+Ana López,Talleres García,fiscal,2024-05,4.6
+Pedro Gil,Talleres García,laboral,2024-05,25.3
+Ana López,Talleres García,asesoramiento,2024-05,2.0
+Carlos Ruiz,Farmacia Central,contabilidad,2024-05,14.4
+Marta Sanz,Farmacia Central,fiscal,2024-05,5.0
+Pedro Gil,Farmacia Central,laboral,2024-05,20.8
+Pedro Gil,Farmacia Central,asesoramiento,2024-05,4.2
+Ana López,Bodega Ribera,contabilidad,2024-05,8.8
+Carlos Ruiz,Bodega Ribera,fiscal,2024-05,7.3
+Marta Sanz,Bodega Ribera,laboral,2024-05,21.3
+Carlos Ruiz,Bodega Ribera,asesoramiento,2024-05,3.7
+Ana López,Estudio Arq. Luna,contabilidad,2024-05,11.1
+Ana López,Estudio Arq. Luna,fiscal,2024-05,9.4
+Carlos Ruiz,Estudio Arq. Luna,laboral,2024-05,22.9
+Ana López,Estudio Arq. Luna,asesoramiento,2024-05,3.4
+Pedro Gil,Transportes Vega,contabilidad,2024-06,17.7
+Carlos Ruiz,Transportes Vega,fiscal,2024-06,9.6
+Carlos Ruiz,Transportes Vega,laboral,2024-06,25.8
+Carlos Ruiz,Transportes Vega,asesoramiento,2024-06,5.5
+Ana López,Clínica Dental Sol,contabilidad,2024-06,9.8
+Marta Sanz,Clínica Dental Sol,fiscal,2024-06,8.7
+Pedro Gil,Clínica Dental Sol,laboral,2024-06,24.8
+Carlos Ruiz,Clínica Dental Sol,asesoramiento,2024-06,3.1
+Ana López,Restaurante La Plaza,contabilidad,2024-06,11.8
+Ana López,Restaurante La Plaza,fiscal,2024-06,9.2
+Carlos Ruiz,Restaurante La Plaza,laboral,2024-06,15.2
+Pedro Gil,Restaurante La Plaza,asesoramiento,2024-06,3.4
+Carlos Ruiz,Inmobiliaria Norte,contabilidad,2024-06,10.2
+Carlos Ruiz,Inmobiliaria Norte,fiscal,2024-06,6.4
+Marta Sanz,Inmobiliaria Norte,laboral,2024-06,25.8
+Marta Sanz,Inmobiliaria Norte,asesoramiento,2024-06,3.4
+Pedro Gil,Talleres García,contabilidad,2024-06,14.8
+Marta Sanz,Talleres García,fiscal,2024-06,9.6
+Ana López,Talleres García,laboral,2024-06,26.0
+Marta Sanz,Talleres García,asesoramiento,2024-06,2.7
+Marta Sanz,Farmacia Central,contabilidad,2024-06,8.4
+Pedro Gil,Farmacia Central,fiscal,2024-06,6.1
+Marta Sanz,Farmacia Central,laboral,2024-06,19.0
+Ana López,Farmacia Central,asesoramiento,2024-06,3.5
+Carlos Ruiz,Bodega Ribera,contabilidad,2024-06,10.5
+Pedro Gil,Bodega Ribera,fiscal,2024-06,4.0
+Carlos Ruiz,Bodega Ribera,laboral,2024-06,17.8
+Ana López,Bodega Ribera,asesoramiento,2024-06,5.8
+Marta Sanz,Estudio Arq. Luna,contabilidad,2024-06,14.2
+Ana López,Estudio Arq. Luna,fiscal,2024-06,8.3
+Marta Sanz,Estudio Arq. Luna,laboral,2024-06,20.1
+Pedro Gil,Estudio Arq. Luna,asesoramiento,2024-06,3.3

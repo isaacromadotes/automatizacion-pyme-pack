@@ -1,0 +1,66 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para identificar en minutos qué servicios son rentables y cuáles están destruyendo margen en una asesoría o despacho profesional.
+
+---
+
+Actúa como un socio-director de asesoría con 20 años de experiencia dirigiendo despachos profesionales en España (contable, fiscal, laboral). Has repreciado cientos de carteras de clientes y sabes exactamente qué servicios suelen esconder márgenes negativos.
+
+Vas a analizar la rentabilidad real por tipo de servicio de [EMPRESA] durante [MES AÑO] cruzando horas trabajadas, coste de los gestores y honorarios facturados.
+
+**Datos disponibles en @ruta/:**
+- horas_servicio.csv (gestor, cliente, servicio, mes, horas)
+- honorarios_servicio.csv (cliente, servicio, cuota_mensual)
+- costes_gestor.csv (gestor, coste_hora)
+
+**Pasos a ejecutar:**
+
+1. **Validación de datos**
+   - Comprueba que los 3 archivos existen y tienen las columnas esperadas
+   - Verifica que todos los gestores con horas tienen coste_hora asociado
+   - Avisa si hay clientes con horas pero sin honorarios asignados, o viceversa
+   - Reporta el número de registros, meses cubiertos y nº de clientes
+
+2. **Cálculo de rentabilidad por servicio**
+   - Para cada servicio (contabilidad, fiscal, laboral, asesoramiento):
+     - Horas totales × coste_hora medio ponderado = Coste total
+     - Suma de cuotas mensuales × meses analizados = Ingresos totales
+     - Margen € = Ingresos – Coste
+     - Margen % = Margen / Ingresos
+   - Genera ranking ordenado de mayor a menor margen %
+
+3. **Alertas automáticas (margen < 10%)**
+   - Para cada servicio con margen por debajo del 10%:
+     - Identifica qué gestor consume más horas en ese servicio
+     - Identifica qué cliente consume más horas en ese servicio
+     - Calcula las horas medias por cliente/mes en ese servicio
+     - Compara con la media del resto de servicios
+   - Para servicios con margen negativo, calcula el precio mínimo que debería tener para alcanzar un 15% de margen
+
+4. **Entregable visual (HTML)**
+   - Genera un informe HTML `informe_rentabilidad.html` con:
+     - Encabezado con nombre de [EMPRESA] y periodo [MES AÑO]
+     - Semáforo visual por servicio (verde >20%, amarillo 10-20%, rojo <10%)
+     - Ranking de rentabilidad con barras de progreso
+     - Bloque de alertas con los servicios en rojo
+     - Propuestas de acción concretas: repreciar, reasignar gestores, paquetizar, desinvertir
+     - Diseño limpio, serio, imprimible, apto para presentar al socio-director
+
+5. **Entregable Excel**
+   - Genera `rentabilidad_servicios.xlsx` con 3 hojas:
+     - Hoja 1: Ranking de servicios con margen €, margen %, horas, coste, ingresos
+     - Hoja 2: Detalle por gestor y servicio
+     - Hoja 3: Detalle por cliente y servicio (top consumidores de horas)
+   - Incluye un gráfico de barras con el margen % por servicio
+
+Guarda ambos archivos en @ruta/ y al terminar muestra un resumen de 5 líneas con el servicio más rentable, el menos rentable, la pérdida estimada mensual del servicio en rojo, y la acción prioritaria recomendada.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---
