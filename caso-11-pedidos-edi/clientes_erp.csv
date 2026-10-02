@@ -1,0 +1,6 @@
+codigo_cliente,gln,razon_social,cif,direccion_facturacion,cp,poblacion,provincia,condiciones_pago,dias_pago,transportista_habitual,contacto_pedidos,email_pedidos
+CLI-0001,8437008000000,Mercadona S.A.,A46103834,C/ Valencia 5,46016,Tavernes Blanques,Valencia,60 dias fecha factura,60,Transportes Súria S.L.,Dpto. Compras Mercadona,pedidos-proveedores@mercadona.es
+CLI-0002,8437008100007,Lidl Supermercados S.A.U.,A60195278,C/ Anselm Clavé 20,08017,Barcelona,Barcelona,45 dias fecha factura,45,DHL Supply Chain,Dpto. Compras Lidl,compras.iberia@lidl.es
+CLI-0003,8437008200004,Carrefour S.A.,A28425270,C/ Campezo 16,28022,Madrid,Madrid,60 dias fecha factura,60,STEF Iberia,Dpto. Compras Carrefour,proveedores.pgc@carrefour.es
+CLI-0004,8437008300001,Distribuidora Internacional de Alimentación S.A.,A28164754,C/ Jacinto Benavente 2A,28232,Las Rozas,Madrid,60 dias fecha factura,60,XPO Logistics,Dpto. Compras DIA,compras.marca@dia.es
+CLI-0005,8437008400008,Eroski S. Coop.,F20033361,B-Barrio San Agustín s/n,48230,Elorrio,Vizcaya,45 dias fecha factura,45,FCC Logística,Dpto. Compras Eroski,pedidos@eroski.es

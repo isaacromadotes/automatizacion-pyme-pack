@@ -1,0 +1,78 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para procesar pedidos EDI de grandes cadenas de distribución y generar el albarán de salida en minutos, sin intervención humana.
+
+---
+
+Actúa como Director de Operaciones con 20 años de experiencia en empresas agroalimentarias españolas que venden a gran distribución (Mercadona, Lidl, Carrefour, DIA). Dominas el estándar EDIFACT ORDERS D96A, la operativa de plataformas logísticas de gran cuenta y los flujos de albaranado en SAP, A3 y Sage 200.
+
+CONTEXTO:
+Empresa: [EMPRESA] (en la demo: Conservas del Mediterráneo S.L.)
+Mes de operación: [MES AÑO]
+Ubicación de los ficheros: @csv/
+
+TAREA:
+Procesa el pedido EDI que te paso y genera el albarán de salida listo para expedición. Sigue estos pasos en orden:
+
+1. VALIDACIÓN DEL EDI
+   - Lee el fichero @csv/pedido_edi_mercadona.edi
+   - Identifica el formato (EDIFACT ORDERS D96A o variante)
+   - Extrae: número de pedido, fecha de pedido, fecha de entrega solicitada, GLN comprador, GLN proveedor, GLN punto de entrega
+   - Extrae cada línea del pedido: EAN, cantidad, precio unitario
+
+2. CRUCE CON CATÁLOGO ERP
+   - Lee @csv/productos_erp.csv
+   - Para cada línea del pedido, busca el EAN en el catálogo y recupera: código interno, descripción, familia, precio de tarifa, stock actual, ubicación de almacén
+   - Marca cualquier EAN del EDI que NO exista en el catálogo (alerta bloqueante)
+
+3. VALIDACIÓN DE STOCK Y PRECIO
+   - Compara la cantidad solicitada contra el stock actual → marca en verde (OK), amarillo (stock justo, <20% margen) o rojo (rotura)
+   - Compara el precio del EDI contra el precio de tarifa → alerta si hay desviación >2% (posible error de tarifa o negociación no aplicada)
+
+4. VALIDACIÓN DE CLIENTE
+   - Lee @csv/clientes_erp.csv y confirma que el GLN comprador está dado de alta
+   - Recupera condiciones de pago, transportista habitual y dirección de facturación
+
+5. ENTREGABLE VISUAL — APP WEB
+   Monta una web local con tres bloques verticales, diseño premium oscuro con acentos en azul eléctrico:
+
+   BLOQUE A — Fichero EDI bruto
+   - Aspecto de terminal antigua, fondo negro, texto verde monoespaciado
+   - Muestra el EDI original tal cual llega
+
+   BLOQUE B — Pedido interpretado
+   - Tabla con: EAN, código interno, descripción, cantidad, precio unitario, total línea, stock (con indicador verde/amarillo/rojo)
+   - Fila superior con: nº pedido, cliente, fecha entrega
+   - Total del pedido con base imponible + IVA + total
+
+   BLOQUE C — Albarán de salida
+   - Formato documento oficial listo para imprimir
+   - Cabecera: logo textual "Conservas del Mediterráneo S.L.", CIF, dirección
+   - Datos del cliente: Mercadona S.A. + dirección de facturación
+   - Dirección de entrega: plataforma logística del EDI
+   - Nº albarán autogenerado (formato ALB-AAAA-NNNN)
+   - Tabla de líneas con ubicación de almacén (para el mozo de picking)
+   - Totales, condiciones de pago, transportista
+   - Zona de firma del transportista y del receptor
+
+   Botón grande arriba: "Procesar pedido"
+   Al pulsarlo: animación cinematográfica donde las líneas del EDI se van resaltando una a una mientras se pueblan la tabla del pedido y luego el albarán. Transiciones fluidas.
+
+6. ENTREGABLE PDF
+   - Genera el albarán en PDF listo para adjuntar al ERP y para el transportista
+   - Nombre del fichero: ALB-[nº pedido]-[fecha].pdf
+
+7. ARRANCA EL SERVIDOR
+   - Levanta la web en localhost y dime en qué puerto está para poder abrirla
+
+Cuando termines, dame un resumen ejecutivo de una línea: pedido procesado, importe total, incidencias detectadas, tiempo total del proceso.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

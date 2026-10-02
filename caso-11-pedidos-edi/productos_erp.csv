@@ -1,0 +1,16 @@
+codigo_interno,ean,descripcion,familia,precio_tarifa,stock_actual,ubicacion_almacen
+CONS-ATN-350,8437009001001,Atún claro en aceite de oliva 350g,Conservas pescado,2.45,12500,A-01-03
+CONS-SAR-120,8437009001018,Sardinas en aceite de girasol 120g,Conservas pescado,1.85,8400,A-01-05
+CONS-MEJ-112,8437009001025,Mejillones en escabeche 112g,Conservas marisco,2.10,6200,A-02-01
+CONS-PIM-200,8437009001032,Pimientos del piquillo 200g,Conservas vegetal,1.95,4800,B-01-02
+CONS-ESP-150,8437009001049,Espárragos blancos extra 150g,Conservas vegetal,3.20,3100,B-01-04
+CONS-ATN-150,8437009001056,Atún claro en aceite de oliva 150g,Conservas pescado,1.65,9200,A-01-04
+CONS-BON-200,8437009001063,Bonito del norte en aceite oliva 200g,Conservas pescado,4.50,2800,A-02-03
+CONS-CAL-112,8437009001070,Calamares en su tinta 112g,Conservas marisco,2.75,3500,A-02-02
+CONS-ALB-200,8437009001087,Albóndigas en salsa 200g,Conservas preparados,2.30,5100,C-01-01
+CONS-FAB-400,8437009001094,Fabada asturiana 400g,Conservas preparados,3.15,4200,C-01-03
+CONS-LEN-400,8437009001100,Lentejas con chorizo 400g,Conservas preparados,2.85,6800,C-01-04
+CONS-GAR-400,8437009001117,Garbanzos con espinacas 400g,Conservas preparados,2.65,4500,C-01-05
+CONS-BER-125,8437009001124,Berberechos al natural 125g,Conservas marisco,5.20,1800,A-02-04
+CONS-ANC-50,8437009001131,Anchoas del Cantábrico 50g,Conservas pescado,6.80,2200,A-01-06
+CONS-TOM-400,8437009001148,Tomate frito casero 400g,Conservas vegetal,1.45,15200,B-01-01
