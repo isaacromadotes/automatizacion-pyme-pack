@@ -1,0 +1,61 @@
+INSTRUCCIONES DE DISEÑO PARA EL HTML LOCAL
+Archivo: alertas_mp.html
+
+OBJETIVO
+Un único archivo HTML autocontenido (sin dependencias externas, sin CDN) que se abra con doble clic en cualquier navegador y muestre las alertas de materias primas del plan semanal.
+
+ESTRUCTURA (de arriba a abajo):
+
+1. Cabecera
+   - Título grande (serif): "Alertas de materias primas"
+   - Subtítulo: "[EMPRESA] — [SEMANA AÑO]"
+   - Línea divisoria fina
+
+2. Bloque de KPIs (3 tarjetas en fila)
+   - "Alertas totales"
+   - "Materias primas afectadas"
+   - "Primera rotura (día)"
+
+3. Tabla principal de alertas
+   - Columnas: Día · Materia prima · Déficit (kg) · Proveedor · Lead time · Acción recomendada
+   - Ordenada por día ascendente
+   - Fila con fondo rojo claro si lead_time > días restantes hasta la rotura (= urgencia máxima)
+
+4. Sección "Acciones hoy"
+   - Lista con los pedidos de MP que hay que lanzar HOY sí o sí para evitar paradas
+   - Cada item: "Pedir [X] kg de [MP] a [Proveedor] — para llegada antes del [día]"
+
+5. Pie de página
+   - "Generado automáticamente por Claude Code · Metodología Isaac Romà"
+   - Enlace: https://isaacroma.com
+
+DISEÑO VISUAL:
+
+Paleta:
+- Fondo general: #f5f4f0 (crema)
+- Texto principal: #1a1a1a (casi negro)
+- Acento primario: #C67A50 (terracota) — para títulos y bordes activos
+- Rojo alerta: #C0392B
+- Gris secundario: #6B6B6B
+- Separadores: #E5E2DB
+
+Tipografía (vía @font-face embebido o system fonts como fallback):
+- Títulos: serif (Georgia, 'Times New Roman', serif)
+- Cuerpo: sans-serif (-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif)
+- Tamaños: H1 = 42px · H2 = 24px · body = 15px · tabla = 14px
+
+Layout:
+- Ancho máximo del contenido: 1100px, centrado
+- Padding generoso (40px laterales, 60px arriba)
+- Tarjetas KPI: borde fino #E5E2DB, radius 8px, padding 24px
+- Tabla: filas con padding vertical 14px, borde inferior gris fino
+- Hover sutil en filas (#FBFAF6)
+
+Responsive:
+- A partir de 768px de ancho, apilar KPIs verticalmente
+- Tabla con scroll horizontal en móvil
+
+Reglas duras:
+- Todo el CSS inline en una etiqueta <style> en el <head>. Nada de archivos externos.
+- Nada de JavaScript salvo que sea estrictamente necesario (idealmente, cero).
+- Nada de imágenes externas. Si hace falta un icono, usar emoji o SVG inline.

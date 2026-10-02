@@ -1,0 +1,13 @@
+materia_prima,stock_actual_kg,consumo_por_1000_uds_kg,productos_que_la_usan,proveedor,lead_time_dias
+Tomate triturado,800,120,"SAL-001,SAL-003,SAL-004,CON-001,PRE-001,PRE-002",Agropecuaria Murcia,3
+Aceite oliva,500,25,"SAL-001,SAL-002,SAL-004,PRE-001,PRE-002",Oleícola Jaén,2
+Albahaca fresca,30,15,"SAL-002",Hierbas Levante,1
+Carne picada,200,80,"SAL-003",Cárnicas del Sur,2
+Pimiento rojo,600,200,"CON-005",Huerta Navarra,2
+Espárrago blanco,150,180,"CON-002",Espárragos Tudela,3
+Alcachofa,400,170,"CON-003",Conservera Rioja,2
+Calabaza,300,160,"PRE-003",Huerta Manchega,2
+Envases vidrio 500ml,5000,1000,"SAL-001,PRE-003",Vidrala,5
+Envases vidrio 1L,3000,1000,"PRE-001,PRE-002",Vidrala,5
+Envases lata 370-400g,4000,1000,"CON-003,CON-005",Envametal,4
+Etiquetas genéricas,10000,1000,"todos",Etiquetasa,3

@@ -1,0 +1,41 @@
+INSTRUCCIONES DE DISEÑO PARA EL EXCEL
+Archivo: plan_produccion_[SEMANA AÑO].xlsx
+
+ESTRUCTURA DE HOJAS (en este orden):
+
+1. "Resumen"
+   - A1: Título "Plan de producción semanal — [EMPRESA] — [SEMANA AÑO]" (fuente 16, negrita)
+   - Bloque KPIs en fila 3 (4 cajas con borde): Pedidos planificados · Uds totales · Alertas MP · Cambios de formato
+   - Debajo, mini-tabla con uds por línea y por día
+
+2. "Plan por día"
+   - Columnas: Fecha | Día semana | Línea | Referencia | Producto | Uds | Turno | Cliente | Prioridad
+   - Agrupar visualmente por fecha (fondo gris claro #F2F2F2 en separadores de día)
+   - Columna Prioridad con formato condicional: Alta = rojo (#C00000) · Media = ámbar (#ED7D31) · Baja = verde (#548235)
+
+3. "Plan por línea"
+   - Una sub-tabla por cada línea (L1, L2, L3)
+   - Columnas: Secuencia | Referencia | Producto | Uds | Fecha | Cambio formato (Sí/No)
+   - Marcar en amarillo (#FFF2CC) las filas donde hay cambio de formato
+
+4. "Necesidad neta"
+   - Columnas: Referencia | Producto | Pedido total uds | Stock actual | Stock mínimo | Necesidad neta | ¿Se produce?
+   - Formato condicional en "Necesidad neta": positivos en negrita, negativos (sobra stock) en gris
+
+5. "Alertas MP"
+   - Columnas: Día | Materia prima | Stock actual (kg) | Consumo previsto (kg) | Déficit (kg) | Proveedor | Lead time (días) | Acción
+   - Fila completa en rojo claro (#FCE4D6) si hay déficit
+   - Columna Acción con texto tipo: "Pedir hoy a [Proveedor] — llega en X días"
+
+ESTILO GENERAL:
+- Fuente: Calibri 11
+- Cabeceras de tabla: fondo negro (#1a1a1a) + texto blanco + negrita
+- Bordes finos grises (#BFBFBF) en todas las celdas con datos
+- Ancho de columnas auto-ajustado al contenido
+- Congelar primera fila en cada hoja
+- Filtros activados en todas las tablas
+
+COLORES CORPORATIVOS (Isaac Romà):
+- Negro principal: #1a1a1a
+- Acento terracota: #C67A50
+- Fondo crema (opcional en cabecera Resumen): #f5f4f0

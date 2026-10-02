@@ -1,0 +1,4 @@
+linea,nombre,productos_compatibles,capacidad_uds_turno,turnos_dia,tiempo_cambio_formato_min,dias_semana
+L1,Línea Salsas,"SAL-001,SAL-002,SAL-003,SAL-004",1500,2,45,"Lun,Mar,Mie,Jue,Vie"
+L2,Línea Conservas,"CON-001,CON-002,CON-003,CON-005",1200,2,60,"Lun,Mar,Mie,Jue,Vie"
+L3,Línea Preparados,"PRE-001,PRE-002,PRE-003",2000,2,30,"Lun,Mar,Mie,Jue,Vie"

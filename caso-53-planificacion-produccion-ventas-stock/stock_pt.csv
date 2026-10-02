@@ -1,0 +1,12 @@
+referencia,producto,stock_actual_uds,stock_minimo_uds,ubicacion_almacen
+SAL-001,Salsa de tomate 500ml,1200,500,A1-01
+SAL-002,Salsa pesto 190g,400,300,A1-02
+SAL-003,Salsa boloñesa 400ml,200,400,A1-03
+SAL-004,Sofrito casero 350g,0,300,A1-04
+CON-001,Tomate triturado 800g,800,600,B2-01
+CON-002,Espárragos blancos 345g,350,200,B2-02
+CON-003,Alcachofas en conserva 400g,600,400,B2-03
+CON-005,Pimientos asados 370g,500,500,B2-05
+PRE-001,Salmorejo 1L,300,500,C3-01
+PRE-002,Gazpacho 1L,1000,800,C3-02
+PRE-003,Crema de calabaza 500ml,200,400,C3-03

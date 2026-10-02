@@ -1,0 +1,13 @@
+pedido_id,cliente,referencia,producto,cantidad_uds,fecha_entrega,prioridad
+P-401,Mercadona,SAL-001,Salsa de tomate 500ml,2400,2026-09-16,Alta
+P-402,Carrefour,CON-005,Pimientos asados 370g,1800,2026-09-17,Alta
+P-403,Lidl,SAL-003,Salsa boloñesa 400ml,1200,2026-09-16,Media
+P-404,Alcampo,PRE-002,Gazpacho 1L,3000,2026-09-18,Alta
+P-405,Makro,CON-001,Tomate triturado 800g,2000,2026-09-17,Media
+P-406,Eroski,SAL-002,Salsa pesto 190g,900,2026-09-19,Baja
+P-407,Mercadona,PRE-001,Salmorejo 1L,2500,2026-09-18,Alta
+P-408,DIA,CON-003,Alcachofas en conserva 400g,1100,2026-09-19,Media
+P-409,Consum,SAL-001,Salsa de tomate 500ml,800,2026-09-17,Baja
+P-410,Aldi,PRE-003,Crema de calabaza 500ml,1500,2026-09-19,Media
+P-411,Carrefour,CON-002,Espárragos blancos 345g,600,2026-09-18,Baja
+P-412,Mercadona,SAL-004,Sofrito casero 350g,1400,2026-09-16,Alta
