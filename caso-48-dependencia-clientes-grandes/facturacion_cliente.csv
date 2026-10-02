@@ -1,0 +1,121 @@
+cliente,mes,importe
+Cliente A - TechSoluciones,2024-01,18500
+Cliente A - TechSoluciones,2024-02,19200
+Cliente A - TechSoluciones,2024-03,17800
+Cliente A - TechSoluciones,2024-04,20100
+Cliente A - TechSoluciones,2024-05,19500
+Cliente A - TechSoluciones,2024-06,18900
+Cliente A - TechSoluciones,2024-07,19800
+Cliente A - TechSoluciones,2024-08,20500
+Cliente A - TechSoluciones,2024-09,19100
+Cliente A - TechSoluciones,2024-10,20800
+Cliente A - TechSoluciones,2024-11,19600
+Cliente A - TechSoluciones,2024-12,21200
+Cliente B - Grupo Meridian,2024-01,14200
+Cliente B - Grupo Meridian,2024-02,13800
+Cliente B - Grupo Meridian,2024-03,14500
+Cliente B - Grupo Meridian,2024-04,15100
+Cliente B - Grupo Meridian,2024-05,14800
+Cliente B - Grupo Meridian,2024-06,13900
+Cliente B - Grupo Meridian,2024-07,14600
+Cliente B - Grupo Meridian,2024-08,15200
+Cliente B - Grupo Meridian,2024-09,14300
+Cliente B - Grupo Meridian,2024-10,15500
+Cliente B - Grupo Meridian,2024-11,14700
+Cliente B - Grupo Meridian,2024-12,15400
+Cliente C - Distribuciones Levante,2024-01,10200
+Cliente C - Distribuciones Levante,2024-02,9800
+Cliente C - Distribuciones Levante,2024-03,10500
+Cliente C - Distribuciones Levante,2024-04,10100
+Cliente C - Distribuciones Levante,2024-05,10800
+Cliente C - Distribuciones Levante,2024-06,10300
+Cliente C - Distribuciones Levante,2024-07,10600
+Cliente C - Distribuciones Levante,2024-08,9900
+Cliente C - Distribuciones Levante,2024-09,10700
+Cliente C - Distribuciones Levante,2024-10,10400
+Cliente C - Distribuciones Levante,2024-11,10900
+Cliente C - Distribuciones Levante,2024-12,11100
+Cliente D - Logística Norte,2024-01,5200
+Cliente D - Logística Norte,2024-02,5500
+Cliente D - Logística Norte,2024-03,4800
+Cliente D - Logística Norte,2024-04,5100
+Cliente D - Logística Norte,2024-05,5400
+Cliente D - Logística Norte,2024-06,5000
+Cliente D - Logística Norte,2024-07,5300
+Cliente D - Logística Norte,2024-08,5600
+Cliente D - Logística Norte,2024-09,4900
+Cliente D - Logística Norte,2024-10,5200
+Cliente D - Logística Norte,2024-11,5500
+Cliente D - Logística Norte,2024-12,5100
+Cliente E - Inmobiliaria Sol,2024-01,4100
+Cliente E - Inmobiliaria Sol,2024-02,3900
+Cliente E - Inmobiliaria Sol,2024-03,4300
+Cliente E - Inmobiliaria Sol,2024-04,4000
+Cliente E - Inmobiliaria Sol,2024-05,4200
+Cliente E - Inmobiliaria Sol,2024-06,3800
+Cliente E - Inmobiliaria Sol,2024-07,4100
+Cliente E - Inmobiliaria Sol,2024-08,4400
+Cliente E - Inmobiliaria Sol,2024-09,3900
+Cliente E - Inmobiliaria Sol,2024-10,4300
+Cliente E - Inmobiliaria Sol,2024-11,4000
+Cliente E - Inmobiliaria Sol,2024-12,4200
+Cliente F - Asesoría Puente,2024-01,3200
+Cliente F - Asesoría Puente,2024-02,3100
+Cliente F - Asesoría Puente,2024-03,3400
+Cliente F - Asesoría Puente,2024-04,3000
+Cliente F - Asesoría Puente,2024-05,3300
+Cliente F - Asesoría Puente,2024-06,3100
+Cliente F - Asesoría Puente,2024-07,3200
+Cliente F - Asesoría Puente,2024-08,3400
+Cliente F - Asesoría Puente,2024-09,3000
+Cliente F - Asesoría Puente,2024-10,3300
+Cliente F - Asesoría Puente,2024-11,3100
+Cliente F - Asesoría Puente,2024-12,3200
+Cliente G - Formación Avanza,2024-01,2800
+Cliente G - Formación Avanza,2024-02,2600
+Cliente G - Formación Avanza,2024-03,2900
+Cliente G - Formación Avanza,2024-04,2700
+Cliente G - Formación Avanza,2024-05,3000
+Cliente G - Formación Avanza,2024-06,2800
+Cliente G - Formación Avanza,2024-07,2600
+Cliente G - Formación Avanza,2024-08,2900
+Cliente G - Formación Avanza,2024-09,2700
+Cliente G - Formación Avanza,2024-10,3000
+Cliente G - Formación Avanza,2024-11,2800
+Cliente G - Formación Avanza,2024-12,2900
+Cliente H - Clínica Dental Rubio,2024-01,2200
+Cliente H - Clínica Dental Rubio,2024-02,2000
+Cliente H - Clínica Dental Rubio,2024-03,2300
+Cliente H - Clínica Dental Rubio,2024-04,2100
+Cliente H - Clínica Dental Rubio,2024-05,2400
+Cliente H - Clínica Dental Rubio,2024-06,2200
+Cliente H - Clínica Dental Rubio,2024-07,2000
+Cliente H - Clínica Dental Rubio,2024-08,2300
+Cliente H - Clínica Dental Rubio,2024-09,2100
+Cliente H - Clínica Dental Rubio,2024-10,2400
+Cliente H - Clínica Dental Rubio,2024-11,2200
+Cliente H - Clínica Dental Rubio,2024-12,2300
+Cliente I - Eventos Costa,2024-01,1800
+Cliente I - Eventos Costa,2024-02,1600
+Cliente I - Eventos Costa,2024-03,1900
+Cliente I - Eventos Costa,2024-04,1700
+Cliente I - Eventos Costa,2024-05,2000
+Cliente I - Eventos Costa,2024-06,1800
+Cliente I - Eventos Costa,2024-07,1600
+Cliente I - Eventos Costa,2024-08,1900
+Cliente I - Eventos Costa,2024-09,1700
+Cliente I - Eventos Costa,2024-10,2000
+Cliente I - Eventos Costa,2024-11,1800
+Cliente I - Eventos Costa,2024-12,1900
+Cliente J - Pequeños Encargos SL,2024-01,1200
+Cliente J - Pequeños Encargos SL,2024-02,1100
+Cliente J - Pequeños Encargos SL,2024-03,1300
+Cliente J - Pequeños Encargos SL,2024-04,1000
+Cliente J - Pequeños Encargos SL,2024-05,1400
+Cliente J - Pequeños Encargos SL,2024-06,1200
+Cliente J - Pequeños Encargos SL,2024-07,1100
+Cliente J - Pequeños Encargos SL,2024-08,1300
+Cliente J - Pequeños Encargos SL,2024-09,1000
+Cliente J - Pequeños Encargos SL,2024-10,1400
+Cliente J - Pequeños Encargos SL,2024-11,1200
+Cliente J - Pequeños Encargos SL,2024-12,1300

@@ -1,0 +1,65 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para medir y reducir el riesgo de concentración de clientes en minutos.
+
+---
+
+Actúa como un CFO con 20 años de experiencia en PYMEs españolas industriales y de servicios, especialista en análisis de riesgo comercial y diversificación de cartera de clientes. Has visto cerrar empresas rentables porque perdieron a un cliente que pesaba demasiado. Tu trabajo es evitar que [EMPRESA] cometa el mismo error.
+
+CONTEXTO:
+- Empresa: [EMPRESA]
+- Periodo analizado: últimos 12 meses hasta [MES AÑO]
+- Datos de entrada: @ruta/datos/facturacion_cliente.csv y @ruta/datos/pipeline.csv
+- Objetivo: medir la concentración de ingresos, simular el impacto de perder al cliente más grande, y entregar un plan de diversificación cuantificado.
+
+PASOS A EJECUTAR:
+
+1. VALIDACIÓN DE DATOS
+   - Lee facturacion_cliente.csv y verifica columnas: cliente, mes, importe.
+   - Comprueba que hay al menos 10 meses de histórico.
+   - Si faltan datos o hay importes negativos, avísame antes de continuar.
+
+2. CÁLCULO DE CONCENTRACIÓN
+   - Suma facturación anual por cliente.
+   - Calcula % sobre total y ordena de mayor a menor.
+   - Calcula índice Herfindahl-Hirschman (HHI = suma de los cuadrados de los % de cada cliente, en base 1).
+   - Clasifica el riesgo: HHI < 0.10 bajo, 0.10-0.18 moderado, > 0.18 alto.
+   - Calcula CR3 (% que representan los 3 mayores) y CR5.
+
+3. ALERTAS AUTOMÁTICAS
+   - Marca en rojo todo cliente que supere el 20% de facturación total.
+   - Marca en amarillo los clientes entre 15% y 20%.
+   - Lista los clientes que han crecido o decrecido más del 30% año contra año (si hay histórico suficiente).
+
+4. SIMULACIÓN DE RIESGO
+   - Simula qué pasa si pierdes al cliente #1: cuánto cae la facturación total y, asumiendo un margen EBITDA medio del 15% y que el cliente #1 tiene margen 20% (ajusta si tengo datos), cuánto cae el margen absoluto.
+   - Repite para los 3 primeros clientes (uno a uno, no acumulado).
+
+5. PLAN DE DIVERSIFICACIÓN
+   - Lee pipeline.csv y calcula el valor esperado del pipeline (importe × probabilidad).
+   - Calcula cuántos clientes nuevos de ticket medio similar al cliente mediano actual necesitas captar para que ningún cliente supere el 15% del total.
+   - Prioriza los prospectos del pipeline por valor esperado y proximidad al cierre.
+
+6. ENTREGABLE VISUAL (WEB LOCAL)
+   - Genera un dashboard HTML autoejecutable con:
+     a) Gráfico de barras horizontales con % de cada cliente (rojo >20%, amarillo 15-20%, verde <15%).
+     b) Tarjeta con HHI, CR3, CR5 y clasificación de riesgo.
+     c) Simulación visual: facturación actual vs facturación tras perder al cliente #1.
+     d) Plan de diversificación: nº de clientes nuevos necesarios y ticket medio objetivo.
+   - Arranca el servidor local automáticamente y abre el navegador.
+
+7. ENTREGABLE PDF
+   - Genera un informe ejecutivo PDF de 1-2 páginas con los mismos datos, pensado para enseñar al gerente o al consejo.
+   - Portada con el nombre de la empresa, periodo analizado y veredicto en una frase.
+
+Trabaja paso a paso. Antes de cada paso dime qué vas a hacer en una línea. Al terminar, dime dónde están los archivos generados y resume el veredicto en 3 bullets.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---
