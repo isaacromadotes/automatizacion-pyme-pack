@@ -1,0 +1,6 @@
+cliente_id,nombre,cif,email_contacto,condiciones_pago,descuento_pct,credito_max_eur
+C001,Metalúrgica Pérez S.L.,B12345678,compras@metalurgicaperez.com,30 días,5,50000
+C002,Constructora Sol S.A.,A87654321,logistica@constructorasol.es,contado,0,0
+C003,Talleres Gómez e Hijos S.L.,B11223344,admin@talleresgomez.com,30 días,3,25000
+C004,Naval Metal S.L.,B99887766,pedidos@navalmetal.com,60 días,8,120000
+C005,Ferretería Industrial López,B55443322,compras@ferretlopez.com,15 días,2,15000
