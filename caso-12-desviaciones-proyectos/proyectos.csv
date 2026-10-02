@@ -1,0 +1,9 @@
+proyecto_id,nombre,cliente,responsable,horas_presupuestadas,fecha_inicio,fecha_fin_prevista,presupuesto_eur,avance_estimado_pct
+P-ALFA,Implantación ERP Financiero,Metalúrgica Vallès S.L.,Ana Martínez,320,2026-05-04,2026-11-30,48000,55
+P-BETA,Auditoría Procesos Compra,Distribuciones Ibéricas S.A.,Carlos Ruiz,180,2026-06-10,2026-10-15,27000,72
+P-GAMMA,Rediseño Cadena Logística,Transportes Ebro S.L.,Elena Torres,240,2026-04-20,2026-12-05,36000,48
+P-DELTA,Plan Estratégico 2027,Grupo Meridian S.L.,David López,140,2026-07-01,2026-11-20,25200,60
+P-EPSILON,Optimización Fiscal,Química Aplicada S.A.,Ana Martínez,90,2026-08-15,2026-10-30,16200,80
+P-ZETA,Due Diligence Adquisición,Inversiones Cumbre S.L.,Javier Sánchez,200,2026-06-25,2026-09-30,42000,95
+P-ETA,Reestructuración Comercial,Mobiliario Norte S.A.,Elena Torres,260,2026-05-18,2026-12-15,39000,50
+P-THETA,Implantación CRM Ventas,Tech Ibérica S.A.,Carlos Ruiz,160,2026-07-10,2026-11-10,24000,45

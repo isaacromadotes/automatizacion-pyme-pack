@@ -1,0 +1,84 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para detectar desviaciones de horas y presupuesto en tu cartera de proyectos en minutos.
+
+Actúa como Director de Operaciones con 20 años de experiencia gestionando carteras de proyectos en consultoras y empresas de servicios profesionales españolas. Dominas control de horas, rentabilidad por proyecto, curva de avance vs consumo, gestión de sobrecostes y comunicación de alertas a comité de dirección.
+
+CONTEXTO DE LA EMPRESA:
+Empresa: [EMPRESA]
+Periodo de análisis: [MES AÑO]
+Umbrales de alerta:
+- Verde: desviación por debajo del 10%
+- Ámbar: desviación entre 10% y 15%
+- Rojo: desviación superior al 15%
+
+DATOS DE ENTRADA:
+Los datos están en la carpeta @ruta/ y contienen:
+- proyectos.csv → cartera de proyectos con horas presupuestadas, presupuesto en euros, avance estimado y responsable
+- horas_imputadas.csv → registro de horas por persona, proyecto y fecha, con tarifa horaria
+- instrucciones_para_crear_tabla_excel.txt → guía de estilo corporativo (colores, KPIs, tipografía) para el Excel
+
+TAREA — Ejecuta en este orden:
+
+PASO 1 — VALIDACIÓN
+Carga los dos CSVs. Comprueba que todos los proyecto_id de horas_imputadas.csv existen en proyectos.csv. Reporta cualquier imputación huérfana. Muestra un resumen: nº de proyectos, nº de imputaciones, rango de fechas, horas totales imputadas.
+
+PASO 2 — CÁLCULO DE DESVIACIONES
+Para cada proyecto calcula:
+- Horas consumidas reales (suma de horas_imputadas)
+- % de horas consumidas (horas_consumidas / horas_presupuestadas × 100)
+- % de avance estimado (dato de proyectos.csv)
+- Desviación = % horas consumidas - % avance estimado
+- Coste real acumulado (Σ horas × tarifa_hora_eur)
+- Margen restante en euros (presupuesto_eur - coste_real)
+- Estado semáforo según los umbrales del contexto
+
+PASO 3 — ALERTAS AUTOMÁTICAS
+Genera un bloque de alertas priorizadas:
+- Rojos primero: nombre, cliente, responsable, desviación, importe de sobrecoste estimado, acción recomendada concreta
+- Ámbar después: mismo formato, con acción preventiva
+- Verde: solo resumen agregado
+Cada alerta roja debe llevar una recomendación ejecutiva accionable (renegociar alcance, replanificar equipo, escalar a cliente, reasignar responsable).
+
+PASO 4 — DASHBOARD WEB
+Monta un dashboard HTML autónomo con:
+- Cabecera con nombre de empresa y periodo
+- 4 tarjetas KPI: proyectos totales, proyectos en rojo, desviación media, horas sobreejecutadas
+- Semáforo visual con círculo de color por proyecto
+- Tabla ordenada por desviación descendente con: proyecto, cliente, responsable, horas consumidas / presupuestadas, avance, desviación, estado
+- Gráfico de barras horizontales comparando horas presupuestadas vs consumidas
+- Diseño oscuro ejecutivo, tipografía moderna, sombras suaves, responsive
+Arranca un servidor local en localhost y abre la URL.
+
+PASO 5 — ENTREGABLE EXCEL
+Lee el archivo instrucciones_para_crear_tabla_excel.txt de la carpeta @ruta/ y aplica ese estilo. Genera un Excel profesional con:
+- Barra título verde bosque oscuro con nombre del panel
+- 4 tarjetas KPI arriba con los colores corporativos
+- Tabla con semáforo por proyecto, barras visuales de progreso y formato condicional
+- Pestañas separadas: Dashboard, Proyectos, Imputaciones, Alertas
+- Última pestaña "Servicios Isaac Romà"
+Guárdalo en @ruta/dashboard_proyectos_[MES_AÑO].xlsx
+
+PASO 6 — INFORME HTML DE ALERTAS
+Genera un informe HTML de alertas en formato vertical 9:16 (viewport 1080x1920, optimizado para móvil y vídeo vertical) que impresione a cualquier director financiero:
+- Cabecera con logo, empresa y fecha de generación
+- 4 tarjetas KPI grandes con iconos
+- Semáforo visual con círculos de color por proyecto
+- Gráfico de barras horizontales (presupuestado vs consumido)
+- Tabla detallada con filas coloreadas según nivel de alerta
+- Sección de recomendaciones automáticas para cada proyecto en rojo
+- Footer: "Generado con Claude Code para [EMPRESA]"
+- Diseño oscuro ejecutivo, degradados, sombras suaves, tipografía moderna
+Guárdalo en @ruta/alerta_desviaciones_[MES_AÑO].html
+
+Al terminar, muéstrame un resumen ejecutivo en tres líneas: cuántos proyectos en rojo, importe total en riesgo y la acción más urgente.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---
