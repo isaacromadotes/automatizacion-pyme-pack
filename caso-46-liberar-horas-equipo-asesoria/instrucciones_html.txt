@@ -1,0 +1,50 @@
+INSTRUCCIONES DE DISEÑO — WEB VISUAL (HTML)
+
+ESTILO GENERAL
+- Fondo crema suave (#f5f4f0)
+- Texto principal negro (#1a1a1a)
+- Color de acento terracota (#C67A50)
+- Tipografía serif elegante para titulares (Instrument Serif, Playfair Display o similar)
+- Tipografía sans-serif legible para cuerpo (Inter, system-ui)
+- Diseño limpio, mucho aire, nada recargado
+- Mobile-first, pero visible correctamente en escritorio
+
+ESTRUCTURA
+1. HERO (parte superior)
+   - Título grande: "[EMPRESA] — Diagnóstico de capacidad"
+   - Subtítulo: "[MES AÑO]"
+   - 4 KPIs destacados en tarjetas horizontales:
+     * Horas totales equipo/semana
+     * % tiempo bajo valor
+     * Horas liberables/semana
+     * Ahorro anual estimado (€)
+
+2. ALERTAS (si las hay)
+   - Banner con fondo suave (rojo, amarillo o verde según gravedad)
+   - Texto corto y accionable
+
+3. MAPA DE TAREAS
+   - Tabla o grid visual
+   - Cada tarea = tarjeta con: nombre, horas/semana, responsable, valor (color)
+   - Verde = Alto valor · Amarillo = Medio · Rojo = Bajo
+   - Las automatizables llevan un icono ⚡
+
+4. MATRIZ IMPACTO × ESFUERZO
+   - Scatter plot o grid 2×2
+   - Eje X: Esfuerzo (bajo → alto)
+   - Eje Y: Impacto (bajo → alto)
+   - Puntos coloreados por cuadrante
+   - Al pasar el ratón, nombre de la tarea
+
+5. QUICK WINS (top 5)
+   - Lista con número, nombre, horas liberadas, €/año ahorrados
+   - Terracota para destacar
+
+6. FOOTER
+   - "Diagnóstico generado con Claude Code"
+   - "Metodología Isaac Romà · isaacroma.com"
+
+TÉCNICO
+- Un solo archivo index.html autocontenido (CSS inline, sin dependencias externas si es posible)
+- Si usas gráficos, Chart.js por CDN está permitido
+- Debe cargarse rápido y verse profesional sin más configuración

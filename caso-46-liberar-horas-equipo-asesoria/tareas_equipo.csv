@@ -1,0 +1,20 @@
+tarea,frecuencia,horas_semanales,responsable,valor,automatizable
+Entrada de datos contables,Diaria,12,Ana García,Bajo,Sí
+Conciliación bancaria manual,Diaria,8,Pedro López,Bajo,Sí
+Envío de recordatorios de cobro,Semanal,4,Marta Ruiz,Bajo,Sí
+Generación de facturas recurrentes,Mensual,6,Ana García,Bajo,Sí
+Archivo y clasificación de documentos,Diaria,5,Luis Fernández,Bajo,Sí
+Copia de datos entre sistemas,Diaria,4,Pedro López,Bajo,Sí
+Envío de nóminas por email,Mensual,2,Marta Ruiz,Bajo,Sí
+Actualización de hojas de cálculo,Diaria,3,Luis Fernández,Bajo,Sí
+Asesoramiento fiscal personalizado,Semanal,10,Carlos Martínez,Alto,No
+Reuniones con clientes,Semanal,8,Carlos Martínez,Alto,No
+Planificación fiscal trimestral,Trimestral,6,Elena Soler,Alto,No
+Revisión de contratos,Semanal,5,Elena Soler,Alto,No
+Negociación con proveedores,Mensual,3,Carlos Martínez,Alto,No
+Formación del equipo junior,Semanal,4,Elena Soler,Medio,No
+Preparación de informes para dirección,Semanal,3,Pedro López,Medio,Parcial
+Seguimiento de plazos legales,Semanal,2,Marta Ruiz,Alto,Parcial
+Control de horas por cliente,Diaria,3,Luis Fernández,Medio,Sí
+Generación de presupuestos estándar,Semanal,3,Ana García,Bajo,Sí
+Respuesta a consultas rutinarias email,Diaria,5,Marta Ruiz,Bajo,Parcial

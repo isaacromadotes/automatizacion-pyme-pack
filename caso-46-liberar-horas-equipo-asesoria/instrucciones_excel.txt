@@ -1,0 +1,57 @@
+INSTRUCCIONES DE DISEÑO — EXCEL EJECUTIVO (.xlsx)
+
+ESTRUCTURA DEL ARCHIVO
+Nombre: diagnostico_capacidad_[EMPRESA]_[MES_AÑO].xlsx
+
+HOJA 1 — "Mapa de tareas"
+Columnas:
+A: Tarea
+B: Frecuencia
+C: Horas/semana
+D: Responsable
+E: Coste/hora (€)
+F: Coste semanal (€)  → fórmula =C*E
+G: Coste anual (€)    → fórmula =F*48
+H: Valor (Alto/Medio/Bajo)
+I: Automatizable (Sí/Parcial/No)
+J: Cuadrante matriz (Hacer ya / Planificar / Opcional / Descartar)
+
+Formato condicional:
+- Columna H: verde para Alto, amarillo para Medio, rojo para Bajo
+- Columna I: verde para Sí, amarillo para Parcial, gris para No
+- Columna G: escala de color (más intenso = más caro)
+
+Fila 1: encabezados en negrita, fondo gris oscuro, texto blanco
+Autoanchura en todas las columnas
+Congelar fila 1
+
+HOJA 2 — "Matriz Impacto×Esfuerzo"
+Solo tareas automatizables (Sí o Parcial).
+Columnas:
+A: Tarea
+B: Impacto (€/año)    → viene del mapa
+C: Esfuerzo (1-10)
+D: Cuadrante
+E: Prioridad (1-5)
+
+Gráfico de dispersión embebido:
+- X: Esfuerzo
+- Y: Impacto
+- Etiquetas con el nombre de la tarea
+- Líneas divisoras en los valores medios para formar los 4 cuadrantes
+
+HOJA 3 — "Resumen KPIs"
+Tarjetas visuales con:
+- Horas totales/semana (celda grande, negrita)
+- % tiempo bajo valor
+- Horas liberables (automatizables Sí + 50% de Parcial)
+- Ahorro anual estimado (€)
+- Capacidad extra en clientes equivalentes
+
+Debajo, top 5 quick wins en formato de tabla simple.
+
+ESTILO VISUAL
+- Paleta: negros, grises y un acento terracota (#C67A50)
+- Nada de colores pastel chillones
+- Alineación limpia, bordes finos
+- Nombre del autor del archivo en Propiedades: "Metodología Isaac Romà"
