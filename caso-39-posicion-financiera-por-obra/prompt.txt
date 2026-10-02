@@ -1,0 +1,68 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para obtener la posición financiera real de cada obra en minutos, sin depender de llamadas a administración.
+
+---
+
+Actúa como CFO con 20 años de experiencia en empresas constructoras y promotoras españolas de 1 a 50M€. Dominas la gestión de certificaciones de obra, la relación con promotores, la Ley 3/2004 contra la morosidad y el seguimiento de cobros por proyecto.
+
+Tengo dos archivos CSV con los datos de [EMPRESA] a cierre de [MES AÑO]:
+
+- @ruta/certificaciones.csv → obra, nº_cert, importe, fecha_emisión, fecha_cobro, estado
+- @ruta/promotores.csv → promotor, obra, contacto_email, contacto_telefono, historial_pago_dias_media
+
+Quiero que generes un sistema completo de seguimiento de cobros por obra. Sigue estos pasos en orden:
+
+1. VALIDACIÓN DE DATOS
+   - Carga ambos CSVs y comprueba que cruzan por el campo "obra".
+   - Detecta certificaciones sin fecha de cobro y clasifícalas según fecha de emisión:
+     · < 30 días → Emitido
+     · 30-60 días → Pendiente
+     · 60-90 días → Vencido <30 días
+     · > 90 días → Vencido >60 días
+   - Avisa si hay promotores sin contacto asignado o certificaciones huérfanas.
+
+2. CÁLCULO DE POSICIÓN FINANCIERA POR OBRA
+   Para cada obra calcula estos 4 estados en €:
+   - Certificado (total emitido histórico)
+   - Emitido (certificaciones del período activo)
+   - Cobrado (fecha_cobro informada)
+   - Pendiente (certificado - cobrado)
+
+   Añade: % de cobro, días medios de pago del promotor, antigüedad del vencido más antiguo.
+
+3. ALERTAS AUTOMÁTICAS
+   Genera 3 niveles de alerta:
+   - 🔴 ROJO: vencidos > 60 días o importe > 50.000€ pendiente > 30 días
+   - 🟡 ÁMBAR: vencidos < 60 días o promotor con historial de pago > 60 días
+   - 🟢 VERDE: dentro de plazo
+
+   Para cada alerta roja, indica: obra, promotor, contacto, importe, días vencidos, acción recomendada.
+
+4. ENTREGABLE VISUAL (DASHBOARD WEB)
+   Crea un dashboard HTML autocontenido con:
+   - KPI superior: Total pendiente de cobro + Total vencido + Nº obras con alerta roja
+   - Panel por obra (una tarjeta por obra) con los 4 estados en barras apiladas
+   - Tabla de certificaciones vencidas ordenada por antigüedad descendente
+   - Semáforo de riesgo por promotor
+   - Diseño limpio, tipografía serif en títulos, paleta sobria (crema de fondo, terracota para alertas, negro para texto)
+   - Responsive y listo para enseñar en reunión
+
+   Arranca un servidor local y abre el dashboard en el navegador.
+
+5. ENTREGABLE PDF + EMAILS
+   Genera adicionalmente:
+   - Un PDF ejecutivo de 1 página con las alertas rojas y ámbar, listo para imprimir
+   - Un fichero `emails_reclamacion.txt` con un email personalizado por cada certificación vencida, usando el contacto del promotor correspondiente, en tono profesional pero firme, citando nº de certificación, importe, fecha de emisión y días transcurridos. Firma: Departamento de Administración de [EMPRESA].
+
+Al terminar, resume en 5 líneas: total pendiente, total vencido, obra con mayor riesgo, promotor con peor historial, y 3 acciones concretas que debería tomar esta semana.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

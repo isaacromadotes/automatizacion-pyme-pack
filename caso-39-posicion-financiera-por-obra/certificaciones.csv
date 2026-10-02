@@ -1,0 +1,14 @@
+obra,nº_cert,importe,fecha_emisión,fecha_cobro,estado
+Residencial Mirador Valencia,CERT-001,45000,2026-01-15,2026-02-28,Cobrado
+Residencial Mirador Valencia,CERT-002,38000,2026-03-10,2026-05-02,Cobrado
+Residencial Mirador Valencia,CERT-003,42000,2026-05-20,,Pendiente
+Residencial Mirador Valencia,CERT-004,29000,2026-07-01,,Pendiente
+Nave Industrial Polígono Sur,CERT-001,62000,2025-11-01,2025-12-20,Cobrado
+Nave Industrial Polígono Sur,CERT-002,55000,2026-02-15,2026-04-10,Cobrado
+Nave Industrial Polígono Sur,CERT-003,48000,2026-06-01,,Pendiente
+Reforma Hotel Centro Histórico,CERT-001,35000,2025-09-15,2025-11-30,Cobrado
+Reforma Hotel Centro Histórico,CERT-002,52000,2026-04-01,,Vencido >60 días
+Reforma Hotel Centro Histórico,CERT-003,28000,2026-06-15,,Pendiente
+Urbanización Las Encinas,CERT-001,40000,2026-01-20,2026-03-05,Cobrado
+Urbanización Las Encinas,CERT-002,33000,2026-04-10,,Vencido <30 días
+Urbanización Las Encinas,CERT-003,18000,2026-07-15,,Emitido
