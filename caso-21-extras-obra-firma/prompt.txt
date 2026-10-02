@@ -1,0 +1,80 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para eliminar la pérdida de extras de obra no cobrados en constructoras españolas y convertir cada acuerdo verbal en un extra facturable en minutos.
+
+---
+
+Actúa como Director de Obra sénior con 20 años de experiencia en constructoras españolas (residencial, industrial y reforma), especializado en gestión de contratos, certificaciones y control de extras de obra. Conoces al detalle el flujo real de una obra: cómo el jefe de obra pacta cambios de palabra con el cliente, cómo se pierden miles de euros en trabajos ejecutados sin firma, y cómo un flujo digital de aprobación resuelve el problema.
+
+CONTEXTO:
+- Empresa: [EMPRESA] (constructora)
+- Periodo de análisis: [MES AÑO]
+- Ruta de datos: @ruta/
+
+FICHEROS DE ENTRADA:
+- @ruta/precios_contrato.csv → unidad_obra, descripcion, precio_unitario, unidad_medida
+- @ruta/extras_obra_mirador.csv → fecha, descripcion_extra, unidades_obra, medicion, estado, importe
+- @ruta/obras_activas.csv → obra, cliente, presupuesto_original, extras_acumulados, extras_aprobados, extras_pendientes, extras_rechazados
+
+TAREA:
+Construye un sistema completo de gestión de extras de obra con los siguientes pasos:
+
+1. VALIDACIÓN DE DATOS
+   - Comprueba que todos los extras de extras_obra_mirador.csv referencian una unidad de obra válida de precios_contrato.csv.
+   - Recalcula el importe de cada extra (medición × precio_unitario) y marca las discrepancias frente al importe registrado.
+   - Verifica coherencia entre extras_acumulados de obras_activas.csv y la suma real del detalle.
+
+2. CÁLCULO DE MÉTRICAS CLAVE
+   - Total facturado por extras aprobados por obra y global.
+   - Importe en riesgo (pendientes + estimación de rechazados si no se formalizan).
+   - Ratio de aprobación por obra (aprobados / total).
+   - Simulación de pérdida evitada: "Sin flujo de firma se habrían perdido al menos X€".
+   - Ranking de obras por importe de extras acumulados.
+
+3. ALERTAS AUTOMÁTICAS
+   - 🔴 Extras pendientes con más de 15 días sin firma → riesgo de pérdida.
+   - 🟡 Extras aprobados sin certificar en la siguiente certificación mensual.
+   - 🟢 Obras con ratio de aprobación superior al 80% (buenas prácticas).
+   - Alerta cuando el importe de extras acumulados supera el 5% del presupuesto original de la obra.
+
+4. ENTREGABLE VISUAL (WEB)
+   Diseña una web HTML/CSS/JS de estilo Baker McKenzie: elegante, sobria, profesional. Tipografía serif para títulos (estilo Playfair Display o similar), sans-serif limpia para cuerpo, paleta con azul oscuro corporativo (#1a2f4a), blanco puro, gris claro (#f7f7f5) y acento dorado sutil (#c9a961). Espaciado generoso, sombras suaves, transiciones fluidas. Que cualquier gerente de constructora que la vea diga "lo quiero para mi empresa".
+
+   La web debe incluir:
+   - Cabecera con logo y nombre de [EMPRESA].
+   - Dashboard ejecutivo con KPIs: total extras facturados, importe en riesgo, ratio de aprobación global, pérdida evitada.
+   - Sección "Formulario del jefe de obra" (mobile-first): campos para descripción del extra, unidad de obra (desplegable con precios), medición, urgencia, subida de fotos. Genera presupuesto en vivo al calcular medición × precio.
+   - Sección "Documento de aprobación": vista previa del PDF con datos del extra, importe, condiciones y firma digital del cliente (input de firma con canvas HTML5).
+   - Tabla de extras por obra con estado (aprobado/pendiente/rechazado), filtros e importes.
+   - Panel de alertas con las reglas del punto 3.
+   - Simulación destacada: "En Residencial Mirador: 14 extras, 8 aprobados = 23.400 € facturados. Sin flujo de firma se habrían perdido al menos 5."
+
+5. PDF DE APROBACIÓN
+   Genera una plantilla PDF de "Documento de aprobación de extra de obra" descargable, con:
+   - Datos de la obra, cliente y jefe de obra.
+   - Descripción del extra, medición y precio unitario aplicado.
+   - Importe total (base imponible + IVA).
+   - Condiciones: "Este documento constituye la aprobación formal del trabajo adicional. Sin firma no se ejecutará."
+   - Espacio para firma digital del cliente y fecha.
+   - Numeración correlativa por obra.
+
+6. ARRANCA EL SERVIDOR
+   Cuando termines, arranca un servidor local (python -m http.server o similar) y dime en qué puerto puedo verlo.
+
+REQUISITOS:
+- Todo en español de España.
+- Importes en euros con formato español (1.234,56 €).
+- Fechas en formato dd/mm/aaaa.
+- Código limpio, comentado y en un único proyecto listo para desplegar.
+- No inventes datos: usa exclusivamente los de los CSV proporcionados.
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

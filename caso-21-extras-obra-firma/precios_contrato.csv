@@ -1,0 +1,21 @@
+unidad_obra,descripcion,precio_unitario,unidad_medida
+ALB01,Tabiquería de ladrillo hueco doble,28.50,m2
+ALB02,Enfoscado maestreado,14.20,m2
+ALB03,Solado porcelánico 60x60,42.00,m2
+ELE01,Punto de luz sencillo,65.00,ud
+ELE02,Punto de enchufe,55.00,ud
+ELE03,Cuadro eléctrico secundario,480.00,ud
+FON01,Punto de fontanería agua fría,85.00,ud
+FON02,Punto de fontanería agua caliente,95.00,ud
+FON03,Instalación completa baño,1850.00,ud
+PIN01,Pintura plástica lisa,8.50,m2
+PIN02,Pintura exterior siloxánica,12.80,m2
+CAR01,Puerta paso ciega lacada,320.00,ud
+CAR02,Armario empotrado 2 hojas,890.00,ud
+CLI01,Instalación split aire acondicionado,1200.00,ud
+CLI02,Conducto de aire acondicionado,35.00,ml
+IMP01,Impermeabilización terraza,22.00,m2
+EST01,Refuerzo estructural pilar,2800.00,ud
+EST02,Apertura de hueco en muro de carga,3500.00,ud
+SEG01,Línea de vida temporal,450.00,ud
+SEG02,Red de seguridad horizontal,18.00,m2

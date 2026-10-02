@@ -1,0 +1,15 @@
+fecha,descripcion_extra,unidades_obra,medicion,estado,importe
+2026-03-12,Cambio solado salón a porcelánico rectificado (vivienda 3A),ALB03,28.5,aprobado,1197.00
+2026-03-18,Punto de luz adicional cocina (viviendas 2A y 2B),ELE01,4,aprobado,260.00
+2026-03-25,Tabique divisorio nuevo en local comercial,ALB01,15.2,aprobado,433.20
+2026-04-02,Instalación split adicional dormitorio principal (3B),CLI01,1,pendiente,1200.00
+2026-04-08,Impermeabilización adicional terraza ático,IMP01,42,aprobado,924.00
+2026-04-15,Cambio de ubicación cuadro eléctrico (vivienda 1A),ELE03,1,rechazado,480.00
+2026-04-22,Armario empotrado extra en pasillo (vivienda 3A),CAR02,1,aprobado,890.00
+2026-05-03,Refuerzo pilar garaje tras cata,EST01,1,aprobado,2800.00
+2026-05-10,Pintura exterior fachada lateral — cambio de color,PIN02,186,pendiente,2380.80
+2026-05-18,Apertura hueco paso entre cocina-salón (vivienda 2A),EST02,1,aprobado,3500.00
+2026-05-25,Red seguridad horizontal planta 4,SEG02,85,aprobado,1530.00
+2026-06-01,2 enchufes adicionales isla cocina (vivienda 3B),ELE02,2,pendiente,110.00
+2026-06-08,Puerta paso extra almacén comunidad,CAR01,1,aprobado,320.00
+2026-06-15,Punto fontanería extra para lavavajillas (vivienda 1B),FON01,1,pendiente,85.00
