@@ -1,0 +1,105 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para convertir el histórico de ventas de un mayorista en un sistema de reaprovisionamiento profesional en minutos: previsión de demanda, detección de sobrestock y roturas, y pedido óptimo por proveedor listo para revisar.
+
+Actúa como Director de Operaciones y Compras con 20 años de experiencia en mayoristas industriales españoles de 1 a 50M€. Has implantado sistemas de reaprovisionamiento en empresas de distribución, suministros industriales y ferretería. Dominas cálculo de demanda, punto de reorden, stock de seguridad y análisis ABC.
+
+CONTEXTO DE LA EMPRESA
+- Empresa: [EMPRESA]
+- Análisis para: [MES AÑO]
+- Ruta de trabajo: @[RUTA/]
+- Sector: mayorista / distribución
+
+DATOS DE ENTRADA (los 3 CSV están en la ruta anterior):
+- @[RUTA/]ventas_12m.csv → referencia, semana, unidades_vendidas
+- @[RUTA/]stock_actual.csv → referencia, stock_unidades, coste_unitario, proveedor, plazo_dias
+- @[RUTA/]pedidos_pendientes.csv → referencia, cantidad_pendiente_recibir, fecha_prevista
+
+EJECUCIÓN — PASOS NUMERADOS
+
+1. VALIDACIÓN DE DATOS
+   - Lee los 3 CSVs y verifica integridad: referencias que aparecen en stock pero no en ventas, referencias con coste 0 o negativo, fechas inválidas en pedidos pendientes.
+   - Reporta cualquier anomalía en un bloque inicial antes de continuar.
+
+2. CÁLCULO DE MÉTRICAS POR REFERENCIA
+   Para cada referencia calcula:
+   - Demanda media semanal (últimas 12 semanas y últimas 52 semanas).
+   - Desviación estándar de la demanda.
+   - Estacionalidad simple (compara demanda últimas 12 sem vs media anual).
+   - Proyección de demanda próximas 4 semanas (usa demanda últimas 12 semanas + factor estacional).
+   - Clasificación ABC por facturación: A = 80% ingresos, B = 15%, C = 5%.
+
+3. CÁLCULO DE STOCK ÓPTIMO Y ALERTAS
+   - Stock de seguridad = demanda semanal × factor de seguridad (20% por defecto, 30% para clase A).
+   - Punto de reorden = (demanda semanal × (plazo_dias / 7)) + stock de seguridad.
+   - Cobertura actual (días) = stock_actual / (demanda_semanal / 7).
+   - Alertas automáticas:
+     · SOBRESTOCK: cobertura > 180 días.
+     · ROTURA: cobertura < 7 días.
+     · RIESGO: cobertura entre 7 y 14 días.
+     · OK: resto.
+   - Considera los pedidos pendientes en la cobertura efectiva.
+
+4. PEDIDO ÓPTIMO POR PROVEEDOR
+   - Para cada referencia por debajo del punto de reorden: cantidad a pedir = stock óptimo (4 semanas de demanda + seguridad) − stock actual − pedidos pendientes.
+   - Agrupa el pedido óptimo por proveedor.
+   - Calcula: número de líneas, unidades totales, coste estimado por proveedor.
+
+5. ENTREGABLE VISUAL — DASHBOARD HTML PROFESIONAL
+   Genera un archivo `dashboard_reaprovisionamiento.html` en la ruta @[RUTA/] con nivel de diseño de consultora Big Four (Baker McKenzie / Deloitte / McKinsey):
+
+   Paleta obligatoria (estilo PlanillasExcel.es):
+   - Verde bosque #1A3C34 (barra de título y cabeceras).
+   - Teal #2D6A4F (KPIs principales).
+   - Verde medio #40916C (KPIs secundarios).
+   - Azul navy #1D3557 (KPIs informativos).
+   - Rojo coral #E63946 (alertas rotura).
+   - Naranja ámbar #F4A261 (alertas riesgo).
+   - Turquesa #2A9D8F (OK / éxito).
+   - Blanco #FFFFFF (fondo), gris #D5D8DC (bordes), negro #1C1C1C (texto).
+
+   Estructura del dashboard:
+   - Barra de título superior con nombre de la empresa y fecha del análisis.
+   - Fila de 6 tarjetas KPI: total referencias analizadas, sobrestock (nº y €), roturas (nº y de ellas clase A), pedido óptimo total (€), nº de proveedores a contactar, ahorro estimado en capital inmovilizado.
+   - Sección "Alertas críticas" con tabla filtrable de referencias en rotura (rojo) y sobrestock (naranja), con semáforo visual, clase ABC, cobertura en días y acción recomendada.
+   - Sección "Pedido óptimo por proveedor" con card por proveedor: nº de líneas, unidades, coste €, plazo medio.
+   - Sección "Detalle completo" con tabla ordenable y filtrable de las 60 referencias (columnas: ref, clase ABC, stock, demanda semanal, cobertura días, punto reorden, cantidad a pedir, proveedor, alerta).
+   - Tipografía: system-ui / Segoe UI, jerarquía clara.
+   - Responsive: funcional en móvil, óptimo en escritorio.
+   - Al final, un pie discreto: "Generado con la metodología de Isaac Romà · isaacroma.com".
+   - Abre el HTML en el navegador por defecto una vez generado.
+
+6. ENTREGABLE EXCEL
+   Genera un archivo `reaprovisionamiento_[EMPRESA]_[MES_AÑO].xlsx` en la ruta @[RUTA/] siguiendo ESTRICTAMENTE las instrucciones de diseño del documento `instrucciones_para_crear_tabla_excel.txt` (si está en la carpeta) o, si no, aplicando estas reglas:
+
+   - Columna A vacía (margen izquierdo).
+   - Fila 1: barra título verde bosque #1A3C34, texto blanco, con emoji 📦 "SISTEMA DE REAPROVISIONAMIENTO — [EMPRESA]".
+   - Filas 3-6: 6 tarjetas KPI (mismos colores paleta arriba indicada).
+   - Cabecera sección "🔔 ALERTAS CRÍTICAS" con fondo #1A3C34.
+   - Tabla de referencias con cabecera teal #2D6A4F, bordes gris claro, formato numérico europeo (1.234,56 €).
+   - Semáforo por referencia: verde #27AE60 / ámbar #F39C12 / rojo #E74C3C.
+   - Barras visuales inline con REPT y carácter █ para columna "% cobertura sobre óptimo".
+   - Hojas: "Dashboard", "Detalle Referencias", "Pedido por Proveedor", "Datos Origen", "Servicios Isaac Romà".
+   - Pestaña "Servicios Isaac Romà" con color gris neutro y una tabla con: web isaacroma.com, calendly, blog.
+   - Todo con FÓRMULAS, no valores hardcoded.
+
+7. RESUMEN EJECUTIVO
+   Al terminar, muestra en la terminal un resumen breve (máximo 8 líneas):
+   - Nº referencias analizadas.
+   - Sobrestock detectado (€).
+   - Roturas críticas (nº y cuáles son clase A).
+   - Coste total del pedido óptimo.
+   - Nº de proveedores a contactar.
+   - Ruta de los 2 entregables.
+
+Ejecuta ahora los 7 pasos. No pidas confirmación entre pasos: entrega directamente el dashboard HTML abierto + el Excel guardado + el resumen ejecutivo.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

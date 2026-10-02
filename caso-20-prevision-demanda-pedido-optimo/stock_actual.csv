@@ -1,0 +1,61 @@
+referencia,stock_unidades,coste_unitario,proveedor,plazo_dias
+REF-1001,1806,38.05,Grupo Eléctrico Valencia,7
+REF-1002,878,42.85,Grupo Eléctrico Valencia,7
+REF-1003,475,18.49,Distribuidora Mediterráneo,10
+REF-1004,1364,39.80,Distribuidora Mediterráneo,10
+REF-1005,5554,12.09,Suministros García Hnos.,7
+REF-1006,27,9.49,Suministros García Hnos.,7
+REF-1007,6282,18.28,IluminaPro Ibérica,14
+REF-1008,53,36.29,IluminaPro Ibérica,14
+REF-1009,862,41.65,Fontanería Levante,10
+REF-1010,913,27.72,Fontanería Levante,10
+REF-1011,234,35.70,Fontanería Levante,10
+REF-1012,259,43.66,Suministros García Hnos.,7
+REF-1013,1010,40.81,Distribuidora Mediterráneo,10
+REF-1014,32,21.06,Química Industrial Sur,21
+REF-1015,14,52.99,Ferretería Central Levante,7
+REF-2001,14,5.56,Ferretería Central Levante,7
+REF-2002,145,5.42,Ferretería Central Levante,7
+REF-2003,425,18.09,Ferretería Central Levante,7
+REF-2004,1715,21.24,Ferretería Central Levante,7
+REF-2005,1383,6.12,Ferretería Central Levante,7
+REF-2006,1047,4.97,Ferretería Central Levante,7
+REF-2007,1158,23.74,Química Industrial Sur,21
+REF-2008,124,17.43,Química Industrial Sur,21
+REF-2009,954,4.15,Química Industrial Sur,21
+REF-2010,7,22.33,Química Industrial Sur,21
+REF-2011,488,24.38,Química Industrial Sur,21
+REF-2012,143,12.50,Distribuidora Mediterráneo,10
+REF-2013,128,18.89,Distribuidora Mediterráneo,10
+REF-2014,4,7.07,Grupo Eléctrico Valencia,7
+REF-2015,233,8.24,Grupo Eléctrico Valencia,7
+REF-2016,541,20.55,Grupo Eléctrico Valencia,7
+REF-2017,85,18.23,Grupo Eléctrico Valencia,7
+REF-2018,937,16.35,Grupo Eléctrico Valencia,7
+REF-2019,1111,7.09,IluminaPro Ibérica,14
+REF-2020,163,9.75,IluminaPro Ibérica,14
+REF-3001,230,4.07,IluminaPro Ibérica,14
+REF-3002,114,12.80,Grupo Eléctrico Valencia,7
+REF-3003,484,1.78,Distribuidora Mediterráneo,10
+REF-3004,273,1.45,Distribuidora Mediterráneo,10
+REF-3005,97,6.62,Grupo Eléctrico Valencia,7
+REF-3006,53,3.95,Grupo Eléctrico Valencia,7
+REF-3007,224,13.27,Grupo Eléctrico Valencia,7
+REF-3008,359,3.98,Grupo Eléctrico Valencia,7
+REF-3009,415,6.54,Fontanería Levante,10
+REF-3010,54,7.42,Fontanería Levante,10
+REF-3011,92,2.95,Fontanería Levante,10
+REF-3012,247,8.86,Fontanería Levante,10
+REF-3013,27,11.46,Fontanería Levante,10
+REF-3014,73,13.57,Fontanería Levante,10
+REF-3015,26,6.07,Ferretería Central Levante,7
+REF-3016,27,8.13,Química Industrial Sur,21
+REF-3017,85,11.58,Química Industrial Sur,21
+REF-3018,386,2.54,Química Industrial Sur,21
+REF-3019,345,3.24,Ferretería Central Levante,7
+REF-3020,26,6.91,Química Industrial Sur,21
+REF-3021,43,6.39,Química Industrial Sur,21
+REF-3022,44,14.95,Química Industrial Sur,21
+REF-3023,58,4.52,Química Industrial Sur,21
+REF-3024,13,13.05,Química Industrial Sur,21
+REF-3025,1,10.52,Química Industrial Sur,21
