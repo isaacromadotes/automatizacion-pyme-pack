@@ -1,0 +1,121 @@
+referencia,descripcion,familia,unidades_vendidas,precio_venta_unitario,mes
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4200,0.18,2025-01
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,3950,0.18,2025-02
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4500,0.18,2025-03
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4100,0.18,2025-04
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4350,0.18,2025-05
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,3800,0.18,2025-06
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4600,0.19,2025-07
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4250,0.19,2025-08
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4400,0.19,2025-09
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4150,0.19,2025-10
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,3700,0.19,2025-11
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,4000,0.19,2025-12
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,120,14.50,2025-01
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,95,14.50,2025-02
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,110,14.50,2025-03
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,130,14.80,2025-04
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,105,14.80,2025-05
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,90,14.80,2025-06
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,115,14.80,2025-07
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,100,14.80,2025-08
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,125,15.00,2025-09
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,108,15.00,2025-10
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,85,15.00,2025-11
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,95,15.00,2025-12
+BRI-AC12,Brida acero 12" PN16,Bridas,85,42.00,2025-01
+BRI-AC12,Brida acero 12" PN16,Bridas,72,42.00,2025-02
+BRI-AC12,Brida acero 12" PN16,Bridas,90,42.00,2025-03
+BRI-AC12,Brida acero 12" PN16,Bridas,78,43.00,2025-04
+BRI-AC12,Brida acero 12" PN16,Bridas,95,43.00,2025-05
+BRI-AC12,Brida acero 12" PN16,Bridas,65,43.00,2025-06
+BRI-AC12,Brida acero 12" PN16,Bridas,88,43.00,2025-07
+BRI-AC12,Brida acero 12" PN16,Bridas,82,43.00,2025-08
+BRI-AC12,Brida acero 12" PN16,Bridas,91,44.00,2025-09
+BRI-AC12,Brida acero 12" PN16,Bridas,70,44.00,2025-10
+BRI-AC12,Brida acero 12" PN16,Bridas,60,44.00,2025-11
+BRI-AC12,Brida acero 12" PN16,Bridas,75,44.00,2025-12
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,310,8.90,2025-01
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,285,8.90,2025-02
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,340,8.90,2025-03
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,295,9.10,2025-04
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,320,9.10,2025-05
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,275,9.10,2025-06
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,350,9.10,2025-07
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,300,9.10,2025-08
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,330,9.30,2025-09
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,280,9.30,2025-10
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,260,9.30,2025-11
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,290,9.30,2025-12
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,45,38.00,2025-01
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,52,38.00,2025-02
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,48,38.00,2025-03
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,55,39.00,2025-04
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,60,39.00,2025-05
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,42,39.00,2025-06
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,58,39.00,2025-07
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,50,39.00,2025-08
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,53,40.00,2025-09
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,47,40.00,2025-10
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,38,40.00,2025-11
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,44,40.00,2025-12
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,30,125.00,2025-01
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,25,125.00,2025-02
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,35,125.00,2025-03
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,28,128.00,2025-04
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,32,128.00,2025-05
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,22,128.00,2025-06
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,38,128.00,2025-07
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,27,128.00,2025-08
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,33,130.00,2025-09
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,26,130.00,2025-10
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,20,130.00,2025-11
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,24,130.00,2025-12
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,180,12.50,2025-01
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,165,12.50,2025-02
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,195,12.50,2025-03
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,170,12.80,2025-04
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,200,12.80,2025-05
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,155,12.80,2025-06
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,210,12.80,2025-07
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,175,12.80,2025-08
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,190,13.00,2025-09
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,160,13.00,2025-10
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,145,13.00,2025-11
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,170,13.00,2025-12
+RED-CU22,Reducción cobre 22-15mm,Fontanería,520,3.20,2025-01
+RED-CU22,Reducción cobre 22-15mm,Fontanería,480,3.20,2025-02
+RED-CU22,Reducción cobre 22-15mm,Fontanería,550,3.20,2025-03
+RED-CU22,Reducción cobre 22-15mm,Fontanería,500,3.30,2025-04
+RED-CU22,Reducción cobre 22-15mm,Fontanería,540,3.30,2025-05
+RED-CU22,Reducción cobre 22-15mm,Fontanería,460,3.30,2025-06
+RED-CU22,Reducción cobre 22-15mm,Fontanería,570,3.30,2025-07
+RED-CU22,Reducción cobre 22-15mm,Fontanería,510,3.30,2025-08
+RED-CU22,Reducción cobre 22-15mm,Fontanería,530,3.40,2025-09
+RED-CU22,Reducción cobre 22-15mm,Fontanería,490,3.40,2025-10
+RED-CU22,Reducción cobre 22-15mm,Fontanería,440,3.40,2025-11
+RED-CU22,Reducción cobre 22-15mm,Fontanería,470,3.40,2025-12
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,800,1.85,2025-01
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,750,1.85,2025-02
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,880,1.85,2025-03
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,820,1.90,2025-04
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,860,1.90,2025-05
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,710,1.90,2025-06
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,900,1.90,2025-07
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,780,1.90,2025-08
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,850,1.95,2025-09
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,770,1.95,2025-10
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,680,1.95,2025-11
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,730,1.95,2025-12
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,40,185.00,2025-01
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,35,185.00,2025-02
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,45,185.00,2025-03
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,38,190.00,2025-04
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,50,190.00,2025-05
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,32,190.00,2025-06
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,48,190.00,2025-07
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,42,190.00,2025-08
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,46,195.00,2025-09
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,36,195.00,2025-10
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,30,195.00,2025-11
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,34,195.00,2025-12

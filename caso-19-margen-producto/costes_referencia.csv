@@ -1,0 +1,11 @@
+referencia,descripcion,familia,coste_material,coste_mano_obra,coste_logistica,coste_total_unitario
+TOR-M8x40,Tornillo M8x40 zincado,Tornillería,0.09,0.04,0.04,0.17
+SOL-INX316,Soldadura inox 316L 2.5mm,Soldadura,5.80,2.10,1.80,9.70
+BRI-AC12,Brida acero 12" PN16,Bridas,22.00,8.50,4.50,35.00
+TUB-GAL25,Tubo galvanizado 25mm 6m,Tubería,5.20,1.80,1.20,8.20
+VAL-ESF50,Válvula esférica latón 50mm,Válvulas,18.50,7.20,3.80,29.50
+CHA-INX304,Chapa inox 304 2mm 1x2m,Chapa,85.00,15.00,12.00,112.00
+PER-ANG40,Perfil angular 40x40x4mm 6m,Perfilería,7.50,2.20,1.80,11.50
+RED-CU22,Reducción cobre 22-15mm,Fontanería,1.60,0.70,0.50,2.80
+ABR-D125,Disco abrasivo 125mm grano 80,Abrasivos,0.95,0.35,0.25,1.55
+ELE-CAB6,Cable eléctrico 6mm² 100m,Electricidad,110.00,25.00,18.00,153.00
