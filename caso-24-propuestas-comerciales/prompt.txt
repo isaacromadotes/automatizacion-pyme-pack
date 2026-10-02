@@ -1,0 +1,98 @@
+Actúa como un consultor comercial senior con 20 años de experiencia vendiendo servicios profesionales a PYMEs industriales y de distribución en España (facturaciones de 1 a 50M€). Has cerrado más de 300 propuestas y conoces lo que convierte: diagnóstico sectorial preciso, scope claro, pricing con 3 opciones y casos de éxito que resuenan con el dolor del prospecto.
+
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para generar propuestas comerciales ganadoras en minutos en lugar de días.
+
+CONTEXTO Y FUENTES DE DATOS
+
+Trabaja con los siguientes archivos (están en la misma carpeta que este prompt o en la ruta que indico):
+
+- @prospecto.csv — ficha del cliente al que vamos a enviar la propuesta
+- @plantilla_propuesta.md — estructura base con las secciones estándar
+- @casos_exito.csv — nuestra cartera de casos de éxito (todos los sectores)
+- @servicios_pricing.csv — nuestros 3 paquetes de servicio con scope y precio
+
+Variables a personalizar (sustituye por tus datos reales antes de ejecutar):
+
+- [EMPRESA]: Distribuidora Costa S.L.
+- [MES AÑO]: Octubre 2026
+- [RUTA_SALIDA]: ./output/
+
+PASOS A EJECUTAR
+
+1. VALIDACIÓN DE DATOS
+   - Lee los 4 archivos y verifica que están completos.
+   - Si falta algún campo crítico del prospecto (sector, facturación, problema principal), para y pídemelo.
+   - Confirma en una línea qué cliente vas a trabajar y qué problema principal has detectado.
+
+2. ANÁLISIS Y SELECCIÓN
+   - Analiza el sector del prospecto y su dolor principal.
+   - De los casos de éxito disponibles, selecciona los 2 MÁS PARECIDOS al prospecto en base a: sector, tamaño (facturación/empleados), tipología de problema.
+   - Justifica en 2 líneas por qué eliges esos 2 casos (lo escribirás como nota interna, no va en la propuesta).
+
+3. DIAGNÓSTICO SECTORIAL PERSONALIZADO
+   - Redacta un diagnóstico de 3-4 párrafos específico al sector del prospecto (no genérico).
+   - Incluye 2-3 benchmarks reales del sector en España.
+   - Conecta el dolor concreto del prospecto con los retos típicos de su segmento.
+
+4. SCOPE EN 3 FASES
+   - Fase 1 Diagnóstico (2 semanas), Fase 2 Implementación (6 semanas), Fase 3 Seguimiento (4 semanas).
+   - Para cada fase: actividades concretas, entregables, hitos de validación.
+   - Adapta las actividades al problema específico del prospecto.
+
+5. PRICING — 3 OPCIONES
+   - Toma los 3 paquetes de servicios_pricing.csv (Esencial, Profesional, Premium).
+   - Marca "RECOMENDADO" el que mejor encaja con el tamaño y urgencia del prospecto (habitualmente Profesional).
+   - Justifica brevemente la recomendación.
+
+6. ALERTAS AUTOMÁTICAS Y VALIDACIONES
+   - Si el presupuesto orientativo del prospecto está por debajo del paquete Esencial, avísame.
+   - Si la urgencia es alta pero el scope requiere más tiempo del disponible, propón un enfoque fast-track.
+   - Si detectas competencia explícita, incluye un diferencial claro en la sección de equipo.
+
+7. ENTREGABLE VISUAL (WEB) — ESPECTACULAR
+   Genera un archivo propuesta.html AUTOCONTENIDO (todo el CSS y JS inline, sin dependencias externas más allá de Google Fonts) con un diseño de nivel Baker McKenzie / McKinsey / BCG:
+
+   - Paleta: fondo blanco #ffffff, texto principal #0d0d0d, acento rojo corporativo #C8102E, grises #6b6b6b y #e8e8e8 para separadores.
+   - Tipografía: "Instrument Serif" para titulares + "Inter" para cuerpo (ambas de Google Fonts).
+   - Layout premium: márgenes amplios, mucho whitespace, interlineado 1.6, max-width 1100px centrado.
+   - Portada a pantalla completa (100vh): nombre del prospecto en tipografía serif muy grande, fecha, referencia de propuesta en pequeño arriba derecha, línea roja fina como acento.
+   - Navegación sticky en el top con scroll suave entre secciones.
+   - Secciones separadas por 100px de padding vertical y una línea fina gris.
+   - Diagnóstico sectorial con tipografía editorial, pullquotes destacadas.
+   - Timeline visual horizontal de las 3 fases con círculos numerados y conectores.
+   - Pricing en 3 columnas con la columna recomendada ligeramente más grande, borde rojo, badge "RECOMENDADO" arriba.
+   - Casos de éxito en formato "antes/después" con métricas grandes (numerales 72pt rojos).
+   - Equipo con bio corta.
+   - Footer discreto con condiciones, validez de la propuesta y contacto.
+   - Animaciones sutiles fade-in al hacer scroll (IntersectionObserver, sin librerías).
+   - Totalmente responsive (móvil y desktop).
+   - Que al abrirlo en Chrome el cliente diga "WOW, esto es otro nivel".
+
+8. EXPORTACIÓN A PDF
+   - Genera también una versión propuesta.pdf a partir del HTML (usa un conversor como weasyprint, playwright o similar que ya tengas disponible).
+   - Debe mantener el diseño visual lo más fielmente posible.
+
+9. EMAIL DE PRESENTACIÓN
+   - Redacta un email corto (máximo 150 palabras) en archivo email_presentacion.txt.
+   - Tono profesional pero cercano, en castellano.
+   - Asunto llamativo con el nombre del prospecto.
+   - Menciona 1 dato específico que demuestre que has estudiado al cliente (no plantilla).
+   - CTA claro: proponer llamada de 20 min en los próximos 3 días.
+   - Firma: nombre, cargo, calendly.
+
+Guarda todos los archivos en [RUTA_SALIDA] y al terminar muéstrame:
+- Resumen de 3 líneas de la propuesta generada
+- Ruta exacta de los 3 archivos
+- Qué revisar antes de enviar al cliente
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

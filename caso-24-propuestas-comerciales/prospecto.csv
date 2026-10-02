@@ -1,0 +1,22 @@
+campo,valor
+nombre_empresa,Distribuidora Costa S.L.
+cif,B98765432
+contacto,María Gómez Ferrer
+cargo,Directora General
+email,mgomez@distribuidoracosta.es
+telefono,+34 963 45 67 89
+sector,Distribución mayorista alimentación
+subsector,Horeca y tiendas de barrio en Levante
+facturacion_anual_eur,4200000
+empleados,38
+ubicacion,Pol. Ind. Fuente del Jarro - Paterna (Valencia)
+antiguedad_anos,12
+problema_principal,Gestión de stock descontrolada: roturas frecuentes en referencias clave y sobrestock en baja rotación
+detalle_problema,"Inventario físico no cuadra con sistema (desviación ~15%). Entre 8 y 10 roturas de stock al mes en referencias clave (bebidas, aceite, conservas). Más de 120 referencias con sobrestock de baja rotación. Sin previsión de demanda: las compras las hace el gerente por intuición. Coste estimado de ineficiencia: 180.000 €/año entre roturas de venta perdida, obsolescencia de perecederos y capital inmovilizado."
+sistemas_actuales,"ERP: FacturaPlus (básico). Control de stock: Excel compartido en red. Pedidos a clientes: email y WhatsApp. Pedidos a proveedores: teléfono y fax."
+objetivo_cliente,"Reducir roturas de stock a menos de 2/mes. Eliminar sobrestock. Automatizar la reposición. Tener visibilidad de márgenes por referencia."
+presupuesto_orientativo_eur,"15000-25000"
+urgencia,Alta — temporada fuerte (Navidad y Fallas) en 3 meses
+competencia_propuesta,Han pedido también presupuesto a una consultora local generalista de Valencia
+origen_lead,Recomendación de un cliente actual (sector ferretería)
+fecha_primer_contacto,2026-09-15
