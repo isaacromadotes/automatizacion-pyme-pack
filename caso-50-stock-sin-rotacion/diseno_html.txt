@@ -1,0 +1,86 @@
+INSTRUCCIONES DE DISEÑO — INFORME HTML
+======================================
+
+El HTML debe seguir estas reglas visuales al pie de la letra para mantener la coherencia con la marca Isaac Romà.
+
+PALETA DE COLORES
+-----------------
+- Fondo general: #F5F4F0 (crudo cálido)
+- Texto principal: #1A1A1A (negro suave)
+- Acento primario: #C67A50 (terracota) — para números clave y el logo
+- Rojo alerta: #B04A3C — para refs críticas (>365 días)
+- Naranja aviso: #D89754 — para refs 180-365 días
+- Verde recuperación: #6B8E65 — para importes recuperables
+- Gris secundario: #8A8680 — para texto auxiliar
+- Líneas separadoras: #E5E2DB
+
+TIPOGRAFÍA
+----------
+- Títulos (h1, h2, h3): Instrument Serif, importado desde Google Fonts
+- Texto corrido y tablas: Inter (Google Fonts), peso 400 para texto, 600 para negritas, 700 para KPIs
+- Cifras grandes (los KPIs del top): Instrument Serif, tamaño 64-80px
+- Nunca uses mayúsculas corridas en títulos (sentence case siempre)
+
+ESTRUCTURA
+----------
+
+1. HEADER (parte superior)
+   - Fondo crudo (#F5F4F0)
+   - Padding generoso: 60px arriba y abajo
+   - Título principal en Instrument Serif: "Informe de stock sin rotación" (en negro)
+   - Debajo, en gris: "[EMPRESA] · [MES AÑO]"
+   - Pequeña línea separadora terracota de 60px de ancho
+
+2. BLOQUE DE KPIs (debajo del header)
+   - 4 tarjetas en fila (en móvil se apilan)
+   - Cada tarjeta: fondo blanco, border-radius 4px, sombra muy sutil, padding 32px
+   - Cada tarjeta muestra:
+     * Etiqueta pequeña en gris, uppercase, letter-spacing amplio (0.1em)
+     * Número grande en Instrument Serif, color terracota si es coste, verde si es recuperación
+     * Subtexto pequeño en gris explicando el dato
+   - Los 4 KPIs son:
+     * Nº refs sin rotación (número grande en negro)
+     * Capital inmovilizado (número grande en terracota)
+     * Coste invisible anual (número grande en rojo)
+     * Recuperación estimada (número grande en verde)
+
+3. BLOQUE "RESUMEN EJECUTIVO" (párrafo)
+   - Fondo blanco, padding 40px, border-radius 4px
+   - Párrafo de 3-4 líneas explicando en lenguaje directo qué se ha encontrado
+   - Debe sonar a consultor sénior, no a software: "Tienes X€ parados en 34 referencias que no se mueven desde hace más de 6 meses..."
+
+4. GRÁFICO DE DISTRIBUCIÓN
+   - Un gráfico de barras horizontales mostrando el reparto del valor inmovilizado entre las 3 acciones (devolver / liquidar / promocionar)
+   - Usa SVG inline, sin librerías externas pesadas
+   - Cada barra con su color: devolver = azul suave #6B8E9A, liquidar = terracota, promocionar = naranja
+   - Mostrar valor en € al final de cada barra
+
+5. TABLA DETALLE DE REFERENCIAS
+   - Tabla con las 34 refs muertas, ordenada por valor inmovilizado descendente
+   - Columnas: Ref, Descripción, Stock, Coste unit., Valor inmovilizado, Días sin mov., Semáforo (🔴🟠), Acción recomendada
+   - Filas alternas con fondo muy suave (#FAFAF7)
+   - Hover: fondo ligeramente más oscuro
+   - Fuente: Inter 14px, cómoda de leer
+
+6. BLOQUE "PLAN DE ACCIÓN ESTA SEMANA"
+   - 3 tarjetas apiladas, una por tipo de acción
+   - Cada tarjeta con:
+     * Título en Instrument Serif ("Devolver al proveedor" / "Liquidar -40%" / "Promocionar -30% a clientes")
+     * Nº de refs afectadas y € total
+     * Lista de los pasos concretos a dar esta semana (3-4 bullets)
+
+7. FOOTER
+   - Fondo crudo, texto gris pequeño
+   - "Generado con Claude Code · Metodología Isaac Romà"
+   - Enlace a https://isaacroma.com
+   - Fecha de generación
+
+PRINCIPIOS GENERALES
+--------------------
+- Mucho espacio en blanco (padding generoso, line-height 1.6)
+- Nada de emojis decorativos excepto los semáforos de la tabla
+- Nada de gradientes, nada de sombras llamativas, nada de glass morphism
+- Mobile-first: responsive hasta 380px de ancho
+- Imprimible: cuando el usuario le dé a Imprimir, debe salir bien en A4
+- NO uses librerías externas (ni Tailwind, ni Bootstrap, ni Chart.js). Todo CSS vanilla en una etiqueta <style> dentro del propio HTML
+- SOLO Google Fonts (Instrument Serif + Inter) desde el <link>

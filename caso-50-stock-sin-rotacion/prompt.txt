@@ -1,0 +1,75 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para identificar capital inmovilizado en stock sin rotación y generar un plan de acción accionable en minutos.
+
+---
+
+Actúa como Director de Operaciones y Compras con 20 años de experiencia en PYMEs mayoristas y distribuidoras españolas (1-50M€). Has gestionado almacenes de miles de referencias y sabes que el stock sin rotación es el enemigo invisible del cash flow: ocupa espacio, consume línea de crédito y acumula coste financiero sin que nadie lo note.
+
+Vas a analizar el stock de [EMPRESA] correspondiente a [MES AÑO], identificar las referencias sin rotación y proponer un plan de acción cuantificado.
+
+**DATOS DE ENTRADA**
+
+- @stock_actual.csv → inventario actual (ref, descripcion, stock, coste_unitario, ultimo_movimiento)
+- @movimientos_12m.csv → movimientos últimos 12 meses (ref, fecha, tipo, cantidad)
+- Tasa de coste financiero anual: [TASA_INTERES]% (coste medio de la línea de crédito o préstamo)
+- Coste almacén por m² al mes: [COSTE_ALMACEN_M2]€ (si no se conoce, usar 15€/m²/mes)
+
+**PASOS A EJECUTAR**
+
+1. **Validación de datos**
+   - Comprueba que ambos CSV se cargan sin errores
+   - Verifica formato de fechas (YYYY-MM-DD)
+   - Reporta: nº total de referencias en stock_actual, nº total de movimientos en movimientos_12m
+   - Si falta alguna columna o hay inconsistencias, repórtalas antes de seguir
+
+2. **Cálculo de stock muerto**
+   - Para cada referencia, cruza con los movimientos para obtener la fecha real del último movimiento (si no hay movimientos en 12 meses, usa el campo `ultimo_movimiento` del CSV de stock)
+   - Identifica las referencias cuya última salida sea anterior a hace 180 días
+   - Calcula: `valor_inmovilizado = stock × coste_unitario` para cada ref muerta
+   - Suma: capital total parado
+
+3. **Cálculo de coste invisible**
+   - Coste financiero anual: `capital_parado × [TASA_INTERES]%`
+   - Coste almacenamiento anual estimado: asume cada ref muerta ocupa ~0,3 m² de media → `nº_refs_muertas × 0,3 × [COSTE_ALMACEN_M2] × 12`
+   - Coste total invisible = financiero + almacenamiento
+
+4. **Alertas automáticas**
+   - Marca con 🔴 las refs con >365 días sin movimiento (candidatas claras a devolución o liquidación)
+   - Marca con 🟠 las refs con 180-365 días sin movimiento
+   - Si alguna ref muerta tiene stock > 50 unidades → marcar como "Sobrestock crítico"
+
+5. **Plan de acción por referencia**
+   Clasifica cada ref muerta en una de estas 3 acciones:
+   - **DEVOLVER AL PROVEEDOR**: refs con <270 días desde la última entrada (aún aceptables para devolución comercial). Recuperación estimada: 100% del coste
+   - **LIQUIDAR -40%**: refs con >365 días sin movimiento y stock bajo (<20 unidades). Recuperación estimada: 60% del coste
+   - **PROMOCIONAR -30% A CLIENTES**: resto de refs. Recuperación estimada: 70% del coste
+
+   Calcula la recuperación total estimada en €.
+
+6. **Entregable 1: Informe HTML visual**
+   - Lee las instrucciones de diseño en @diseno_html.txt y síguelas al pie de la letra
+   - Guarda el archivo como `informe_stock_muerto.html` en la carpeta actual
+   - Ábrelo automáticamente en el navegador
+
+7. **Entregable 2: Excel resumen**
+   - Lee las instrucciones de estructura en @diseno_excel.txt y síguelas
+   - Guarda el archivo como `informe_stock_muerto.xlsx` en la carpeta actual
+
+8. **Resumen final en terminal**
+   Al acabar, muestra en pantalla:
+   - Nº de refs muertas identificadas
+   - Capital total parado (€)
+   - Coste invisible anual (€)
+   - Recuperación estimada total (€)
+   - Ruta de los 2 archivos generados
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

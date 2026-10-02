@@ -1,0 +1,89 @@
+INSTRUCCIONES DE DISEÑO — EXCEL RESUMEN
+========================================
+
+El archivo se llama `informe_stock_muerto.xlsx` y debe tener EXACTAMENTE 3 hojas en este orden.
+
+HOJA 1 — "Resumen"
+------------------
+- Celda A1: Título "Informe de stock sin rotación" (fuente Calibri 18, negrita)
+- Celda A2: "[EMPRESA] · [MES AÑO]" (Calibri 11, gris)
+- Fila 3: vacía (separador)
+
+- A partir de A4, bloque de KPIs en 2 columnas:
+  Fila 4: "Nº referencias sin rotación" | valor (negrita, naranja/terracota)
+  Fila 5: "Capital inmovilizado" | valor en € (formato moneda, negrita, terracota)
+  Fila 6: "Coste financiero anual" | valor en € (formato moneda, rojo)
+  Fila 7: "Coste almacenamiento anual" | valor en € (formato moneda, rojo)
+  Fila 8: "COSTE INVISIBLE TOTAL/AÑO" | valor en € (formato moneda, negrita, rojo, fondo amarillo claro)
+  Fila 9: vacía
+  Fila 10: "Recuperación estimada" | valor en € (formato moneda, negrita, verde, fondo verde claro)
+
+- Fila 12: Sección "Reparto por acción"
+  Fila 13: encabezados "Acción | Nº refs | Valor inmovilizado | Recuperación estimada"
+  Fila 14: "Devolver al proveedor" | ... | ... | ...
+  Fila 15: "Liquidar -40%" | ... | ... | ...
+  Fila 16: "Promocionar -30%" | ... | ... | ...
+  Fila 17: "TOTAL" (negrita, con suma)
+
+- Ajusta anchos de columna: A=35, B=20, C=22, D=22
+- Bordes finos en las tablas
+- Congelar fila 1
+
+HOJA 2 — "Stock Muerto Detalle"
+--------------------------------
+- Una fila por cada referencia muerta
+- Columnas (fila 1 como encabezado con fondo gris oscuro #333 y texto blanco en negrita):
+  A: Ref
+  B: Descripción
+  C: Stock (unidades)
+  D: Coste unitario (€, formato moneda)
+  E: Valor inmovilizado (€, formato moneda, negrita)
+  F: Último movimiento (fecha, formato DD/MM/YYYY)
+  G: Días sin movimiento (entero)
+  H: Semáforo (🔴 si >365d, 🟠 si 180-365d)
+  I: Acción recomendada
+  J: Recuperación estimada (€, formato moneda)
+
+- Ordenar por columna E (Valor inmovilizado) descendente
+- Formato condicional en columna G:
+  - Verde suave si <365
+  - Rojo suave si >365
+- Filtros automáticos en fila 1
+- Congelar fila 1
+- Ajustar anchos: A=18, B=35, C=10, D=14, E=18, F=16, G=14, H=10, I=28, J=18
+
+HOJA 3 — "Plan de Acción"
+--------------------------
+- 3 bloques, uno por tipo de acción, separados por filas en blanco
+
+BLOQUE 1 (fila 1-N):
+  A1: "DEVOLVER AL PROVEEDOR" (fuente 14, negrita, fondo azul claro)
+  A2: "Instrucciones esta semana:" (negrita)
+  A3: "1. Contactar con proveedores de las refs listadas y negociar devolución"
+  A4: "2. Priorizar las refs con mayor valor inmovilizado"
+  A5: "3. Objetivo: cerrar devoluciones antes de 15 días"
+  Fila 7: cabecera "Ref | Descripción | Stock | Valor | Proveedor sugerido (editable)"
+  Debajo: todas las refs clasificadas como DEVOLVER
+
+BLOQUE 2 (después de bloque 1 + 2 filas vacías):
+  Igual estructura con título "LIQUIDAR -40%" (fondo terracota claro)
+  Instrucciones:
+    1. Publicar lista de liquidación en web y newsletter
+    2. Avisar al equipo comercial de la rebaja autorizada
+    3. Precio = Coste × 0,6 (recuperación mínima aceptable)
+
+BLOQUE 3 (después de bloque 2 + 2 filas vacías):
+  Igual estructura con título "PROMOCIONAR -30% A CLIENTES ACTIVOS" (fondo naranja claro)
+  Instrucciones:
+    1. Email dedicado a los 20 mejores clientes con la oferta
+    2. Comercial llama a los top 10 clientes esta semana
+    3. Fecha límite oferta: 30 días
+
+PRINCIPIOS GENERALES
+--------------------
+- Usa openpyxl en Python
+- Fuente por defecto: Calibri 11
+- Todos los importes en euros con 2 decimales y símbolo €
+- Fechas en formato DD/MM/YYYY
+- No añadir hojas extra, no añadir gráficos en el Excel (los gráficos van en el HTML)
+- El archivo debe pesar menos de 500KB
