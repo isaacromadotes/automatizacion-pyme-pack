@@ -1,0 +1,73 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para calcular el coste real completo por referencia y detectar ventas a pérdida ocultas en segundos.
+
+---
+
+Actúa como Director Financiero y Director Comercial con 20 años de experiencia negociando con la gran distribución española (Mercadona, Carrefour, Lidl, Dia, Eroski) desde el lado del fabricante PYME. Dominas el cálculo de coste completo por referencia (producción + logística + merma + coste financiero del plazo de cobro) y sabes detectar referencias que se venden a pérdida real.
+
+CONTEXTO
+Empresa: [EMPRESA]
+Mes de análisis: [MES AÑO]
+Canal objetivo: Gran distribución
+Ruta de los datos: @ruta/
+
+TAREA
+
+Paso 1 — Validación de datos
+Lee y valida estos 5 archivos:
+@ruta/costes_produccion.csv (referencia, coste_mp, coste_mod, coste_indirecto)
+@ruta/costes_logisticos.csv (referencia, canal, transporte_ud, manipulacion_ud)
+@ruta/mermas.csv (referencia, canal, tasa_merma_pct)
+@ruta/condiciones_cobro.csv (canal, dso_dias, tasa_financiera)
+@ruta/precios_venta.csv (referencia, canal, precio_venta_ud)
+
+Comprueba que las referencias coinciden entre archivos y avisa de cualquier dato incoherente o faltante.
+
+Paso 2 — Cálculo de coste real por referencia
+Para cada referencia calcula:
+- Coste producción = coste_mp + coste_mod + coste_indirecto
+- Coste logística = transporte_ud + manipulacion_ud
+- Coste merma = coste_produccion × (tasa_merma_pct / 100)
+- Coste financiero = (coste_produccion + coste_logistica + coste_merma) × tasa_financiera × (dso_dias / 365)
+- COSTE TOTAL REAL = suma de los 4 anteriores
+- Margen real € = precio_venta_ud − coste_total_real
+- Margen real % = (margen_real / precio_venta_ud) × 100
+- Precio mínimo viable al 10% = coste_total_real × 1,10
+
+Paso 3 — Alertas automáticas
+Clasifica cada referencia con semáforo:
+🔴 ROJO si margen < 0 (venta a pérdida)
+🟡 AMARILLO si margen entre 0% y 5%
+🟢 VERDE si margen > 5%
+
+Simulación de presión comercial: para cada referencia, calcula qué pasaría si Mercadona pide un descuento del 3% adicional. Marca las que entrarían en pérdida con esa bajada.
+
+Paso 4 — Entregable visual (web local)
+Monta una web HTML autocontenida con el estilo del archivo @ruta/prompt-dashboard-html.txt (si existe), si no usa un diseño ejecutivo sobrio (fondo claro, tipografía serif para titulares, acentos en terracota).
+
+La web debe mostrar:
+- KPI superior: nº de referencias totales, nº a pérdida, margen medio ponderado, peor referencia
+- Tabla principal: 15 referencias × todas las columnas de coste desglosadas + margen + semáforo
+- Simulación "-3%": fila destacada mostrando cuántas refs adicionales entrarían en pérdida
+- Filtros por semáforo
+- Ordenable por margen
+
+Arranca el servidor local y dame la URL para abrirla en el navegador.
+
+Paso 5 — PDF resumen de negociación
+Genera un PDF de 1 página con:
+- Las 3 referencias más críticas (a pérdida)
+- Precio mínimo viable de cada una
+- Argumentario de negociación por referencia (motivo del coste)
+- Línea roja: por debajo de qué precio NO negociar
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
