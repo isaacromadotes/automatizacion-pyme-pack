@@ -1,0 +1,75 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para anticipar tensiones de tesorería estacionales con 90 días de margen, antes de que se conviertan en una emergencia bancaria.
+
+---
+
+Actúa como un CFO con 20 años de experiencia en PYMEs industriales españolas con fuerte estacionalidad (agroalimentario, conservas, aceite, vino, hortofrutícola). Dominas forecasting de tesorería, negociación bancaria y gestión de pólizas de crédito.
+
+Vas a construir el forecast anual de tesorería de la empresa [EMPRESA] para el ejercicio [MES AÑO] a partir de los datos reales de producción, ventas, cobros y pagos fijos.
+
+DATOS DE ENTRADA
+
+- Producción mensual (costes MP, MOD, energía, otros): @csvs/produccion_anual.csv
+- Ventas previstas por canal: @csvs/ventas_previstas.csv
+- DSO medio por canal (días hasta cobro): @csvs/cobros_previstos.csv
+- Pagos fijos mensuales recurrentes: @csvs/pagos_fijos.csv
+
+PASOS A SEGUIR
+
+1. VALIDACIÓN DE DATOS
+   - Verifica que los 4 CSVs están completos (12 meses, canales coherentes).
+   - Si falta algún mes o canal, avísame antes de continuar.
+   - Confirma que los importes son numéricos y positivos.
+
+2. CÁLCULO DEL FORECAST
+   - Calcula los PAGOS mensuales = coste_mp + coste_mod + coste_energia + otros + suma(pagos_fijos).
+   - Calcula los COBROS mensuales desplazando las ventas de cada canal según su DSO medio (gran distribución, horeca, exportación).
+   - Calcula el FLUJO NETO mensual (cobros - pagos).
+   - Calcula el SALDO ACUMULADO mes a mes partiendo de saldo inicial 0€.
+
+3. ALERTAS AUTOMÁTICAS
+   - Identifica los meses con saldo acumulado NEGATIVO = meses de tensión de caja.
+   - Calcula la TENSIÓN MÁXIMA (mes y saldo más negativo) → esto es la necesidad real de póliza.
+   - Calcula los DÍAS DE ANTELACIÓN con los que la tensión era anticipable (desde el primer mes con flujo neto negativo hasta el pico de tensión).
+   - Lanza una alerta explícita: "Tensión prevista en [meses], pico de -X€ en [mes]. Anticipable con [N] días".
+
+4. ENTREGABLE VISUAL (WEB)
+   - Monta una página web (HTML + JS vanilla, sin frameworks) con:
+     * Gráfico anual de línea (saldo acumulado mes a mes) con los meses de tensión marcados en rojo.
+     * Tabla mensual: Mes | Cobros | Pagos | Flujo Neto | Saldo Acumulado | Estado (OK / TENSIÓN).
+     * KPIs destacados arriba: Tensión máxima, Mes crítico, Días de anticipación, Necesidad de póliza recomendada.
+   - Arranca un servidor local (http.server de Python en puerto 3000) y dime la URL.
+
+5. ENTREGABLES PARA EL BANCO
+   - Genera un Excel (`forecast_tesoreria_[EMPRESA].xlsx`) con:
+     * Hoja 1: Resumen ejecutivo + KPIs.
+     * Hoja 2: Forecast mensual completo con fórmulas (no valores fijos).
+     * Hoja 3: Detalle de cobros por canal con desplazamiento DSO.
+     * Hoja 4: Supuestos y notas metodológicas.
+     * Meses de tensión resaltados en rojo claro.
+   - Genera un HTML de una página (`informe_banco_[EMPRESA].html`) tipo dashboard ejecutivo con:
+     * Portada: nombre empresa, fecha, resumen de necesidad de financiación.
+     * Gráfico de la curva anual.
+     * Tabla resumen de los 3-4 meses de tensión.
+     * Propuesta: póliza de X€ con detalle de amortización natural al cierre de campaña.
+
+6. CIERRE
+   - Resume en 5 líneas qué has encontrado y cuál es la recomendación para la negociación bancaria.
+   - Guarda todos los entregables en la carpeta actual.
+
+VARIABLES A SUSTITUIR POR EL USUARIO
+- [EMPRESA] → nombre real de tu empresa
+- [MES AÑO] → ejercicio objetivo del forecast (ej. "enero 2027")
+- @csvs/*.csv → rutas reales a tus archivos
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---
