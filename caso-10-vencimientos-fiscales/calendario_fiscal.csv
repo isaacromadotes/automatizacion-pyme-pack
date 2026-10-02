@@ -1,0 +1,16 @@
+obligacion,modelo,periodo,fecha_limite,aplica_a,descripcion
+IVA trimestral,303,2T 2025,2025-07-21,General;General con RE;Simplificado,Autoliquidación IVA segundo trimestre
+IRPF retenciones,111,2T 2025,2025-07-21,Todos con empleados,Retenciones e ingresos a cuenta del IRPF
+IRPF estimación directa,130,2T 2025,2025-07-21,Autónomos estimación directa,Pago fraccionado IRPF estimación directa
+IRPF estimación objetiva,131,2T 2025,2025-07-21,Autónomos estimación objetiva,Pago fraccionado IRPF módulos
+Retenciones alquiler,115,2T 2025,2025-07-21,Arrendatarios locales,Retenciones por arrendamiento inmuebles urbanos
+Retenciones profesionales,111,2T 2025,2025-07-21,Pagadores a profesionales,Retenciones a profesionales
+Operaciones intracomunitarias,349,2T 2025,2025-07-21,Operadores intracomunitarios,Declaración recapitulativa op. intracomunitarias
+Impuesto Sociedades,200,Ejercicio 2024,2025-07-25,SL;SLP;SA;Cooperativa,Declaración anual Impuesto sobre Sociedades
+Cuentas anuales,CCAA,Ejercicio 2024,2025-07-30,SL;SLP;SA;Cooperativa,Depósito cuentas anuales en Registro Mercantil
+IVA trimestral,303,3T 2025,2025-10-20,General;General con RE;Simplificado,Autoliquidación IVA tercer trimestre
+IRPF retenciones,111,3T 2025,2025-10-20,Todos con empleados,Retenciones e ingresos a cuenta del IRPF
+IRPF estimación directa,130,3T 2025,2025-10-20,Autónomos estimación directa,Pago fraccionado IRPF estimación directa
+Retenciones alquiler,115,3T 2025,2025-10-20,Arrendatarios locales,Retenciones por arrendamiento inmuebles urbanos
+Operaciones intracomunitarias,349,3T 2025,2025-10-20,Operadores intracomunitarios,Declaración recapitulativa op. intracomunitarias
+Declaración informativa,347,Anual,2025-07-31,Operaciones > 3.005€,Operaciones con terceros (si no se presentó en feb)

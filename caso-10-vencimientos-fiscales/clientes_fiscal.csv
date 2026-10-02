@@ -1,0 +1,51 @@
+cliente_id,empresa,cif,gestor_asignado,email_cliente,telefono,regimen_iva,tipo_sociedad,activo
+1,Carpintería López S.L.,B12345001,Ana Pérez,jlopez@carpinterialopez.es,612345001,General,SL,Sí
+2,Fontanería Rápida S.L.,B12345002,Ana Pérez,info@fontaneriarapida.es,612345002,General,SL,Sí
+3,Clínica Dental Sonríe S.L.P.,B12345003,Carlos Ruiz,admin@clinicasonrie.es,612345003,Exento,SLP,Sí
+4,Restaurante El Fogón S.L.,B12345004,Ana Pérez,elfogon@gmail.com,612345004,General con RE,SL,Sí
+5,Martín Abogados S.L.P.,B12345005,Carlos Ruiz,recepcion@martinabogados.es,612345005,General,SLP,Sí
+6,Transportes Ágil S.L.,B12345006,Laura Gómez,lagil@transportesagil.es,612345006,General,SL,Sí
+7,Peluquería Estilos S.L.,B12345007,Laura Gómez,estilos@gmail.com,612345007,Recargo equiv.,SL,Sí
+8,Inmobiliaria Costa S.L.,B12345008,Carlos Ruiz,ventas@inmocosta.es,612345008,General,SL,Sí
+9,Taller Mecánico Ramos,47123456A,Ana Pérez,tramos@hotmail.com,612345009,Simplificado,Autónomo,Sí
+10,Panadería Artesana S.L.,B12345010,Laura Gómez,panaderia@artesana.es,612345010,General con RE,SL,Sí
+11,Consultora Estrategia S.L.,B12345011,Carlos Ruiz,info@estrategia.es,612345011,General,SL,Sí
+12,Farmacia Central S.L.,B12345012,Ana Pérez,fcentral@farmacias.es,612345012,Exento parcial,SL,Sí
+13,Óptica Mirada S.L.,B12345013,Laura Gómez,optica@mirada.es,612345013,General,SL,Sí
+14,Gimnasio FitPlus S.L.,B12345014,Carlos Ruiz,admin@fitplus.es,612345014,General,SL,Sí
+15,Veterinaria Patas S.L.,B12345015,Ana Pérez,info@vetpatas.es,612345015,General,SL,Sí
+16,Estudio Fotografía Luna,52345678B,Laura Gómez,luna@fotoluna.es,612345016,Simplificado,Autónomo,Sí
+17,Pastelería Dulce Hogar S.L.,B12345017,Ana Pérez,pedidos@dulcehogar.es,612345017,General con RE,SL,Sí
+18,Autoescuela Ruta Segura S.L.,B12345018,Carlos Ruiz,info@rutasegura.es,612345018,Exento,SL,Sí
+19,Ferretería El Clavo S.L.,B12345019,Laura Gómez,ventas@elclavo.es,612345019,General,SL,Sí
+20,Gestoría Aliados S.L.,B12345020,Carlos Ruiz,contacto@gestoriaaliados.es,612345020,General,SL,Sí
+21,Ingeniería Verde S.L.,B12345021,Ana Pérez,proyectos@ingverde.es,612345021,General,SL,Sí
+22,Tintorería Express S.L.,B12345022,Laura Gómez,tintoreria@express.es,612345022,General,SL,Sí
+23,Notaría García-Vega,51234567C,Carlos Ruiz,notaria@garciavega.es,612345023,Exento,Autónomo,Sí
+24,Clínica Fisio Salud S.L.,B12345024,Ana Pérez,citas@fisiosalud.es,612345024,Exento,SL,Sí
+25,Droguería Industrial S.L.,B12345025,Laura Gómez,ventas@drogueriaindustrial.es,612345025,General,SL,Sí
+26,Asesores Tributarios Norte S.L.,B12345026,Carlos Ruiz,info@atnorte.es,612345026,General,SL,Sí
+27,Viveros El Jardín S.L.,B12345027,Ana Pérez,pedidos@eljardin.es,612345027,General,SL,Sí
+28,Academia Idiomas Plus S.L.,B12345028,Laura Gómez,matriculas@idiomasplus.es,612345028,Exento,SL,Sí
+29,Carnicería Selecta S.L.,B12345029,Carlos Ruiz,pedidos@carniselecta.es,612345029,General con RE,SL,Sí
+30,Papelería Iris S.L.,B12345030,Ana Pérez,info@papeleriairis.es,612345030,General,SL,Sí
+31,Software Solutions BCN S.L.,B12345031,Carlos Ruiz,admin@softbcn.es,612345031,General,SL,Sí
+32,Cristalería Panorama S.L.,B12345032,Laura Gómez,info@cristaleriapanorama.es,612345032,General,SL,Sí
+33,Decoración Hogar Plus S.L.,B12345033,Ana Pérez,tienda@hogarplus.es,612345033,General,SL,Sí
+34,Mudanzas Rapid S.L.,B12345034,Carlos Ruiz,presupuestos@mudanzasrapid.es,612345034,General,SL,Sí
+35,Bar Restaurante La Plaza S.L.,B12345035,Laura Gómez,laplaza@gmail.com,612345035,General con RE,SL,Sí
+36,Eléctrica Molina,48765432D,Ana Pérez,info@electricamolina.es,612345036,Simplificado,Autónomo,Sí
+37,Arquitectura Espacios S.L.P.,B12345037,Carlos Ruiz,estudio@aespacios.es,612345037,General,SLP,Sí
+38,Zapatería Caminar S.L.,B12345038,Laura Gómez,tienda@caminar.es,612345038,General con RE,SL,Sí
+39,Centro Yoga Namaste S.L.,B12345039,Ana Pérez,reservas@yoganamaste.es,612345039,Exento,SL,Sí
+40,Imprenta Digital Sur S.L.,B12345040,Carlos Ruiz,pedidos@imprentasur.es,612345040,General,SL,Sí
+41,Pescadería Mar Fresco S.L.,B12345041,Laura Gómez,pedidos@marfresco.es,612345041,General con RE,SL,Sí
+42,Cerrajería 24h S.L.,B12345042,Ana Pérez,urgencias@cerrajeria24h.es,612345042,General,SL,Sí
+43,Guardería Sol y Luna S.L.,B12345043,Carlos Ruiz,info@solyluna.es,612345043,Exento,SL,Sí
+44,Joyería Brillante S.L.,B12345044,Laura Gómez,ventas@joyeriabrillante.es,612345044,General con RE,SL,Sí
+45,Laboratorio Análisis Norte S.L.,B12345045,Ana Pérez,muestras@labnorte.es,612345045,General,SL,Sí
+46,Peritaciones Técnicas Vega,49876543E,Carlos Ruiz,perito@vegaperitaciones.es,612345046,General,Autónomo,Sí
+47,Floristería Amapola S.L.,B12345047,Laura Gómez,pedidos@amapola.es,612345047,General con RE,SL,Sí
+48,Bodega Tradición S.L.,B12345048,Ana Pérez,enoturismo@bodega.es,612345048,General,SL,Sí
+49,Correduría Seguros Fénix S.L.,B12345049,Carlos Ruiz,polizas@fenixseguros.es,612345049,Exento,SL,Sí
+50,Taxis Reunidos S.COOP.,F12345050,Laura Gómez,central@taxisreunidos.es,612345050,Simplificado,Cooperativa,Sí
