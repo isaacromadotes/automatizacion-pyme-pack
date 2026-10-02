@@ -1,0 +1,21 @@
+id_cliente,nombre_cliente,tipo_cliente,poblacion,provincia,año_alta
+C001,Instalaciones Martínez S.L.,Instalador,Valencia,Valencia,2012
+C002,Fontanería Hermanos Soler,Instalador,Alicante,Alicante,2015
+C003,Construcciones Levante Norte S.A.,Constructora,Castellón,Castellón,2008
+C004,Climatizaciones Peñíscola,Instalador,Peñíscola,Castellón,2018
+C005,Reformas Integrales Benidorm,Reformista,Benidorm,Alicante,2016
+C006,Grupo Edificaciones Mediterráneo S.L.,Constructora,Valencia,Valencia,2010
+C007,Electricidad Jaume Torrent,Instalador,Gandía,Valencia,2014
+C008,Promociones Costablanca S.A.,Promotor,Dénia,Alicante,2011
+C009,Instalhogar Carlos Ribera,Instalador,Elche,Alicante,2019
+C010,Obras Públicas Diputación Valencia,Obra Pública,Valencia,Valencia,2013
+C011,Climasat Técnicos S.L.,Instalador,Sagunto,Valencia,2017
+C012,Reformas Puig Antonio,Reformista,Puzol,Valencia,2020
+C013,Instalaciones Sanitarias Vinaròs,Instalador,Vinaròs,Castellón,2015
+C014,Electro Industrial Elda S.L.,Instalador,Elda,Alicante,2013
+C015,Construcciones Riba-roja,Constructora,Riba-roja,Valencia,2009
+C016,Hermanos Montesinos Instalaciones,Instalador,Alcoy,Alicante,2016
+C017,Climatización Marina Alta,Instalador,Jávea,Alicante,2017
+C018,Reformas y Mantenimiento Cullera,Reformista,Cullera,Valencia,2018
+C019,Grupo Villajoyosa Construcciones,Constructora,Villajoyosa,Alicante,2012
+C020,Instalaciones Técnicas Burriana,Instalador,Burriana,Castellón,2014

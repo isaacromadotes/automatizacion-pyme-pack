@@ -1,0 +1,83 @@
+mes,familia,id_cliente,motivo,responsable,importe_devolucion
+2024-01,Fontanería,C002,Avería en instalación,Transporte,1002.93
+2024-01,Fontanería,C011,Avería en instalación,Comercial,477.07
+2024-02,Fontanería,C015,Avería en instalación,Comercial,109.49
+2024-02,Fontanería,C010,Retraso entrega,Almacén,445.79
+2024-02,Fontanería,C014,Avería en instalación,Comercial,651.87
+2024-02,Fontanería,C003,Avería en instalación,Almacén,216.85
+2024-03,Fontanería,C006,Error en pedido,Almacén,1038.71
+2024-03,Fontanería,C008,Error en pedido,Transporte,497.29
+2024-04,Electricidad,C018,Avería en instalación,Comercial,1238.76
+2024-04,Electricidad,C011,Producto defectuoso,Comercial,441.24
+2024-05,Electricidad,C020,Avería en instalación,Comercial,111.0
+2024-05,Electricidad,C005,Rotura en transporte,Transporte,1529.0
+2024-06,Climatización,C005,Rotura en transporte,Transporte,608.33
+2024-06,Climatización,C003,Rotura en transporte,Transporte,857.19
+2024-06,Climatización,C001,Producto defectuoso,Transporte,26.8
+2024-06,Climatización,C011,Producto defectuoso,Proveedor,347.68
+2024-07,Climatización,C012,Retraso entrega,Comercial,136.18
+2024-07,Climatización,C015,Cliente no conforme,Comercial,757.76
+2024-07,Climatización,C018,Error en pedido,Almacén,595.26
+2024-07,Climatización,C010,Avería en instalación,Transporte,470.8
+2024-08,Fontanería,C001,Avería en instalación,Transporte,775.08
+2024-08,Fontanería,C015,Cliente no conforme,Almacén,350.45
+2024-08,Fontanería,C003,Cliente no conforme,Proveedor,154.47
+2024-09,Electricidad,C006,Retraso entrega,Transporte,276.04
+2024-09,Electricidad,C004,Retraso entrega,Proveedor,495.86
+2024-09,Electricidad,C003,Error en pedido,Almacén,518.66
+2024-09,Electricidad,C012,Producto defectuoso,Comercial,429.44
+2024-10,Climatización,C010,Rotura en transporte,Proveedor,519.68
+2024-10,Climatización,C003,Error en pedido,Almacén,8.9
+2024-10,Climatización,C019,Producto defectuoso,Transporte,818.67
+2024-10,Climatización,C008,Avería en instalación,Almacén,383.07
+2024-10,Climatización,C005,Error en pedido,Almacén,69.68
+2024-11,Fontanería,C019,Retraso entrega,Comercial,674.64
+2024-11,Fontanería,C020,Rotura en transporte,Proveedor,401.38
+2024-11,Fontanería,C001,Producto defectuoso,Transporte,507.98
+2024-12,Electricidad,C017,Error en pedido,Transporte,436.08
+2024-12,Electricidad,C004,Rotura en transporte,Transporte,306.39
+2024-12,Electricidad,C007,Cliente no conforme,Almacén,516.49
+2024-12,Electricidad,C017,Avería en instalación,Proveedor,661.04
+2025-01,Fontanería,C002,Rotura en transporte,Proveedor,193.44
+2025-01,Fontanería,C012,Error en pedido,Almacén,181.02
+2025-01,Fontanería,C002,Retraso entrega,Transporte,25.53
+2025-01,Fontanería,C017,Rotura en transporte,Proveedor,479.59
+2025-01,Fontanería,C001,Retraso entrega,Almacén,640.42
+2025-02,Fontanería,C017,Retraso entrega,Almacén,905.54
+2025-02,Fontanería,C011,Rotura en transporte,Transporte,469.9
+2025-02,Fontanería,C014,Error en pedido,Comercial,80.56
+2025-03,Fontanería,C016,Rotura en transporte,Transporte,1392.24
+2025-03,Fontanería,C009,Cliente no conforme,Almacén,167.76
+2025-04,Electricidad,C006,Producto defectuoso,Transporte,6.34
+2025-04,Electricidad,C020,Avería en instalación,Transporte,497.61
+2025-04,Electricidad,C015,Producto defectuoso,Transporte,319.23
+2025-04,Electricidad,C004,Producto defectuoso,Proveedor,289.56
+2025-04,Electricidad,C014,Avería en instalación,Almacén,631.26
+2025-05,Electricidad,C012,Rotura en transporte,Comercial,288.2
+2025-05,Electricidad,C003,Avería en instalación,Comercial,761.29
+2025-05,Electricidad,C007,Cliente no conforme,Proveedor,646.51
+2025-06,Climatización,C018,Retraso entrega,Transporte,982.13
+2025-06,Climatización,C001,Retraso entrega,Almacén,776.0
+2025-06,Climatización,C019,Rotura en transporte,Transporte,145.87
+2025-07,Climatización,C012,Avería en instalación,Transporte,56.75
+2025-07,Climatización,C010,Error en pedido,Comercial,1300.14
+2025-07,Climatización,C020,Producto defectuoso,Proveedor,659.11
+2025-08,Fontanería,C005,Cliente no conforme,Proveedor,547.74
+2025-08,Fontanería,C002,Error en pedido,Comercial,772.26
+2025-09,Electricidad,C008,Producto defectuoso,Transporte,468.22
+2025-09,Electricidad,C004,Producto defectuoso,Transporte,610.62
+2025-09,Electricidad,C003,Producto defectuoso,Almacén,318.98
+2025-09,Electricidad,C007,Error en pedido,Comercial,106.6
+2025-09,Electricidad,C006,Avería en instalación,Comercial,271.58
+2025-10,Climatización,C004,Error en pedido,Transporte,817.78
+2025-10,Climatización,C003,Avería en instalación,Almacén,284.45
+2025-10,Climatización,C001,Retraso entrega,Transporte,753.77
+2025-11,Fontanería,C018,Error en pedido,Transporte,31.45
+2025-11,Fontanería,C013,Retraso entrega,Comercial,1065.88
+2025-11,Fontanería,C015,Cliente no conforme,Transporte,141.48
+2025-11,Fontanería,C002,Rotura en transporte,Transporte,401.19
+2025-12,Electricidad,C009,Avería en instalación,Proveedor,3.64
+2025-12,Electricidad,C007,Error en pedido,Transporte,344.27
+2025-12,Electricidad,C020,Cliente no conforme,Almacén,587.7
+2025-12,Electricidad,C020,Avería en instalación,Proveedor,280.31
+2025-12,Electricidad,C007,Cliente no conforme,Almacén,768.08

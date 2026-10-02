@@ -1,0 +1,16 @@
+id_proveedor,nombre_proveedor,familia_suministra,pais,condiciones_pago,escalado_descuento
+P001,Roca Sanitario S.A.,Fontanería,España,60 días,3-5-7%
+P002,Grohe España S.A.U.,Fontanería,España,45 días,4-6-8%
+P003,Standard Hidráulica S.A.U.,Fontanería,España,60 días,3-5%
+P004,Jung Ibérica S.A.,Electricidad,España,30 días,5-8-10%
+P005,Simon S.A.,Electricidad,España,60 días,4-7-10%
+P006,Schneider Electric España,Electricidad,Francia,45 días,3-6-9%
+P007,Daikin AC Spain S.A.,Climatización,Japón,30 días,2-4-6%
+P008,Mitsubishi Electric España,Climatización,Japón,45 días,3-5-7%
+P009,Fujitsu General España S.A.,Climatización,Japón,30 días,2-4-6%
+P010,Hitachi Cooling Spain,Climatización,Japón,45 días,3-5-7%
+P011,Valsir Ibérica S.L.U.,Fontanería,Italia,60 días,4-6%
+P012,Legrand Group España S.L.,Electricidad,Francia,45 días,3-6%
+P013,Panasonic Heating & Cooling,Climatización,Japón,30 días,2-4%
+P014,Baxi Calefacción S.L.U.,Climatización,España,60 días,3-5-7%
+P015,ABB España S.A.,Electricidad,Suiza,45 días,4-7%
