@@ -1,0 +1,151 @@
+referencia,descripcion,familia,unidad,coste_unitario,stock_actual,stock_minimo_actual,lead_time_dias,proveedor
+REF-001,Chapa acero inox 304 2mm,Materia Prima,ud,45.20,780,50,15,Aceros del Norte S.L.
+REF-002,Tubo redondo 25mm,Materia Prima,m,8.50,1800,200,12,Aceros del Norte S.L.
+REF-003,Tornillo M8x30 DIN 933,Tornillería,ud,0.12,45000,5000,7,Fixaciones Rápidas S.A.
+REF-004,Tuerca M8 DIN 934,Tornillería,ud,0.06,52000,5000,7,Fixaciones Rápidas S.A.
+REF-005,Arandela plana M8,Tornillería,ud,0.03,60000,5000,7,Fixaciones Rápidas S.A.
+REF-006,Pintura epoxi gris RAL 7035,Acabados,l,18.90,340,30,10,Pinturas Levante S.L.
+REF-007,Disolvente universal,Acabados,l,4.20,180,20,5,Pinturas Levante S.L.
+REF-008,Electrodo E6013 3.2mm,Soldadura,kg,6.80,95,30,8,Soldamaq S.A.
+REF-009,Hilo MIG 0.8mm,Soldadura,kg,8.50,42,20,8,Soldamaq S.A.
+REF-010,Gas argón botella,Soldadura,ud,85.00,12,3,3,Soldamaq S.A.
+REF-011,Disco corte 230mm,Abrasivos,ud,2.40,380,50,5,Abrasivos Industriales S.L.
+REF-012,Disco desbaste 115mm,Abrasivos,ud,3.10,290,40,5,Abrasivos Industriales S.L.
+REF-013,Broca HSS 10mm,Herramientas,ud,4.80,85,10,10,Herramientas Pro S.A.
+REF-014,Fresa frontal 20mm,Herramientas,ud,42.00,18,3,14,Herramientas Pro S.A.
+REF-015,Inserto CNMG 120408,Herramientas,ud,8.90,220,30,10,Herramientas Pro S.A.
+REF-016,Rodamiento 6205-2RS,Componentes,ud,7.20,150,15,12,Rodamientos Express S.L.
+REF-017,Retén 30x42x7,Componentes,ud,2.80,90,10,12,Rodamientos Express S.L.
+REF-018,Correa dentada HTD 5M,Componentes,ud,12.50,35,5,15,Transmisiones Iberia S.A.
+REF-019,Piñón Z20 módulo 2,Componentes,ud,28.00,22,3,18,Transmisiones Iberia S.A.
+REF-020,Motor reductor 1.5kW,Componentes,ud,385.00,8,2,25,ElectroMotor S.L.
+REF-021,Variador frecuencia 2.2kW,Componentes,ud,420.00,6,1,20,ElectroMotor S.L.
+REF-022,Contactor 18A,Eléctrico,ud,32.00,45,5,7,Material Eléctrico Zona S.A.
+REF-023,Relé térmico 12-18A,Eléctrico,ud,28.50,38,5,7,Material Eléctrico Zona S.A.
+REF-024,Cable H07V-K 2.5mm² azul,Eléctrico,m,0.65,800,100,5,Material Eléctrico Zona S.A.
+REF-025,Pletina aluminio 40x5mm,Materia Prima,m,6.20,420,50,12,Aluminios del Sur S.L.
+REF-026,Chapa aluminio 3mm,Materia Prima,ud,38.00,220,20,12,Aluminios del Sur S.L.
+REF-027,Perfil UPN 100,Materia Prima,m,14.80,95,15,15,Aceros del Norte S.L.
+REF-028,Perfil IPE 120,Materia Prima,m,18.50,72,10,15,Aceros del Norte S.L.
+REF-029,Chapa galvanizada 1.5mm,Materia Prima,ud,28.00,380,30,12,Aceros del Norte S.L.
+REF-030,Tubo cuadrado 40x40x2,Materia Prima,m,5.80,650,80,12,Aceros del Norte S.L.
+REF-031,Silicona selladora,Consumibles,ud,5.50,120,15,5,Suministros Generales S.L.
+REF-032,Cinta aislante,Consumibles,ud,1.80,200,20,5,Suministros Generales S.L.
+REF-033,Grasa litio multiusos,Consumibles,kg,8.20,45,5,7,Lubricantes Centro S.A.
+REF-034,Aceite hidráulico 46,Consumibles,l,3.90,280,30,7,Lubricantes Centro S.A.
+REF-035,Filtro aire compresor,Consumibles,ud,18.00,14,2,10,Aire Comprimido S.L.
+REF-036,Junta tórica 25x3,Componentes,ud,0.45,800,100,10,Juntas y Retenes S.A.
+REF-037,Pasador elástico 6x40,Tornillería,ud,0.18,3200,500,7,Fixaciones Rápidas S.A.
+REF-038,Tornillo Allen M6x20,Tornillería,ud,0.15,28000,3000,7,Fixaciones Rápidas S.A.
+REF-039,Perno M12x80,Tornillería,ud,0.85,4500,500,7,Fixaciones Rápidas S.A.
+REF-040,Remache pop 4.8x12,Tornillería,ud,0.04,35000,5000,5,Fixaciones Rápidas S.A.
+REF-041,Bisagra industrial 80mm,Componentes,ud,4.50,180,20,10,Herrajes Técnicos S.L.
+REF-042,Cerradura cilindro,Componentes,ud,12.00,65,8,12,Herrajes Técnicos S.L.
+REF-043,Maneta puerta industrial,Componentes,ud,8.50,48,5,12,Herrajes Técnicos S.L.
+REF-044,Muelle tracción 2x20x100,Componentes,ud,1.20,350,40,14,Muelles Técnicos S.A.
+REF-045,Muelle compresión 3x25x80,Componentes,ud,1.50,280,30,14,Muelles Técnicos S.A.
+REF-046,Válvula neumática 5/2,Neumática,ud,45.00,15,2,15,Neumática Industrial S.L.
+REF-047,Cilindro neumático 40x200,Neumática,ud,68.00,9,2,18,Neumática Industrial S.L.
+REF-048,Racor rápido 8mm,Neumática,ud,2.80,120,15,7,Neumática Industrial S.L.
+REF-049,Tubo poliuretano 8mm,Neumática,m,1.20,250,30,5,Neumática Industrial S.L.
+REF-050,Sensor inductivo M12,Automatización,ud,35.00,18,3,12,Sensores y Control S.A.
+REF-051,Final de carrera,Automatización,ud,12.50,25,3,10,Sensores y Control S.A.
+REF-052,Fotocélula reflexión,Automatización,ud,55.00,8,2,15,Sensores y Control S.A.
+REF-053,PLC compacto 14E/10S,Automatización,ud,380.00,3,1,20,Sensores y Control S.A.
+REF-054,"Pantalla HMI 7""",Automatización,ud,520.00,4,1,25,Sensores y Control S.A.
+REF-055,Fuente alimentación 24V 5A,Eléctrico,ud,42.00,12,2,10,Material Eléctrico Zona S.A.
+REF-056,Interruptor magnetotérmico 16A,Eléctrico,ud,15.00,30,4,7,Material Eléctrico Zona S.A.
+REF-057,Diferencial 40A 30mA,Eléctrico,ud,38.00,18,2,7,Material Eléctrico Zona S.A.
+REF-058,Borna carril DIN 2.5mm²,Eléctrico,ud,1.20,450,50,5,Material Eléctrico Zona S.A.
+REF-059,Piloto LED verde 22mm,Eléctrico,ud,6.50,40,5,7,Material Eléctrico Zona S.A.
+REF-060,Pulsador rojo seta,Eléctrico,ud,8.80,22,3,7,Material Eléctrico Zona S.A.
+REF-061,Chapa acero S275 5mm,Materia Prima,ud,62.00,85,10,15,Aceros del Norte S.L.
+REF-062,Chapa acero S275 8mm,Materia Prima,ud,98.00,52,8,15,Aceros del Norte S.L.
+REF-063,Chapa acero S275 10mm,Materia Prima,ud,125.00,38,5,15,Aceros del Norte S.L.
+REF-064,Redondo calibrado 20mm,Materia Prima,m,4.80,320,40,12,Aceros del Norte S.L.
+REF-065,Redondo calibrado 30mm,Materia Prima,m,7.20,180,25,12,Aceros del Norte S.L.
+REF-066,Pletina 50x10mm,Materia Prima,m,5.90,240,30,12,Aceros del Norte S.L.
+REF-067,Angular 50x50x5,Materia Prima,m,4.50,380,40,12,Aceros del Norte S.L.
+REF-068,Masilla poliéster,Acabados,kg,6.80,55,8,7,Pinturas Levante S.L.
+REF-069,Imprimación antioxidante,Acabados,l,12.50,85,10,10,Pinturas Levante S.L.
+REF-070,Pintura poliuretano negro,Acabados,l,22.00,42,5,10,Pinturas Levante S.L.
+REF-071,Lija grano 80,Abrasivos,ud,0.90,500,60,5,Abrasivos Industriales S.L.
+REF-072,Lija grano 120,Abrasivos,ud,0.85,480,60,5,Abrasivos Industriales S.L.
+REF-073,Lija grano 240,Abrasivos,ud,0.80,420,50,5,Abrasivos Industriales S.L.
+REF-074,Cepillo alambre copa,Abrasivos,ud,4.20,65,8,5,Abrasivos Industriales S.L.
+REF-075,Piedra afilar,Abrasivos,ud,8.50,12,2,10,Abrasivos Industriales S.L.
+REF-076,Broca HSS 6mm,Herramientas,ud,2.80,120,15,10,Herramientas Pro S.A.
+REF-077,Broca HSS 8mm,Herramientas,ud,3.50,95,12,10,Herramientas Pro S.A.
+REF-078,Macho roscar M8,Herramientas,ud,6.20,28,4,14,Herramientas Pro S.A.
+REF-079,Macho roscar M10,Herramientas,ud,7.80,22,3,14,Herramientas Pro S.A.
+REF-080,Sierra cinta bimetal 27mm,Herramientas,ud,35.00,8,2,12,Herramientas Pro S.A.
+REF-081,Casquillo guía 12mm,Componentes,ud,3.20,180,20,10,Rodamientos Express S.L.
+REF-082,Cojinete lineal LM12UU,Componentes,ud,9.50,45,5,15,Rodamientos Express S.L.
+REF-083,Husillo bolas 16mm paso 5,Componentes,ud,125.00,4,1,25,Transmisiones Iberia S.A.
+REF-084,Guía lineal 20mm,Componentes,m,85.00,6,1,25,Transmisiones Iberia S.A.
+REF-085,Acoplamiento flexible 14mm,Componentes,ud,18.00,15,2,15,Transmisiones Iberia S.A.
+REF-086,Cadena rodillos 10B-1,Componentes,m,8.50,35,5,12,Transmisiones Iberia S.A.
+REF-087,Eslabón unión 10B-1,Componentes,ud,2.50,40,5,12,Transmisiones Iberia S.A.
+REF-088,Polea dentada HTD 5M Z20,Componentes,ud,15.00,18,2,15,Transmisiones Iberia S.A.
+REF-089,Electroválvula 3/2 24V,Neumática,ud,52.00,10,2,15,Neumática Industrial S.L.
+REF-090,Regulador presión 1/4,Neumática,ud,22.00,8,1,12,Neumática Industrial S.L.
+REF-091,Silenciador escape 1/4,Neumática,ud,3.50,35,5,5,Neumática Industrial S.L.
+REF-092,Ventosa plana 30mm,Neumática,ud,8.00,25,3,12,Neumática Industrial S.L.
+REF-093,Manguera neumática 12mm,Neumática,m,1.80,120,15,5,Neumática Industrial S.L.
+REF-094,Encoder incremental 1000ppr,Automatización,ud,95.00,5,1,18,Sensores y Control S.A.
+REF-095,Célula carga 500kg,Automatización,ud,180.00,3,1,20,Sensores y Control S.A.
+REF-096,Termopar tipo K,Automatización,ud,15.00,12,2,10,Sensores y Control S.A.
+REF-097,Relé seguridad 24V,Automatización,ud,85.00,6,1,15,Sensores y Control S.A.
+REF-098,Barrera óptica seguridad,Automatización,ud,420.00,2,1,25,Sensores y Control S.A.
+REF-099,Cable apantallado 4x0.5mm²,Eléctrico,m,1.80,350,40,7,Material Eléctrico Zona S.A.
+REF-100,Prensaestopa M20,Eléctrico,ud,0.90,280,30,5,Material Eléctrico Zona S.A.
+REF-101,Canaleta ranurada 40x40,Eléctrico,m,3.50,85,10,7,Material Eléctrico Zona S.A.
+REF-102,Tubo corrugado 20mm,Eléctrico,m,0.45,500,60,5,Material Eléctrico Zona S.A.
+REF-103,Regleta conexión 16mm²,Eléctrico,ud,2.20,120,15,5,Material Eléctrico Zona S.A.
+REF-104,Tornillo autorroscante 4.2x19,Tornillería,ud,0.05,42000,5000,5,Fixaciones Rápidas S.A.
+REF-105,Tornillo DIN 912 M10x40,Tornillería,ud,0.35,8500,1000,7,Fixaciones Rápidas S.A.
+REF-106,Arandela grower M10,Tornillería,ud,0.08,12000,1500,7,Fixaciones Rápidas S.A.
+REF-107,Tuerca autoblocante M10,Tornillería,ud,0.12,9000,1000,7,Fixaciones Rápidas S.A.
+REF-108,Espárrago M10x60,Tornillería,ud,0.45,3500,400,7,Fixaciones Rápidas S.A.
+REF-109,Chaveta 6x6x30,Tornillería,ud,0.80,1200,150,10,Fixaciones Rápidas S.A.
+REF-110,Anillo seeger ext 25,Tornillería,ud,0.25,2800,300,7,Fixaciones Rápidas S.A.
+REF-111,Guante nitrilo (caja 100),EPI,ud,8.50,45,5,5,EPI Seguridad S.L.
+REF-112,Gafa protección,EPI,ud,4.20,60,8,5,EPI Seguridad S.L.
+REF-113,Tapón oído (par),EPI,ud,0.35,500,50,5,EPI Seguridad S.L.
+REF-114,Mascarilla FFP2,EPI,ud,1.20,200,25,5,EPI Seguridad S.L.
+REF-115,Zapato seguridad S3,EPI,par,45.00,15,2,12,EPI Seguridad S.L.
+REF-116,Soldadura estaño 1mm,Soldadura,m,0.15,800,100,7,Soldamaq S.A.
+REF-117,Fundente soldadura,Soldadura,l,12.00,8,2,10,Soldamaq S.A.
+REF-118,Boquilla MIG 0.8mm,Soldadura,ud,1.50,85,10,5,Soldamaq S.A.
+REF-119,Tobera cerámica MIG,Soldadura,ud,3.80,35,5,8,Soldamaq S.A.
+REF-120,Cristal careta oscuro,Soldadura,ud,2.50,40,5,5,Soldamaq S.A.
+REF-121,Adhesivo cianoacrilato,Consumibles,ud,4.50,35,4,5,Suministros Generales S.L.
+REF-122,Spray antiadherente,Consumibles,ud,7.80,18,2,7,Suministros Generales S.L.
+REF-123,Desengrasante industrial,Consumibles,l,5.20,65,8,7,Suministros Generales S.L.
+REF-124,Trapo industrial (bala 10kg),Consumibles,ud,15.00,8,1,5,Suministros Generales S.L.
+REF-125,Absorbente granulado,Consumibles,kg,2.80,120,15,7,Suministros Generales S.L.
+REF-126,Chapa perforada 2mm,Materia Prima,ud,35.00,42,5,15,Aceros del Norte S.L.
+REF-127,Malla electrosoldada,Materia Prima,ud,18.00,28,3,12,Aceros del Norte S.L.
+REF-128,Rejilla tramex 30x30,Materia Prima,ud,45.00,15,2,18,Aceros del Norte S.L.
+REF-129,Perfil omega,Materia Prima,m,3.20,180,20,12,Aceros del Norte S.L.
+REF-130,Tubo rectangular 60x40x2,Materia Prima,m,7.50,95,12,12,Aceros del Norte S.L.
+REF-131,Silicona térmica,Consumibles,ud,9.50,12,2,10,Suministros Generales S.L.
+REF-132,Spray zinc frío,Consumibles,ud,11.00,20,3,7,Suministros Generales S.L.
+REF-133,WD-40 400ml,Consumibles,ud,6.50,30,4,5,Suministros Generales S.L.
+REF-134,Brida nylon 200mm,Consumibles,ud,0.03,15000,2000,5,Suministros Generales S.L.
+REF-135,Precinto embalaje,Consumibles,ud,2.80,45,5,5,Suministros Generales S.L.
+REF-136,Film estirable,Embalaje,ud,8.50,25,3,5,Embalajes Sur S.L.
+REF-137,Caja cartón 400x300x200,Embalaje,ud,1.20,350,40,7,Embalajes Sur S.L.
+REF-138,Palet europeo,Embalaje,ud,12.00,40,5,3,Embalajes Sur S.L.
+REF-139,Esquinera cartón,Embalaje,ud,0.35,600,80,7,Embalajes Sur S.L.
+REF-140,Burbuja embalaje rollo,Embalaje,ud,15.00,12,2,5,Embalajes Sur S.L.
+REF-141,Etiqueta adhesiva,Consumibles,ud,0.02,20000,3000,5,Suministros Generales S.L.
+REF-142,Broca widia 10mm,Herramientas,ud,8.50,15,2,12,Herramientas Pro S.A.
+REF-143,Escariador 12mm,Herramientas,ud,22.00,6,1,14,Herramientas Pro S.A.
+REF-144,Portainsertos PCLNR,Herramientas,ud,65.00,4,1,18,Herramientas Pro S.A.
+REF-145,Pinza ER32 12mm,Herramientas,ud,12.00,10,2,12,Herramientas Pro S.A.
+REF-146,Mandril portabrocas B16,Herramientas,ud,28.00,5,1,14,Herramientas Pro S.A.
+REF-147,Galga espesores,Herramientas,ud,15.00,4,1,10,Herramientas Pro S.A.
+REF-148,Calibre pie de rey 200mm,Herramientas,ud,35.00,6,1,12,Herramientas Pro S.A.
+REF-149,Micrómetro exterior 0-25,Herramientas,ud,45.00,3,1,15,Herramientas Pro S.A.
+REF-150,Reloj comparador 0.01mm,Herramientas,ud,55.00,3,1,15,Herramientas Pro S.A.
