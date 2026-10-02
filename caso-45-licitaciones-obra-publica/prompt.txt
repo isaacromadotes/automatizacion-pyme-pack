@@ -1,0 +1,98 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para detectar y priorizar oportunidades de licitación pública en minutos, no en días.
+
+---
+
+Actúas como Director Comercial de una constructora española con 20 años de experiencia en obra pública (edificación residencial, equipamiento público y rehabilitación). Has preparado y presentado más de 500 ofertas a licitaciones de ayuntamientos, diputaciones, generalitat y organismos autónomos. Conoces los pliegos, los plazos, los umbrales de solvencia técnica y económica, y sabes identificar en 30 segundos qué licitación merece la pena preparar y cuál es una pérdida de tiempo.
+
+Trabajas para [EMPRESA], una constructora que opera principalmente en obra pública de edificación. Tu objetivo es que el equipo comercial no pierda ni una sola licitación que encaje con nuestro perfil, y que nunca prepare una oferta que no tenemos opciones de ganar.
+
+---
+
+**DATOS DE ENTRADA**
+
+- `@~/Descargas/Ejemplo Claude Code/criterios_busqueda.csv` → nuestros criterios de filtrado: CNAE, zona geográfica, horquilla de importe, tipo de obra
+- `@~/Descargas/Ejemplo Claude Code/licitaciones_ejemplo.csv` → todas las licitaciones publicadas en los portales de contratación durante [MES AÑO]
+
+---
+
+**TAREAS QUE DEBES EJECUTAR, EN ESTE ORDEN**
+
+**1. Validación de datos**
+Lee los dos CSV y comprueba que todas las columnas necesarias están presentes (id, organismo, descripción, importe, plazo, provincia, tipo, enlace). Si falta algún dato crítico en alguna fila, señálalo pero no la descartes.
+
+**2. Filtrado y scoring**
+Aplica los criterios del `criterios_busqueda.csv` a cada licitación:
+- Zona geográfica dentro de nuestras provincias objetivo → +3 puntos
+- Importe dentro de nuestra horquilla → +3 puntos
+- Tipo de obra en nuestras especialidades → +2 puntos
+- Plazo suficiente para preparar oferta de calidad (>14 días) → +1 punto
+- Organismo con el que ya hemos trabajado (si consta) → +1 punto
+
+**3. Alertas automáticas**
+Identifica y marca con bandera roja:
+- Licitaciones con plazo <15 días (urgente, decidir YA)
+- Licitaciones de importe >1.5M€ (requieren clasificación/UTE)
+- Licitaciones que caen exactamente en nuestra especialidad (match perfecto)
+
+**4. Entregable visual (HTML)**
+Genera un **archivo HTML** llamado `informe_licitaciones_[mes]_[año].html` dentro de `@~/Descargas/Ejemplo Claude Code/`. El HTML debe:
+
+- Ocupar pantalla completa, diseño vertical, legible en móvil y escritorio
+- Usar paleta corporativa:
+  - Fondo general: blanco (#FFFFFF)
+  - Barra título: verde bosque oscuro (#1A3C34) con texto blanco
+  - KPIs principales: teal oscuro (#2D6A4F) con texto blanco
+  - Alertas urgentes: rojo coral (#E63946)
+  - Advertencias: naranja ámbar (#F4A261)
+  - Match perfecto: turquesa (#2A9D8F)
+- Tipografía: fuente del sistema (-apple-system, Segoe UI, sans-serif)
+- Estructura:
+  1. Barra de título con emoji 🏗️ y nombre del informe
+  2. Fila de 4 tarjetas KPI: total licitaciones mes, licitaciones que encajan, importe total pipeline, nº de alertas urgentes
+  3. Sección "TOP 5 — Prioridad máxima" con las 5 licitaciones mejor puntuadas
+  4. Cada licitación como tarjeta con: organismo, descripción, importe (formato europeo 1.234.567 €), plazo (con semáforo visual), provincia, enlace al pliego, y una línea de justificación en una frase ("Encaja perfecto por X")
+  5. Pie de página con la firma y el enlace a isaacroma.com
+
+**5. Entregable Excel (12 licitaciones del mes con filtros)**
+Genera un archivo Excel llamado `licitaciones_[mes]_[año].xlsx` siguiendo estas reglas de estilo:
+- Columna A vacía (margen izquierdo)
+- Fila 1: barra título verde bosque (#1A3C34) con texto blanco centrado: "🏗️ LICITACIONES [MES AÑO] — [EMPRESA]"
+- Filas 3-5: 4 tarjetas KPI (total, encajan, importe pipeline, urgentes) con los colores por tipo
+- Fila 7: cabecera de sección teal (#1A3C34) con texto blanco: "📋 TODAS LAS LICITACIONES DEL MES"
+- Fila 8: cabecera de tabla teal (#2D6A4F) con las columnas: ID, Organismo, Descripción, Provincia, Tipo, Importe, Plazo (días), Puntuación, Estado, Enlace
+- Filas 9-20: datos de las 12 licitaciones con bordes gris claro (#D5D8DC)
+- Columna "Estado" con semáforo: 🟢 verde si plazo >21 días, 🟡 ámbar si entre 15-21, 🔴 rojo si <15
+- Columna "Importe" en formato europeo 1.234.567 €
+- Filtros aplicables en la cabecera (freeze panes)
+- Pestaña "Dashboard" con los datos resumen y pestaña "Servicios Isaac Romà" al final
+- Fuente Calibri 10pt para datos, 11pt negrita para cabeceras
+
+**6. Email de alerta semanal (texto plano)**
+Genera un archivo `email_alerta_semanal.txt` con el borrador del email que el responsable comercial enviará al equipo cada lunes. El tono debe ser:
+- Directo, ejecutivo, sin florituras
+- Asunto claro: "🏗️ Alerta semanal licitaciones — [X] oportunidades esta semana"
+- Cuerpo: lista con las 3 licitaciones más urgentes (organismo, descripción corta, importe, plazo, por qué encaja)
+- Cierre con llamada a acción: "Reunión martes 9h para repartir ofertas"
+
+---
+
+**OUTPUT ESPERADO**
+
+Al terminar, en la carpeta `@~/Descargas/Ejemplo Claude Code/` deben estar:
+1. `informe_licitaciones_[mes]_[año].html`
+2. `licitaciones_[mes]_[año].xlsx`
+3. `email_alerta_semanal.txt`
+
+Abre el HTML en el navegador al terminar para ver el resultado.
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog

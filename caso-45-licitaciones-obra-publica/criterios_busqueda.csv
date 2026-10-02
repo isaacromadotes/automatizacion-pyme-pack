@@ -1,0 +1,17 @@
+campo,valor
+EMPRESA,Promociones García S.L.
+CNAE_principal,4121 - Construcción de edificios residenciales
+CNAE_secundario,"4299 - Construcción otros proyectos ingeniería civil; 4332 - Instalación carpintería"
+zona_geografica,"Valencia, Alicante, Castellón, Murcia"
+provincias_prioritarias,"Valencia, Alicante"
+importe_minimo_eur,200000
+importe_maximo_eur,2000000
+importe_optimo_eur,500000-1200000
+tipo_obra_prioritaria,"Edificación residencial, rehabilitación, reforma integral, ampliación centros educativos"
+tipo_obra_descartar,"Obra civil pesada, carreteras, instalaciones deportivas al aire libre, obras hidráulicas"
+clasificacion_contratista,"Grupo C (edificaciones), subgrupos 2-6, categoría 3"
+solvencia_tecnica,"Mínimo 3 obras similares últimos 5 años, importe acumulado >1.5M€"
+plazo_minimo_dias,14
+organismos_target,"Ayuntamientos >20.000 hab, Diputaciones, GVA Conselleria Educación, Conselleria Sanidad"
+fuentes_portales,"Plataforma Contratación Sector Público (PLACSP), Perfil Contratante GVA, Diputación Valencia, Diputación Alicante"
+responsable_comercial,comercial@promocionesgarcia.es
