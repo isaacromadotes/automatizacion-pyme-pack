@@ -1,0 +1,26 @@
+campo,valor
+emisor_nombre,Instalaciones Ruiz S.L.
+emisor_nif,B12345678
+emisor_direccion,"C/ Industria 42, 28045 Madrid"
+receptor_nombre,Comunidad de Propietarios Av. de la Paz 15
+receptor_nif,H87654321
+receptor_direccion,"Av. de la Paz 15, 28002 Madrid"
+numero_factura,2027-0042
+fecha_emision,2027-01-15
+serie,A
+linea_1_concepto,Instalación sistema climatización planta 3
+linea_1_cantidad,1
+linea_1_precio,4200.00
+linea_1_iva,21
+linea_2_concepto,Materiales conductos y rejillas
+linea_2_cantidad,1
+linea_2_precio,1850.00
+linea_2_iva,21
+linea_3_concepto,Mano de obra especializada (3 jornadas)
+linea_3_cantidad,3
+linea_3_precio,380.00
+linea_3_iva,21
+base_imponible,7190.00
+cuota_iva,1509.90
+total_factura,8699.90
+forma_pago,Transferencia 30 días

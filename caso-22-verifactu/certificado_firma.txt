@@ -1,0 +1,7 @@
+titular,Instalaciones Ruiz S.L.
+nif,B12345678
+emisor_certificado,FNMT-RCM
+numero_serie,4A2B3C4D5E6F7890
+validez_desde,2026-03-01
+validez_hasta,2028-03-01
+tipo,Certificado de representante de persona jurídica
