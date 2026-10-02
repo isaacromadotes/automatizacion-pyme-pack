@@ -1,0 +1,77 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para generar la certificación mensual de obra completa (PDF firmable + Excel de soporte + informe HTML ejecutivo) en menos de 3 minutos, el día 1 del mes.
+
+---
+
+Actúa como Jefe de Administración de Obra con 20 años de experiencia en constructoras españolas de 1 a 50M€. Has emitido más de 500 certificaciones mensuales bajo normativa LOE y CTE, conoces al detalle cómo se validan partes, se calcula el acumulado por capítulo y qué formato exige un promotor para firmar sin devoluciones.
+
+Tu tarea: generar la Certificación nº[NÚMERO CERT] de [MES AÑO] de la obra "[NOMBRE OBRA]" para el promotor [EMPRESA], a partir de los partes de obra validados y el acumulado de certificaciones anteriores.
+
+Datos de entrada:
+- Partes validados del mes: @partes_obra.csv
+- Acumulado certificado hasta la certificación anterior: @certificaciones_anteriores.csv
+- Guía de estilo visual para el Excel: @instrucciones_para_crear_tabla_excel.txt
+
+Sigue estos pasos en orden:
+
+1. VALIDACIÓN
+   - Verifica que todos los partes tienen validado = "Sí". Descarta los no validados y avísame de cuáles.
+   - Comprueba que cada partida del parte existe en el contrato (certificaciones_anteriores.csv). Marca las partidas nuevas.
+   - Detecta unidades ejecutadas que excedan las unidades de contrato: bloquea esa partida y genera alerta.
+
+2. CÁLCULO
+   - Para cada partida: unidades del mes × precio unitario = importe mes.
+   - Suma acumulado anterior + importe mes = nuevo acumulado.
+   - Agrupa por capítulo. Calcula subtotales por capítulo e importe total del mes.
+   - Aplica retención de garantía del 5% (estándar en obra pública/privada).
+   - Calcula % de ejecución sobre contrato por partida y por capítulo.
+
+3. ALERTAS AUTOMÁTICAS
+   - Partidas con desviación > 10% respecto al ritmo medio de ejecución.
+   - Capítulos con más del 90% ejecutado (aviso de necesidad de adicional).
+   - Partidas paralizadas (0 unidades este mes que llevan 2 meses sin avance).
+   - Riesgo de sobrepasar contrato por partida.
+
+4. ENTREGABLE EXCEL DE SOPORTE
+   - Sigue exactamente la guía @instrucciones_para_crear_tabla_excel.txt: paleta corporativa (#1A3C34, #2D6A4F, #40916C, #1D3557), tarjetas KPI, cabeceras de sección con emoji, semáforos, barras inline con REPT.
+   - Hojas: Resumen Ejecutivo · Detalle por Capítulo · Detalle por Partida · Alertas · Servicios Isaac Romà.
+   - Nombre: Certificacion_[NÚMERO CERT]_[MES_AÑO].xlsx
+
+5. ENTREGABLE INFORME HTML EJECUTIVO
+   Un dashboard visual de nivel premium que cualquier CFO o promotor quiera contratar tras verlo. Especificaciones obligatorias:
+   - Fondo oscuro #0f172a, tarjetas #1e293b con bordes redondeados 12px y sombra sutil.
+   - Tipografía Inter o system-ui. Números KPI grandes (72px) en peso 700.
+   - Paleta de acento: azul cyan #06b6d4, verde éxito #10b981, ámbar alerta #f59e0b, rojo crítico #ef4444. Degradados suaves en las barras.
+   - Estructura: 1) Header con logo/título obra + fecha + nº certificación. 2) Fila de 4 KPIs grandes (importe certificado mes, % avance total obra, variación vs mes anterior, importe a cobrar tras retención). 3) Gráfico de barras horizontales de avance por capítulo (Chart.js). 4) Gráfico de línea de evolución de certificaciones mensuales. 5) Tabla de partidas con hover y filas alternadas muy sutiles. 6) Bloque de alertas con iconos SVG y color según criticidad. 7) Zona de firma digital al pie.
+   - Animaciones CSS al hacer scroll (fade-in, contadores animados).
+   - Responsive.
+   - Que NO parezca un HTML de los 90 ni un Excel exportado. Que parezca un SaaS financiero de 200€/mes.
+   - Nombre: Informe_Certificacion_[NÚMERO CERT]_[MES_AÑO].html
+
+6. ENTREGABLE PDF FIRMABLE
+   - Cabecera: logotipo espacio reservado, datos de obra, promotor y contratista, nº certificación, período, fecha de emisión.
+   - Tabla de capítulos con: código, descripción, importe origen, importe mes, importe acumulado, % ejecución.
+   - Resumen económico: base, retención 5%, líquido a percibir.
+   - Zona de firma digital: Director de Obra + Promotor + Contratista. Espacio para sello digital.
+   - Pie con "Certificación generada mediante metodología de automatización ejecutiva - isaacroma.com" en gris pequeño.
+   - Nombre: Certificacion_[NÚMERO CERT]_[MES_AÑO]_[EMPRESA].pdf
+
+Guarda los 3 archivos en la misma carpeta desde la que se ejecuta el prompt.
+
+Al terminar, muéstrame un resumen ejecutivo en pantalla:
+- Importe total certificado este mes
+- Líquido a percibir tras retención
+- % avance global de la obra
+- Nº de alertas detectadas
+- Rutas de los 3 archivos generados
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog

@@ -1,0 +1,22 @@
+obra,capitulo,partida,descripcion,unidades_ejecutadas,precio_unitario,fecha_parte,validado
+Residencial Mirador del Sur,01 - Movimiento de tierras,01.01,Excavación en vaciado hasta cota,1850,12.40,2026-09-05,Sí
+Residencial Mirador del Sur,01 - Movimiento de tierras,01.02,Transporte a vertedero autorizado,920,8.50,2026-09-06,Sí
+Residencial Mirador del Sur,01 - Movimiento de tierras,01.03,Excavación en zanjas y pozos,340,18.20,2026-09-08,Sí
+Residencial Mirador del Sur,02 - Cimentación,02.01,Hormigón HA-25/B/20/IIa en zapatas,185,95.00,2026-09-10,Sí
+Residencial Mirador del Sur,02 - Cimentación,02.02,Acero corrugado B500S en cimentación,12400,1.15,2026-09-11,Sí
+Residencial Mirador del Sur,02 - Cimentación,02.03,Encofrado metálico en zapatas,310,18.50,2026-09-12,Sí
+Residencial Mirador del Sur,02 - Cimentación,02.04,Hormigón de limpieza HL-150,42,68.00,2026-09-09,Sí
+Residencial Mirador del Sur,03 - Estructura,03.01,Hormigón HA-25 en pilares,92,105.00,2026-09-15,Sí
+Residencial Mirador del Sur,03 - Estructura,03.02,Hormigón HA-25 en forjados reticulares,480,98.00,2026-09-17,Sí
+Residencial Mirador del Sur,03 - Estructura,03.03,Acero B500S en estructura,18500,1.18,2026-09-18,Sí
+Residencial Mirador del Sur,03 - Estructura,03.04,Encofrado forjado reticular,1250,22.00,2026-09-19,Sí
+Residencial Mirador del Sur,03 - Estructura,03.05,Casetones recuperables,1250,4.80,2026-09-20,Sí
+Residencial Mirador del Sur,04 - Albañilería,04.01,Fábrica ladrillo cerámico cara vista,620,34.50,2026-09-22,Sí
+Residencial Mirador del Sur,04 - Albañilería,04.02,Tabiquería interior placa yeso,890,28.00,2026-09-24,Sí
+Residencial Mirador del Sur,04 - Albañilería,04.03,Recibido cercos y premarcos,96,32.00,2026-09-25,Sí
+Residencial Mirador del Sur,05 - Instalaciones,05.01,Fontanería PVC por vivienda,24,1850.00,2026-09-26,Sí
+Residencial Mirador del Sur,05 - Instalaciones,05.02,Electricidad e ICT por vivienda,24,2200.00,2026-09-27,Sí
+Residencial Mirador del Sur,05 - Instalaciones,05.03,Climatización aerotermia por vivienda,18,3400.00,2026-09-28,Sí
+Residencial Mirador del Sur,05 - Instalaciones,05.04,Telecomunicaciones ICT,24,680.00,2026-09-23,Sí
+Residencial Mirador del Sur,06 - Cubiertas,06.01,Impermeabilización cubierta plana,180,42.00,2026-09-29,Sí
+Residencial Mirador del Sur,06 - Cubiertas,06.02,Aislamiento térmico XPS 60mm,180,18.50,2026-09-29,No

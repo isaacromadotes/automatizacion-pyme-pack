@@ -1,0 +1,22 @@
+partida,descripcion,capitulo,unidades_contrato,precio_unitario,acumulado_certificado_uds,acumulado_certificado_eur,ultima_cert_num
+01.01,Excavación en vaciado hasta cota,01 - Movimiento de tierras,2200,12.40,350,4340.00,4
+01.02,Transporte a vertedero autorizado,01 - Movimiento de tierras,1100,8.50,180,1530.00,4
+01.03,Excavación en zanjas y pozos,01 - Movimiento de tierras,400,18.20,60,1092.00,4
+02.01,Hormigón HA-25/B/20/IIa en zapatas,02 - Cimentación,250,95.00,65,6175.00,4
+02.02,Acero corrugado B500S en cimentación,02 - Cimentación,16000,1.15,3600,4140.00,4
+02.03,Encofrado metálico en zapatas,02 - Cimentación,400,18.50,90,1665.00,4
+02.04,Hormigón de limpieza HL-150,02 - Cimentación,50,68.00,8,544.00,4
+03.01,Hormigón HA-25 en pilares,03 - Estructura,150,105.00,0,0.00,4
+03.02,Hormigón HA-25 en forjados reticulares,03 - Estructura,800,98.00,0,0.00,4
+03.03,Acero B500S en estructura,03 - Estructura,24000,1.18,0,0.00,4
+03.04,Encofrado forjado reticular,03 - Estructura,2000,22.00,0,0.00,4
+03.05,Casetones recuperables,03 - Estructura,2000,4.80,0,0.00,4
+04.01,Fábrica ladrillo cerámico cara vista,04 - Albañilería,1800,34.50,0,0.00,4
+04.02,Tabiquería interior placa yeso,04 - Albañilería,3200,28.00,0,0.00,4
+04.03,Recibido cercos y premarcos,04 - Albañilería,240,32.00,0,0.00,4
+05.01,Fontanería PVC por vivienda,05 - Instalaciones,48,1850.00,0,0.00,4
+05.02,Electricidad e ICT por vivienda,05 - Instalaciones,48,2200.00,0,0.00,4
+05.03,Climatización aerotermia por vivienda,05 - Instalaciones,48,3400.00,0,0.00,4
+05.04,Telecomunicaciones ICT,05 - Instalaciones,48,680.00,0,0.00,4
+06.01,Impermeabilización cubierta plana,06 - Cubiertas,900,42.00,0,0.00,4
+06.02,Aislamiento térmico XPS 60mm,06 - Cubiertas,900,18.50,0,0.00,4

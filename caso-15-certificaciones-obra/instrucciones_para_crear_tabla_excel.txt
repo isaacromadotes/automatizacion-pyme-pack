@@ -1,0 +1,143 @@
+INSTRUCCIONES PARA CREAR TABLA EXCEL — ESTILO PLANILLASEXCEL.ES
+
+═══════════════════════════════════════════════════════════════
+1. PALETA DE COLORES CORPORATIVA
+═══════════════════════════════════════════════════════════════
+
+Barra título principal ........... #1A3C34 (verde bosque oscuro) — texto blanco
+KPI positivo / principal ......... #2D6A4F (teal oscuro) — texto blanco
+KPI secundario ................... #40916C (verde medio) — texto blanco
+KPI informativo / neutro ......... #1D3557 (azul navy) — texto blanco
+KPI alerta / urgente ............. #E63946 (rojo coral) — texto blanco
+KPI advertencia .................. #F4A261 (naranja ámbar) — texto blanco
+KPI éxito / completado ........... #2A9D8F (turquesa) — texto blanco
+Cabeceras de sección ............. #1A3C34 (mismo que título) — texto blanco
+Cabecera tabla datos ............. #2D6A4F o #1A3C34 — texto blanco
+Pestañas inferiores .............. Verde #2D6A4F, Azul #264653, Naranja #E67E22, Rojo #C0392B
+Semáforo verde ................... #27AE60
+Semáforo ámbar ................... #F39C12
+Semáforo rojo .................... #E74C3C
+Negativos / pérdidas ............. Texto rojo #E63946
+Fondo filas tabla ................ Blanco #FFFFFF
+Bordes tabla ..................... Gris claro #D5D8DC
+Texto principal .................. Negro #1C1C1C
+Texto secundario / etiquetas ..... Gris #5D6D7E
+
+═══════════════════════════════════════════════════════════════
+2. ESTRUCTURA DE LAYOUT
+═══════════════════════════════════════════════════════════════
+
+— Columna A siempre vacía (margen izquierdo).
+— Fila 1: barra título principal a ancho completo.
+— Fila 2: vacía (separador).
+— Filas 3-8: tarjetas KPI (dos filas de tarjetas en dashboards premium).
+— 1-2 filas vacías de separación entre cada bloque.
+— Barra cabecera de sección antes de cada tabla o bloque visual.
+— Subtítulo opcional debajo del título: "Dashboard Ejecutivo · Generado el DD/MM/YYYY a las HH:MM" en gris itálica centrado.
+
+═══════════════════════════════════════════════════════════════
+3. BARRA DE TÍTULO PRINCIPAL
+═══════════════════════════════════════════════════════════════
+
+— Fondo: #1A3C34. Texto: blanco, negrita, 14-16pt, centrado.
+— Emoji icono al inicio: 🏗️, 📊, 💰.
+— Celdas combinadas desde B1 hasta la última columna.
+— Altura de fila: ~30-35px.
+
+═══════════════════════════════════════════════════════════════
+4. TARJETAS KPI
+═══════════════════════════════════════════════════════════════
+
+— 3 tarjetas por fila (a veces 4-6 en dashboards anchos).
+— Cada tarjeta ocupa 2-3 columnas × 2-3 filas (celdas combinadas).
+— Etiqueta arriba (9-10pt, mayúsculas, blanco) + número grande (28-36pt, blanco).
+— Debajo del número: texto auxiliar pequeño (8pt).
+
+Colores por tipo de KPI:
+— Métrica principal → #2D6A4F
+— Métrica secundaria → #40916C o #1D3557
+— Métrica de alerta → #E63946
+— Métrica de advertencia → #F4A261
+— Métrica de éxito → #2A9D8F
+
+═══════════════════════════════════════════════════════════════
+5. CABECERAS DE SECCIÓN
+═══════════════════════════════════════════════════════════════
+
+— Fondo #1A3C34, texto blanco negrita 11-12pt, izquierda.
+— Emoji al inicio + texto en MAYÚSCULAS.
+— Celdas combinadas a lo ancho de la tabla que encabeza.
+
+═══════════════════════════════════════════════════════════════
+6. TABLAS DE DATOS
+═══════════════════════════════════════════════════════════════
+
+— Cabecera: fondo #2D6A4F o #1A3C34, blanco negrita 10-11pt centrado.
+— Filas: blanco #FFFFFF, texto negro #1C1C1C, 10pt Calibri.
+— Bordes finos gris claro #D5D8DC.
+— Números a la derecha, texto a la izquierda.
+— Total: negrita, fondo gris muy claro opcional.
+
+Formatos numéricos:
+— Moneda europea: 1.234,56 €
+— Porcentaje: 15,3% (un decimal).
+— Negativos: rojo #E63946.
+— Enteros grandes: separador miles con punto (1.234).
+
+═══════════════════════════════════════════════════════════════
+7. BARRAS INLINE DE PROGRESO
+═══════════════════════════════════════════════════════════════
+
+— REPT con █ o ▌, o formato condicional de barras de datos.
+— Verde #27AE60 = bueno, rojo #E74C3C = malo, azul #3498DB = neutro.
+— Se usan en columnas de % ejecución, % del total, avance.
+
+═══════════════════════════════════════════════════════════════
+8. SEMÁFOROS
+═══════════════════════════════════════════════════════════════
+
+— Verde #27AE60 = OK / Bajo / Normal.
+— Ámbar #F39C12 = Moderado / Atención.
+— Rojo #E74C3C = Alto / Crítico / Urgente.
+— Con texto: "Bajo", "Moderado", "Alto", "Crítico".
+
+═══════════════════════════════════════════════════════════════
+9. PESTAÑAS INFERIORES
+═══════════════════════════════════════════════════════════════
+
+— Verde #2D6A4F: datos, registro.
+— Azul #264653: análisis.
+— Naranja #E67E22: evolución, alertas.
+— Rojo #C0392B: panel de alertas críticas.
+— Última pestaña siempre: "Servicios Isaac Romà".
+
+═══════════════════════════════════════════════════════════════
+10. GRÁFICOS
+═══════════════════════════════════════════════════════════════
+
+— Barras horizontales: teal #2D6A4F o azul #3498DB.
+— Columnas comparativas (presupuesto vs real): azul + naranja.
+— Estilo limpio, sin sombras, sin bordes de gráfico.
+— Fondo blanco, título alineado a izquierda 11pt negrita.
+
+═══════════════════════════════════════════════════════════════
+11. TIPOGRAFÍA
+═══════════════════════════════════════════════════════════════
+
+— Calibri por defecto. Alternativa: Segoe UI.
+— Título principal: 14-16pt negrita.
+— Números KPI: 28-36pt negrita.
+— Etiquetas KPI: 9-10pt mayúsculas.
+— Cabeceras sección: 11-12pt negrita.
+— Datos tabla: 10pt regular.
+
+═══════════════════════════════════════════════════════════════
+12. REGLAS GENERALES
+═══════════════════════════════════════════════════════════════
+
+— Corporativo y limpio, nunca recargado.
+— Jerarquía: título → KPIs → secciones → tablas → gráficos.
+— Espaciado consistente (1-2 filas vacías entre bloques).
+— Fórmulas siempre, nunca valores hardcoded.
+— Formato condicional para semáforos y barras.
+— Pestaña "Servicios Isaac Romà" al final en todos los libros.
