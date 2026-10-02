@@ -1,0 +1,124 @@
+INSTRUCCIONES DE DISEÑO — FICHA IMPACTO EN EXCEL
+==================================================
+
+Objetivo: generar un archivo Excel profesional, limpio, directo al grano, que un CFO pueda abrir en el móvil y entender la situación en 10 segundos.
+
+ESTRUCTURA DEL LIBRO
+--------------------
+3 hojas (tabs) en este orden:
+
+Hoja 1: "Resumen Ejecutivo"
+Hoja 2: "Detalle por Referencia"
+Hoja 3: "PVP Mínimo Viable"
+
+---
+
+HOJA 1 — RESUMEN EJECUTIVO
+--------------------------
+Fila 1-3: Cabecera
+- A1 (merge A1:F1): [EMPRESA] — Alerta variación coste materia prima
+  * Fuente: Calibri 18pt, negrita, color blanco
+  * Fondo: #1a1a1a (negro)
+  * Altura fila: 40
+- A2 (merge A2:F2): "Materia prima afectada: [MATERIA_PRIMA] · Variación: [PRECIO_ANTERIOR] → [PRECIO_NUEVO] €/ud (+X,X%)"
+  * Fuente: Calibri 11pt, color #666
+  * Fondo: #F5F4F0
+- A3: vacía
+
+Fila 4-9: KPIs (6 cuadros)
+Cada KPI ocupa 2 columnas de ancho y 3 filas de alto.
+
+KPI 1 (A4:B6): Referencias totales afectadas
+KPI 2 (C4:D6): En pérdidas (CRÍTICO)
+KPI 3 (E4:F6): Por debajo de 15% (ALERTA)
+KPI 4 (A7:B9): Pérdida mensual estimada
+KPI 5 (C7:D9): Variación media de margen
+KPI 6 (E7:F9): PVP medio a actualizar
+
+Diseño de cada KPI:
+- Fila superior (merge horizontal): etiqueta en Calibri 10pt, color #666
+- Fila central (merge horizontal): valor en Calibri 24pt, negrita, color #1a1a1a
+  * Para CRÍTICO: color #C64A3C (rojo)
+  * Para ALERTA: color #D4824A (naranja)
+  * Para OK: color #4A7C59 (verde)
+- Fondo: #FFFFFF con borde fino #E5E4E0
+
+Fila 11-13: Texto de decisión recomendada
+- A11 (merge A11:F11): "DECISIÓN RECOMENDADA" en 10pt negrita color #666
+- A12 (merge A12:F13): texto libre con la recomendación concreta
+  * Calibri 12pt, interlineado 1.3
+  * Fondo: #FFF8E7 (amarillo pálido)
+  * Borde: #E5B800
+
+---
+
+HOJA 2 — DETALLE POR REFERENCIA
+-------------------------------
+Tabla con TODAS las referencias afectadas, ordenadas por nivel de alerta (crítico → alerta → ok) y dentro de cada grupo por mayor pérdida de margen.
+
+Columnas (A a J):
+A: Nivel (🔴 / 🟠 / 🟢)
+B: Referencia
+C: Producto
+D: Cantidad MP afectada por unidad
+E: Coste anterior (€)
+F: Coste nuevo (€)
+G: PVP actual (€)
+H: Margen anterior (%)
+I: Margen nuevo (%)
+J: Δ margen (pp)
+
+Formato cabecera (fila 1):
+- Fuente: Calibri 10pt negrita blanco
+- Fondo: #1a1a1a
+- Altura: 35
+- Alineación: centrada
+
+Formato filas:
+- Alternar fondo blanco / #FAFAF8
+- Fuente: Calibri 10pt
+- Importes en €: formato "#.##0,00 €"
+- Porcentajes: formato "0,0%"
+- Fila CRÍTICO (margen nuevo < 0): fondo #FDE8E4, texto negro
+- Fila ALERTA (margen 0-15%): fondo #FDF4E8, texto negro
+- Fila OK (margen ≥ 15%): fondo blanco
+
+Autofiltro activado en toda la cabecera.
+Fila 1 congelada.
+Anchos de columna automáticos (ajustar al contenido).
+
+---
+
+HOJA 3 — PVP MÍNIMO VIABLE
+--------------------------
+Tabla con la propuesta de nuevos PVP para recuperar margen del 15%.
+
+Columnas (A a G):
+A: Referencia
+B: Producto
+C: PVP actual (€)
+D: Coste nuevo (€)
+E: PVP mínimo viable (€)
+F: Subida necesaria (€)
+G: Subida necesaria (%)
+
+Mismo formato que Hoja 2 (cabecera negra, filas alternas).
+Ordenar por "Subida necesaria (%)" descendente.
+
+Añadir fila al final (resaltada en #F5F4F0, negrita):
+- Columna A: "TOTAL / MEDIA"
+- Columna C: suma PVP actual
+- Columna D: suma coste nuevo
+- Columna E: suma PVP mínimo viable
+- Columna F: diferencia total
+- Columna G: media ponderada de subida
+
+---
+
+REGLAS GENERALES
+----------------
+- NO usar emojis fuera de la columna "Nivel" en Hoja 2.
+- NO usar colores corporativos saturados tipo azul oficina. Paleta: negro #1a1a1a, blanco, grises #666/#E5E4E0, acentos #C64A3C (rojo) / #D4824A (naranja) / #4A7C59 (verde).
+- Márgenes de impresión: estrechos. Orientación: apaisada en Hojas 2 y 3.
+- Pie de página en todas las hojas: "Generado por Claude Code · Metodología Isaac Romà · isaacroma.com"
+- Guardar el archivo como: ficha_impacto_[EMPRESA]_[MES_AÑO].xlsx (sin espacios ni acentos en el nombre).

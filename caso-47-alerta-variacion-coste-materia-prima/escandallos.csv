@@ -1,0 +1,65 @@
+referencia,producto,materia_prima,cantidad_por_unidad_litros_o_kg
+REF-001,Salsa de tomate con albahaca 370ml,Aceite de oliva virgen extra,0.045
+REF-001,Salsa de tomate con albahaca 370ml,Tomate triturado,0.28
+REF-001,Salsa de tomate con albahaca 370ml,Albahaca deshidratada,0.003
+REF-002,Pimientos del piquillo rellenos 250g,Aceite de oliva virgen extra,0.03
+REF-002,Pimientos del piquillo rellenos 250g,Pimiento del piquillo,0.18
+REF-002,Pimientos del piquillo rellenos 250g,Bacalao desalado,0.07
+REF-003,Berenjenas en escabeche 314ml,Aceite de oliva virgen extra,0.085
+REF-003,Berenjenas en escabeche 314ml,Berenjena,0.2
+REF-003,Berenjenas en escabeche 314ml,Vinagre de vino,0.04
+REF-004,Aceitunas rellenas de anchoa 350g,Aceite de oliva virgen extra,0.06
+REF-004,Aceitunas rellenas de anchoa 350g,Aceituna manzanilla,0.21
+REF-004,Aceitunas rellenas de anchoa 350g,Anchoa en salazón,0.025
+REF-005,Atún en aceite de oliva 112g,Aceite de oliva virgen extra,0.055
+REF-005,Atún en aceite de oliva 112g,Atún listado,0.08
+REF-006,Escalivada en conserva 370ml,Aceite de oliva virgen extra,0.07
+REF-006,Escalivada en conserva 370ml,Pimiento rojo,0.15
+REF-006,Escalivada en conserva 370ml,Berenjena,0.12
+REF-007,Paté de aceitunas 180g,Aceite de oliva virgen extra,0.05
+REF-007,Paté de aceitunas 180g,Aceituna negra,0.11
+REF-007,Paté de aceitunas 180g,Alcaparras,0.008
+REF-008,Sofrito casero 350g,Aceite de oliva virgen extra,0.065
+REF-008,Sofrito casero 350g,Tomate triturado,0.18
+REF-008,Sofrito casero 350g,Cebolla,0.09
+REF-009,Gazpacho tradicional 750ml,Aceite de oliva virgen extra,0.04
+REF-009,Gazpacho tradicional 750ml,Tomate maduro,0.4
+REF-009,Gazpacho tradicional 750ml,Pimiento verde,0.05
+REF-010,Alioli artesano 200ml,Aceite de oliva virgen extra,0.13
+REF-010,Alioli artesano 200ml,Ajo,0.015
+REF-010,Alioli artesano 200ml,Huevo líquido pasteurizado,0.04
+REF-011,Romesco mediterráneo 300g,Aceite de oliva virgen extra,0.055
+REF-011,Romesco mediterráneo 300g,Tomate seco,0.04
+REF-011,Romesco mediterráneo 300g,Almendra tostada,0.035
+REF-012,Mejillones en escabeche 120g,Aceite de oliva virgen extra,0.035
+REF-012,Mejillones en escabeche 120g,Mejillón cocido,0.075
+REF-012,Mejillones en escabeche 120g,Vinagre de vino,0.015
+REF-013,Boquerones en vinagre 150g,Aceite de oliva virgen extra,0.04
+REF-013,Boquerones en vinagre 150g,Boquerón limpio,0.1
+REF-014,Crema de calabaza 500ml,Aceite de oliva virgen extra,0.025
+REF-014,Crema de calabaza 500ml,Calabaza,0.3
+REF-014,Crema de calabaza 500ml,Nata líquida,0.05
+REF-015,Tomate frito casero 400g,Aceite de oliva virgen extra,0.055
+REF-015,Tomate frito casero 400g,Tomate triturado,0.3
+REF-015,Tomate frito casero 400g,Azúcar,0.01
+REF-016,Pisto manchego 370ml,Aceite de oliva virgen extra,0.05
+REF-016,Pisto manchego 370ml,Calabacín,0.12
+REF-016,Pisto manchego 370ml,Pimiento rojo,0.1
+REF-017,Sardinas en aceite 120g,Aceite de oliva virgen extra,0.045
+REF-017,Sardinas en aceite 120g,Sardina limpia,0.07
+REF-018,Hummus de garbanzo 200g,Aceite de oliva virgen extra,0.035
+REF-018,Hummus de garbanzo 200g,Garbanzo cocido,0.12
+REF-018,Hummus de garbanzo 200g,Tahini,0.02
+REF-019,Mermelada de tomate 280g,Aceite de oliva virgen extra,0.01
+REF-019,Mermelada de tomate 280g,Tomate maduro,0.2
+REF-019,Mermelada de tomate 280g,Azúcar,0.08
+REF-020,Conserva de alcachofas 370ml,Aceite de oliva virgen extra,0.03
+REF-020,Conserva de alcachofas 370ml,Alcachofa,0.22
+REF-021,Vinagreta mediterránea 250ml,Aceite de oliva virgen extra,0.12
+REF-021,Vinagreta mediterránea 250ml,Vinagre de Jerez,0.08
+REF-021,Vinagreta mediterránea 250ml,Mostaza de Dijon,0.01
+REF-022,Calçots en conserva 370ml,Aceite de oliva virgen extra,0.04
+REF-022,Calçots en conserva 370ml,Calçot,0.25
+REF-023,Tapenade negra 180g,Aceite de oliva virgen extra,0.06
+REF-023,Tapenade negra 180g,Aceituna negra,0.1
+REF-023,Tapenade negra 180g,Alcaparras,0.01

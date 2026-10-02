@@ -1,0 +1,95 @@
+INSTRUCCIONES DE DISEÑO — ALERTA HTML
+======================================
+
+Objetivo: generar un archivo HTML autónomo (sin dependencias externas, todo inline) que se abra en cualquier navegador y muestre la alerta de variación de coste con diseño editorial, limpio, impactante.
+
+ESTÉTICA GENERAL
+----------------
+- Estilo: editorial moderno, tipo informe de consultora (McKinsey / Bain) pero más cálido.
+- Paleta:
+  * Fondo página: #F5F4F0 (crema)
+  * Fondo tarjetas: #FFFFFF
+  * Texto principal: #1a1a1a
+  * Texto secundario: #666666
+  * Rojo crítico: #C64A3C
+  * Naranja alerta: #D4824A
+  * Verde ok: #4A7C59
+  * Acento terracota (para títulos destacados): #C67A50
+- Tipografía:
+  * Títulos: "Instrument Serif", Georgia, serif
+  * Cuerpo: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif
+- Importar Instrument Serif desde Google Fonts al inicio.
+
+ESTRUCTURA DEL HTML
+-------------------
+
+1. HEADER (banda superior)
+   - Fondo #1a1a1a, texto blanco, padding 24px.
+   - A la izquierda: "ALERTA DE COSTE" en letras pequeñas (10px, letter-spacing 2px).
+   - A la derecha: fecha del análisis en formato "01 OCT 2026".
+   - Debajo (mismo header): título grande en Instrument Serif 48px:
+     "Sube el [MATERIA_PRIMA] y 3 referencias entran en pérdida"
+     * Palabra "pérdida" en color #C67A50
+   - Subtítulo en 14px color #999: "[EMPRESA] · Impacto calculado sobre [N] referencias"
+
+2. BLOQUE RESUMEN (3 KPI cards horizontales)
+   - 3 tarjetas en fila, cada una con:
+     * Número grande (Instrument Serif 56px)
+     * Etiqueta debajo en 11px uppercase
+     * Borde izquierdo de 4px del color correspondiente
+   - KPI 1: Referencias afectadas (color #1a1a1a)
+   - KPI 2: En pérdidas (color #C64A3C)
+   - KPI 3: Por debajo del 15% (color #D4824A)
+   - En móvil: apilar verticalmente.
+
+3. BLOQUE VARIACIÓN DE PRECIO
+   - Tarjeta amplia con:
+     * A la izquierda: nombre de la materia prima en Instrument Serif 32px.
+     * A la derecha: variación visual tipo "4,20 € → 4,79 €" con flecha, el porcentaje de subida en círculo rojo (#C64A3C) con blanco dentro, grande.
+   - Fondo #FFFFFF, padding 40px, border-radius 12px, sombra sutil.
+
+4. TABLA DE REFERENCIAS AFECTADAS
+   - Título de sección: "Referencias que requieren decisión" en Instrument Serif 28px.
+   - Tabla con columnas:
+     * Nivel (chip visual: círculo con color)
+     * Referencia
+     * Producto
+     * Margen anterior
+     * Margen nuevo
+     * Δ margen
+     * PVP actual
+     * PVP mínimo viable
+   - Filas CRÍTICO: fondo #FDE8E4, borde izquierdo 4px #C64A3C.
+   - Filas ALERTA: fondo #FDF4E8, borde izquierdo 4px #D4824A.
+   - Filas OK: fondo blanco.
+   - Hover: ligero oscurecimiento del fondo.
+   - Columnas numéricas alineadas a la derecha, tabular-nums.
+
+5. BLOQUE DECISIÓN RECOMENDADA
+   - Tarjeta con fondo #FFF8E7 (amarillo cálido), borde izquierdo 4px #E5B800.
+   - Título: "DECISIÓN RECOMENDADA" (11px uppercase, letter-spacing 2px).
+   - Texto en 16px, interlineado 1.6, color #1a1a1a.
+   - Lista con los próximos pasos concretos (3-5 bullets).
+
+6. FOOTER
+   - Fondo transparente, texto centrado 11px color #999.
+   - Dos líneas:
+     * "Generado por Claude Code · Metodología de automatización ejecutiva"
+     * "Isaac Romà · isaacroma.com · Reunión gratuita: calendly.com/asesor-online-ia/30min"
+
+REGLAS TÉCNICAS
+---------------
+- Todo el CSS INLINE o en <style> dentro del <head>. NADA externo salvo la fuente de Google Fonts.
+- max-width del contenedor principal: 1100px, centrado con margin: 0 auto.
+- Padding lateral: 40px en desktop, 20px en móvil.
+- Responsive con media queries (breakpoint 768px).
+- Sin JavaScript. Solo HTML + CSS.
+- Imprimible: añadir @media print que oculte header de fondo oscuro y use colores suaves.
+- Guardar como: alerta_[EMPRESA]_[MES_AÑO].html (sin espacios ni acentos en el nombre).
+
+TONO DEL CONTENIDO
+------------------
+- Directo, ejecutivo, sin paja.
+- Cifras siempre con el formato €X.XXX,XX (separador miles punto, decimal coma).
+- Porcentajes con un decimal: 14,0%.
+- Nunca uses frases tipo "a continuación", "como podemos observar". Ve al grano.

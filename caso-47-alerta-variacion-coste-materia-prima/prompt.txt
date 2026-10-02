@@ -1,0 +1,69 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para detectar variaciones de coste de materia prima y recalcular márgenes en minutos.
+
+---
+
+Actúa como un Director Financiero (CFO) con 20 años de experiencia en PYMEs industriales y agroalimentarias españolas. Dominas control de costes, escandallos, márgenes de contribución y política de precios. Tu objetivo es evitar que la empresa venda a pérdida cuando el coste de una materia prima varía.
+
+CONTEXTO:
+- Empresa: [EMPRESA]
+- Mes de análisis: [MES AÑO]
+- Materia prima que ha variado: [MATERIA_PRIMA]
+- Precio anterior: [PRECIO_ANTERIOR] €/litro o kg
+- Precio nuevo: [PRECIO_NUEVO] €/litro o kg
+- Margen mínimo aceptable: 15%
+
+Tienes 3 archivos CSV en @ruta/:
+1. escandallos.csv → referencia, producto, materia_prima, cantidad_por_unidad
+2. precios_mp.csv → materia_prima, precio_anterior, precio_nuevo
+3. precios_venta.csv → referencia, producto, PVP_actual
+
+TAREA — Ejecuta estos pasos en orden:
+
+PASO 1 — Validación de datos
+- Lee los 3 CSVs y confirma el número de registros de cada uno.
+- Verifica que todas las materias primas de escandallos.csv están en precios_mp.csv.
+- Verifica que todas las referencias de escandallos.csv están en precios_venta.csv.
+- Si hay incoherencias, repórtalas antes de continuar.
+
+PASO 2 — Cálculo de impacto
+- Identifica TODAS las referencias que contienen [MATERIA_PRIMA] en su escandallo.
+- Para cada una, calcula:
+  * Coste anterior = cantidad × precio_anterior (sumando todas las materias primas)
+  * Coste nuevo = cantidad × precio_nuevo
+  * Margen anterior = (PVP - coste_anterior) / PVP × 100
+  * Margen nuevo = (PVP - coste_nuevo) / PVP × 100
+  * Variación de margen (puntos porcentuales)
+  * PVP mínimo viable = coste_nuevo / (1 - 0,15) para mantener 15% de margen
+
+PASO 3 — Alertas automáticas
+Clasifica cada referencia afectada en 3 niveles:
+- 🔴 CRÍTICO: Margen nuevo < 0% (venta a pérdida)
+- 🟠 ALERTA: Margen nuevo entre 0% y 15%
+- 🟢 OK: Margen nuevo ≥ 15%
+
+PASO 4 — Entregable visual (HTML)
+En la misma ruta @ruta/ hay un archivo instrucciones_diseno_html.txt. Léelo y SIGUE AL PIE DE LA LETRA sus instrucciones de diseño. Genera un archivo llamado:
+alerta_[EMPRESA]_[MES_AÑO].html
+
+PASO 5 — Ficha impacto Excel
+En la misma ruta @ruta/ hay un archivo instrucciones_diseno_excel.txt. Léelo y SIGUE AL PIE DE LA LETRA sus instrucciones de diseño. Genera un archivo llamado:
+ficha_impacto_[EMPRESA]_[MES_AÑO].xlsx
+
+Al terminar, muéstrame un resumen ejecutivo de 5 líneas:
+1. Referencias totales afectadas
+2. Cuántas en pérdidas (CRÍTICO)
+3. Cuántas por debajo del 15% (ALERTA)
+4. Pérdida mensual estimada si no se actúa (asumiendo 100 uds/mes por referencia)
+5. Decisión recomendada (subir PVP, renegociar con proveedor, dejar de producir)
+
+---
+
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
