@@ -1,0 +1,13 @@
+fecha,metrica,valor,unidad,objetivo,comentario
+2026-09-07,pedidos_pendientes,14,uds,,3 con retraso >48h
+2026-09-07,plazo_entrega_medio,4.2,dias,3.5,por encima de objetivo
+2026-09-08,pedidos_pendientes,12,uds,,2 con retraso >48h
+2026-09-08,incidencias_calidad,2,uds,0,1 devolucion chapa defectuosa
+2026-09-09,pedidos_pendientes,15,uds,,entrada pedido grande Ferrovial
+2026-09-09,plazo_entrega_medio,4.5,dias,3.5,acumulacion por pedido Ferrovial
+2026-09-10,stock_materia_prima_dias,18,dias,21,reponer acero inox antes jueves
+2026-09-10,incidencias_calidad,1,uds,0,medidas fuera de tolerancia
+2026-09-11,pedidos_pendientes,11,uds,,buen ritmo de salida
+2026-09-11,plazo_entrega_medio,3.8,dias,3.5,mejorando
+2026-09-12,absentismo,8.5,%,5,2 bajas + 1 permiso
+2026-09-12,horas_extra,32,horas,20,para cubrir pedido urgente

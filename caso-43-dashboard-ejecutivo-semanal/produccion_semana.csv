@@ -1,0 +1,13 @@
+fecha,linea,producto,unidades_planificadas,unidades_producidas,defectos,horas_paro,motivo_paro
+2026-09-07,Corte,Viga HEB 200,130,125,2,0.5,cambio de sierra
+2026-09-07,Soldadura,Estructuras a medida,8,7,1,1.0,falta material
+2026-09-08,Corte,Chapa galvanizada 2mm,520,510,5,0.0,
+2026-09-08,Plegado,Piezas conformadas,200,195,3,0.75,ajuste de utillaje
+2026-09-09,Corte,Tubo estructural 80x80,310,305,1,0.0,
+2026-09-09,Soldadura,Bastidores industriales,12,11,0,1.5,avería robot soldadura
+2026-09-10,Corte,Perfil UPN 120,210,208,0,0.0,
+2026-09-10,Pintura,Acabado epoxi,150,142,4,0.5,secado lento
+2026-09-11,Corte,Redondo calibrado 20mm,420,415,2,0.25,cambio de disco
+2026-09-11,Soldadura,Estructuras a medida,10,9,1,0.0,
+2026-09-12,Plegado,Piezas conformadas,180,178,1,0.0,
+2026-09-12,Pintura,Acabado epoxi,160,155,3,1.0,problema compresor

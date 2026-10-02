@@ -1,0 +1,13 @@
+fecha,cliente,producto,unidades,importe_eur,margen_pct,estado
+2026-09-07,Construcciones Roca S.L.,Viga HEB 200,120,18600,22,entregado
+2026-09-07,Talleres Gómez,Chapa galvanizada 2mm,500,8750,18,entregado
+2026-09-08,Infraestructuras del Levante,Tubo estructural 80x80,300,13500,25,entregado
+2026-09-08,Montajes Navarro,Pletina 60x10,800,6400,20,entregado
+2026-09-09,Construcciones Roca S.L.,Perfil UPN 120,200,11000,21,entregado
+2026-09-09,Grupo Ferrovial (subcontrata),Angular 50x50x5,1500,19500,15,entregado
+2026-09-10,Talleres Gómez,Redondo calibrado 20mm,400,7200,23,entregado
+2026-09-10,Calderería Martín,Chapa inox 304 1.5mm,60,14400,28,entregado
+2026-09-11,Montajes Navarro,Viga IPE 160,80,9600,19,pendiente
+2026-09-11,Suministros Industriales BCN,Tubo redondo 40x2,1200,8400,17,entregado
+2026-09-12,Infraestructuras del Levante,Viga HEB 200,90,13950,22,entregado
+2026-09-12,Calderería Martín,Pletina inox 40x5,300,5100,26,pendiente

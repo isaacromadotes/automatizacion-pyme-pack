@@ -1,0 +1,13 @@
+concepto,tipo,importe_eur,fecha,categoria
+Cobro Construcciones Roca (fra. agosto),ingreso,32500,2026-09-07,cobros_clientes
+Cobro Talleres Gómez (fra. agosto),ingreso,14200,2026-09-08,cobros_clientes
+Pago proveedor acero ArcelorMittal,gasto,28300,2026-09-08,materia_prima
+Nóminas septiembre (anticipo),gasto,41200,2026-09-09,personal
+Pago alquiler nave,gasto,4800,2026-09-10,instalaciones
+Cobro Infraestructuras del Levante,ingreso,19800,2026-09-10,cobros_clientes
+Pago suministros (electricidad+gas),gasto,3600,2026-09-11,suministros
+Cobro Calderería Martín (fra. julio),ingreso,8900,2026-09-11,cobros_clientes
+Pago transporte semanal,gasto,2100,2026-09-12,logística
+Cobro Suministros Industriales BCN,ingreso,6300,2026-09-12,cobros_clientes
+Pago mantenimiento robot soldadura,gasto,1850,2026-09-12,mantenimiento
+Seguro RC industrial (cuota mensual),gasto,890,2026-09-12,seguros
