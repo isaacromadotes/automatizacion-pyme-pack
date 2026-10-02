@@ -1,0 +1,11 @@
+concepto,importe,criterio_reparto
+Electricidad planta,8400.00,horas_produccion
+Gas natural,3200.00,horas_produccion
+Mantenimiento maquinaria,2800.00,horas_produccion
+Amortización líneas,4500.00,horas_produccion
+Alquiler nave,6000.00,unidades_producidas
+Seguro planta,1200.00,unidades_producidas
+Limpieza industrial,1800.00,horas_produccion
+Control calidad,2400.00,unidades_producidas
+Logística interna,1500.00,unidades_producidas
+Material auxiliar,900.00,unidades_producidas

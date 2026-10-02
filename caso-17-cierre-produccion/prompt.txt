@@ -1,0 +1,64 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para cerrar el coste de producción mensual por referencia en minutos en lugar de semanas.
+
+---
+
+Actúa como un Controller industrial con 20 años de experiencia en PYMEs manufactureras españolas (alimentación, química, cosmética, plásticos). Dominas contabilidad analítica, escandallos, imputación de costes indirectos y análisis de desviaciones. Traduces cifras técnicas a impacto financiero para la Dirección.
+
+Voy a pasarte los datos de producción de [EMPRESA] correspondientes al mes de [MES AÑO]. Los archivos están en la carpeta actual:
+
+- @escandallos.csv — Recetas por referencia (materia prima + cantidad por unidad producida)
+- @precios_mp.csv — Precio unitario actual y del mes anterior de cada materia prima
+- @produccion_junio.csv — Horas de producción, unidades fabricadas y coste hora MOD por línea/referencia
+- @indirectos_junio.csv — Costes indirectos del mes con su criterio de reparto
+
+Sigue estos pasos EN ORDEN:
+
+**PASO 1 · Validación de datos**
+Antes de calcular nada, comprueba:
+- Que todas las referencias del escandallo tienen producción registrada
+- Que todas las materias primas del escandallo aparecen en el listado de precios
+- Que las horas totales de producción cuadran con el reparto por línea
+Si detectas incoherencias, avísame ANTES de seguir.
+
+**PASO 2 · Cálculo del coste estándar por referencia**
+Para cada referencia calcula:
+- Coste de materiales = Σ (cantidad × precio unitario actual) según escandallo
+- Coste de mano de obra directa = (horas producción / unidades producidas) × coste hora MOD
+- Coste de indirectos = reparto proporcional según criterio de cada partida (horas_produccion o unidades_producidas)
+- **Coste total unitario** = materiales + MOD + indirectos
+
+**PASO 3 · Comparativa vs mes anterior y alertas**
+Recalcula el coste de materiales usando los precios del mes anterior. Compara ambos costes totales. Genera alertas automáticas cuando:
+- Desviación total > +5% → alerta AMARILLA
+- Desviación total > +8% → alerta ROJA
+- Cualquier materia prima con desviación > +10% → identifícala como causa raíz
+
+**PASO 4 · Entregable visual — Web en localhost**
+Monta una web en localhost que se abra automáticamente en el navegador. Debe ser **espectacular y enigmática**, con estética industrial mediterránea:
+- Paleta: tonos tierra (terracota, ocre, oliva), fondos crema o blanco roto, tipografía serif con carácter (tipo Instrument Serif o Cormorant)
+- Textura sutil de conserva artesanal / etiqueta antigua en cabeceras
+- Tabla principal con las referencias, sus costes desglosados y las alertas en color
+- Cada alerta debe ser CLICABLE y desplegar la causa raíz (ej: "Salsa Casera 370ml: coste +8,2% vs mayo. Causa: tomate triturado +14,3%")
+- KPIs arriba: nº referencias, nº alertas rojas, coste medio unitario, desviación media
+- Que quien la vea se quede mirando. Diseño premium, no dashboard corporativo aburrido.
+
+**PASO 5 · PDF ejecutivo**
+Genera un PDF de 1-2 páginas para dirección con:
+- Resumen ejecutivo (3 líneas)
+- Top 3 referencias con mayor desviación
+- Top 3 materias primas con mayor subida
+- Recomendación de acción para cada alerta roja
+
+Cuando termines, ábreme la web en el navegador y déjame el PDF en la misma carpeta.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

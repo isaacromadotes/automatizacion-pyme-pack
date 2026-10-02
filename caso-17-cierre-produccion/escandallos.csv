@@ -1,0 +1,61 @@
+referencia_pt,descripcion_pt,materia_prima,cantidad_por_unidad,unidad_mp
+SAL-CAS-370,Salsa Casera 370ml,Tomate triturado,0.280,kg
+SAL-CAS-370,Salsa Casera 370ml,Aceite oliva virgen,0.015,L
+SAL-CAS-370,Salsa Casera 370ml,Cebolla,0.040,kg
+SAL-CAS-370,Salsa Casera 370ml,Sal,0.004,kg
+SAL-CAS-370,Salsa Casera 370ml,Envase vidrio 370ml,1.000,ud
+SAL-CAS-370,Salsa Casera 370ml,Tapa metálica,1.000,ud
+SAL-CAS-370,Salsa Casera 370ml,Etiqueta,1.000,ud
+MERM-TOM-720,Mermelada Tomate 720ml,Tomate triturado,0.450,kg
+MERM-TOM-720,Mermelada Tomate 720ml,Azúcar,0.180,kg
+MERM-TOM-720,Mermelada Tomate 720ml,Pectina,0.005,kg
+MERM-TOM-720,Mermelada Tomate 720ml,Envase vidrio 720ml,1.000,ud
+MERM-TOM-720,Mermelada Tomate 720ml,Tapa metálica,1.000,ud
+MERM-TOM-720,Mermelada Tomate 720ml,Etiqueta,1.000,ud
+PIM-ASA-370,Pimientos Asados 370ml,Pimiento rojo,0.320,kg
+PIM-ASA-370,Pimientos Asados 370ml,Aceite girasol,0.010,L
+PIM-ASA-370,Pimientos Asados 370ml,Vinagre,0.005,L
+PIM-ASA-370,Pimientos Asados 370ml,Sal,0.003,kg
+PIM-ASA-370,Pimientos Asados 370ml,Envase vidrio 370ml,1.000,ud
+PIM-ASA-370,Pimientos Asados 370ml,Tapa metálica,1.000,ud
+PIM-ASA-370,Pimientos Asados 370ml,Etiqueta,1.000,ud
+ACE-NEG-370,Aceitunas Negras 370ml,Aceituna negra,0.250,kg
+ACE-NEG-370,Aceitunas Negras 370ml,Salmuera,0.120,L
+ACE-NEG-370,Aceitunas Negras 370ml,Envase vidrio 370ml,1.000,ud
+ACE-NEG-370,Aceitunas Negras 370ml,Tapa metálica,1.000,ud
+ACE-NEG-370,Aceitunas Negras 370ml,Etiqueta,1.000,ud
+GAZ-AND-750,Gazpacho Andaluz 750ml,Tomate triturado,0.520,kg
+GAZ-AND-750,Gazpacho Andaluz 750ml,Pepino,0.060,kg
+GAZ-AND-750,Gazpacho Andaluz 750ml,Pimiento verde,0.040,kg
+GAZ-AND-750,Gazpacho Andaluz 750ml,Aceite oliva virgen,0.030,L
+GAZ-AND-750,Gazpacho Andaluz 750ml,Vinagre,0.010,L
+GAZ-AND-750,Gazpacho Andaluz 750ml,Sal,0.005,kg
+GAZ-AND-750,Gazpacho Andaluz 750ml,Botella PET 750ml,1.000,ud
+GAZ-AND-750,Gazpacho Andaluz 750ml,Tapón,1.000,ud
+GAZ-AND-750,Gazpacho Andaluz 750ml,Etiqueta,1.000,ud
+ESC-MAR-370,Escalivada 370ml,Berenjena,0.180,kg
+ESC-MAR-370,Escalivada 370ml,Pimiento rojo,0.150,kg
+ESC-MAR-370,Escalivada 370ml,Cebolla,0.080,kg
+ESC-MAR-370,Escalivada 370ml,Aceite oliva virgen,0.020,L
+ESC-MAR-370,Escalivada 370ml,Sal,0.003,kg
+ESC-MAR-370,Escalivada 370ml,Envase vidrio 370ml,1.000,ud
+ESC-MAR-370,Escalivada 370ml,Tapa metálica,1.000,ud
+ESC-MAR-370,Escalivada 370ml,Etiqueta,1.000,ud
+SOFR-CAS-370,Sofrito Casero 370ml,Tomate triturado,0.200,kg
+SOFR-CAS-370,Sofrito Casero 370ml,Cebolla,0.120,kg
+SOFR-CAS-370,Sofrito Casero 370ml,Pimiento verde,0.050,kg
+SOFR-CAS-370,Sofrito Casero 370ml,Aceite oliva virgen,0.025,L
+SOFR-CAS-370,Sofrito Casero 370ml,Ajo,0.008,kg
+SOFR-CAS-370,Sofrito Casero 370ml,Sal,0.004,kg
+SOFR-CAS-370,Sofrito Casero 370ml,Envase vidrio 370ml,1.000,ud
+SOFR-CAS-370,Sofrito Casero 370ml,Tapa metálica,1.000,ud
+SOFR-CAS-370,Sofrito Casero 370ml,Etiqueta,1.000,ud
+SALM-VER-370,Salmorejo 370ml,Tomate triturado,0.350,kg
+SALM-VER-370,Salmorejo 370ml,Pan duro,0.040,kg
+SALM-VER-370,Salmorejo 370ml,Aceite oliva virgen,0.035,L
+SALM-VER-370,Salmorejo 370ml,Vinagre,0.005,L
+SALM-VER-370,Salmorejo 370ml,Ajo,0.003,kg
+SALM-VER-370,Salmorejo 370ml,Sal,0.003,kg
+SALM-VER-370,Salmorejo 370ml,Envase vidrio 370ml,1.000,ud
+SALM-VER-370,Salmorejo 370ml,Tapa metálica,1.000,ud
+SALM-VER-370,Salmorejo 370ml,Etiqueta,1.000,ud
