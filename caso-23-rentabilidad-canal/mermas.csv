@@ -1,0 +1,16 @@
+canal;tipo_merma;unidades_perdidas;coste_unitario_eur;coste_total_eur;mes
+Supermercado;Devolución por caducidad;850;1.20;1020;2025-01
+Supermercado;Devolución por caducidad;920;1.20;1104;2025-02
+Supermercado;Devolución por caducidad;780;1.20;936;2025-03
+Supermercado;Rotura en transporte;320;1.50;480;2025-01
+Supermercado;Rotura en transporte;280;1.50;420;2025-02
+Supermercado;Rotura en transporte;350;1.50;525;2025-03
+Hostelería;Rotura en reparto;60;3.00;180;2025-01
+Hostelería;Rotura en reparto;45;3.00;135;2025-02
+Hostelería;Rotura en reparto;70;3.00;210;2025-03
+Exportación;Daño en tránsito;180;1.80;324;2025-01
+Exportación;Daño en tránsito;150;1.80;270;2025-02
+Exportación;Daño en tránsito;210;1.80;378;2025-03
+Exportación;Rechazo en destino (etiquetado);90;2.00;180;2025-01
+Exportación;Rechazo en destino (etiquetado);70;2.00;140;2025-02
+Exportación;Rechazo en destino (etiquetado);110;2.00;220;2025-03

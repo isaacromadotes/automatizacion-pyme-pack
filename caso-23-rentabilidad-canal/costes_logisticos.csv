@@ -1,0 +1,28 @@
+canal;concepto;coste_mensual_eur;mes
+Supermercado;Transporte a plataformas;4800;2025-01
+Supermercado;Transporte a plataformas;4600;2025-02
+Supermercado;Transporte a plataformas;5100;2025-03
+Supermercado;Rappel y descuentos obligatorios;3200;2025-01
+Supermercado;Rappel y descuentos obligatorios;3100;2025-02
+Supermercado;Rappel y descuentos obligatorios;3500;2025-03
+Supermercado;Packaging especial (etiqueta blanca);1800;2025-01
+Supermercado;Packaging especial (etiqueta blanca);1750;2025-02
+Supermercado;Packaging especial (etiqueta blanca);1900;2025-03
+Supermercado;Gestión de pedidos EDI;600;2025-01
+Supermercado;Gestión de pedidos EDI;600;2025-02
+Supermercado;Gestión de pedidos EDI;600;2025-03
+Hostelería;Transporte reparto directo;1800;2025-01
+Hostelería;Transporte reparto directo;1900;2025-02
+Hostelería;Transporte reparto directo;2100;2025-03
+Hostelería;Comercial dedicado (comisión);1200;2025-01
+Hostelería;Comercial dedicado (comisión);1300;2025-02
+Hostelería;Comercial dedicado (comisión);1400;2025-03
+Exportación;Transporte internacional;2800;2025-01
+Exportación;Transporte internacional;2500;2025-02
+Exportación;Transporte internacional;3200;2025-03
+Exportación;Agente aduanas + documentación;900;2025-01
+Exportación;Agente aduanas + documentación;850;2025-02
+Exportación;Agente aduanas + documentación;950;2025-03
+Exportación;Seguro mercancía;400;2025-01
+Exportación;Seguro mercancía;380;2025-02
+Exportación;Seguro mercancía;420;2025-03

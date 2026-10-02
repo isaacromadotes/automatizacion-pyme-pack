@@ -1,0 +1,68 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para calcular la rentabilidad real por canal de venta descontando todos los costes ocultos en minutos.
+
+Eres un controller financiero con 20 años de experiencia en empresas agroalimentarias españolas de 1 a 50M€. Especialista en análisis de rentabilidad por canal, márgenes de contribución y optimización del mix comercial.
+
+La empresa [EMPRESA] quiere saber qué canal de venta le da más margen neto real. No el margen bruto de la cuenta de resultados, sino el margen después de descontar TODOS los costes reales: logística, mermas, rappels, packaging especial y el coste financiero de financiar el cobro.
+
+Datos de entrada (periodo [MES AÑO]):
+- Ventas por canal: @"C:\Users\TU_USUARIO\Downloads\Ejemplo Claude Code\Vídeo 23\ventas_canal.csv"
+- Costes logísticos por canal: @"C:\Users\TU_USUARIO\Downloads\Ejemplo Claude Code\Vídeo 23\costes_logisticos.csv"
+- Mermas por canal: @"C:\Users\TU_USUARIO\Downloads\Ejemplo Claude Code\Vídeo 23\mermas.csv"
+- Cobros por canal: @"C:\Users\TU_USUARIO\Downloads\Ejemplo Claude Code\Vídeo 23\cobros_canal.csv"
+
+Ejecuta estos pasos en orden:
+
+1. VALIDACIÓN DE DATOS
+   - Verifica que los 4 archivos se pueden leer y que los canales coinciden entre ellos
+   - Comprueba que las facturaciones cuadran y no hay datos huérfanos
+   - Si hay errores, avisa antes de continuar
+
+2. CÁLCULO DE RENTABILIDAD REAL POR CANAL
+   Para cada canal calcula:
+   - Facturación bruta total
+   - Costes logísticos totales (transporte, rappels, packaging, gestión)
+   - Costes por mermas totales (devoluciones, roturas, rechazos)
+   - Coste financiero del cobro: (días medios de cobro / 365) × facturación × 5% (tipo de referencia para línea de descuento)
+   - Margen neto real = Facturación - Logística - Mermas - Coste financiero
+   - % Margen neto real sobre facturación
+
+3. RANKING Y ALERTAS
+   - Ordena los canales de mayor a menor margen neto real (%)
+   - Marca en rojo cualquier canal con margen neto < 10%
+   - Identifica si el canal con más facturación NO es el de mayor margen (esto es la alerta clave)
+   - Calcula cuántos € de margen neto genera cada €1.000 facturados por canal
+
+4. SIMULACIÓN DE CRECIMIENTO
+   - Simula qué pasa si cada canal crece un 20% en volumen (manteniendo estructura de costes proporcional)
+   - Calcula el incremento de margen neto en € absolutos por canal
+   - Identifica en qué canal es más rentable invertir el próximo euro comercial
+
+5. ENTREGABLE VISUAL — WEB INTERACTIVA
+   Monta una web con los resultados que incluya:
+   - Ranking de canales por margen neto real (%) con barras de color
+   - Tabla comparativa: facturación vs margen bruto vs margen neto real
+   - Desglose de costes ocultos por canal (gráfico apilado)
+   - Simulación de crecimiento +20% con impacto en € netos
+   - Titular destacado: "El canal que más vendes es el que menos ganas" (si aplica)
+   - Diseño tipo Baker McKenzie: fondo oscuro, tipografía serif premium, layout ejecutivo que transmita autoridad y sofisticación de consultoría de primer nivel
+   Arranca el servidor cuando termines.
+
+6. ENTREGABLE EXCEL
+   Genera un Excel con el análisis completo por canal siguiendo las instrucciones de diseño en @"C:\Users\TU_USUARIO\Downloads\Ejemplo Claude Code\Vídeo 23\instrucciones_para_crear_tabla_excel"
+
+7. INFORME HTML EJECUTIVO
+   Genera un informe en HTML con gráficos y simulación para una reunión de dirección. Diseño tipo Baker McKenzie: fondo oscuro, tipografía serif premium, layout que transmita autoridad y sofisticación de consultoría de primer nivel.
+
+Guarda los entregables (Excel + HTML) en @"C:\Users\TU_USUARIO\Downloads\Ejemplo Claude Code\Vídeo 23\"
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---
