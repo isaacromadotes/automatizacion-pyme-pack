@@ -1,0 +1,58 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para preparar la emisión de facturas electrónicas B2B obligatorias en 2027 en minutos.
+
+Actúa como un director financiero con 20 años de experiencia en PYMEs industriales españolas, especialista en facturación electrónica, EDI (INVOIC D96A) y Facturae 3.2.2. Vas a preparar a [EMPRESA] para la obligatoriedad de la factura electrónica B2B que entra en vigor en 2027 (Ley Crea y Crece).
+
+Datos de entrada:
+- @ruta/clientes_efactura.csv — cartera de clientes con su tipo de factura electrónica (EDI / Facturae / PDF) y canal de envío
+- @ruta/factura.csv — facturas base de [MES AÑO] de ejemplo
+
+Haz lo siguiente, en este orden:
+
+1. VALIDACIÓN
+   - Lee los dos CSVs.
+   - Comprueba que todos los clientes tienen CIF, tipo_efactura y canal_envio.
+   - Lista los clientes con datos incompletos (si los hay) y márcalos como "pendiente de completar".
+
+2. CLASIFICACIÓN DE LA CARTERA
+   - Agrupa los 200 clientes por tipo_efactura: EDI, Facturae, PDF.
+   - Para cada grupo calcula: número de clientes, facturación anual acumulada en €, % sobre total.
+   - Identifica los clientes TOP 10 por facturación y marca cuáles exigen EDI (los más críticos).
+
+3. ALERTAS AUTOMÁTICAS
+   - Marca en rojo los clientes PDF cuya facturación anual supere los 15.000 € (estos deberían migrar ya a Facturae antes de 2027).
+   - Marca en ámbar los clientes Facturae enviados por email (podrían exigir portal propio en el futuro).
+   - Resume en 3 líneas qué acciones urgentes debe tomar [EMPRESA] antes de 2027.
+
+4. GENERACIÓN DE LOS 3 FORMATOS
+   Toma la primera factura de factura.csv como ejemplo y genera:
+   - Un mensaje EDI INVOIC D96A (texto plano con segmentos UNH, BGM, DTM, NAD, LIN, MOA, UNT) con los datos reales de esa factura.
+   - Un XML Facturae 3.2.2 válido según el esquema oficial del Ministerio de Hacienda (sin firma, listo para firmar después).
+   - Un PDF estándar de factura con cabecera, líneas, totales e IVA.
+   Guarda los 3 archivos en @ruta/entregables/
+
+5. ENTREGABLE VISUAL (WEB LOCAL)
+   Monta una web en localhost que muestre:
+   - Un esquema visual de la cartera clasificada por formato (gráfico donut + tabla).
+   - La lista completa de 200 clientes filtrable por formato y por canal.
+   - Un botón para abrir cada uno de los 3 archivos de ejemplo generados (EDI, Facturae, PDF).
+   - El resumen ejecutivo de alertas del paso 3.
+   Arranca el servidor cuando termines e indícame la URL.
+
+6. ENTREGABLE PDF
+   Genera un informe ejecutivo PDF de 2 páginas con:
+   - Resumen de la cartera por formato (gráfico + tabla).
+   - Las alertas urgentes del paso 3.
+   - Checklist de acciones hasta 2027.
+   Guárdalo en @ruta/entregables/informe_efactura_[EMPRESA].pdf
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

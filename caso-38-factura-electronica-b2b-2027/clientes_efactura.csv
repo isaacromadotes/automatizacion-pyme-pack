@@ -1,0 +1,187 @@
+cliente,cif,tipo_efactura,canal_envio,facturacion_anual_eur,contacto_admin
+Carrefour España S.A.,A28425270,EDI,AS2,485000,edi-invoices@carrefour.es
+Leroy Merlin España S.L.U.,B84818442,EDI,AS2,372000,facturacion.edi@leroymerlin.es
+Bricomart S.A.,A80258187,EDI,AS2,298000,proveedores.edi@bricomart.es
+Auchan Retail España S.A.,A28884033,EDI,AS2,215000,edi-spain@auchan.com
+Grupo Saltoki S.A.,A31012345,EDI,SFTP,189000,edi@saltoki.com
+Roca Sanitario S.A.,A08018476,EDI,AS2,167000,suppliers.edi@roca.es
+Würth España S.A.,A08304899,EDI,SFTP,154000,edi-factura@wurth.es
+Sonepar Ibérica S.A.,A28737255,EDI,AS2,143000,edi.spain@sonepar.com
+Saint-Gobain Distribución S.A.,A78520047,EDI,AS2,138000,edi@saint-gobain.es
+Grupo Caparrós S.L.,B04123456,EDI,SFTP,125000,admin.edi@caparros.es
+Ferretería López S.L.,B46123456,Facturae,Email,87000,admin@ferreteria-lopez.es
+Instalaciones Pérez Hermanos S.L.,B03987654,Facturae,Email,76000,facturas@perez-hermanos.es
+Fontanería El Buen Grifo S.L.,B12345678,Facturae,Email,65000,contabilidad@elbuengrifo.es
+Obras y Reformas Mediterráneo S.L.,B46234567,Facturae,Email,58000,admin@reformasmediterraneo.es
+Climatización Levante S.L.,B46345678,Facturae,Email,54000,facturas@climalevante.es
+Suministros Industriales Vega S.L.,B46456789,Facturae,Email,52000,contabilidad@sivega.es
+Electricidad Hermanos Ruiz S.L.,B03112233,Facturae,Email,49000,admin@hermanosruiz.es
+Construcciones Almeida S.L.,B46567890,Facturae,Email,47000,facturas@almeida-const.es
+Pinturas y Revestimientos Costa S.L.,B12234567,Facturae,Email,45000,admin@pinturascosta.es
+Cerrajería Martínez S.L.,B46678901,Facturae,Email,43000,facturas@cerrajeriamartinez.es
+Fontanería Rápida Valencia S.L.,B46789012,Facturae,Email,41000,admin@fontaneriarapida.es
+Materiales García e Hijos S.L.,B03223344,Facturae,Email,39000,contabilidad@garciaehijos.es
+Reformas Integrales Playa S.L.,B03334455,Facturae,Email,38000,admin@reformasplaya.es
+Instalaciones Térmicas Sur S.L.,B29112233,Facturae,Email,37000,facturas@termicassur.es
+Ferretería Industrial Norte S.L.,B48112233,Facturae,Email,36000,admin@ferrinorte.es
+Carpintería Metálica Ros S.L.,B46890123,Facturae,Email,35000,facturas@metalicasros.es
+Distribuciones Eléctricas JM S.L.,B46901234,Facturae,Email,34000,admin@electricasjm.es
+Pavimentos y Azulejos Levante S.L.,B12345679,Facturae,Email,33000,contabilidad@pavlevante.es
+Calefacción Express S.L.,B46012345,Facturae,Email,32000,facturas@calefaccionexpress.es
+Saneamientos Mediterráneo S.L.,B03445566,Facturae,Email,31000,admin@saneamientosmed.es
+Cristalería Moderna S.L.,B46112346,Facturae,Email,30000,facturas@cristaleriamoderna.es
+Aislamientos Torres S.L.,B03556677,Facturae,Email,29500,admin@aislatorres.es
+Impermeabilizaciones Costa S.L.,B46223457,Facturae,Email,29000,facturas@impercosta.es
+Soldaduras Industriales ML S.L.,B46334568,Facturae,Email,28500,admin@soldadurasml.es
+Ventilación y Clima Alicante S.L.,B03667788,Facturae,Email,28000,facturas@ventclimaali.es
+Herrajes del Mediterráneo S.L.,B46445679,Facturae,Email,27500,admin@herrajesmed.es
+Bombas y Motores Valencia S.L.,B46556780,Facturae,Email,27000,facturas@bombasvlc.es
+Revestimientos Técnicos Plana S.L.,B12456780,Facturae,Email,26500,admin@revplana.es
+Equipos de Riego Sureste S.L.,B30112233,Facturae,Email,26000,facturas@riegosureste.es
+Piscinas y Spas Mediterráneo S.L.,B03778899,Facturae,Email,25500,admin@piscinasmed.es
+Canalizaciones Reunidas S.L.,B46667891,Facturae,Email,25000,facturas@canareunidas.es
+Protección Contra Incendios PCI S.L.,B46778902,Facturae,Email,24500,admin@pcivalencia.es
+Ascensores y Elevadores Este S.L.,B03889900,Facturae,Email,24000,facturas@ascensoreseste.es
+Aire Acondicionado Plus S.L.,B46889013,Facturae,Email,23500,admin@aaplus.es
+Domótica Hogar Inteligente S.L.,B46990124,Facturae,Email,23000,facturas@domoticahi.es
+Placas Solares Levante S.L.,B03990011,Facturae,Email,22500,admin@placaslevante.es
+Seguridad y CCTV Alicante S.L.,B03101122,Facturae,Email,22000,facturas@seguridadali.es
+Telecomunicaciones Redes Sur S.L.,B30223344,Facturae,Email,21500,admin@redessur.es
+Gas Natural Instalaciones S.L.,B46101235,Facturae,Email,21000,facturas@gasinstal.es
+Energía Eficiente Valencia S.L.,B46212346,Facturae,Email,20500,admin@energiaeficiente.es
+Mantenimiento Industrial Pla S.L.,B46323457,Facturae,Portal,20000,admin@mantpla.es
+Limpieza Industrial Grupo Norte S.L.,B48223344,Facturae,Portal,19500,facturas@limpiezanorte.es
+Jardinería y Paisajismo Costa S.L.,B03212233,Facturae,Portal,19000,admin@jardicosta.es
+Maquinaria Agrícola Ribera S.L.,B46434568,Facturae,Portal,18500,facturas@maqribera.es
+Transportes Refrigerados Express S.L.,B46545679,Facturae,Portal,18000,admin@transrefriexpress.es
+Embalajes y Packaging Sur S.L.,B30334455,Facturae,Portal,17500,facturas@embalajessur.es
+Señalización Vial Mediterráneo S.L.,B46656780,Facturae,Portal,17000,admin@senalvial.es
+Equipos de Protección EPI S.L.,B03323344,Facturae,Portal,16500,facturas@episuministros.es
+Mobiliario de Oficina Confort S.L.,B46767891,Facturae,Portal,16000,admin@oficinaconfort.es
+Papelería y Material Didáctico S.L.,B46878902,Facturae,Portal,15500,facturas@papelydidactico.es
+Productos Químicos Industriales S.L.,B03434455,Facturae,Email,15000,admin@quimicosind.es
+Higiene y Desinfección Pro S.L.,B46989013,Facturae,Email,14500,facturas@higienepro.es
+Pinturas Especiales Técnicas S.L.,B12567891,Facturae,Email,14000,admin@pintecnicas.es
+Adhesivos y Sellantes Ibéricos S.L.,B46100124,Facturae,Email,13500,facturas@adhesiberia.es
+Lubricantes Industriales ML S.L.,B03545566,Facturae,Email,13000,admin@lubricantesml.es
+Abrasivos y Corte Diamante S.L.,B46211235,Facturae,Email,12500,facturas@abrasivosdiamante.es
+Tornillería Especializada Inox S.L.,B46322346,Facturae,Email,12000,admin@torninox.es
+Rodamientos y Transmisiones S.L.,B03656677,Facturae,Email,11500,facturas@rodamientostrans.es
+Cadenas y Cables Acero S.L.,B46433457,Facturae,Email,11000,admin@cadenascables.es
+Juntas y Retenes Técnicos S.L.,B46544568,Facturae,Email,10500,facturas@juntasretenes.es
+Válvulas y Accesorios Hidráulicos S.L.,B03767788,Facturae,Email,10000,admin@valvulashidra.es
+Instrumentación y Control IC S.L.,B46655679,Facturae,Email,9800,facturas@iccontrol.es
+Automatismos y Puertas Levante S.L.,B46766780,Facturae,Email,9600,admin@autopuertaslevante.es
+Compresores y Neumática Sur S.L.,B30445566,Facturae,Email,9400,facturas@compresorsur.es
+Generadores Eléctricos Iberia S.L.,B03878899,Facturae,Email,9200,admin@generadoresiberia.es
+Soldadura y Corte Plasma S.L.,B46877891,Facturae,Email,9000,facturas@soldaplasma.es
+Herramientas Eléctricas Pro S.L.,B46988902,Facturae,Email,8800,admin@herrapro.es
+Máquinas de Limpieza Industrial S.L.,B03989900,Facturae,Email,8600,facturas@maqlimp.es
+Carretillas y Almacén Express S.L.,B46099013,Facturae,Email,8400,admin@carretillasexpress.es
+Estanterías Metálicas Robustas S.L.,B46200124,Facturae,Email,8200,facturas@estmetrobustas.es
+Contenedores y Cubetas Plásticas S.L.,B12678902,Facturae,Email,8000,admin@contcubetas.es
+Palets y Embalaje Madera S.L.,B46311235,Facturae,Email,7800,facturas@paletmadera.es
+Cintas Transportadoras Ibéricas S.L.,B03100011,Facturae,Email,7600,admin@cintastransport.es
+Básculas e Instrumentos Pesaje S.L.,B46422346,Facturae,Email,7400,facturas@basculaspesaje.es
+Etiquetado y Codificación ML S.L.,B46533457,Facturae,Email,7200,admin@etiqcodml.es
+Envase y Envasado Automático S.L.,B03211122,Facturae,Email,7000,facturas@envautomat.es
+Detección de Gases Seguridad S.L.,B46644568,Facturae,Email,6800,admin@detectgases.es
+Equipos de Laboratorio Técnico S.L.,B46755679,Facturae,Email,6600,facturas@labtecnico.es
+Microscopía y Óptica Industrial S.L.,B03322233,Facturae,Email,6400,admin@microoptica.es
+Calibración y Metrología S.L.,B46866780,Facturae,Email,6200,facturas@calimetrologia.es
+Ultrasonidos e Inspección NDT S.L.,B46977891,Facturae,Email,6000,admin@ultrandt.es
+Equipos Radiológicos Industriales S.L.,B03433344,Facturae,Email,5800,facturas@radioind.es
+Protección Radiológica Iberia S.L.,B46088902,Facturae,Email,5600,admin@protradiberia.es
+Tratamiento de Aguas AquaPure S.L.,B46199013,Facturae,Email,5400,facturas@aquapure.es
+Depuración y Filtración Industrial S.L.,B03544455,Facturae,Email,5200,admin@depufiltra.es
+Osmosis y Descalcificación Pro S.L.,B46300124,Facturae,Email,5000,facturas@osmosispro.es
+Bombeo Solar Agrícola S.L.,B30556677,Facturae,Email,4800,admin@bombeosolar.es
+Riego Inteligente SmartAgua S.L.,B46411235,Facturae,Email,4600,facturas@smartagua.es
+Aspersores y Difusores Garden S.L.,B03655566,Facturae,Email,4400,admin@aspdifgarden.es
+Céspedes Artificiales Costa S.L.,B46522346,Facturae,Email,4200,facturas@cespedcosta.es
+Poda y Maquinaria Forestal S.L.,B46633457,Facturae,Email,4000,admin@podaforestal.es
+Motosierras y Desbrozadoras Pro S.L.,B03766677,Facturae,Email,3800,facturas@motopro.es
+Iluminación Industrial LED S.L.,B46744568,PDF,Email,3600,admin@iluled.es
+Iluminación Emergencia Safety S.L.,B46855679,PDF,Email,3500,facturas@ilusafety.es
+Cuadros Eléctricos Personalizados S.L.,B03877788,PDF,Email,3400,admin@cuadrospersonalizados.es
+Cableado Estructurado Networks S.L.,B46966780,PDF,Email,3300,facturas@cablenetworks.es
+Fibra Óptica Instalaciones S.L.,B46077891,PDF,Email,3200,admin@fibrainstal.es
+Pararrayos y Protección Eléctrica S.L.,B03988899,PDF,Email,3100,facturas@pararrayosprot.es
+Transformadores y Bobinados S.L.,B46188902,PDF,Email,3000,admin@transbobinados.es
+Motores Eléctricos Repuestos S.L.,B46299013,PDF,Email,2900,facturas@motoresrepuestos.es
+Variadores de Frecuencia Drives S.L.,B12789013,PDF,Email,2800,admin@vardrives.es
+Autómatas y PLC Programación S.L.,B46400124,PDF,Email,2700,facturas@autplc.es
+Sensórica Industrial Detect S.L.,B03099900,PDF,Email,2600,admin@sensordetect.es
+Visión Artificial Vision Tech S.L.,B46511235,PDF,Email,2500,facturas@visiontech.es
+Robótica Colaborativa CoBots S.L.,B46622346,PDF,Email,2400,admin@cobotsvlc.es
+Impresión 3D Industrial Print S.L.,B03200011,PDF,Email,2300,facturas@3dindprint.es
+Escáner 3D y Metrología Scan S.L.,B46733457,PDF,Email,2200,admin@3dscanmetro.es
+Corte Láser Precisión S.L.,B46844568,PDF,Email,2100,facturas@cortelaser.es
+Mecanizado CNC Piezas S.L.,B03311122,PDF,Email,2000,admin@cncpiezas.es
+Tratamientos Superficiales Coat S.L.,B46955679,PDF,Email,1900,facturas@surfcoat.es
+Galvanizado y Zincado Industrial S.L.,B46066780,PDF,Email,1800,admin@galvazinc.es
+Fundición y Forja Artesanal S.L.,B03422233,PDF,Email,1700,facturas@fundiforja.es
+Aceros Especiales y Aleaciones S.L.,B46177891,PDF,Email,1600,admin@acerosesp.es
+Aluminios y Perfiles Extruidos S.L.,B46288902,PDF,Email,1500,facturas@aluperfiles.es
+Plásticos Técnicos Engineering S.L.,B03533344,PDF,Email,1400,admin@plasteceng.es
+Caucho y Elastómeros Ibéricos S.L.,B46399013,PDF,Email,1300,facturas@cauchoiberico.es
+Fibra de Vidrio Composites S.L.,B46500124,PDF,Email,1200,admin@fvcomposites.es
+Madera Técnica y Tableros S.L.,B03644455,PDF,Email,1100,facturas@maderatecnica.es
+Aislantes Térmicos y Acústicos S.L.,B46611235,PDF,Email,1000,admin@aislatermacustic.es
+Impermeabilización Bituminosa S.L.,B46722346,PDF,Email,950,facturas@imperbitum.es
+Geotextiles y Drenajes S.L.,B03755566,PDF,Email,900,admin@geotexdren.es
+Prefabricados de Hormigón Norte S.L.,B48334455,PDF,Email,850,facturas@prefhornorte.es
+Andamios y Encofrados Temporales S.L.,B46833457,PDF,Email,800,admin@andamiosencof.es
+Grúas y Elevación Pesada S.L.,B46944568,PDF,Email,750,facturas@gruaselevacion.es
+Maquinaria Movimiento Tierras S.L.,B03866677,PDF,Email,700,admin@movtierras.es
+Compactación y Vibrado Suelos S.L.,B46055679,PDF,Email,650,facturas@compacvibra.es
+Encofrado Modular Systems S.L.,B46166780,PDF,Email,600,admin@encomodular.es
+Ferralla y Armaduras Estructurales S.L.,B03977788,PDF,Email,550,facturas@ferrallaestruct.es
+Micropilotes y Cimentaciones S.L.,B46277891,PDF,Email,500,admin@micropilotes.es
+Sondeos y Perforaciones Geo S.L.,B46388902,PDF,Email,480,facturas@sondeosgeo.es
+Topografía y Geomática Levante S.L.,B30667788,PDF,Email,460,admin@topogeolevante.es
+Pavimentos Continuos Epoxi S.L.,B46499013,PDF,Email,440,facturas@pavepoxi.es
+Revestimientos Industriales Pintura S.L.,B03088899,PDF,Email,420,admin@revindpintura.es
+Ignifugación y Protección Pasiva S.L.,B46600124,PDF,Email,400,facturas@ignifugacion.es
+Demoliciones Controladas Demo S.L.,B46711235,PDF,Email,380,admin@democontroladas.es
+Descontaminación Amianto Safe S.L.,B03199900,PDF,Email,360,facturas@amiantosafe.es
+Residuos Construcción y Demolición S.L.,B46822346,PDF,Email,340,admin@rcdgestion.es
+Reciclaje Áridos y Agregados S.L.,B46933457,PDF,Email,320,facturas@reciclaridos.es
+Plantas de Hormigón Móviles S.L.,B03300011,PDF,Email,300,admin@hormigonmovil.es
+Áridos y Gravas Cantera Sur S.L.,B30778899,PDF,Email,280,facturas@cantesur.es
+Cementos Especiales Técnicos S.L.,B46044568,PDF,Email,260,admin@cemespeciales.es
+Morteros y Adhesivos Construcción S.L.,B46155679,PDF,Email,240,facturas@morterosadhesivos.es
+Yesos y Escayolas Decorativas S.L.,B03411122,PDF,Email,220,admin@yesosescayola.es
+Tabiquería Seca Placo Systems S.L.,B46266780,PDF,Email,200,facturas@tabplaco.es
+Falsos Techos Acústicos Armstrong S.L.,B46377891,PDF,Email,180,admin@faltechos.es
+Suelos Técnicos Elevados S.L.,B03522233,PDF,Email,160,facturas@suelostecnicos.es
+Mamparas y Divisiones Oficina S.L.,B46488902,PDF,Email,140,admin@mamparasoficina.es
+Puertas Cortafuegos y RF S.L.,B46599013,PDF,Email,120,facturas@puertascortafuegos.es
+Cerraduras y Control Acceso S.L.,B03633344,PDF,Email,100,admin@cerradurascontrol.es
+Sistemas Antiintrusión Alarma S.L.,B46700124,PDF,Email,95,facturas@alarmasintrusion.es
+Videovigilancia IP Cameras S.L.,B46811235,PDF,Email,90,admin@ipcameras.es
+Intercomunicadores y Porteros S.L.,B03744455,PDF,Email,85,facturas@intercoporteros.es
+Megafonía y Evacuación Sound S.L.,B46922346,PDF,Email,80,admin@megasound.es
+Extintores y Equipos PCI S.L.,B46033457,PDF,Email,75,facturas@extpci.es
+Sprinklers y Rociadores Auto S.L.,B03855566,PDF,Email,70,admin@sprinklersauto.es
+Bocas de Incendio Equipadas S.L.,B46144568,PDF,Email,65,facturas@bieequipadas.es
+Hidrantes y Columnas Secas S.L.,B46255679,PDF,Email,60,admin@hidrantescs.es
+Detectores Humo y Gas Smart S.L.,B03966677,PDF,Email,55,facturas@detecsmarthg.es
+Centrales de Incendio Digital S.L.,B46366780,PDF,Email,50,admin@centralincendio.es
+Puertas Automáticas Sliding S.L.,B46477891,PDF,Email,48,facturas@puertasliding.es
+Barreras y Bolardos Parking S.L.,B03077788,PDF,Email,45,admin@barrerasparking.es
+Muelles de Carga Logística S.L.,B46588902,PDF,Email,42,facturas@muellescarga.es
+Rampas Niveladoras Dock S.L.,B46699013,PDF,Email,40,admin@rampasdock.es
+Cortinas de Aire Industrial S.L.,B03188899,PDF,Email,38,facturas@cortinasaire.es
+Puertas Rápidas High Speed S.L.,B46800124,PDF,Email,36,admin@puertashighspeed.es
+Sellos y Abrigos de Muelle S.L.,B46911235,PDF,Email,34,facturas@sellosmuelles.es
+Plataformas Elevadoras Trabajo S.L.,B03299900,PDF,Email,32,admin@platelevatrabajo.es
+Montacargas y Miniloads S.L.,B46022346,PDF,Email,30,facturas@montaminiloads.es
+Estanterías Drive-In Compactas S.L.,B46133457,PDF,Email,28,admin@driveincompactas.es
+Picking y Preparación Pedidos S.L.,B03400011,PDF,Email,26,facturas@pickingpedidos.es
+Sorters y Clasificación Automática S.L.,B30889900,PDF,Email,24,admin@sortersauto.es
+AGV y Robots Móviles Almacén S.L.,B46244568,PDF,Email,22,facturas@agvrobots.es
+Software WMS Gestión Almacén S.L.,B46355679,PDF,Email,20,admin@wmsgestion.es
+Trazabilidad RFID Track S.L.,B03511122,PDF,Email,18,facturas@rfidtrack.es
+Códigos de Barras y Lectores S.L.,B46466780,PDF,Email,16,admin@codbarralector.es
+Etiquetado Automático Label S.L.,B46577891,PDF,Email,15,facturas@autolabel.es

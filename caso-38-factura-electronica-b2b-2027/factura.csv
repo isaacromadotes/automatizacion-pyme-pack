@@ -1,0 +1,11 @@
+numero_factura,fecha,cliente,cif_cliente,concepto,cantidad,precio_unitario,iva_pct,total_sin_iva,total_con_iva
+FAC-2027-0001,2027-01-15,Carrefour España S.A.,A28425270,Suministro material fontanería lote 12,250,12.50,21,3125.00,3781.25
+FAC-2027-0002,2027-01-15,Leroy Merlin España S.L.U.,B84818442,Suministro grifería industrial lote 8,180,18.75,21,3375.00,4083.75
+FAC-2027-0003,2027-01-16,Ferretería López S.L.,B46123456,Tornillería variada pedido #892,500,0.85,21,425.00,514.25
+FAC-2027-0004,2027-01-16,Bricomart S.A.,A80258187,Tubería PVC lote mensual,320,7.20,21,2304.00,2787.84
+FAC-2027-0005,2027-01-17,Instalaciones Pérez Hermanos S.L.,B03987654,Accesorios fontanería pedido express,75,22.00,21,1650.00,1996.50
+FAC-2027-0006,2027-01-18,Grupo Saltoki S.A.,A31012345,Válvulas industriales ref. VLV-300,40,95.00,21,3800.00,4598.00
+FAC-2027-0007,2027-01-18,Fontanería El Buen Grifo S.L.,B12345678,Material variado pedido #201,120,5.50,21,660.00,798.60
+FAC-2027-0008,2027-01-19,Obras y Reformas Mediterráneo S.L.,B46234567,Lote construcción obra c/ Mayor,200,14.30,21,2860.00,3460.60
+FAC-2027-0009,2027-01-20,Auchan Retail España S.A.,A28884033,Suministro herramientas manuales,90,32.00,21,2880.00,3484.80
+FAC-2027-0010,2027-01-20,Climatización Levante S.L.,B46345678,Tubos cobre 15mm lote Q1,600,3.40,21,2040.00,2468.40
