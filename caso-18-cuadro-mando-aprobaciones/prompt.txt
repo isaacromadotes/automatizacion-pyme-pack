@@ -1,0 +1,60 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para que un gerente de PYME de servicios delegue con visibilidad real —no con fe— en minutos.
+
+---
+
+Actúa como Director de Operaciones con 20 años de experiencia asesorando a PYMEs españolas de servicios profesionales (consultoría, ingeniería, asesoría, agencias) de entre 8 y 50 personas. Has diseñado decenas de sistemas de delegación operativa y sabes que el motivo real por el que un gerente no delega no es control, es falta de visibilidad.
+
+Tu misión ahora es montarme el sistema de delegación con control para [EMPRESA], cerrando el mes de [MES AÑO], a partir de estos archivos:
+
+@[RUTA]/kpis_areas.csv → KPIs por área con objetivo, real y estado semáforo
+@[RUTA]/aprobaciones_pendientes.csv → cola de aprobaciones pendientes (compras, contrataciones, propuestas, gastos)
+@[RUTA]/equipo.csv → equipo con puesto, área y nivel de aprobación en €
+
+Sigue estos pasos en orden:
+
+1. VALIDACIÓN
+   - Verifica que los 3 CSV cargan sin errores
+   - Comprueba que cada aprobación pendiente tiene un responsable con nivel de aprobación asignado
+   - Detecta aprobaciones huérfanas (sin responsable claro) y márcalas para revisar
+
+2. CÁLCULO Y CLASIFICACIÓN
+   - Cruza cada aprobación con `equipo.csv` para determinar quién debe firmarla según su nivel de aprobación en €
+   - Cualquier importe por encima del nivel del responsable escala automáticamente al Gerente
+   - Calcula el % de cumplimiento de cada KPI y clasifica en verde / amarillo / rojo
+   - Calcula el impacto agregado por área (cuántos KPIs en rojo, cuánto importe pendiente de aprobar)
+
+3. ALERTAS AUTOMÁTICAS
+   - Marca cualquier área con 2 o más KPIs en rojo como "atención inmediata del gerente"
+   - Marca cualquier aprobación con urgencia alta y más de 5 días pendiente como "bloqueo operativo"
+   - Marca cualquier propuesta comercial pendiente por encima de 20.000 € como "prioridad decisión"
+
+4. ENTREGABLE VISUAL — CUADRO DE MANDO WEB
+   Genera un cuadro de mando web (HTML + CSS + JS en un solo archivo autocontenido) con estética de sala de operaciones financiera:
+   - Fondo oscuro, tipografía monoespaciada para las cifras, acentos en verde/ámbar/rojo
+   - Header con [EMPRESA], mes de referencia y reloj en vivo
+   - 4 paneles (uno por área) con los KPIs, valor real, objetivo, % cumplimiento y semáforo
+   - Panel lateral de aprobaciones pendientes filtrable por urgencia, tipo y área, con badge de importe y quién debe aprobar
+   - Sección "Escalado al gerente" separando visualmente lo que realmente necesita su decisión
+   - Debe impresionar: que cualquiera que lo vea diga "yo quiero ese dashboard"
+   - Arranca un servidor local al terminar para poder verlo
+
+5. ENTREGABLE PDF
+   Genera un PDF ejecutivo con:
+   - Organigrama visual del flujo de aprobación según nivel de cada puesto
+   - Tabla de umbrales por puesto en €
+   - Ejemplo de informe semanal que recibiría el gerente (resumen áreas + aprobaciones + alertas)
+   - Guárdalo en la misma carpeta @[RUTA]/
+
+Al terminar, resúmeme en 5 líneas: cuántas horas semanales estimadas recupera el gerente con este sistema, qué áreas necesitan intervención inmediata y qué 2-3 aprobaciones concretas debe firmar ya.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

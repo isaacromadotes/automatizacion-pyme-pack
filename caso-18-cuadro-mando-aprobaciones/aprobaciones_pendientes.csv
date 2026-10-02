@@ -1,0 +1,13 @@
+id,tipo,solicitante,área,descripción,importe_eur,fecha_solicitud,urgencia,estado,requiere_aprobación_de
+AP-001,Compra,Laura Sánchez,Proyectos,Licencias software gestión proyectos,2400,2026-09-08,media,pendiente,Directora Proyectos
+AP-002,Contratación,Miguel Torres,RRHH,Incorporación consultor junior,28000,2026-09-05,alta,pendiente,Gerente
+AP-003,Gasto,Carlos Díaz,Comercial,Viaje captación cliente Levante,680,2026-09-10,baja,pendiente,Director Comercial
+AP-004,Compra,Ana Beltrán,Finanzas,Renovación antivirus 12 licencias,540,2026-09-11,media,pendiente,Responsable Financiera
+AP-005,Propuesta,Laura Sánchez,Proyectos,Propuesta auditoría energética Grupo Valmar,34000,2026-09-09,alta,pendiente,Gerente
+AP-006,Gasto,Miguel Torres,RRHH,Curso liderazgo equipo técnico,1200,2026-09-07,baja,pendiente,Responsable RRHH
+AP-007,Compra,Carlos Díaz,Comercial,Material stand feria sectorial,1850,2026-09-12,alta,pendiente,Director Comercial
+AP-008,Contratación,Ana Beltrán,Finanzas,Becario contabilidad 6 meses,9600,2026-09-06,media,pendiente,Gerente
+AP-009,Propuesta,Carlos Díaz,Comercial,Propuesta consultoría RRHH Textiles Marín,18500,2026-09-11,alta,pendiente,Gerente
+AP-010,Gasto,Laura Sánchez,Proyectos,Desplazamiento a obra cliente Zaragoza,320,2026-09-13,baja,pendiente,Directora Proyectos
+AP-011,Compra,Miguel Torres,RRHH,Software gestión nóminas anual,3200,2026-09-04,media,pendiente,Gerente
+AP-012,Gasto,Ana Beltrán,Finanzas,Auditoría externa cuentas 2026,4500,2026-09-14,media,pendiente,Gerente

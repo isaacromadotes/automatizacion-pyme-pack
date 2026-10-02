@@ -1,0 +1,17 @@
+área,kpi,objetivo,real,unidad,estado
+Comercial,Propuestas enviadas,12,9,ud,amarillo
+Comercial,Tasa de conversión,35,28,%,rojo
+Comercial,Facturación mensual,95000,87400,EUR,amarillo
+Comercial,Nuevos clientes,4,5,ud,verde
+Proyectos,Proyectos en plazo,90,72,%,rojo
+Proyectos,Horas facturables vs totales,75,68,%,amarillo
+Proyectos,Satisfacción cliente (NPS),8.0,8.4,puntos,verde
+Proyectos,Desviación presupuesto,5,12,%,rojo
+Finanzas,Cobro medio (días),30,47,días,rojo
+Finanzas,EBITDA mensual,18000,15200,EUR,amarillo
+Finanzas,Gastos operativos vs presupuesto,100,108,%,rojo
+Finanzas,Tesorería disponible,40000,38500,EUR,verde
+RRHH,Rotación anual,10,18,%,rojo
+RRHH,Absentismo,3,4.2,%,amarillo
+RRHH,Horas formación/empleado,8,5,horas,amarillo
+RRHH,Clima laboral (encuesta),7.5,7.1,puntos,amarillo

@@ -1,0 +1,13 @@
+nombre,puesto,área,responsable_área,nivel_aprobación_eur,email
+Javier Romero,Gerente,Dirección,sí,sin_límite,javier@consultinghorizonte.es
+Carlos Díaz,Director Comercial,Comercial,sí,3000,carlos@consultinghorizonte.es
+Laura Sánchez,Directora de Proyectos,Proyectos,sí,3000,laura@consultinghorizonte.es
+Ana Beltrán,Responsable Financiera,Finanzas,sí,2000,ana@consultinghorizonte.es
+Miguel Torres,Responsable RRHH,RRHH,sí,2000,miguel@consultinghorizonte.es
+Sofía Ruiz,Consultora Senior,Proyectos,no,500,sofia@consultinghorizonte.es
+Pablo Martín,Consultor Junior,Proyectos,no,0,pablo@consultinghorizonte.es
+Elena Vega,Ejecutiva de Cuentas,Comercial,no,500,elena@consultinghorizonte.es
+David López,Analista Financiero,Finanzas,no,0,david@consultinghorizonte.es
+Marta Jiménez,Administrativa,Finanzas,no,0,marta@consultinghorizonte.es
+Raúl Gómez,Consultor Junior,Proyectos,no,0,raul@consultinghorizonte.es
+Lucía Fernández,Técnica RRHH,RRHH,no,0,lucia@consultinghorizonte.es
