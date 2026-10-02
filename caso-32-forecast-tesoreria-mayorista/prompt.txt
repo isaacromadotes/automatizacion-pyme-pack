@@ -1,0 +1,61 @@
+Este prompt forma parte de la metodología de automatización ejecutiva de Isaac Romà (isaacroma.com), diseñada para dar a cualquier CFO o gerente de PYME visibilidad completa de caja a 90 días en minutos, sin tocar Excel.
+
+---
+
+Actúa como un CFO con 20 años de experiencia en PYMEs industriales y mayoristas españolas (1-50M€ facturación), especializado en gestión de tesorería, planificación financiera y gestión del circulante. Dominas el ciclo de cobro-pago, la relación con entidades bancarias, el descuento comercial, el confirming y las líneas de crédito.
+
+Tu tarea es generar un FORECAST DIARIO DE TESORERÍA A 90 DÍAS para la empresa [EMPRESA], tomando como referencia el mes de inicio [MES AÑO], usando estos tres archivos:
+
+- Saldo bancario actual: @ruta/saldo.csv
+- Cobros pendientes (clientes): @ruta/facturas_por_cobrar.csv
+- Pagos comprometidos (nóminas, impuestos, proveedores, fijos): @ruta/pagos_previstos.csv
+
+Sigue estos pasos en orden:
+
+PASO 1 — VALIDACIÓN DE DATOS
+- Lee los tres CSV e identifica las columnas (fechas, importes, conceptos, clientes, proveedores).
+- Comprueba que las fechas están en formato correcto y los importes son numéricos.
+- Si falta algún dato crítico (fecha de vencimiento, importe), avísame antes de continuar.
+
+PASO 2 — CÁLCULO DEL FORECAST
+- Toma el saldo actual como punto de partida (día 0).
+- Proyecta día a día durante los próximos 90 días: suma los cobros previstos en su fecha de vencimiento y resta los pagos comprometidos en su fecha.
+- Calcula el saldo acumulado al cierre de cada día.
+- Identifica los días con saldo negativo (zona de tensión).
+- Calcula también: cobros totales 90 días, pagos totales 90 días, saldo mínimo esperado y día en que ocurre.
+
+PASO 3 — ALERTAS AUTOMÁTICAS
+- Para cada día de tensión (saldo < 0), identifica qué pagos coinciden ese día o la semana previa.
+- Genera una lista de acciones recomendadas, priorizadas por impacto:
+  · Adelantar cobro de cliente fiable (identifica el candidato más grande con vencimiento posterior).
+  · Solicitar línea de descuento comercial sobre facturas pendientes.
+  · Negociar aplazamiento de proveedor concreto.
+  · Reclamar cobros vencidos si los hay.
+- Cuantifica cuántos días de margen tengo para actuar antes de la tensión.
+
+PASO 4 — ENTREGABLE VISUAL (WEB)
+- Monta una web local (puerto 3000) con dashboard profesional.
+- Debe incluir:
+  · KPIs arriba: saldo actual, saldo mínimo esperado, día de tensión máxima, días de margen.
+  · Gráfico de línea con el saldo diario a 90 días, con la zona negativa pintada en rojo.
+  · Tabla de alertas con fecha, importe de tensión y acción recomendada.
+  · Lista de cobros y pagos del próximo mes.
+- Diseño limpio, legible, con colores corporativos sobrios (azul/gris, rojo solo para alertas).
+- Arranca el servidor automáticamente al terminar.
+
+PASO 5 — PDF EJECUTIVO
+- Genera también un PDF de 1-2 páginas con el resumen del forecast, el gráfico y las acciones recomendadas, para enviar al CEO o al consejo.
+
+Si detectas datos incoherentes o faltan columnas, pregúntame antes de inventar valores.
+
+---
+Sobre este agente
+
+Este prompt ha sido diseñado por Isaac Romà, economista con 20 años como CEO, CFO y COO en PYMEs industriales españolas de 1 a 50M€. Es el creador de la metodología de automatización ejecutiva que conecta datos reales de ERP con agentes de IA para generar entregables financieros en minutos.
+
+Si este ejemplo con datos ficticios te ha resultado útil, imagina lo que puede hacer conectado a los datos reales de tu empresa.
+
+→ Reunión gratuita de 30 min: https://calendly.com/asesor-online-ia/30min
+→ Web: https://isaacroma.com
+→ Aprende a hacerlo tú: https://isaacroma.com/blog
+---

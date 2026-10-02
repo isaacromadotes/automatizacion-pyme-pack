@@ -1,0 +1,16 @@
+id_factura,cliente,importe,fecha_emision,fecha_vencimiento,estado
+FC-2026-0412,Construcciones Mediterráneo S.L.,34200.00,2026-06-20,2026-07-25,pendiente
+FC-2026-0418,Grupo Ferretero Alicante S.A.,12800.00,2026-06-28,2026-07-28,pendiente
+FC-2026-0421,Instalaciones Ruiz e Hijos,8450.00,2026-07-01,2026-07-31,pendiente
+FC-2026-0425,Promotora Costa Blanca S.L.,22600.00,2026-07-05,2026-08-05,pendiente
+FC-2026-0430,Talleres Mecánicos Vega Baja,6300.00,2026-07-08,2026-08-08,pendiente
+FC-2026-0435,Ayuntamiento de Elche,41500.00,2026-07-10,2026-09-10,pendiente
+FC-2026-0438,Grupo Ferretero Alicante S.A.,15200.00,2026-07-12,2026-08-12,pendiente
+FC-2026-0442,Construcciones Mediterráneo S.L.,28900.00,2026-07-14,2026-08-14,pendiente
+FC-2026-0445,Distribuciones Levante Norte,9700.00,2026-07-15,2026-08-15,pendiente
+FC-2026-0448,Instalaciones Ruiz e Hijos,11300.00,2026-07-15,2026-09-15,pendiente
+FC-2026-0452,Promotora Costa Blanca S.L.,18400.00,2026-07-18,2026-08-20,pendiente
+FC-2026-0458,Grupo Ferretero Alicante S.A.,7900.00,2026-07-20,2026-08-25,pendiente
+FC-2026-0463,Talleres Mecánicos Vega Baja,5200.00,2026-07-22,2026-09-01,pendiente
+FC-2026-0467,Construcciones Mediterráneo S.L.,19600.00,2026-07-25,2026-09-05,pendiente
+FC-2026-0472,Distribuciones Levante Norte,8300.00,2026-07-28,2026-09-12,pendiente

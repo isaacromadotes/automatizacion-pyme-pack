@@ -1,0 +1,23 @@
+concepto,proveedor,importe,fecha_pago,tipo
+Nóminas julio,Personal,42500.00,2026-07-31,fijo
+Seguridad Social julio,TGSS,14800.00,2026-07-31,fijo
+Gestoría julio,Asesoría Martínez,950.00,2026-08-01,fijo
+Alquiler nave agosto,Inmobiliaria Vinalopó,4200.00,2026-08-01,fijo
+Leasing carretilla,BBVA Leasing,1850.00,2026-08-05,fijo
+Proveedor hierro,Aceros del Sureste S.A.,38700.00,2026-08-05,variable
+Suministros nave (luz+agua),Iberdrola / Aguas Levante,2100.00,2026-08-10,fijo
+Proveedor eléctrico,Electro Levante S.L.,12400.00,2026-08-10,variable
+Seguros flota,Mapfre,3800.00,2026-08-15,fijo
+IVA 2T,AEAT,27300.00,2026-08-18,fiscal
+Proveedor fontanería,Roca Distribución,8900.00,2026-08-20,variable
+Nóminas agosto,Personal,42500.00,2026-08-31,fijo
+Seguridad Social agosto,TGSS,14800.00,2026-08-31,fijo
+Gestoría agosto,Asesoría Martínez,950.00,2026-09-01,fijo
+Alquiler nave septiembre,Inmobiliaria Vinalopó,4200.00,2026-09-01,fijo
+Proveedor PVC,Plásticos Mediterráneo,16200.00,2026-09-05,variable
+Leasing carretilla,BBVA Leasing,1850.00,2026-09-05,fijo
+Suministros nave,Iberdrola / Aguas Levante,2100.00,2026-09-10,fijo
+Proveedor hierro,Aceros del Sureste S.A.,24500.00,2026-09-15,variable
+Nóminas septiembre,Personal,42500.00,2026-09-30,fijo
+Seguridad Social septiembre,TGSS,14800.00,2026-09-30,fijo
+Retenciones IRPF 3T,AEAT,8900.00,2026-10-10,fiscal
